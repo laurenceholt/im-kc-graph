@@ -1,0 +1,23 @@
+# Source PDFs (too large for git)
+IM */
+
+# Environment and secrets
+.env
+
+# Local extraction output
+extracted_questions/
+extracted_kcs/
+
+# Pipeline logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.claude/

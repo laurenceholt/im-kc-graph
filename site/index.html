@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KC Browser — IM</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<style>
+  :root {
+    --accent: #e8552e;
+    --accent-light: #fef7f5;
+    --bg: #f5f5f7;
+    --card-bg: #fff;
+    --text: #1d1d1f;
+    --text-secondary: #6e6e73;
+    --border: #e5e5e7;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  header h1 span { color: var(--accent); }
+
+  .stats {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+  }
+
+  .toolbar {
+    display: flex;
+    gap: 12px;
+    padding: 14px 24px;
+    background: white;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .toolbar label {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  .toolbar select, .search-input {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.9em;
+    background: white;
+    font-family: inherit;
+  }
+
+  .toolbar select {
+    padding-right: 28px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236e6e73' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    cursor: pointer;
+  }
+
+  .toolbar select:focus, .search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(232, 85, 46, 0.15);
+  }
+
+  .search-input {
+    width: 220px;
+  }
+
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .filter-separator {
+    width: 1px;
+    height: 24px;
+    background: var(--border);
+    margin: 0 4px;
+  }
+
+  .reset-btn {
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: white;
+    font-size: 0.85em;
+    cursor: pointer;
+    color: var(--text-secondary);
+    font-family: inherit;
+  }
+
+  .reset-btn:hover { background: var(--bg); }
+
+  /* KC panels */
+  .kc-list {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .kc-panel {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+  }
+
+  .kc-panel:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+
+  .kc-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .kc-title {
+    font-size: 1.15em;
+    font-weight: 600;
+  }
+
+  .kc-id {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    font-family: 'SF Mono', SFMono-Regular, Menlo, monospace;
+    margin-top: 2px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .badge-grade { background: #e8f4fd; color: #1a73e8; }
+  .badge-label { background: #f3e8ff; color: #7c3aed; }
+  .badge-concept { background: #dbeafe; color: #2563eb; }
+  .badge-skill { background: #d1fae5; color: #059669; }
+  .badge-rule { background: #fef3c7; color: #d97706; }
+  .badge-principle { background: #ffe4e6; color: #e11d48; }
+  .badge-association { background: #f1f5f9; color: #475569; }
+  .badge-fact { background: #e0f2fe; color: #0284c7; }
+  .badge-category { background: #fce7f3; color: #be185d; }
+
+  .kc-body {
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .kc-description {
+    font-size: 0.95em;
+    color: var(--text);
+  }
+
+  .cond-resp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  @media (max-width: 700px) {
+    .cond-resp { grid-template-columns: 1fr; }
+  }
+
+  .cond-resp-box {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+  }
+
+  .cond-resp-box .cr-label {
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+
+  .cond-resp-box .cr-text {
+    font-size: 0.9em;
+  }
+
+  .type-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .type-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.78em;
+  }
+
+  .type-tag .tag-label {
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .kc-example {
+    background: var(--accent-light);
+    border-left: 3px solid var(--accent);
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9em;
+  }
+
+  .kc-example .ex-label {
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  .kc-notes {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .kc-badges {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  /* Collapsible question images */
+  .kc-questions {
+    border-top: 1px solid var(--border);
+    background: var(--bg);
+  }
+
+  .kc-questions summary {
+    padding: 12px 20px;
+    font-size: 0.78em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .kc-questions summary::-webkit-details-marker { display: none; }
+
+  .kc-questions summary::before {
+    content: '\25B6';
+    font-size: 0.7em;
+    transition: transform 0.2s;
+  }
+
+  .kc-questions[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .kc-questions summary:hover {
+    color: var(--text);
+  }
+
+  .kc-questions .q-grid-wrap {
+    padding: 0 20px 14px;
+  }
+
+  .q-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  .q-thumb {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
+
+  .q-thumb:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    transform: translateY(-1px);
+  }
+
+  .q-thumb img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    max-height: 220px;
+    padding: 6px;
+  }
+
+  .q-thumb-label {
+    padding: 4px 8px;
+    font-size: 0.72em;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border);
+    background: var(--bg);
+    text-align: center;
+  }
+
+  /* Lightbox modal */
+  .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+  }
+
+  .modal.active { display: flex; }
+
+  .modal img {
+    max-width: 95vw;
+    max-height: 95vh;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-secondary);
+  }
+
+  .empty-state h2 { font-size: 1.2em; margin-bottom: 8px; }
+
+  .loading {
+    text-align: center;
+    padding: 60px;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="page-title">IM <span>Knowledge Components</span></h1>
+  <span class="stats" id="stats">Loading...</span>
+</header>
+
+<div class="toolbar">
+  <div class="filter-group">
+    <label>Grade</label>
+    <select id="filter-grade"><option value="">All</option></select>
+  </div>
+  <div class="filter-group">
+    <label>Unit</label>
+    <select id="filter-unit"><option value="">All</option></select>
+  </div>
+  <div class="filter-separator"></div>
+  <div class="filter-group">
+    <label>Section</label>
+    <select id="filter-section"><option value="">All</option></select>
+  </div>
+  <div class="filter-group">
+    <label>Label</label>
+    <select id="filter-label"><option value="">All</option></select>
+  </div>
+  <div class="filter-group">
+    <label>Search</label>
+    <input type="text" class="search-input" id="search" placeholder="Title or description...">
+  </div>
+  <button class="reset-btn" onclick="resetFilters()">Reset</button>
+</div>
+
+<div class="kc-list" id="kc-list">
+  <div class="loading">Loading knowledge components...</div>
+</div>
+
+<div class="modal" id="modal" onclick="closeModal()">
+  <img id="modal-img" src="" alt="Full size question">
+</div>
+
+<script>
+let allUnits = [];     // from units.json
+let kcs = [];          // combined from all units (each tagged with _grade, _unit)
+let questionMap = {};  // question_id -> question object
+
+const GRADE_DISPLAY = {
+  'GK': 'K', 'G1': '1', 'G2': '2', 'G3': '3', 'G4': '4',
+  'G5': '5', 'G6': '6', 'G7': '7', 'G8': '8',
+  'G9': 'A1', 'G10': 'Geo', 'G11': 'A2',
+};
+
+const GRADE_LABELS = {
+  'GK': 'Kindergarten', 'G9': 'Algebra 1', 'G10': 'Geometry', 'G11': 'Algebra 2',
+};
+
+function gradeDisplayLabel(gradeCode) {
+  if (GRADE_LABELS[gradeCode]) return GRADE_LABELS[gradeCode];
+  const m = gradeCode.match(/^G(\d+)$/);
+  return m ? `Grade ${m[1]}` : gradeCode;
+}
+
+function questionId(q) {
+  const parts = [q.grade, q.unit];
+  if (q.section) parts.push(q.section);
+  parts.push('a' + q.assessment_number);
+  parts.push('q' + q.question_number);
+  return parts.join('_');
+}
+
+async function init() {
+  document.getElementById('kc-list').innerHTML =
+    '<div class="loading">Loading all units...</div>';
+
+  // Load units manifest
+  try {
+    const resp = await fetch('data/units.json');
+    if (resp.ok) allUnits = await resp.json();
+  } catch (e) {}
+
+  if (allUnits.length === 0) {
+    document.getElementById('kc-list').innerHTML =
+      '<div class="empty-state"><h2>No data</h2><p>No units.json found</p></div>';
+    return;
+  }
+
+  // Load ALL units' data in parallel
+  const results = await Promise.all(allUnits.map(async (unit) => {
+    try {
+      const [kcResp, qResp] = await Promise.all([
+        fetch(`data/${unit.id}/kcs.json`),
+        fetch(`data/${unit.id}/questions.json`)
+      ]);
+      if (!kcResp.ok || !qResp.ok) return { kcs: [], questions: [] };
+      const kcData = await kcResp.json();
+      const qData = await qResp.json();
+
+      // Tag each KC with unit metadata
+      const grade = unit.id.split('_')[0];  // "G8" from "G8_U4"
+      kcData.forEach(k => {
+        k._unit = unit.id;
+        k._grade = grade;
+        k._unitLabel = unit.label;
+      });
+
+      return { kcs: kcData, questions: qData };
+    } catch (e) {
+      return { kcs: [], questions: [] };
+    }
+  }));
+
+  // Combine all data
+  kcs = results.flatMap(r => r.kcs);
+  const allQuestions = results.flatMap(r => r.questions);
+
+  // Build question lookup
+  questionMap = {};
+  allQuestions.forEach(q => { questionMap[questionId(q)] = q; });
+
+  // Sort KCs alphabetically by title
+  kcs.sort((a, b) => a.title.localeCompare(b.title));
+
+  // Update title and page title
+  document.title = 'KC Browser — IM';
+  document.getElementById('page-title').innerHTML =
+    'IM <span>Knowledge Components</span>';
+
+  populateFilters();
+  render();
+}
+
+function populateFilters() {
+  // Grades
+  const grades = [...new Set(kcs.map(k => k._grade))].sort();
+  fillSelect('filter-grade', grades, v => gradeDisplayLabel(v));
+
+  // Units (all initially)
+  updateUnitFilter();
+  document.getElementById('filter-unit').addEventListener('change', render);
+
+  // Labels
+  const labels = [...new Set(kcs.map(k => k.label))].sort();
+  fillSelect('filter-label', labels);
+
+  // Sections
+  const sections = new Set();
+  kcs.forEach(k => {
+    k.question_ids.forEach(qid => {
+      const q = questionMap[qid];
+      if (q && q.section) sections.add(q.section);
+    });
+  });
+  fillSelect('filter-section', [...sections].sort());
+}
+
+function updateUnitFilter() {
+  const fGrade = document.getElementById('filter-grade').value;
+  const relevantUnits = allUnits.filter(u =>
+    !fGrade || u.id.startsWith(fGrade + '_')
+  );
+  const el = document.getElementById('filter-unit');
+  const currentVal = el.value;
+  el.innerHTML = '<option value="">All</option>';
+  relevantUnits.forEach(u => {
+    el.innerHTML += `<option value="${u.id}">${u.label} (${u.kc_count})</option>`;
+  });
+  // Preserve selection if still valid
+  if (relevantUnits.some(u => u.id === currentVal)) {
+    el.value = currentVal;
+  }
+}
+
+function fillSelect(id, values, labelFn) {
+  const el = document.getElementById(id);
+  el.innerHTML = '<option value="">All</option>';
+  values.forEach(v => {
+    const display = labelFn ? labelFn(v) : v;
+    el.innerHTML += `<option value="${v}">${display}</option>`;
+  });
+  // Remove old listener and add new one
+  const newEl = el.cloneNode(true);
+  el.parentNode.replaceChild(newEl, el);
+  newEl.addEventListener('change', () => {
+    if (id === 'filter-grade') {
+      updateUnitFilter();
+    }
+    render();
+  });
+}
+
+document.getElementById('search').addEventListener('input', render);
+
+function resetFilters() {
+  document.getElementById('filter-grade').value = '';
+  document.getElementById('filter-unit').value = '';
+  updateUnitFilter();
+  document.getElementById('filter-section').value = '';
+  document.getElementById('filter-label').value = '';
+  document.getElementById('search').value = '';
+  render();
+}
+
+function labelBadgeClass(label) {
+  const l = label.toLowerCase();
+  if (l.includes('concept')) return 'badge-concept';
+  if (l.includes('skill') || l.includes('production')) return 'badge-skill';
+  if (l.includes('rule') || l.includes('plan')) return 'badge-rule';
+  if (l.includes('principle') || l.includes('model')) return 'badge-principle';
+  if (l.includes('association')) return 'badge-association';
+  if (l.includes('fact')) return 'badge-fact';
+  if (l.includes('category')) return 'badge-category';
+  return 'badge-label';
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function kcQuestions(k) {
+  return k.question_ids.map(qid => questionMap[qid]).filter(Boolean);
+}
+
+function render() {
+  const fGrade = document.getElementById('filter-grade').value;
+  const fUnit = document.getElementById('filter-unit').value;
+  const fSection = document.getElementById('filter-section').value;
+  const fLabel = document.getElementById('filter-label').value;
+  const search = document.getElementById('search').value.toLowerCase().trim();
+
+  const filtered = kcs.filter(k => {
+    if (fGrade && k._grade !== fGrade) return false;
+    if (fUnit && k._unit !== fUnit) return false;
+    if (fLabel && k.label !== fLabel) return false;
+    const qs = kcQuestions(k);
+    if (fSection && !qs.some(q => q.section === fSection)) return false;
+    if (search) {
+      const haystack = (k.title + ' ' + k.description + ' ' + k.kc_id + ' ' + k._unitLabel).toLowerCase();
+      if (!haystack.includes(search)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('stats').textContent =
+    `${filtered.length} of ${kcs.length} KCs across ${allUnits.length} units`;
+
+  const list = document.getElementById('kc-list');
+
+  if (filtered.length === 0) {
+    list.innerHTML = `
+      <div class="empty-state">
+        <h2>No KCs match</h2>
+        <p>Try adjusting your filters</p>
+      </div>`;
+    return;
+  }
+
+  list.innerHTML = filtered.map(k => {
+    const badgeClass = labelBadgeClass(k.label);
+
+    // Build type tags
+    const tags = [
+      { label: 'Cond', value: k.cond_type },
+      { label: 'Resp', value: k.resp_type },
+      { label: 'Relationship', value: k.relationship },
+      { label: 'Rationale', value: k.rationale },
+    ];
+    const tagsHtml = tags.map(t =>
+      `<span class="type-tag"><span class="tag-label">${t.label}:</span> ${escapeHtml(t.value)}</span>`
+    ).join('');
+
+    // Build question thumbnails
+    const qThumbs = k.question_ids.map(qid => {
+      const q = questionMap[qid];
+      if (!q) {
+        return `<div class="q-thumb">
+          <div style="padding:20px;text-align:center;color:var(--text-secondary);font-size:0.8em">${escapeHtml(qid)}<br>(not found)</div>
+        </div>`;
+      }
+      return `<div class="q-thumb" onclick="showModal('${q.image}')">
+        <img src="${q.image}" alt="${escapeHtml(qid)}" loading="lazy">
+        <div class="q-thumb-label">${q.grade} ${q.unit}${q.section ? ' ' + q.section : ''} Q${q.question_number}</div>
+      </div>`;
+    }).join('');
+
+    const notesHtml = k.notes
+      ? `<div class="kc-notes">${escapeHtml(k.notes)}</div>`
+      : '';
+
+    const exampleHtml = k.example
+      ? `<div class="kc-example">
+          <div class="ex-label">Example</div>
+          <div class="ex-text">${escapeHtml(k.example)}</div>
+        </div>`
+      : '';
+
+    // Grade badge for the KC's source unit
+    const gradeShort = GRADE_DISPLAY[k._grade] || k._grade.slice(1);
+    const unitNum = k._unit.split('_')[1];
+
+    return `
+    <div class="kc-panel">
+      <div class="kc-header">
+        <div>
+          <div class="kc-title">${escapeHtml(k.title)}</div>
+          <div class="kc-id">${escapeHtml(k.kc_id)}</div>
+        </div>
+        <div class="kc-badges">
+          <span class="badge badge-grade">G${gradeShort} ${unitNum}</span>
+          <span class="badge ${badgeClass}">${escapeHtml(k.label)}</span>
+        </div>
+      </div>
+      <div class="kc-body">
+        <div class="kc-description">${escapeHtml(k.description)}</div>
+        <div class="cond-resp">
+          <div class="cond-resp-box">
+            <div class="cr-label">Condition</div>
+            <div class="cr-text">${escapeHtml(k.condition)}</div>
+          </div>
+          <div class="cond-resp-box">
+            <div class="cr-label">Response</div>
+            <div class="cr-text">${escapeHtml(k.response)}</div>
+          </div>
+        </div>
+        <div class="type-row">${tagsHtml}</div>
+        ${exampleHtml}
+        ${notesHtml}
+      </div>
+      <details class="kc-questions">
+        <summary>Questions (${k.question_ids.length})</summary>
+        <div class="q-grid-wrap"><div class="q-grid">${qThumbs}</div></div>
+      </details>
+    </div>`;
+  }).join('');
+
+  // Render LaTeX via KaTeX auto-render
+  if (window.renderMathInElement) {
+    renderMathInElement(list, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true },
+      ],
+      throwOnError: false,
+    });
+  }
+}
+
+function showModal(src) {
+  document.getElementById('modal-img').src = src;
+  document.getElementById('modal').classList.add('active');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('active');
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
+// Wait for KaTeX to load, then init
+document.addEventListener('DOMContentLoaded', () => {
+  const start = Date.now();
+  function tryInit() {
+    if (window.renderMathInElement || Date.now() - start > 3000) {
+      init();
+    } else {
+      setTimeout(tryInit, 50);
+    }
+  }
+  tryInit();
+});
+</script>
+</body>
+</html>
