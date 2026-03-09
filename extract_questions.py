@@ -105,7 +105,9 @@ def parse_filename(filepath):
     Patterns tried (in order):
       1. IM_G5_U1_SA_...pdf  (structured: grade, unit, section)
       2. IM_G5_U1_...pdf     (structured: grade, unit, no section)
-      3. Grade5-8-...pdf      (loose: infer grade from name)
+      3. Grade5-1-Section-A-Checkpoint-teacher-guide-.pdf (IM teacher guide)
+      4. Grade5-1-End-of-Unit-Assessment-teacher-guide-.pdf (IM teacher guide)
+      5. Loose naming with "Grade5" or "G5" in filename
 
     Grade mapping for high school courses:
       A1 -> G9 (Algebra 1), GEO -> G10 (Geometry), A2 -> G11 (Algebra 2)
@@ -130,7 +132,24 @@ def parse_filename(filepath):
             'section': match.group(3),
         }
 
-    # Pattern 2: Loose naming — try to extract grade from "Grade5" or "G5" in filename
+    # Pattern 2: IM teacher guide naming — Grade{g}-{unit}[-Section-{letter}-Checkpoint|-End-of-Unit|-End-of-Course]
+    m = re.match(r'Grade(\d+)-(\d+)-(.+?)(?:-teacher[_-]guide|-$)', basename, re.IGNORECASE)
+    if m:
+        grade = f"G{m.group(1)}"
+        unit_num = m.group(2)
+        rest = m.group(3)
+
+        # Determine if this is a section checkpoint or a unit/course assessment
+        sec = re.search(r'Section-([A-Z])-Checkpoint', rest, re.IGNORECASE)
+        section = f"S{sec.group(1).upper()}" if sec else None
+
+        return {
+            'grade': grade,
+            'unit': f"U{unit_num}",
+            'section': section,
+        }
+
+    # Pattern 3: Loose naming — try to extract grade from "Grade5" or "G5" in filename
     m = re.search(r'Grade[\s-]*(\d+)', basename, re.IGNORECASE)
     if not m:
         m = re.search(r'(?:^|[_-])G(\d+)(?:[_-]|$)', basename)
@@ -141,7 +160,7 @@ def parse_filename(filepath):
         u = re.search(r'(?:Unit|U)[\s-]*(\d+)', basename, re.IGNORECASE)
         unit = f"U{u.group(1)}" if u else "U0"
         # Try to find section
-        s = re.search(r'(?:Section|S)[\s-]*([A-Z])', basename, re.IGNORECASE)
+        s = re.search(r'Section[\s-]*([A-Z])', basename, re.IGNORECASE)
         section = f"S{s.group(1).upper()}" if s else None
         return {
             'grade': grade,
@@ -182,10 +201,13 @@ def analyze_page(page):
             line_bbox = line["bbox"]
 
             # Detect assessment number from page header
-            # IM pattern: "End-of-Course Assessment" or "Unit Assessment N"
-            m = re.search(r'(?:Unit|End.of.Course)\s*Assessment\s*(\d+)?', full_text, re.IGNORECASE)
+            # IM patterns: "End-of-Unit Assessment", "End-of-Course Assessment",
+            #              "Section X Checkpoint", "Unit Assessment N"
+            m = re.search(r'(?:Unit|End.of.(?:Unit|Course))\s*Assessment\s*(\d+)?', full_text, re.IGNORECASE)
             if m:
                 assessment_num = int(m.group(1)) if m.group(1) else 1
+            elif re.search(r'Checkpoint', full_text, re.IGNORECASE) and assessment_num is None:
+                assessment_num = 1
 
             # Detect ANSWER KEY banner (only in top half of page, not footer)
             if (re.search(r'ANSWER\s*KEY', full_text, re.IGNORECASE)
@@ -195,13 +217,16 @@ def analyze_page(page):
                 if m2 and assessment_num is None:
                     assessment_num = int(m2.group(1))
 
-            # Detect question start: "N. " or "N."
+            # Detect question start: "N. ", "N.", or bare "N" (IM-style, at left margin ~x=61)
             # Skip header/footer zone (top 40pt and bottom 50pt)
             page_height = page.rect.height
             if line_bbox[1] < 40 or line_bbox[1] > page_height - 50:
                 continue
 
             m = re.match(r'^(\d+)\.\s', full_text) or re.fullmatch(r'(\d+)\.', full_text)
+            # IM PDFs: bare number at left margin (x < 80) that is the only content in the span
+            if not m and re.fullmatch(r'(\d+)', full_text) and line_bbox[0] < 80:
+                m = re.fullmatch(r'(\d+)', full_text)
             if m:
                 q_num = int(m.group(1))
                 x_left = line_bbox[0]
@@ -604,9 +629,11 @@ def main():
     else:
         pdf_dir = os.path.join(script_dir, PDF_DIR)
 
+    # Recursively find all PDFs in the directory tree
     pdf_files = sorted([
-        os.path.join(pdf_dir, f)
-        for f in os.listdir(pdf_dir)
+        os.path.join(root, f)
+        for root, dirs, files in os.walk(pdf_dir)
+        for f in files
         if f.endswith('.pdf')
     ])
 

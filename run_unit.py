@@ -131,7 +131,7 @@ def main():
         print(f"ERROR: PDF directory not found: {pdf_dir}")
         sys.exit(1)
 
-    pdf_count = len([f for f in os.listdir(pdf_dir) if f.endswith('.pdf')])
+    pdf_count = sum(1 for root, dirs, files in os.walk(pdf_dir) for f in files if f.endswith('.pdf'))
     print(f"KC Extraction Pipeline")
     print(f"  Unit:     {args.unit}")
     print(f"  PDFs:     {pdf_dir} ({pdf_count} files)")
