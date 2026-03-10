@@ -1,0 +1,112 @@
+[
+  {
+    "kc_id": "add_ten_and_ones_within_20",
+    "title": "Add 10 and Ones Within 20",
+    "description": "Given an equation that adds 10 and a one-digit number (or vice versa), compute the teen-number sum.",
+    "condition": "An addition equation of the form 10 + n or n + 10 where n is a one-digit whole number.",
+    "response": "State or write the sum as a teen number (e.g., 10 + 4 = 14).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $10 + 7$, compute $17$.",
+    "notes": "Relies on understanding teen numbers as 10 ones and some more ones.",
+    "question_ids": [
+      "GK_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "compose_teen_as_10_and_ones",
+    "title": "Compose Teen Number as 10 and Ones",
+    "description": "Recognize or construct a teen number as a full group of 10 and some additional ones.",
+    "condition": "A target teen number between 11 and 19 or a visual showing a full 10-frame and extra dots.",
+    "response": "Represent or interpret the number as 10 ones and some more ones (e.g., 14 as 10 and 4).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A full 10-frame and 4 extra dots represent $10 + 4 = 14$.",
+    "notes": "Central place-value idea for teen numbers.",
+    "question_ids": [
+      "GK_U6_a1_q1",
+      "GK_U6_a1_q2",
+      "GK_U6_a1_q3",
+      "GK_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "count_objects_to_20",
+    "title": "Count Objects up to 20",
+    "description": "Accurately count a set of objects (dots or fingers) arranged in rows or scattered, up to 20.",
+    "condition": "A visual set of 0\u201320 objects arranged in rows, a 10-frame, or finger representations.",
+    "response": "Count each object once and determine the total quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Counting 18 dots arranged in two rows results in $18$.",
+    "notes": "Involves one-to-one correspondence and keeping track while counting.",
+    "question_ids": [
+      "GK_U6_a1_q1",
+      "GK_U6_a1_q2",
+      "GK_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_full_ten_frame_as_10",
+    "title": "Identify Full 10-Frame as Ten",
+    "description": "Recognize that a completely filled 10-frame represents exactly 10 objects.",
+    "condition": "A 10-frame with all 10 spaces filled.",
+    "response": "State that the quantity shown is 10.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "A full 10-frame represents $10$.",
+    "notes": "Conventional structure of the 10-frame.",
+    "question_ids": [
+      "GK_U6_a1_q1",
+      "GK_U6_a1_q2",
+      "GK_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "select_images_totaling_14",
+    "title": "Select Images that Total 14",
+    "description": "Determine which combination of visual groups composes 14 by recognizing 10 and 4 more.",
+    "condition": "Multiple image options showing different quantities of dots; task asks for the pair that makes 14.",
+    "response": "Choose the images that together represent 10 and 4 more (total 14).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Select a full 10-frame and a group of 4 dots since $10 + 4 = 14$.",
+    "notes": "Requires composing 14 from benchmark 10.",
+    "question_ids": [
+      "GK_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "write_numeral_for_quantity",
+    "title": "Write Numeral for Counted Quantity",
+    "description": "Record the counted number of objects using the correct written numeral.",
+    "condition": "A determined total quantity of objects (e.g., after counting dots or fingers).",
+    "response": "Write the corresponding base-10 numeral (e.g., 16, 17, 18).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If there are seventeen objects, write $17$.",
+    "notes": "Assumes knowledge of standard numeral symbols.",
+    "question_ids": [
+      "GK_U6_a1_q2",
+      "GK_U6_a1_q4"
+    ]
+  }
+]

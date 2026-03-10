@@ -46,5 +46,53 @@
     "label": "Grade 5 Unit 8",
     "kc_count": 19,
     "question_count": 20
+  },
+  {
+    "id": "GK_U1",
+    "label": "Kindergarten Unit 1",
+    "kc_count": 5,
+    "question_count": 4
+  },
+  {
+    "id": "GK_U2",
+    "label": "Kindergarten Unit 2",
+    "kc_count": 6,
+    "question_count": 4
+  },
+  {
+    "id": "GK_U3",
+    "label": "Kindergarten Unit 3",
+    "kc_count": 8,
+    "question_count": 4
+  },
+  {
+    "id": "GK_U4",
+    "label": "Kindergarten Unit 4",
+    "kc_count": 8,
+    "question_count": 6
+  },
+  {
+    "id": "GK_U5",
+    "label": "Kindergarten Unit 5",
+    "kc_count": 3,
+    "question_count": 7
+  },
+  {
+    "id": "GK_U6",
+    "label": "Kindergarten Unit 6",
+    "kc_count": 6,
+    "question_count": 4
+  },
+  {
+    "id": "GK_U7",
+    "label": "Kindergarten Unit 7",
+    "kc_count": 7,
+    "question_count": 3
+  },
+  {
+    "id": "GK_U8",
+    "label": "Kindergarten Unit 8",
+    "kc_count": 11,
+    "question_count": 13
   }
 ]

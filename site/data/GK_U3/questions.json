@@ -1,0 +1,64 @@
+[
+  {
+    "filename": "Kindergarten-3-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "GK",
+    "unit": "U3",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 1,
+    "image": "images/GK_U3/GK_U3_a1_q1.png",
+    "image_width": 1700,
+    "image_height": 2553,
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "filename": "Kindergarten-3-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "GK",
+    "unit": "U3",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 2,
+    "image": "images/GK_U3/GK_U3_a1_q2.png",
+    "image_width": 1700,
+    "image_height": 3870,
+    "source_pages": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "filename": "Kindergarten-3-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "GK",
+    "unit": "U3",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 3,
+    "image": "images/GK_U3/GK_U3_a1_q3.png",
+    "image_width": 1700,
+    "image_height": 2370,
+    "source_pages": [
+      4,
+      5
+    ]
+  },
+  {
+    "filename": "Kindergarten-3-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "GK",
+    "unit": "U3",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 4,
+    "image": "images/GK_U3/GK_U3_a1_q4.png",
+    "image_width": 1700,
+    "image_height": 4567,
+    "source_pages": [
+      5,
+      6,
+      7
+    ]
+  }
+]

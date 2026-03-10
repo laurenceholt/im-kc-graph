@@ -1,0 +1,57 @@
+[
+  {
+    "kc_id": "add_two_groups_find_total",
+    "title": "Add Two Quantities to Find Total",
+    "description": "Given two quantities in a Put Together situation, combine them to determine the total.",
+    "condition": "A story problem or situation presents two groups with known quantities and asks for how many in all (total unknown).",
+    "response": "Add the two quantities to find the total number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Diego has 3 cars on the floor and 5 on the bed, compute $3 + 5 = 8$.",
+    "notes": "Applies to Put Together, Result Unknown problems.",
+    "question_ids": [
+      "GK_U5_a1_q4",
+      "GK_U5_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "decompose_number_two_parts",
+    "title": "Decompose Number into Two Parts",
+    "description": "Break a given number less than or equal to 10 into two smaller addends in more than one way.",
+    "condition": "A number (\u226410) is given and the task is to split it into two parts.",
+    "response": "Produce two numbers that add to the given number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For 7, one decomposition is $7 = 4 + 3$; another is $7 = 5 + 2$.",
+    "notes": "Students must recognize multiple valid decompositions.",
+    "question_ids": [
+      "GK_U5_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "complete_make_10_equation",
+    "title": "Write Equation for Making 10",
+    "description": "Represent two parts that make 10 using an addition equation.",
+    "condition": "Two numbers are identified as parts that compose 10.",
+    "response": "Write an equation of the form $10 = a + b$ (or $a + b = 10$) using those numbers.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If the parts are 6 and 4, write $10 = 6 + 4$.",
+    "notes": "Focus is on symbolic representation of a known decomposition.",
+    "question_ids": [
+      "GK_U5_a1_q1",
+      "GK_U5_a1_q2",
+      "GK_U5_a1_q5",
+      "GK_U5_a1_q6"
+    ]
+  }
+]

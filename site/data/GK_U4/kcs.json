@@ -1,0 +1,144 @@
+[
+  {
+    "kc_id": "add_two_small_numbers_within_10",
+    "title": "Add Two Numbers Within 10",
+    "description": "Compute the sum of two given whole numbers within 10.",
+    "condition": "Given an addition expression a + b where a and b are whole numbers within 10.",
+    "response": "State the sum a + b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $2 + 3$, compute $5$.",
+    "notes": "Includes story problems and numeric expressions.",
+    "question_ids": [
+      "GK_U4_a1_q10",
+      "GK_U4_a1_q2",
+      "GK_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "count_all_objects_in_combined_sets",
+    "title": "Count All Objects in Combined Sets",
+    "description": "Count every object across two or more visible groups to determine the total number of objects.",
+    "condition": "Given two or more visible groups of objects and asked for the total number of objects.",
+    "response": "Count each object once and state the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Count 3 squares and 4 trapezoids to get $7$ total shapes.",
+    "notes": "Requires one-to-one correspondence and keeping track of counted objects.",
+    "question_ids": [
+      "GK_U4_a1_q1",
+      "GK_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_add_to_result_unknown",
+    "title": "Interpret Add-To, Result Unknown Story",
+    "description": "Recognize that a story describing an initial amount and more being added requires addition to find the result.",
+    "condition": "A story problem states an initial quantity and that more are added, asking how many in all.",
+    "response": "Represent the situation with addition and find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "There are 3 stickers and 2 more are added: compute $3 + 2 = 5$.",
+    "notes": "Focuses on structure of Add To, Result Unknown problems.",
+    "question_ids": [
+      "GK_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_minus_as_take_away",
+    "title": "Interpret Minus as Take Away",
+    "description": "Understand that the minus sign indicates removing a quantity from a starting amount.",
+    "condition": "Given an expression a \u2212 b or a story where some objects are taken away.",
+    "response": "Subtract b from a to find how many remain.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Given $6 - 2$, compute $4$.",
+    "notes": "Includes symbolic and story contexts.",
+    "question_ids": [
+      "GK_U4_a1_q10",
+      "GK_U4_a1_q3",
+      "GK_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "interpret_plus_as_put_together",
+    "title": "Interpret Plus as Put Together",
+    "description": "Understand that the plus sign indicates combining two quantities.",
+    "condition": "Given an expression a + b or a picture showing two groups being combined.",
+    "response": "Combine the quantities and find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Given $3 + 4$, combine to make $7$.",
+    "notes": "Supports matching pictures to addition expressions.",
+    "question_ids": [
+      "GK_U4_a1_q10",
+      "GK_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "interpret_take_from_result_unknown",
+    "title": "Interpret Take-From, Result Unknown Story",
+    "description": "Recognize that a story describing a starting amount and some leaving requires subtraction to find the result.",
+    "condition": "A story problem states a starting quantity and that some are taken away, asking how many remain.",
+    "response": "Represent the situation with subtraction and find the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "There are 6 kids and 2 leave: compute $6 - 2 = 4$.",
+    "notes": "Focuses on structure of Take From, Result Unknown problems.",
+    "question_ids": [
+      "GK_U4_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "match_picture_to_expression",
+    "title": "Match Picture Representation to Expression",
+    "description": "Identify which numerical expression corresponds to a visual representation of quantities being added or subtracted.",
+    "condition": "Given a picture showing quantities combined or taken away and a set of expressions.",
+    "response": "Select or match the expression that represents the picture.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "A picture of 5 circles with 2 crossed out matches $5 - 2$.",
+    "notes": "Requires interpreting both quantity and operation.",
+    "question_ids": [
+      "GK_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "use_zero_identity_addition",
+    "title": "Use Identity Property of Addition with Zero",
+    "description": "Recognize that adding zero to a number results in the same number.",
+    "condition": "Given an addition expression of the form a + 0 or 0 + a.",
+    "response": "State that the sum equals a.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $3 + 0$, the result is $3$.",
+    "notes": "resp_type marked Constant because the response preserves the original number a.",
+    "question_ids": [
+      "GK_U4_a1_q10"
+    ]
+  }
+]

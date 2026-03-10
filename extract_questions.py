@@ -132,12 +132,19 @@ def parse_filename(filepath):
             'section': match.group(3),
         }
 
-    # Pattern 2: IM teacher guide naming — Grade{g}-{unit}[-Section-{letter}-Checkpoint|-End-of-Unit|-End-of-Course]
+    # Pattern 2: IM teacher guide naming — Grade{g}-{unit} or Kindergarten-{unit}
     m = re.match(r'Grade(\d+)-(\d+)-(.+?)(?:-teacher[_-]guide|-$)', basename, re.IGNORECASE)
-    if m:
-        grade = f"G{m.group(1)}"
-        unit_num = m.group(2)
-        rest = m.group(3)
+    if not m:
+        m = re.match(r'Kindergarten-(\d+)-(.+?)(?:-teacher[_-]guide|-$)', basename, re.IGNORECASE)
+        if m:
+            # Insert a synthetic group(1) for grade: 'K'
+            grade_str, unit_num, rest = 'K', m.group(1), m.group(2)
+        else:
+            grade_str = unit_num = rest = None
+    else:
+        grade_str, unit_num, rest = m.group(1), m.group(2), m.group(3)
+    if grade_str is not None:
+        grade = f"G{grade_str}"
 
         # Determine if this is a section checkpoint or a unit/course assessment
         sec = re.search(r'Section-([A-Z])-Checkpoint', rest, re.IGNORECASE)
@@ -229,6 +236,9 @@ def analyze_page(page):
                 m = re.fullmatch(r'(\d+)', full_text)
             if m:
                 q_num = int(m.group(1))
+                # Skip implausibly large question numbers (page numbers, stray digits)
+                if q_num > 25:
+                    continue
                 x_left = line_bbox[0]
 
                 if x_left < 140:

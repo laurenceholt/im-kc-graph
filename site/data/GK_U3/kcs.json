@@ -1,0 +1,140 @@
+[
+  {
+    "kc_id": "count_objects_in_set",
+    "title": "Count Objects in a Set",
+    "description": "Count items in a pictured set to determine the total number.",
+    "condition": "Given a finite set of visible objects and asked \"How many?\"",
+    "response": "State the total number of objects using one-to-one counting.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "Yes",
+    "label": "Production / Skill",
+    "example": "Count 5 pattern blocks in the puzzle and state \"5.\"",
+    "notes": "Includes understanding that the last number said represents the total.",
+    "question_ids": [
+      "GK_U3_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "verify_true_false_statement",
+    "title": "Evaluate True/False Statement",
+    "description": "Determine whether a mathematical statement about a picture is true or false.",
+    "condition": "Given a declarative statement about quantities, shapes, or positions in a picture.",
+    "response": "Select \"yes\" if true and \"no\" if false based on the picture.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 5 blocks shown, the statement \"There are 6 blocks\" is false \u2192 select \"no.\"",
+    "notes": "Requires integrating counting or positional reasoning with logical evaluation.",
+    "question_ids": [
+      "GK_U3_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_lengths_longer",
+    "title": "Identify Longer Object",
+    "description": "Determine which of two objects has greater length.",
+    "condition": "Given two objects with different lengths and asked to find which is longer.",
+    "response": "Select or state the object with greater length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "Yes",
+    "label": "Production / Skill",
+    "example": "Between two rectangles of lengths 8 cm and 5 cm, select the 8 cm rectangle as longer.",
+    "notes": "Requires visual or physical comparison of length.",
+    "question_ids": [
+      "GK_U3_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_rectangle_by_attributes",
+    "title": "Identify Rectangle by Attributes",
+    "description": "Recognize a rectangle based on having 4 sides and 4 corners (right angles), regardless of orientation or proportions.",
+    "condition": "Given a 4\u2011sided shape and asked whether it is a rectangle.",
+    "response": "Classify the shape as a rectangle if it has 4 sides and 4 corners.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A long skinny shape with 4 sides and 4 right angles is identified as a rectangle.",
+    "notes": "Orientation does not change classification.",
+    "question_ids": [
+      "GK_U3_a1_q1",
+      "GK_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "compare_lengths_shorter",
+    "title": "Identify Shorter Object",
+    "description": "Determine which of two objects has lesser length.",
+    "condition": "Given two objects with different lengths and asked to find which is shorter.",
+    "response": "Select or state the object with smaller length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "Yes",
+    "label": "Production / Skill",
+    "example": "Between two rectangles of lengths 8 cm and 5 cm, select the 5 cm rectangle as shorter.",
+    "notes": "Inverse reasoning of identifying longer.",
+    "question_ids": [
+      "GK_U3_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_triangle_by_attributes",
+    "title": "Identify Triangle by Attributes",
+    "description": "Recognize a triangle based on having 3 sides and 3 corners.",
+    "condition": "Given a 3\u2011sided shape and asked whether it is a triangle.",
+    "response": "Classify the shape as a triangle if it has 3 sides and 3 corners.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A shape with 3 straight sides is identified as a triangle.",
+    "notes": "Students may infer missing sides in real-world objects.",
+    "question_ids": [
+      "GK_U3_a1_q1",
+      "GK_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "interpret_above_below",
+    "title": "Interpret Positional Words Above/Below",
+    "description": "Determine relative vertical position using the terms \"above\" and \"below.\"",
+    "condition": "Given two objects in vertical arrangement and a statement using \"above\" or \"below.\"",
+    "response": "Judge whether the positional statement correctly describes their relative positions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If a triangle is higher than a square, the statement \"The triangle is above the square\" is true.",
+    "notes": "Common error is reversing meanings of above and below.",
+    "question_ids": [
+      "GK_U3_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_shape_in_context",
+    "title": "Recognize Shapes in Real-World Objects",
+    "description": "Identify familiar geometric shapes embedded in real-world objects or pictures.",
+    "condition": "Given a complex picture containing everyday objects.",
+    "response": "Select or mark objects that match a specified geometric shape (e.g., rectangle or triangle).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Circle the rectangular book cover; cross out the triangular ruler.",
+    "notes": "Students generalize shape attributes to environmental objects.",
+    "question_ids": [
+      "GK_U3_a1_q4"
+    ]
+  }
+]

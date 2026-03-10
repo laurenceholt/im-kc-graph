@@ -1,0 +1,107 @@
+[
+  {
+    "kc_id": "count_objects_in_set",
+    "title": "Count Objects with One-to-One Correspondence",
+    "description": "Determine the total number of objects in a group by counting each object once.",
+    "condition": "Given a visible set of objects arranged in any configuration.",
+    "response": "Count each object once and state the total number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Given 7 dots arranged in a circle, count: 1, 2, 3, 4, 5, 6, 7 \u2192 total = 7.",
+    "notes": "Involves one-to-one correspondence and cardinality.",
+    "question_ids": [
+      "GK_U2_a1_q1",
+      "GK_U2_a1_q2",
+      "GK_U2_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_numerals_more",
+    "title": "Identify the Larger of Two Numerals",
+    "description": "Determine which of two written numerals represents the greater quantity.",
+    "condition": "Given two written numerals and asked which number is more.",
+    "response": "Select the numeral with the larger value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given 4 and 6, since $6 > 4$, select 6 as the number that is more.",
+    "notes": "",
+    "question_ids": [
+      "GK_U2_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "compare_sets_more",
+    "title": "Identify the Set with More Objects",
+    "description": "Compare two groups of objects and determine which group has more items.",
+    "condition": "Given two sets of objects and asked which has more.",
+    "response": "Select the set with the greater number of objects.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If one group shows 6 objects and another shows 8 objects, since $8 > 6$, select the group with 8 objects.",
+    "notes": "",
+    "question_ids": [
+      "GK_U2_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "match_quantity_to_numeral",
+    "title": "Match Quantity to Written Numeral",
+    "description": "Associate a counted set of objects with its corresponding written numeral.",
+    "condition": "Given a set of objects and multiple written numerals.",
+    "response": "Select or connect the numeral that represents the counted quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If a set contains 8 objects, match it to the numeral 8.",
+    "notes": "Requires recognition of written numerals.",
+    "question_ids": [
+      "GK_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_written_numeral",
+    "title": "Recognize Written Numerals (0\u201310)",
+    "description": "Identify a written numeral symbol and associate it with its spoken number name.",
+    "condition": "Given a single written numeral (e.g., 4, 6, 7, 8).",
+    "response": "State or internally recognize the corresponding number name and value.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "When shown the symbol 7, recognize it as \"seven.\"",
+    "notes": "Symbol\u2013name association is conventional.",
+    "question_ids": [
+      "GK_U2_a1_q1",
+      "GK_U2_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "write_numeral_for_quantity",
+    "title": "Write Numeral to Represent Quantity",
+    "description": "Produce a written numeral that represents a counted quantity.",
+    "condition": "Given a counted total of objects and asked to write the number.",
+    "response": "Write the corresponding numeral.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "After counting 7 dots, write the numeral 7.",
+    "notes": "Includes correct numeral formation.",
+    "question_ids": [
+      "GK_U2_a1_q2"
+    ]
+  }
+]

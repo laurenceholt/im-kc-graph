@@ -1,0 +1,194 @@
+[
+  {
+    "kc_id": "add_one_count_on",
+    "title": "Add 1 by Counting On",
+    "description": "Add 1 to a number by saying the next number in the count sequence.",
+    "condition": "Given a number n and asked to add 1 (n + 1) in numeric or story context.",
+    "response": "State the next counting number after n.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given 7 + 1, count on one: 7, 8. So $7 + 1 = 8$.",
+    "notes": "Relies on understanding the count sequence.",
+    "question_ids": [
+      "GK_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "add_to_story_result_unknown",
+    "title": "Add To, Result Unknown",
+    "description": "Represent and solve a story where a quantity increases and the result is unknown.",
+    "condition": "Story problem where an initial amount increases by some amount and the final total is unknown.",
+    "response": "Represent with addition and compute the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Clare has 7 flowers and gets 1 more: $7 + 1 = 8$.",
+    "notes": "Kindergarten Add To, Result Unknown structure.",
+    "question_ids": [
+      "GK_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "compare_sets_more_fewer",
+    "title": "Compare Sets as More or Fewer",
+    "description": "Determine which of two sets has more or fewer objects.",
+    "condition": "Two groups of objects are shown and student is asked which has more or fewer.",
+    "response": "Count or match objects and identify the group with greater or lesser quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If one group has 6 objects and another has 5, the group with 5 has fewer.",
+    "notes": "May use one-to-one matching or counting.",
+    "question_ids": [
+      "GK_U8_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_numbers_greater_less",
+    "title": "Compare Single-Digit Numbers",
+    "description": "Determine which of two given numbers is greater or less.",
+    "condition": "Two single-digit numbers are presented and student is asked which is more or less.",
+    "response": "Identify the greater or lesser number using the count sequence.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare 8 and 5. Since 8 comes after 5, $8 > 5$.",
+    "notes": "",
+    "question_ids": [
+      "GK_U8_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_objects_structured_or_unstructured",
+    "title": "Count Objects in Various Arrangements",
+    "description": "Count objects arranged in lines, circles, or 10-frames and state the total.",
+    "condition": "A set of objects is presented in any arrangement and student is asked how many.",
+    "response": "Count each object once and state the total number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Counting 11 dots in a row results in the total 11.",
+    "notes": "Includes structured arrangements like 10-frames.",
+    "question_ids": [
+      "GK_U8_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "evaluate_basic_addition_within_20",
+    "title": "Evaluate Addition Within 20",
+    "description": "Compute the sum of two whole numbers within 20.",
+    "condition": "Given an addition equation such as a + b where a, b \u2264 20.",
+    "response": "State the correct sum.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$10 + 6 = 16$.",
+    "notes": "",
+    "question_ids": [
+      "GK_U8_a1_q13",
+      "GK_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "evaluate_basic_subtraction_within_10",
+    "title": "Evaluate Subtraction Within 10",
+    "description": "Compute the difference when subtracting within 10.",
+    "condition": "Given a subtraction situation a \u2212 b within 10, numerically or in a story.",
+    "response": "State the remaining amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$8 - 5 = 3$.",
+    "notes": "",
+    "question_ids": [
+      "GK_U8_a1_q10",
+      "GK_U8_a1_q7",
+      "GK_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "missing_addend_for_target_sum",
+    "title": "Find Missing Addends for Given Total",
+    "description": "Determine numbers that combine to equal a specified total.",
+    "condition": "An equation with blanks such as ___ + ___ = n is given.",
+    "response": "Provide two numbers whose sum equals n.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For ___ + ___ = 13, one solution is $10 + 3 = 13$.",
+    "notes": "Multiple correct responses possible.",
+    "question_ids": [
+      "GK_U8_a1_q11",
+      "GK_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compose_decompose_to_make_10",
+    "title": "Find Number to Make 10",
+    "description": "Determine the missing addend that combines with a given number to total 10.",
+    "condition": "Given a number n and asked what number makes 10 with n.",
+    "response": "State the number 10 \u2212 n.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To make 10 with 9: $10 - 9 = 1$, so $9 + 1 = 10$.",
+    "notes": "",
+    "question_ids": [
+      "GK_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "take_from_story_result_unknown",
+    "title": "Take From, Result Unknown",
+    "description": "Represent and solve a story where a quantity decreases and the result is unknown.",
+    "condition": "Story problem where an initial amount decreases by some amount and the final total is unknown.",
+    "response": "Represent with subtraction and compute the remainder.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "There are 8 crabs, 5 leave: $8 - 5 = 3$.",
+    "notes": "Kindergarten Take From, Result Unknown structure.",
+    "question_ids": [
+      "GK_U8_a1_q7",
+      "GK_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "represent_picture_with_expression",
+    "title": "Write Expression from Visual Representation",
+    "description": "Translate a visual model (objects, fingers, 10-frame) into an addition or subtraction expression.",
+    "condition": "A picture shows grouped or crossed-out objects representing a quantity relationship.",
+    "response": "Write a matching addition or subtraction expression.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A picture of 5 dots and 3 more dots corresponds to $5 + 3$.",
+    "notes": "",
+    "question_ids": [
+      "GK_U8_a1_q10"
+    ]
+  }
+]

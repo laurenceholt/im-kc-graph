@@ -1,0 +1,121 @@
+[
+  {
+    "kc_id": "compare_relative_weight",
+    "title": "Compare Relative Weight (Heavier/Lighter)",
+    "description": "Given two objects, determine which is heavier or lighter using the concepts of weight comparison.",
+    "condition": "Two objects are presented with a prompt to identify which is heavier or lighter.",
+    "response": "Select or state the object that is heavier or lighter based on relative weight.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Given a pencil and an apple, identify the heavier object \u2192 apple.",
+    "notes": "Assumes experiential understanding of weight rather than formal measurement.",
+    "question_ids": [
+      "GK_U7_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_all_objects_in_set",
+    "title": "Count All Objects in a Set",
+    "description": "Accurately count all objects in a pictured set, ensuring each object is counted once.",
+    "condition": "A finite set of visible objects is presented with a prompt asking for the total number.",
+    "response": "Enumerate each object once and state the total count.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Counting 10 pattern blocks in the puzzle \u2192 10.",
+    "notes": "Requires one-to-one correspondence and careful tracking.",
+    "question_ids": [
+      "GK_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_specific_shape_subset",
+    "title": "Count Specific Shape Subset",
+    "description": "Identify and count only objects of a specified shape within a larger set.",
+    "condition": "A mixed set of shapes is shown with a prompt to count only one specified shape (e.g., squares or triangles).",
+    "response": "Identify all instances of the specified shape and state their total number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Count the squares in the puzzle \u2192 4.",
+    "notes": "Includes filtering by shape before counting.",
+    "question_ids": [
+      "GK_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "describe_3d_shape_similarities_differences",
+    "title": "Describe Similarities and Differences of 3D Shapes",
+    "description": "Articulate how two three-dimensional shapes are alike and different using their attributes.",
+    "condition": "Two three-dimensional objects (e.g., a ball and a box) are presented with a prompt to compare them.",
+    "response": "State at least one similarity and one difference using attributes (e.g., round, flat sides, corners).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "A sphere and a cube are both solid shapes. The sphere is round, while the cube has flat faces and corners.",
+    "notes": "Focuses on attribute-based comparison language.",
+    "question_ids": [
+      "GK_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_3d_object_not_flat",
+    "title": "Identify Object as Three-Dimensional",
+    "description": "Recognize that certain objects are solid (not flat) and occupy space.",
+    "condition": "An object such as a ball or box is presented for classification.",
+    "response": "State that the object is not flat or is a solid (three-dimensional) shape.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A ball is not flat; it is a solid shape.",
+    "notes": "Early conceptual understanding of 3D vs 2D shapes.",
+    "question_ids": [
+      "GK_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "recognize_square_any_orientation",
+    "title": "Recognize Square in Any Orientation",
+    "description": "Identify a square regardless of its rotation or orientation.",
+    "condition": "A four-sided figure with equal sides and right angles is shown in any orientation.",
+    "response": "Classify the figure as a square.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A rotated \u25a1 is still identified as a square.",
+    "notes": "Addresses common misconception about orientation dependence.",
+    "question_ids": [
+      "GK_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_triangle",
+    "title": "Recognize Triangle by Attributes",
+    "description": "Identify a triangle based on having three sides and three corners.",
+    "condition": "A three-sided polygon is presented among other shapes.",
+    "response": "Classify the figure as a triangle.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A shape with 3 sides and 3 vertices is identified as a triangle.",
+    "notes": "Supports accurate filtering before counting.",
+    "question_ids": [
+      "GK_U7_a1_q1"
+    ]
+  }
+]
