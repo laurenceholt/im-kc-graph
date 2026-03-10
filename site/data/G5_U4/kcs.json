@@ -1,0 +1,411 @@
+[
+  {
+    "kc_id": "add_partial_products",
+    "title": "Add Partial Products",
+    "description": "Add the partial products from each place-value multiplication to obtain the final product.",
+    "condition": "Given two or more partial products from multi-digit multiplication",
+    "response": "Add the partial products accurately using place-value alignment",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "After finding $3,140$ and $12,560$ from $628 \\times 25$, compute $3,140 + 12,560 = 15,700$.",
+    "notes": "Requires understanding of place-value alignment during addition.",
+    "question_ids": [
+      "G5_U4_SA_a1_q1",
+      "G5_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "place_value_alignment_in_algorithm",
+    "title": "Align Digits by Place Value",
+    "description": "Align digits according to place value when writing numbers and partial products in the standard algorithm.",
+    "condition": "Writing multi-digit factors and partial products vertically",
+    "response": "Align digits so that ones, tens, hundreds, etc., are in the same columns",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Category",
+    "example": "When writing $257$ above $63$, align the $7$ and $3$ in the ones column.",
+    "notes": "Often implicit in written work; supports correct computation.",
+    "question_ids": [
+      "G5_U4_SA_a1_q1",
+      "G5_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "area_rectangle_multiply",
+    "title": "Area of a Rectangle by Multiplication",
+    "description": "Compute the area of a rectangular region by multiplying its length and width.",
+    "condition": "A rectangle with given length and width measurements.",
+    "response": "Multiply length \u00d7 width to find area in square units.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For a rectangle 660 km by 343 km, area = $660 \\times 343$ square kilometers.",
+    "notes": "",
+    "question_ids": [
+      "G5_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "commutative_property_multiplication",
+    "title": "Commutative Property of Multiplication",
+    "description": "Multiplication remains true when the order of the factors is reversed.",
+    "condition": "A true multiplication equation of the form a \u00d7 b = c is given.",
+    "response": "Recognize or state that b \u00d7 a = c is also true.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $83 \\times 27 = 2{,}241$, then $27 \\times 83 = 2{,}241$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_product_to_benchmark",
+    "title": "Compare Product to Benchmark Value",
+    "description": "Determine whether a computed or estimated product is greater than or less than a given benchmark number.",
+    "condition": "A product (exact or estimated) and a benchmark value (e.g., 200,000).",
+    "response": "State whether the product is greater than or less than the benchmark and justify using comparison.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $600 \\times 300 = 180{,}000$ and $600 \\times 40 = 24{,}000$, the total is more than $200{,}000$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_volumes_multiplicatively",
+    "title": "Compare Volumes via Common Factors",
+    "description": "Compare two volumes by identifying common factors and comparing remaining products.",
+    "condition": "Two volume expressions sharing a common dimension (e.g., both include a factor of 8).",
+    "response": "Factor out the common dimension and compare the remaining products to determine which volume is larger.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since both have 8, compare $23 \\times 12 = 276$ with $40 \\times 9 = 360$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_factor_for_partial_products",
+    "title": "Decompose Factor Using Partial Products",
+    "description": "Break apart a factor into place-value components to compute or estimate a product.",
+    "condition": "A multi-digit multiplication expression (e.g., 600 \u00d7 340).",
+    "response": "Rewrite one factor as a sum (e.g., 340 = 300 + 40) and multiply each part, then combine results.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$600 \\times 340 = 600 \\times (300 + 40) = 600 \\times 300 + 600 \\times 40$.",
+    "notes": "Uses distributive property.",
+    "question_ids": [
+      "G5_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "determine_number_of_loads_by_volume",
+    "title": "Determine Number of Loads by Volume Comparison",
+    "description": "Determine how many equal loads are needed to fill a larger volume by comparing or dividing volumes and interpreting the result.",
+    "condition": "A smaller unit volume and a larger total volume to be filled.",
+    "response": "Divide or repeatedly compare volumes and round up to the next whole number if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If one load is $23 \\times 8 \\times 12 = 2{,}208$ ft\u00b3 and container is $40 \\times 8 \\times 9 = 2{,}880$ ft\u00b3, then $2{,}208 < 2{,}880$, so 2 loads are needed.",
+    "notes": "Requires interpreting remainder in context (cannot have fractional load).",
+    "question_ids": [
+      "G5_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "estimate_quotient_by_place_value",
+    "title": "Estimate Quotient Using Place Value",
+    "description": "Estimate a division result by reasoning about place value and nearby benchmark numbers.",
+    "condition": "A division expression with large whole numbers is given and an estimate is requested.",
+    "response": "Use place value reasoning or compatible numbers to determine the closest power-of-ten estimate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$8{,}745 \\div 3$ is about $9{,}000 \\div 3 = 3{,}000$, so the closest choice is $3{,}000$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U4_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_estimate_to_exact",
+    "title": "Evaluate Reasonableness Using Estimation",
+    "description": "Use estimation to determine whether a claimed product is reasonable.",
+    "condition": "Given a multiplication expression and an estimated or claimed product",
+    "response": "Round one or both factors, compute an approximate product, and compare to the claim",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To evaluate $257 \\times 63 \\approx 1,500$, round to $200 \\times 60 = 12,000$, which is far greater than $1,500$, so the claim is unreasonable.",
+    "notes": "Focuses on place-value reasoning when estimating.",
+    "question_ids": [
+      "G5_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "apply_long_division_algorithm",
+    "title": "Execute Standard Long Division Algorithm",
+    "description": "Carry out the standard long division steps: divide, multiply, subtract, and bring down digits until the remainder is zero or less than the divisor.",
+    "condition": "Given a multi-digit dividend and a one- or two-digit divisor in long division format.",
+    "response": "Iteratively divide, multiply, subtract, and bring down digits to compute the quotient and remainder.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Compute $966 \\div 23$ by dividing 96 by 23 (4), subtracting $92$, bringing down 6, dividing 46 by 23 (2), yielding $42$.",
+    "notes": "Procedural fluency with multi-step division.",
+    "question_ids": [
+      "G5_U4_SB_a1_q1",
+      "G5_U4_SB_a1_q2",
+      "G5_U4_SB_a1_q42",
+      "G5_U4_a1_q4",
+      "G5_U4_a1_q45",
+      "G5_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "area_divided_by_length_equals_width",
+    "title": "Find Width from Area and Length",
+    "description": "Given the area of a rectangle and one side length, compute the unknown side by dividing area by the known length.",
+    "condition": "Area of a rectangle and one side length are given; the other side length is unknown.",
+    "response": "Divide the area by the known side length to find the missing side length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the area is $5{,}063$ square feet and the length is $61$ feet, then width $= 5{,}063 \\div 61 = 83$ feet.",
+    "notes": "Uses the model $A = l \\times w$.",
+    "question_ids": [
+      "G5_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "interpret_quotient_as_whole_number",
+    "title": "Interpret Exact Quotient",
+    "description": "Recognize when division results in no remainder and state the quotient as a whole number.",
+    "condition": "After completing division where the remainder equals 0.",
+    "response": "State the quotient as the final answer with no remainder.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Since $966 \\div 23 = 42$ with remainder $0$, the value is $42$.",
+    "notes": "Focuses on meaning of remainder 0.",
+    "question_ids": [
+      "G5_U4_SB_a1_q1",
+      "G5_U4_SB_a1_q42"
+    ]
+  },
+  {
+    "kc_id": "remainder_interpretation",
+    "title": "Interpret Remainder in Division",
+    "description": "Recognize and state the remainder when a dividend is not evenly divisible by the divisor.",
+    "condition": "A division calculation results in a nonzero remainder.",
+    "response": "State the quotient with the remainder or interpret the leftover amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$8{,}642 \\div 24 = 360$ remainder $2$ because $24 \\times 360 = 8{,}640$ and $8{,}642 - 8{,}640 = 2$.",
+    "notes": "Rationale marked No because remainder notation is conventional.",
+    "question_ids": [
+      "G5_U4_a1_q45"
+    ]
+  },
+  {
+    "kc_id": "relate_multiplication_and_division",
+    "title": "Inverse Relationship of Multiplication and Division",
+    "description": "Understand that division can be used to undo multiplication and verify quotients.",
+    "condition": "Given a division expression or a multiplication equation with a missing factor.",
+    "response": "Use multiplication to check division or division to find a missing factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $23 \\times 42 = 966$, it follows that $966 \\div 23 = 42$.",
+    "notes": "Central conceptual goal of the assessment.",
+    "question_ids": [
+      "G5_U4_SB_a1_q1",
+      "G5_U4_SB_a1_q2",
+      "G5_U4_SB_a1_q42",
+      "G5_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_ones_place_first",
+    "title": "Multiply by Ones Digit First",
+    "description": "In the standard algorithm, begin multiplication with the ones digit of the multiplier.",
+    "condition": "Given a vertical multi-digit multiplication problem using the standard algorithm",
+    "response": "Multiply the entire top number by the ones digit of the bottom number first",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "For $359 \\times 63$, first multiply $359 \\times 3$ before multiplying by $6$ (which represents $60$).",
+    "notes": "Procedural convention of the standard U.S. algorithm.",
+    "question_ids": [
+      "G5_U4_SA_a1_q1",
+      "G5_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_by_tens_place",
+    "title": "Multiply by Tens Digit (Shift Left)",
+    "description": "When multiplying by a tens digit, shift the partial product one place to the left (or append a zero) to reflect place value.",
+    "condition": "In the standard algorithm, multiplying a multi-digit number by the tens digit of the multiplier",
+    "response": "Write the partial product starting in the tens place (or append one zero)",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $628 \\times 25$, when multiplying by $2$ (which represents $20$), compute $628 \\times 20 = 12,560$, writing the product shifted one place left.",
+    "notes": "Connects digit position to value (e.g., 2 in 25 represents 20).",
+    "question_ids": [
+      "G5_U4_SA_a1_q1",
+      "G5_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_multi_digit_standard_algorithm",
+    "title": "Multiply Multi-Digit Numbers",
+    "description": "Use the standard algorithm or partial products to multiply multi-digit whole numbers.",
+    "condition": "Two multi-digit whole numbers are given to be multiplied.",
+    "response": "Compute the product using place value and multiplication steps.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$213 \\times 54 = 11{,}502$ using partial products: $213 \\times 50 + 213 \\times 4$.",
+    "notes": "Includes regrouping and place-value alignment.",
+    "question_ids": [
+      "G5_U4_SB_a1_q2",
+      "G5_U4_a1_q1",
+      "G5_U4_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compute_single_digit_product_with_carry",
+    "title": "Multiply Single Digits with Regrouping",
+    "description": "Multiply two digits and regroup (carry) when the product is 10 or greater.",
+    "condition": "Multiplying two base-10 digits where the product is 10 or more",
+    "response": "Write the ones digit and carry the tens digit to the next place",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "When multiplying $8 \\times 5 = 40$, write $0$ in the ones place and carry $4$ to the tens place.",
+    "notes": "Relies on place-value structure of base-10 system.",
+    "question_ids": [
+      "G5_U4_SA_a1_q1",
+      "G5_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "round_numbers_for_estimation",
+    "title": "Round Numbers to Estimate Products",
+    "description": "Round factors to nearby friendly numbers to estimate a product for reasoning or comparison.",
+    "condition": "A multiplication situation where an estimate is sufficient.",
+    "response": "Round one or more factors to convenient values and multiply to estimate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "South Dakota is about $600 \\times 300 = 180{,}000$, so $200{,}000$ is a reasonable estimate.",
+    "notes": "",
+    "question_ids": [
+      "G5_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "divide_to_find_missing_factor",
+    "title": "Use Division to Find a Missing Factor",
+    "description": "Find an unknown factor by dividing the product by the known factor(s).",
+    "condition": "Given a multiplication equation with one unknown factor (e.g., $a \\times b = c$) and values for $b$ and $c$.",
+    "response": "Compute $a = c \\div b$ (or divide by the product of known factors).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $14 \\times 7 \\times w = 1{,}176$, first compute $14 \\times 7 = 98$, then $w = 1{,}176 \\div 98 = 12$.",
+    "notes": "Relies on inverse relationship between multiplication and division.",
+    "question_ids": [
+      "G5_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "partial_quotients_strategy",
+    "title": "Use Partial Quotients Strategy",
+    "description": "Decompose the dividend using large, convenient multiples of the divisor and sum the partial quotients.",
+    "condition": "Given a division problem where the divisor can be multiplied by place-value-friendly numbers (e.g., tens).",
+    "response": "Subtract large multiples of the divisor successively and add the partial quotients.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "For $966 \\div 23$: subtract $23 \\times 20 = 460$ twice (total 40), then $23 \\times 2 = 46$, giving $42$.",
+    "notes": "Alternative to standard algorithm.",
+    "question_ids": [
+      "G5_U4_SB_a1_q42"
+    ]
+  },
+  {
+    "kc_id": "compute_rectangular_prism_volume",
+    "title": "Volume of a Rectangular Prism",
+    "description": "Use the formula for volume of a rectangular prism as the product of its three dimensions.",
+    "condition": "Given length, width, and height of a rectangular prism.",
+    "response": "Compute volume using $V = l \\times w \\times h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $l=14$, $w=12$, $h=7$, then $V = 14 \\times 12 \\times 7 = 1{,}176$.",
+    "notes": "Foundational volume formula.",
+    "question_ids": [
+      "G5_U4_SB_a1_q2",
+      "G5_U4_SC_a1_q2",
+      "G5_U4_a1_q6"
+    ]
+  }
+]

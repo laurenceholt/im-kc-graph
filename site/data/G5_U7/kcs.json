@@ -1,0 +1,388 @@
+[
+  {
+    "kc_id": "classify_parallelogram_by_parallel_sides",
+    "title": "Classify Parallelogram by Parallel Sides",
+    "description": "Determine that a quadrilateral is a parallelogram if both pairs of opposite sides are parallel.",
+    "condition": "A quadrilateral with both pairs of opposite sides parallel (e.g., same direction or slope on a grid).",
+    "response": "Conclude the quadrilateral is a parallelogram.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If \\(AB \\parallel CD\\) and \\(AD \\parallel BC\\), then \\(ABCD\\) is a parallelogram.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q1",
+      "G5_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "classify_rectangle_by_right_angles",
+    "title": "Classify Rectangle by Right Angles",
+    "description": "Identify a quadrilateral as a rectangle if it has four right angles.",
+    "condition": "A quadrilateral with four right angles.",
+    "response": "Conclude the quadrilateral is a rectangle.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If all four angles measure \\(90^\\circ\\), then the quadrilateral is a rectangle.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q1",
+      "G5_U7_a1_q2",
+      "G5_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "classify_rhombus_by_equal_sides",
+    "title": "Classify Rhombus by Equal Sides",
+    "description": "Identify a quadrilateral as a rhombus if all four sides are equal in length.",
+    "condition": "A quadrilateral with four equal side lengths.",
+    "response": "Conclude the quadrilateral is a rhombus.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If \\(AB = BC = CD = DA\\), then the quadrilateral is a rhombus.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_a1_q4",
+      "G5_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "determine_always_sometimes_never",
+    "title": "Determine Always/Sometimes/Never Relationship",
+    "description": "Decide whether one geometric category is always, sometimes, or never another based on definitions.",
+    "condition": "A statement comparing two quadrilateral categories (e.g., rectangle and rhombus).",
+    "response": "Select 'always,' 'sometimes,' or 'never' based on definitions and counterexamples.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "A rectangle is sometimes a rhombus because a square is both a rectangle and a rhombus.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q3",
+      "G5_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compute_corresponding_value_double",
+    "title": "Find Corresponding Value by Doubling",
+    "description": "Determine the corresponding value in one pattern when it is twice the value of another pattern.",
+    "condition": "Two corresponding pattern values where one rule adds 2 starting at 0 and the other adds 4 starting at 0 (relationship: second pattern is double the first); given a value from the first pattern.",
+    "response": "Multiply the given value by 2 to find the corresponding value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Lin's number is $26$, then Priya's number is $2 \\times 26 = 52$.",
+    "notes": "Represents functional relationship $y = 2x$.",
+    "question_ids": [
+      "G5_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_corresponding_value_half",
+    "title": "Find Corresponding Value by Halving",
+    "description": "Determine the corresponding value in one pattern when it is half the value of another pattern.",
+    "condition": "Two corresponding pattern values where one pattern is double the other; given a value from the larger (double) pattern.",
+    "response": "Divide the given value by 2 to find the corresponding value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Priya's number is $240$, then Lin's number is $240 \\div 2 = 120$.",
+    "notes": "Inverse relationship of doubling.",
+    "question_ids": [
+      "G5_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "classify_right_triangle",
+    "title": "Identify a Right Triangle",
+    "description": "Recognize that a triangle with one $90^\\circ$ angle is a right triangle.",
+    "condition": "A triangle has one angle measuring $90^\\circ$.",
+    "response": "Classify the triangle as a right triangle.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If triangle $ABC$ has $\\angle A = 90^\\circ$, then it is a right triangle.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "classify_trapezoid",
+    "title": "Identify a Trapezoid",
+    "description": "Recognize that a quadrilateral with at least one pair of parallel sides is a trapezoid.",
+    "condition": "A quadrilateral has at least one pair of parallel sides.",
+    "response": "Classify the quadrilateral as a trapezoid.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If quadrilateral $ABCD$ has $AB \\parallel CD$, then it is a trapezoid.",
+    "notes": "Uses inclusive definition of trapezoid.",
+    "question_ids": [
+      "G5_U7_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "classify_two_equal_sides_triangle",
+    "title": "Identify a Triangle with Two Equal Sides",
+    "description": "Recognize that a triangle with two equal side lengths is isosceles.",
+    "condition": "A triangle has at least two sides of equal length.",
+    "response": "Classify the triangle as having 2 equal side lengths (isosceles).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If $AB = AC$ in $\\triangle ABC$, then it has two equal side lengths (isosceles).",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_point_coordinates_from_grid",
+    "title": "Identify Coordinates from Grid",
+    "description": "Read and state the ordered pair of a plotted point by counting horizontal and vertical distances from the origin.",
+    "condition": "A point plotted on a coordinate grid.",
+    "response": "State its coordinates as \\((x, y)\\) with horizontal value first and vertical value second.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "If a point is 3 units right and 8 units up, its coordinates are \\((3, 8)\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SA_a1_q1",
+      "G5_U7_a1_q1",
+      "G5_U7_a1_q6",
+      "G5_U7_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "classify_horizontal_line_same_y",
+    "title": "Identify Horizontal Line from Equal y-Coordinates",
+    "description": "Determine that a set of points lies on a horizontal line when all points share the same y-coordinate.",
+    "condition": "Given two or more ordered pairs where the y-values are identical and the x-values may differ.",
+    "response": "State that the points lie on a horizontal line.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Points $(1,5), (2,5), (3,5)$ all have $y=5$, so they lie on a horizontal line.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_multiplicative_relationship_patterns",
+    "title": "Identify Multiplicative Relationship Between Patterns",
+    "description": "Recognize that corresponding terms in two additive patterns form a multiplicative relationship.",
+    "condition": "Given two number patterns starting at 0, one increasing by 2 and one increasing by 4, with aligned terms.",
+    "response": "State that one pattern's terms are twice (or half) the corresponding terms of the other.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Comparing $(0,0), (2,4), (4,8)$ shows that each Priya value equals $2 \\times$ the Lin value.",
+    "notes": "Generalizes from repeated additive structure.",
+    "question_ids": [
+      "G5_U7_SC_a1_q1",
+      "G5_U7_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "classify_neither_line",
+    "title": "Identify Neither Horizontal Nor Vertical",
+    "description": "Determine that a set of points does not lie on a single horizontal or vertical line when neither all x-values nor all y-values are equal.",
+    "condition": "Given two or more ordered pairs where the x-values are not all equal and the y-values are not all equal.",
+    "response": "State that the points lie on neither a horizontal nor a vertical line.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Points $(1,1), (2,2), (3,3)$ do not share the same $x$ or the same $y$, so they lie on neither a horizontal nor a vertical line.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "classify_vertical_line_same_x",
+    "title": "Identify Vertical Line from Equal x-Coordinates",
+    "description": "Determine that a set of points lies on a vertical line when all points share the same x-coordinate.",
+    "condition": "Given two or more ordered pairs where the x-values are identical and the y-values may differ.",
+    "response": "State that the points lie on a vertical line.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Points $(4,1), (4,3), (4,8)$ all have $x=4$, so they lie on a vertical line.",
+    "notes": "Not explicitly used in provided sets but required to evaluate all cases.",
+    "question_ids": [
+      "G5_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_axes_as_quantities",
+    "title": "Interpret Axes as Quantities",
+    "description": "Interpret the meaning of x- and y-coordinates in context based on axis labels.",
+    "condition": "A coordinate graph with labeled horizontal and vertical axes representing quantities.",
+    "response": "Associate the x-coordinate with the horizontal quantity and the y-coordinate with the vertical quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "If the horizontal axis is 'number of pencils' and the vertical axis is 'number of pens,' then point \\((7,3)\\) represents 7 pencils and 3 pens.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "interpret_point_context",
+    "title": "Interpret Coordinate Point in Context",
+    "description": "Interpret a plotted point on a coordinate grid using axis labels and units.",
+    "condition": "Given a labeled point on a coordinate grid with x-axis representing age (years) and y-axis representing height (inches).",
+    "response": "State the ordered pair meaning in context (age, height).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Point $S$ at $(1, 30)$ means the child is 1 year old and 30 inches tall.",
+    "notes": "Relies on convention that x-coordinate is horizontal axis and y-coordinate is vertical axis.",
+    "question_ids": [
+      "G5_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_ordered_pair_structure",
+    "title": "Interpret Ordered Pair as (x, y)",
+    "description": "Understand that in an ordered pair (x, y), the first value represents horizontal position (x-coordinate) and the second represents vertical position (y-coordinate).",
+    "condition": "Given an ordered pair written in the form (a, b).",
+    "response": "Identify a as the x-coordinate (horizontal) and b as the y-coordinate (vertical).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "In $(2,8)$, $2$ is the x-coordinate and $8$ is the y-coordinate.",
+    "notes": "Convention of coordinate notation.",
+    "question_ids": [
+      "G5_U7_SA_a1_q1",
+      "G5_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "plot_ordered_pairs_from_table",
+    "title": "Plot Ordered Pairs from Table",
+    "description": "Translate paired numerical data from a table into plotted points on a coordinate grid.",
+    "condition": "Given a table of corresponding values for two variables.",
+    "response": "Form ordered pairs and plot each pair on the coordinate grid.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From the table, plot $(0,0), (2,4), (4,8), (6,12), (8,16), (10,20)$.",
+    "notes": "Requires coordinating table columns with x- and y-axes.",
+    "question_ids": [
+      "G5_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "locate_point_from_ordered_pair",
+    "title": "Plot Point from Ordered Pair",
+    "description": "Plot a point on the coordinate grid by moving horizontally to the x-value and vertically to the y-value.",
+    "condition": "Given an ordered pair (x, y) and a coordinate grid.",
+    "response": "Move to x on the horizontal axis, then to y vertically, and mark the point.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "To plot $(3,0)$, move 3 units right along the x-axis and 0 units up, marking the point at $(3,0)$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SA_a1_q1",
+      "G5_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_multiple_classification",
+    "title": "Recognize Multiple Valid Classifications",
+    "description": "Understand that a single shape can belong to more than one category if it satisfies multiple definitions.",
+    "condition": "A shape satisfies the defining attributes of more than one category.",
+    "response": "Select or state all applicable classifications.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "A rectangle with opposite sides parallel is both a rectangle and a parallelogram.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q1",
+      "G5_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_origin_coordinates",
+    "title": "Recognize Origin as (0,0)",
+    "description": "Identify that the point where the horizontal and vertical axes intersect is the origin with coordinates (0,0).",
+    "condition": "The intersection point of the x-axis and y-axis on a coordinate grid.",
+    "response": "State the coordinates as (0,0).",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "The origin is \\((0,0)\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "identify_square_as_quadrilateral",
+    "title": "Square Is a Quadrilateral",
+    "description": "Recognize that all squares belong to the broader category of quadrilaterals because they have four sides.",
+    "condition": "A shape is defined as a square.",
+    "response": "Conclude it is always a quadrilateral.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "A square has four sides, so it is always a quadrilateral.",
+    "notes": "",
+    "question_ids": [
+      "G5_U7_SB_a1_q3"
+    ]
+  }
+]

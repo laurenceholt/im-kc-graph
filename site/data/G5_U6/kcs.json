@@ -1,0 +1,356 @@
+[
+  {
+    "kc_id": "add_fractions_common_denominator",
+    "title": "Add Fractions Using a Common Denominator",
+    "description": "To add two fractions, rewrite them with a common denominator, then add the numerators and keep the denominator.",
+    "condition": "Expression of the form a/b + c/d where denominators may differ.",
+    "response": "Rewrite with common denominator bd (or LCM), compute (ad + bc)/bd, and simplify if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\( \\frac{7}{4} + \\frac{3}{5} = \\frac{35}{20} + \\frac{12}{20} = \\frac{47}{20} \\)",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "add_or_subtract_whole_and_fraction_parts",
+    "title": "Add or Subtract Mixed Numbers by Parts",
+    "description": "Add or subtract mixed numbers by operating on whole-number parts and fractional parts (after ensuring common denominators).",
+    "condition": "Two mixed numbers with like denominators or already rewritten with a common denominator are being added or subtracted.",
+    "response": "Add or subtract the whole numbers and the fractional parts separately, then combine into a single mixed number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$2\\tfrac{11}{12} - 1\\tfrac{3}{12} = (2-1) + \\left(\\tfrac{11}{12}-\\tfrac{3}{12}\\right) = 1\\tfrac{8}{12}$",
+    "notes": "Requires prior creation of equivalent fractions when denominators differ.",
+    "question_ids": [
+      "G5_U6_SB_a1_q1",
+      "G5_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_fraction_to_one",
+    "title": "Compare Fraction to 1",
+    "description": "Determine whether a fraction is less than, equal to, or greater than 1 by comparing numerator and denominator.",
+    "condition": "Fraction a/b with positive integers a and b.",
+    "response": "State that the fraction is <1 if a<b, =1 if a=b, and >1 if a>b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since \\(\\frac{5}{4}\\) has numerator greater than denominator, \\(\\frac{5}{4} > 1\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_SC_a1_q1",
+      "G5_U6_SC_a1_q2",
+      "G5_U6_a1_q3",
+      "G5_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compare_fraction_to_threshold",
+    "title": "Compare Fractional Value to Given Benchmark",
+    "description": "Determine whether a fraction or mixed number is greater than a specified benchmark value.",
+    "condition": "Given a fraction or mixed number and a benchmark value (e.g., $1\\tfrac{1}{2}$).",
+    "response": "Determine if the fraction is greater than the benchmark by comparing values (using common denominators, number line, or reasoning).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $1\\tfrac{5}{8}$ and $1\\tfrac{1}{2} = 1\\tfrac{4}{8}$; since $5/8 > 4/8$, $1\\tfrac{5}{8} > 1\\tfrac{1}{2}$.",
+    "notes": "Used to decide which data points exceed a threshold on the line plot.",
+    "question_ids": [
+      "G5_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_product_to_original_using_fraction_size",
+    "title": "Compare Product to Original Using Fraction Size",
+    "description": "Determine whether a product is greater than, equal to, or less than the original number based on whether the fraction multiplier is greater than 1, equal to 1, or less than 1.",
+    "condition": "Expression of the form a \u00d7 b where a is a positive number and b is a fraction; need to compare a \u00d7 b to a.",
+    "response": "If b > 1, conclude a \u00d7 b > a; if b = 1, conclude a \u00d7 b = a; if 0 < b < 1, conclude a \u00d7 b < a.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $\\frac{9}{7} > 1$, then $187 \\times \\frac{9}{7} > 187$.",
+    "notes": "Assumes positive whole numbers and positive fractions.",
+    "question_ids": [
+      "G5_U6_SC_a1_q1",
+      "G5_U6_SC_a1_q2",
+      "G5_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "convert_kilometers_to_meters",
+    "title": "Convert Kilometers to Meters",
+    "description": "Convert a measurement from kilometers to meters by multiplying by 1,000.",
+    "condition": "Given a measurement in kilometers.",
+    "response": "Multiply by 1,000 to express the measurement in meters.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$1.7 \\times 1000 = 1700$ meters.",
+    "notes": "Uses 1 km = 1,000 m and place value reasoning.",
+    "question_ids": [
+      "G5_U6_SA_a1_q1",
+      "G5_U6_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "convert_kilometers_to_millimeters",
+    "title": "Convert Kilometers to Millimeters",
+    "description": "Convert kilometers to millimeters using metric place-value relationships.",
+    "condition": "Given 1 kilometer and asked for number of millimeters.",
+    "response": "Use 1 km = 1000 m and 1 m = 1000 mm to compute 1,000,000 mm (10^6).",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(1\\text{ km} = 1000\\text{ m} = 1000 \\times 1000 = 1{,}000{,}000\\text{ mm} = 10^6\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_meters_to_centimeters",
+    "title": "Convert Meters to Centimeters",
+    "description": "Convert a measurement from meters to centimeters by multiplying by 100.",
+    "condition": "Given a measurement in meters.",
+    "response": "Multiply by 100 to express the measurement in centimeters.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$23 \\times 100 = 2300$ centimeters.",
+    "notes": "Uses 1 m = 100 cm.",
+    "question_ids": [
+      "G5_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_milliliters_to_liters",
+    "title": "Convert Milliliters to Liters",
+    "description": "Convert a quantity in milliliters to liters using the factor 1,000 milliliters per liter.",
+    "condition": "Quantity given in milliliters.",
+    "response": "Divide the number of milliliters by 1,000 to express in liters.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(2250\\text{ mL} \\div 1000 = 2.25\\text{ L}\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "count_data_points_meeting_condition",
+    "title": "Count Data Points Meeting a Condition",
+    "description": "Count the number of data points on a line plot that satisfy a specified condition.",
+    "condition": "A line plot is given and a condition such as \"greater than $1\\tfrac{1}{2}$\" is specified.",
+    "response": "Count all marks on the line plot whose values satisfy the condition.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If six X's lie to the right of $1\\tfrac{1}{2}$ on the number line, then the answer is 6 days.",
+    "notes": "Requires accurate reading of tick marks and fractional intervals.",
+    "question_ids": [
+      "G5_U6_SB_a1_q3",
+      "G5_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "evaluate_power_of_ten",
+    "title": "Evaluate Power of Ten",
+    "description": "Interpret and compute a power of 10 as a 1 followed by a specific number of zeros.",
+    "condition": "Given an expression of the form $10^n$.",
+    "response": "Write the equivalent whole number with n zeros (e.g., $10^8 = 100{,}000{,}000$).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$10^8 = 100{,}000{,}000$.",
+    "notes": "Connects exponents to place value structure.",
+    "question_ids": [
+      "G5_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_equivalent_fraction_by_multiplying_by_one",
+    "title": "Generate Equivalent Fraction by Multiplying by 1",
+    "description": "Create an equivalent fraction by multiplying numerator and denominator by the same nonzero number.",
+    "condition": "Fraction a/b and integer n \u2260 0.",
+    "response": "Compute (a\u00d7n)/(b\u00d7n) to form an equivalent fraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(\\frac{7}{10} \\times \\frac{41}{41} = \\frac{287}{410}\\), an equivalent fraction.",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_SB_a1_q1",
+      "G5_U6_SB_a1_q2",
+      "G5_U6_a1_q2",
+      "G5_U6_a1_q4",
+      "G5_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_equivalent_numerical_representations",
+    "title": "Identify Equivalent Numerical Representations",
+    "description": "Determine which expressions represent the same numerical value.",
+    "condition": "Given multiple numerical expressions and a target number.",
+    "response": "Select all expressions that are equal in value to the target number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $10^8 = 100{,}000{,}000$ and 100 million = 100,000,000, both are equivalent representations.",
+    "notes": "Requires evaluating and comparing forms (expanded, word form, exponential).",
+    "question_ids": [
+      "G5_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_extreme_values_on_line_plot",
+    "title": "Identify Greatest and Least Values on Line Plot",
+    "description": "Determine the maximum and minimum data values represented on a line plot.",
+    "condition": "A line plot displays data points along a number line.",
+    "response": "Locate the leftmost (least) and rightmost (greatest) data points and state their values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the leftmost X is at $\\tfrac{3}{8}$ and the rightmost X is at $2\\tfrac{7}{8}$, these are the least and greatest values.",
+    "notes": "Precursor step to finding the difference between extremes.",
+    "question_ids": [
+      "G5_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "interpret_fractional_scale_on_number_line",
+    "title": "Interpret Fractional Scale on Number Line",
+    "description": "Recognize and use fractional subdivisions (e.g., eighths) between labeled whole numbers on a number line.",
+    "condition": "Number line with whole numbers labeled and equal fractional tick marks between them.",
+    "response": "Determine the fractional value represented by each tick (e.g., each tick is 1/8).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 8 equal intervals between 3 and 4, each tick represents \\(\\frac{1}{8}\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "interpret_place_value_word_form",
+    "title": "Interpret Word Form with Place Value Units",
+    "description": "Convert between word form using units (e.g., million, thousand) and standard numerical form.",
+    "condition": "Given a number written in word form with place value units (e.g., '100 million').",
+    "response": "Write the equivalent standard numeral.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "100 million = $100 \\times 1{,}000{,}000 = 100{,}000{,}000$.",
+    "notes": "Relies on knowledge that 1 million = 1,000,000 (conventional place value naming).",
+    "question_ids": [
+      "G5_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_product_multi_digit_whole",
+    "title": "Multiply Multi-Digit Whole Numbers",
+    "description": "Compute the product of two whole numbers using standard or decomposed multiplication.",
+    "condition": "Given two whole numbers (e.g., 325 and 12) that must be combined multiplicatively.",
+    "response": "Calculate their product (e.g., 325 \u00d7 12 = 3,900).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Compute $325 \\times 12 = 325 \\times (10 + 2) = 3250 + 650 = 3900$.",
+    "notes": "Procedural fluency in multi-digit multiplication.",
+    "question_ids": [
+      "G5_U6_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "multiply_whole_number_by_fraction_or_whole",
+    "title": "Multiply Whole Number by Fraction or Whole",
+    "description": "Compute the product of a whole number and another whole number or fraction.",
+    "condition": "Expression of the form n \u00d7 a/b or n \u00d7 k where n is a whole number.",
+    "response": "Multiply n by the numerator and keep denominator (if any), simplifying if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(9 \\times 250 = 2250\\).",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "find_difference_of_fractions",
+    "title": "Subtract Fractions to Find Difference",
+    "description": "Compute the difference between two fractions or mixed numbers to determine how much greater one value is than another.",
+    "condition": "Two fractional quantities are compared and the question asks how much more or the difference between them.",
+    "response": "Subtract the smaller quantity from the larger using common denominators and simplify if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$2\\tfrac{3}{4} - 2\\tfrac{7}{10} = 2\\tfrac{15}{20} - 2\\tfrac{14}{20} = \\tfrac{1}{20}$.",
+    "notes": "Includes identifying which quantity is greater before subtracting.",
+    "question_ids": [
+      "G5_U6_SB_a1_q1",
+      "G5_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_fractions_common_denominator",
+    "title": "Subtract Fractions Using a Common Denominator",
+    "description": "To subtract two fractions, rewrite them with a common denominator, then subtract numerators.",
+    "condition": "Expression of the form a/b \u2212 c/d.",
+    "response": "Rewrite with common denominator and compute (ad \u2212 bc)/bd, simplifying if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\( \\frac{3}{4} - \\frac{2}{5} = \\frac{15}{20} - \\frac{8}{20} = \\frac{7}{20} \\)",
+    "notes": "",
+    "question_ids": [
+      "G5_U6_a1_q4",
+      "G5_U6_a1_q7"
+    ]
+  }
+]

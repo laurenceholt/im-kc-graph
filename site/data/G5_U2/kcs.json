@@ -1,0 +1,316 @@
+[
+  {
+    "kc_id": "compute_whole_division_as_fraction",
+    "title": "Compute Whole Number Division as Fraction",
+    "description": "Divide a whole number by a whole number and express the result as a fraction.",
+    "condition": "Expression of the form a \u00f7 b where a and b are whole numbers and the quotient is not a whole number.",
+    "response": "Write the result as the fraction a/b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compute $3 \\div 5 = \\frac{3}{5}$.",
+    "notes": "Relies on understanding division as forming a fraction.",
+    "question_ids": [
+      "G5_U2_SA_a1_q1",
+      "G5_U2_SA_a1_q2",
+      "G5_U2_SA_a1_q3",
+      "G5_U2_a1_q4",
+      "G5_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "convert_improper_to_mixed",
+    "title": "Convert Improper Fraction to Mixed Number",
+    "description": "Convert an improper fraction to an equivalent mixed number by dividing the numerator by the denominator.",
+    "condition": "Improper fraction a/b where a > b.",
+    "response": "Divide a by b to get whole number q and remainder r; write q r/b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Convert $\\frac{14}{3}$: $14 \\div 3 = 4$ remainder $2$, so $\\frac{14}{3} = 4\\frac{2}{3}$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U2_a1_q4",
+      "G5_U2_a1_q5",
+      "G5_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "convert_mixed_to_improper",
+    "title": "Convert Mixed Number to Improper Fraction",
+    "description": "Rewrite a mixed number as an improper fraction before multiplication.",
+    "condition": "A mixed number (e.g., $a \\frac{b}{c}$) appears as a factor in multiplication.",
+    "response": "Convert to improper fraction using $a \\frac{b}{c} = \\frac{ac+b}{c}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$5\\frac{2}{3} = \\frac{5\\cdot3+2}{3} = \\frac{17}{3}$.",
+    "notes": "Alternative strategy is distributive property (see separate KC).",
+    "question_ids": [
+      "G5_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "count_equal_fraction_parts_area",
+    "title": "Count Equal Fractional Parts for Area",
+    "description": "Find total area by counting equal shaded parts and multiplying by the unit fraction each part represents.",
+    "condition": "Region partitioned into equal fractional parts with some number shaded.",
+    "response": "Multiply number of shaded parts by the fraction represented by each part.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 8 parts are shaded and each is $\\frac{1}{5}$ square unit, area $= 8 \\times \\frac{1}{5} = \\frac{8}{5}$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_division_as_equal_shares",
+    "title": "Interpret Division as Equal Shares",
+    "description": "Interpret a \u00f7 b as dividing a whole into b equal parts.",
+    "condition": "Expression of the form a \u00f7 b with whole numbers.",
+    "response": "Represent as a wholes partitioned into b equal shares each.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$3 \\div 5$ means 3 wholes split into 5 equal parts each.",
+    "notes": "Conceptual interpretation of division.",
+    "question_ids": [
+      "G5_U2_SA_a1_q1",
+      "G5_U2_SB_a1_q1",
+      "G5_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_fraction_as_division",
+    "title": "Interpret Fraction as Division",
+    "description": "Explain that a fraction a/b represents the division of a by b.",
+    "condition": "A fraction written in the form a/b.",
+    "response": "State that it represents a \u00f7 b and justify using equal shares or partitioning.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{10}{4}$ means $10 \\div 4$, or 10 items split into 4 equal groups.",
+    "notes": "Central conceptual link between fractions and division.",
+    "question_ids": [
+      "G5_U2_SA_a1_q3",
+      "G5_U2_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_fraction_as_equal_parts",
+    "title": "Interpret Fraction as Equal Parts of a Whole",
+    "description": "Recognize that 1/n represents one of n equal parts of a whole.",
+    "condition": "Fraction of the form 1/n.",
+    "response": "State that it represents one of n equal parts of a whole.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "$\\frac{1}{3}$ means one of 3 equal parts.",
+    "notes": "Foundational fraction concept.",
+    "question_ids": [
+      "G5_U2_SB_a1_q1",
+      "G5_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_area_as_side_product",
+    "title": "Interpret Rectangle Area as Product of Side Lengths",
+    "description": "Represent the area of a rectangle as the product of its side lengths, including fractional side lengths.",
+    "condition": "Rectangle with side lengths given (whole and/or fractional).",
+    "response": "Multiply the side lengths to compute area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A rectangle 4 units by $\\frac{2}{5}$ units has area $4 \\times \\frac{2}{5} = \\frac{8}{5}$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U2_SC_a1_q2",
+      "G5_U2_a1_q1",
+      "G5_U2_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "read_tape_diagram_division_structure",
+    "title": "Interpret Tape Diagram for Division",
+    "description": "Identify the total number of wholes and the number of equal partitions in a tape diagram.",
+    "condition": "A tape diagram showing several whole units, each partitioned into equal parts.",
+    "response": "Determine the total number of wholes (dividend) and the number of equal parts per whole (divisor).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "A diagram with 4 wholes each split into 3 equal parts represents 4 \u00f7 3.",
+    "notes": "Requires visual parsing of diagram structure.",
+    "question_ids": [
+      "G5_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_whole_by_fraction",
+    "title": "Multiply Whole Number by Fraction",
+    "description": "Multiply a whole number by a fraction by multiplying the whole number by the numerator and dividing by the denominator.",
+    "condition": "Expression of the form N \\u00d7 a/b.",
+    "response": "Compute (N \\u00d7 a)/b and simplify if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$6 \\times \\frac{2}{5} = \\frac{12}{5} = 2\\frac{2}{5}$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U2_SB_a1_q1",
+      "G5_U2_SB_a1_q2",
+      "G5_U2_SC_a1_q2",
+      "G5_U2_SC_a1_q3",
+      "G5_U2_a1_q3",
+      "G5_U2_a1_q5",
+      "G5_U2_a1_q6",
+      "G5_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "represent_groups_with_multiplication",
+    "title": "Represent Equal Groups with Multiplication",
+    "description": "Express repeated equal groups as a multiplication expression.",
+    "condition": "Situation describing g equal groups of size s.",
+    "response": "Write multiplication expression g \u00d7 s.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "4 groups of $\\frac{2}{3}$ is $4 \\times \\frac{2}{3}$.",
+    "notes": "Connects visual groups to symbolic multiplication.",
+    "question_ids": [
+      "G5_U2_SB_a1_q1",
+      "G5_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "rewrite_mixed_as_whole_plus_fraction",
+    "title": "Rewrite Mixed Number as Whole Plus Fraction",
+    "description": "Decompose a mixed number into the sum of its whole-number part and fractional part.",
+    "condition": "Mixed number of the form w a/b.",
+    "response": "Rewrite as w + a/b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$3\\frac{2}{5} = 3 + \\frac{2}{5}$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "select_equivalent_area_expression",
+    "title": "Select Expression Equivalent to Area Representation",
+    "description": "Determine which numerical expressions are equivalent to a given area model or context.",
+    "condition": "Multiple candidate expressions representing the same shaded area or situation.",
+    "response": "Identify all expressions that evaluate to the same quantity as the model.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If area is $\\frac{11}{4} \\times 5$, equivalent forms include $(5 \\times 3) + (5 \\times \\frac{2}{5})$ when they evaluate to the same total.",
+    "notes": "General equivalence reasoning across forms.",
+    "question_ids": [
+      "G5_U2_a1_q2",
+      "G5_U2_a1_q4",
+      "G5_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "simplify_fraction_or_mixed",
+    "title": "Simplify or Rewrite Fraction Result",
+    "description": "Rewrite an improper fraction as a mixed number or simplify to an equivalent fraction.",
+    "condition": "A fraction result that can be simplified or written as a mixed number.",
+    "response": "Divide numerator by denominator to form a mixed number or reduce by common factors.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{10}{5} = 2$ and $\\frac{68}{3} = 22\\frac{2}{3}$.",
+    "notes": "Equivalent answers (improper fraction or mixed number) are acceptable.",
+    "question_ids": [
+      "G5_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "translate_diagram_to_expression",
+    "title": "Translate Area Model to Numerical Expression",
+    "description": "Match shaded equal parts in a diagram to a corresponding multiplication or division expression.",
+    "condition": "Area model with wholes partitioned into equal parts and some parts shaded.",
+    "response": "Write an expression (e.g., a \u00f7 b, a \u00d7 1/n, or g \u00d7 b/c) that represents the shaded quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Three rectangles each with $\\frac{1}{5}$ shaded \u2192 $3 \\times \\frac{1}{5}$.",
+    "notes": "Requires coordinating visual partitions with symbolic structure.",
+    "question_ids": [
+      "G5_U2_SB_a1_q1",
+      "G5_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_distributive_property_fraction",
+    "title": "Use Distributive Property with Fractions",
+    "description": "Apply the distributive property to multiply a whole number by a mixed number or sum involving a fraction.",
+    "condition": "Expression of the form N \\u00d7 (a + b) where a or b may be fractional.",
+    "response": "Compute N\\u00d7a + N\\u00d7b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$5 \\times 3\\frac{2}{5} = 5 \\times (3 + \\frac{2}{5}) = 15 + 2 = 17$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U2_SC_a1_q3",
+      "G5_U2_a1_q5",
+      "G5_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "write_division_equation_from_diagram",
+    "title": "Write Division Equation from Diagram",
+    "description": "Construct a matching division equation based on a visual model.",
+    "condition": "A visual model (e.g., tape diagram) showing a total number of wholes partitioned equally.",
+    "response": "Write the corresponding division equation dividend \u00f7 divisor = quotient.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 4 wholes are each divided into 3 equal parts, write $4 \\div 3 = \\frac{4}{3}$.",
+    "notes": "Builds on correctly identifying diagram components.",
+    "question_ids": [
+      "G5_U2_SA_a1_q2"
+    ]
+  }
+]

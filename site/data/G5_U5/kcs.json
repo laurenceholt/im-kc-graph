@@ -1,0 +1,431 @@
+[
+  {
+    "kc_id": "add_decimals_align_place_values",
+    "title": "Add Decimals by Aligning Place Values",
+    "description": "Add two decimal numbers by aligning digits by place value and regrouping as needed.",
+    "condition": "Given an addition expression with two decimal numbers.",
+    "response": "Align decimal points, add digits by place value from right to left, regroup as needed, and write the sum with the decimal point aligned.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$613.5 + 7.68 = 621.18$ by aligning decimals and regrouping.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_SB_a1_q1",
+      "G5_U5_SB_a1_q2",
+      "G5_U5_a1_q4",
+      "G5_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "apply_place_value_scaling_in_product",
+    "title": "Apply Place Value Scaling in Decimal Products",
+    "description": "After multiplying whole-number equivalents, adjust the product by multiplying by powers of 0.1 to account for the decimal places in the original factors.",
+    "condition": "Multiplying decimals by first converting them to whole numbers (e.g., 0.28 = 28 \u00d7 0.01 or 2.1 = 21 \u00d7 0.1) and having computed the whole-number product.",
+    "response": "Multiply the whole-number product by the appropriate power of 0.1 (e.g., 0.01 or 0.1 \u00d7 0.1) to obtain the correct decimal product.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $0.28 = 28 \\times 0.01$ and $28 \\times 37 = 1036$, then $0.28 \\times 37 = 1036 \\times 0.01 = 10.36$.",
+    "notes": "Requires understanding of powers of ten and place value structure.",
+    "question_ids": [
+      "G5_U5_SC_a1_q2",
+      "G5_U5_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_decimals_by_place_value",
+    "title": "Compare Decimals Using Place Value",
+    "description": "Compare two decimals by examining digits from left to right (ones, tenths, hundredths, thousandths) and determine which is greater based on the first place where they differ.",
+    "condition": "Given two decimals to the thousandths place.",
+    "response": "Determine which decimal is greater or smaller by comparing corresponding place value digits from left to right.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $0.439$ and $0.441$. Ones: 0 = 0. Tenths: 4 = 4. Hundredths: 3 < 4, so $0.439 < 0.441$.",
+    "notes": "Supports ordering multiple decimals by repeated pairwise comparison.",
+    "question_ids": [
+      "G5_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "convert_decimal_to_thousandths_fraction",
+    "title": "Convert Decimal to Fraction with Denominator 1000",
+    "description": "Express a decimal to the thousandths place as a fraction with denominator 1000 by using its place value.",
+    "condition": "Given a decimal to the thousandths place.",
+    "response": "Write the decimal as an equivalent fraction over 1000.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$0.631 = \\frac{631}{1000}$ because 631 thousandths equals $\\frac{631}{1000}$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "divide_whole_by_tenth",
+    "title": "Divide by One-Tenth",
+    "description": "Recognize that dividing by 0.1 is equivalent to multiplying by 10.",
+    "condition": "Given a division expression where the divisor is 0.1.",
+    "response": "Multiply the dividend by 10 to find the quotient.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$3 \\div 0.1 = 30$ because dividing by $0.1$ multiplies by 10.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_a1_q30",
+      "G5_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "divide_decimal_by_whole_number",
+    "title": "Divide Decimal by Whole Number",
+    "description": "Compute the quotient when dividing a decimal by a whole number using place value reasoning.",
+    "condition": "Given a division expression with a decimal dividend and a whole number divisor.",
+    "response": "Divide using place value reasoning or standard algorithm to find the decimal quotient.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$0.6 \\div 4 = 0.15$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_SD_a1_q2",
+      "G5_U5_a1_q30",
+      "G5_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "decimal_place_value_identification",
+    "title": "Identify Value of a Digit in a Decimal",
+    "description": "Determine the value represented by a specific digit based on its place in a decimal number.",
+    "condition": "Given a decimal number and a specified digit within it.",
+    "response": "State or compute the value of the digit using its place value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $10.6$, the 6 represents $6 \\times 0.1 = 0.6$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "convert_decimal_to_fractional_place_value",
+    "title": "Interpret Decimal as Fractional Place Value",
+    "description": "Recognize and express a terminating decimal as a fraction with denominator 10 or 100 based on place value.",
+    "condition": "Given a terminating decimal with one or two decimal places (e.g., 0.3, 0.28, 2.1, 7.3).",
+    "response": "Express the decimal as tenths or hundredths (e.g., 0.3 = 3/10, 0.28 = 28/100, 2.1 = 21/10).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$0.3 = \\frac{3}{10}$ and $0.28 = \\frac{28}{100}$ because the digits represent tenths and hundredths.",
+    "notes": "Foundation for decimal multiplication reasoning.",
+    "question_ids": [
+      "G5_U5_SC_a1_q1",
+      "G5_U5_SC_a1_q2",
+      "G5_U5_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "place_value_as_hundredths",
+    "title": "Interpret Decimal as Hundredths",
+    "description": "Interpret a decimal to the hundredths place as a count of hundredths.",
+    "condition": "A decimal with two decimal places (e.g., 0.72) is given.",
+    "response": "Express the decimal as an equivalent number of hundredths (e.g., 72 hundredths).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$0.72 = 72/100$, or 72 hundredths.",
+    "notes": "Foundational for diagram explanations.",
+    "question_ids": [
+      "G5_U5_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_decimal_model_grid",
+    "title": "Interpret Decimal on 10\u00d710 Grid Model",
+    "description": "Determine the decimal represented by a shaded 10\u00d710 grid by counting tenths, hundredths, and thousandths.",
+    "condition": "Given a base-10 grid model with shaded parts representing tenths, hundredths, or thousandths.",
+    "response": "Count shaded units and express the total as a decimal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If 6 tenths, 3 hundredths, and 1 thousandth are shaded, the decimal is $0.631$.",
+    "notes": "Interpreting visual area models is often intuitive and procedural.",
+    "question_ids": [
+      "G5_U5_SA_a1_q1",
+      "G5_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "decimal_division_as_groups",
+    "title": "Interpret Division as Number of Groups",
+    "description": "Interpret a division expression as finding how many groups of the divisor fit into the dividend.",
+    "condition": "A division expression of the form a \u00f7 b is given.",
+    "response": "Interpret the quotient as the number of groups of size b that fit into a.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Interpret $1 \\div 0.05$ as: How many groups of $0.05$ are in $1$?",
+    "notes": "Supports diagram reasoning with unit squares.",
+    "question_ids": [
+      "G5_U5_SD_a1_q1",
+      "G5_U5_SD_a1_q20"
+    ]
+  },
+  {
+    "kc_id": "convert_word_form_thousandths",
+    "title": "Interpret Thousandths in Word Form",
+    "description": "Translate a decimal written in thousandths word form into standard decimal notation.",
+    "condition": "Given a number stated as \"___ and ___ thousandths.\"",
+    "response": "Write the decimal with three digits to the right of the decimal point representing thousandths.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\"twelve and eighty-five thousandths\" = $12.085$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_decimals_place_value",
+    "title": "Multiply Decimals Using Place Value",
+    "description": "Multiply decimal numbers by multiplying as whole numbers and placing the decimal based on total decimal places or by interpreting as fractions.",
+    "condition": "Given a multiplication expression involving decimals.",
+    "response": "Multiply the factors and place the decimal correctly based on place value reasoning.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$1.6 \\times 0.7 = 1.12$ because $16 \\times 7 = 112$ and there are two decimal places total.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_a1_q6",
+      "G5_U5_a1_q7",
+      "G5_U5_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "multiply_whole_numbers_standard",
+    "title": "Multiply Whole Numbers",
+    "description": "Compute the product of two whole numbers using a standard algorithm or decomposition.",
+    "condition": "Given two whole numbers (e.g., 28 and 37, or 21 and 73) to be multiplied.",
+    "response": "Calculate their product accurately.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$28 \\times 37 = 1036$.",
+    "notes": "Assumed prerequisite skill.",
+    "question_ids": [
+      "G5_U5_SC_a1_q2",
+      "G5_U5_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "read_decimal_in_words",
+    "title": "Read Decimal in Word Form",
+    "description": "Express a decimal in words by naming the whole number part and the fractional part using place value language (tenths, hundredths, thousandths).",
+    "condition": "Given a decimal to the thousandths place.",
+    "response": "State the decimal in words using correct place value terms.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$0.631$ is read as \"six hundred thirty-one thousandths.\"",
+    "notes": "Conventional language pattern; must match place value naming.",
+    "question_ids": [
+      "G5_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "unit_fraction_decimal_equivalence",
+    "title": "Recognize Common Decimal Unit Fractions",
+    "description": "Recognize standard decimal equivalents of unit fractions such as tenths and hundredths.",
+    "condition": "A decimal such as 0.1 or 0.01 is encountered.",
+    "response": "State its value as a fraction or place value unit (e.g., 0.1 is one tenth; 0.01 is one hundredth).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "$0.1 = \\frac{1}{10}$ and $0.01 = \\frac{1}{100}$.",
+    "notes": "Conventional place value knowledge.",
+    "question_ids": [
+      "G5_U5_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "equivalent_division_expressions",
+    "title": "Recognize Equivalent Division Expressions",
+    "description": "Identify when two division expressions are equivalent because the dividend and divisor are scaled by the same factor.",
+    "condition": "Two division expressions where both dividend and divisor may differ by powers of 10.",
+    "response": "Determine whether both numbers were multiplied (or divided) by the same factor to assess equivalence.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$8.4 \\div 0.01 = 840 \\div 1$ because both numbers are multiplied by $100$.",
+    "notes": "Response is a determination of equivalence (yes/no).",
+    "question_ids": [
+      "G5_U5_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "regroup_in_decimal_subtraction",
+    "title": "Regroup Across Decimal Places",
+    "description": "When subtracting decimals, regroup 1 whole as 10 tenths or 1 tenth as 10 hundredths when needed.",
+    "condition": "In decimal subtraction, a digit in a place value is smaller than the digit being subtracted from it.",
+    "response": "Regroup from the next greater place value and adjust the digits before subtracting.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $38.12 - 27.30$, regroup 1 tenth as 10 hundredths so $12 - 0$ and $1$ tenth becomes $0$ tenths after regrouping.",
+    "notes": "Based on base\u2011ten structure.",
+    "question_ids": [
+      "G5_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_decimal_multiplication_as_fraction_product",
+    "title": "Represent Decimal Multiplication as Fraction Product",
+    "description": "Rewrite a decimal multiplication expression as a product of fractions or whole numbers times powers of 0.1.",
+    "condition": "Given a multiplication expression involving decimals (e.g., 0.3 \u00d7 0.5 or 2.1 \u00d7 7.3).",
+    "response": "Rewrite each decimal as a fraction or whole number times a power of 0.1 and express the product accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$0.3 \\times 0.5 = \\frac{3}{10} \\times \\frac{5}{10} = \\frac{15}{100} = 0.15$.",
+    "notes": "Supports conceptual understanding of why decimal products have more decimal places.",
+    "question_ids": [
+      "G5_U5_SC_a1_q1",
+      "G5_U5_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "round_decimal_using_next_digit",
+    "title": "Round Decimal Using Next Digit Rule",
+    "description": "Round a decimal to a specified place by examining the digit to the right; if it is 5 or more, increase the rounding place by 1, otherwise keep it the same.",
+    "condition": "Given a decimal and a specified rounding place (e.g., nearest tenth or hundredth).",
+    "response": "Check the digit to the right of the rounding place and adjust the rounding digit accordingly, truncating remaining digits.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Round $13.728$ to the nearest tenth. The hundredths digit is 2 (<5), so the result is $13.7$.",
+    "notes": "Applies to rounding to tenths or hundredths.",
+    "question_ids": [
+      "G5_U5_SA_a1_q3",
+      "G5_U5_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "decimal_division_by_decimal_scaling",
+    "title": "Scale Dividend and Divisor by Same Factor",
+    "description": "Multiply both dividend and divisor by the same power of 10 to create an equivalent division expression with a whole-number divisor.",
+    "condition": "A division expression with a decimal divisor (e.g., 84 \u00f7 0.1 or 1 \u00f7 0.05).",
+    "response": "Multiply both numbers by the same power of 10 to make the divisor a whole number, then divide.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$84 \\div 0.1 = (84 \\times 10) \\div (0.1 \\times 10) = 840 \\div 1 = 840$.",
+    "notes": "Students must scale both numbers by the same factor.",
+    "question_ids": [
+      "G5_U5_SD_a1_q1",
+      "G5_U5_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_decimals_align_place_values",
+    "title": "Subtract Decimals by Aligning Place Values",
+    "description": "Subtract two decimal numbers by aligning digits by place value and regrouping as needed.",
+    "condition": "Given a subtraction expression with two decimal numbers.",
+    "response": "Align decimal points, subtract digits by place value from right to left, regroup as needed, and write the difference with the decimal aligned.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$64.38 - 17.9 = 46.48$ by aligning decimals and regrouping.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_SB_a1_q2",
+      "G5_U5_a1_q4",
+      "G5_U5_a1_q6",
+      "G5_U5_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "write_trailing_zero_equivalent_decimal",
+    "title": "Use Equivalent Decimals with Trailing Zeros",
+    "description": "Recognize that adding a trailing zero to a decimal does not change its value and can be used to align place values.",
+    "condition": "A decimal has fewer digits to the right of the decimal point than another decimal in an addition or subtraction problem.",
+    "response": "Rewrite the decimal with one or more trailing zeros to match place values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$27.3 = 27.30$ so that $38.12 - 27.30$ can be computed by place value.",
+    "notes": "Relies on understanding that $0.3 = 0.30$.",
+    "question_ids": [
+      "G5_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "expanded_form_decimal",
+    "title": "Write Decimal in Expanded Form",
+    "description": "Express a decimal as a sum of products of each digit and its place value.",
+    "condition": "Given a decimal number.",
+    "response": "Write it as a sum of each digit multiplied by its place value (ones, tenths, hundredths, thousandths, etc.).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$12.085 = (1\\times10)+(2\\times1)+(8\\times\\frac{1}{100})+(5\\times\\frac{1}{1000})$.",
+    "notes": "",
+    "question_ids": [
+      "G5_U5_SA_a1_q1",
+      "G5_U5_a1_q2"
+    ]
+  }
+]

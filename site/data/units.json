@@ -4,5 +4,47 @@
     "label": "Grade 5 Unit 1",
     "kc_count": 14,
     "question_count": 15
+  },
+  {
+    "id": "G5_U2",
+    "label": "Grade 5 Unit 2",
+    "kc_count": 17,
+    "question_count": 15
+  },
+  {
+    "id": "G5_U3",
+    "label": "Grade 5 Unit 3",
+    "kc_count": 19,
+    "question_count": 16
+  },
+  {
+    "id": "G5_U4",
+    "label": "Grade 5 Unit 4",
+    "kc_count": 23,
+    "question_count": 14
+  },
+  {
+    "id": "G5_U5",
+    "label": "Grade 5 Unit 5",
+    "kc_count": 24,
+    "question_count": 21
+  },
+  {
+    "id": "G5_U6",
+    "label": "Grade 5 Unit 6",
+    "kc_count": 20,
+    "question_count": 16
+  },
+  {
+    "id": "G5_U7",
+    "label": "Grade 5 Unit 7",
+    "kc_count": 22,
+    "question_count": 15
+  },
+  {
+    "id": "G5_U8",
+    "label": "Grade 5 Unit 8",
+    "kc_count": 19,
+    "question_count": 20
   }
 ]
