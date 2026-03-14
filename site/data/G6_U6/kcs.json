@@ -125,23 +125,6 @@
     ]
   },
   {
-    "kc_id": "identify_independent_dependent",
-    "title": "Identify Independent and Dependent Variables",
-    "description": "Determine which variable controls the other and which variable changes in response in a contextual situation.",
-    "condition": "Given a contextual equation relating two variables (e.g., $s = \\frac{1}{4}r$).",
-    "response": "State which variable is independent and which is dependent based on which quantity determines the other.",
-    "cond_type": "Variable",
-    "resp_type": "Constant",
-    "relationship": "Verbal",
-    "rationale": "No",
-    "label": "Concept",
-    "example": "In $s = \\frac{1}{4}r$, $r$ (reading hours) is independent and $s$ (screen time) is dependent because $s$ depends on $r$.",
-    "notes": "Requires interpreting context, not algebraic manipulation.",
-    "question_ids": [
-      "G6_U6_SD_a1_q2"
-    ]
-  },
-  {
     "kc_id": "interpret_tape_diagram_additive",
     "title": "Interpret Additive Tape Diagram",
     "description": "Translate a tape diagram showing parts that sum to a total into an addition equation.",

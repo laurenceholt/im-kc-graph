@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "Grade1-1-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "G1",
+    "unit": "U1",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 1,
+    "image": "images/G1_U1/G1_U1_a1_q1.png",
+    "image_width": 1700,
+    "image_height": 1250,
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "filename": "Grade1-1-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "G1",
+    "unit": "U1",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 2,
+    "image": "images/G1_U1/G1_U1_a1_q2.png",
+    "image_width": 1700,
+    "image_height": 1154,
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "filename": "Grade1-1-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "G1",
+    "unit": "U1",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 3,
+    "image": "images/G1_U1/G1_U1_a1_q3.png",
+    "image_width": 1700,
+    "image_height": 1566,
+    "source_pages": [
+      2,
+      3
+    ]
+  },
+  {
+    "filename": "Grade1-1-End-of-Unit-Assessment-teacher-guide-.pdf",
+    "grade": "G1",
+    "unit": "U1",
+    "section": null,
+    "assessment_number": 1,
+    "question_number": 4,
+    "image": "images/G1_U1/G1_U1_a1_q4.png",
+    "image_width": 1700,
+    "image_height": 5398,
+    "source_pages": [
+      3,
+      4,
+      5
+    ]
+  }
+]

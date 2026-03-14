@@ -36,23 +36,6 @@
     ]
   },
   {
-    "kc_id": "area_rectangle_multiply",
-    "title": "Area of a Rectangle by Multiplication",
-    "description": "Compute the area of a rectangular region by multiplying its length and width.",
-    "condition": "A rectangle with given length and width measurements.",
-    "response": "Multiply length \u00d7 width to find area in square units.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "For a rectangle 660 km by 343 km, area = $660 \\times 343$ square kilometers.",
-    "notes": "",
-    "question_ids": [
-      "G5_U4_SC_a1_q1"
-    ]
-  },
-  {
     "kc_id": "commutative_property_multiplication",
     "title": "Commutative Property of Multiplication",
     "description": "Multiplication remains true when the order of the factors is reversed.",
@@ -302,25 +285,6 @@
     ]
   },
   {
-    "kc_id": "multiply_multi_digit_standard_algorithm",
-    "title": "Multiply Multi-Digit Numbers",
-    "description": "Use the standard algorithm or partial products to multiply multi-digit whole numbers.",
-    "condition": "Two multi-digit whole numbers are given to be multiplied.",
-    "response": "Compute the product using place value and multiplication steps.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "$213 \\times 54 = 11{,}502$ using partial products: $213 \\times 50 + 213 \\times 4$.",
-    "notes": "Includes regrouping and place-value alignment.",
-    "question_ids": [
-      "G5_U4_SB_a1_q2",
-      "G5_U4_a1_q1",
-      "G5_U4_a1_q6"
-    ]
-  },
-  {
     "kc_id": "compute_single_digit_product_with_carry",
     "title": "Multiply Single Digits with Regrouping",
     "description": "Multiply two digits and regroup (carry) when the product is 10 or greater.",
@@ -370,23 +334,6 @@
     "notes": "Relies on inverse relationship between multiplication and division.",
     "question_ids": [
       "G5_U4_SB_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "partial_quotients_strategy",
-    "title": "Use Partial Quotients Strategy",
-    "description": "Decompose the dividend using large, convenient multiples of the divisor and sum the partial quotients.",
-    "condition": "Given a division problem where the divisor can be multiplied by place-value-friendly numbers (e.g., tens).",
-    "response": "Subtract large multiples of the divisor successively and add the partial quotients.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Rule / Plan",
-    "example": "For $966 \\div 23$: subtract $23 \\times 20 = 460$ twice (total 40), then $23 \\times 2 = 46$, giving $42$.",
-    "notes": "Alternative to standard algorithm.",
-    "question_ids": [
-      "G5_U4_SB_a1_q42"
     ]
   },
   {

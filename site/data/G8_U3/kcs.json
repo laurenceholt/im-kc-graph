@@ -83,6 +83,7 @@
     "example": "If Jada takes $8$ steps when Noah takes $10$, then $k = \\frac{10}{8} = \\frac{5}{4}$.",
     "notes": "",
     "question_ids": [
+      "G7_U2_SA_a1_q1",
       "G8_U3_SA_a1_q1"
     ]
   },
@@ -257,23 +258,6 @@
     "rationale": "Yes",
     "label": "Principle / Model",
     "example": "Given $n = \\frac{5}{4}j$, if $j = 100$, then $n = \\frac{5}{4}(100) = 125$.",
-    "notes": "",
-    "question_ids": [
-      "G8_U3_SA_a1_q1"
-    ]
-  },
-  {
-    "kc_id": "write_proportional_equation",
-    "title": "Write Equation for Proportional Relationship",
-    "description": "Express a proportional relationship between two variables using an equation of the form y = kx or equivalent.",
-    "condition": "A context describes two quantities varying proportionally.",
-    "response": "Write an equation relating the variables using the constant of proportionality.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "Since $k = \\frac{5}{4}$, the relationship can be written as $n = \\frac{5}{4}j$ (or $j = \\frac{4}{5}n$).",
     "notes": "",
     "question_ids": [
       "G8_U3_SA_a1_q1"

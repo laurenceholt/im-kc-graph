@@ -1,0 +1,151 @@
+[
+  {
+    "kc_id": "add_within_10",
+    "title": "Add Two Numbers Within 10",
+    "description": "Compute the sum of two whole numbers whose total is within 10.",
+    "condition": "Given two whole numbers within 10 to be added (e.g., a + b).",
+    "response": "State the correct sum a + b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$6 + 4 = 10$",
+    "notes": "Fluency may be based on counting on or known facts.",
+    "question_ids": [
+      "G1_U1_a1_q1",
+      "G1_U1_a1_q2",
+      "G1_U2_a1_q2",
+      "G1_U2_a1_q3",
+      "G1_U2_a1_q5",
+      "G1_U2_a1_q6",
+      "GK_U4_a1_q10",
+      "GK_U4_a1_q2",
+      "GK_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "subtract_within_10",
+    "title": "Find Difference Within 10",
+    "description": "Determine how many more or how many are left by subtracting within 10.",
+    "condition": "Given two whole numbers within 10 where one is compared to or taken from the other (a \u2212 b or compare a and b).",
+    "response": "State the difference a \u2212 b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$9 - 5 = 4$",
+    "notes": "May be solved by counting back or counting on.",
+    "question_ids": [
+      "G1_U1_a1_q1",
+      "G1_U1_a1_q2",
+      "G1_U2_a1_q1",
+      "G1_U2_a1_q3",
+      "G1_U2_a1_q4",
+      "G1_U2_a1_q5",
+      "GK_U8_a1_q10",
+      "GK_U8_a1_q7",
+      "GK_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "equal_sign_same_value",
+    "title": "Interpret Equal Sign as Same Value",
+    "description": "Understand that the equal sign means both sides of an equation represent the same value.",
+    "condition": "Given an equation of the form expression = expression.",
+    "response": "Interpret or ensure that both sides have the same total value.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In $5 + 4 = 9$, both sides name the same number, 9.",
+    "notes": "Supports understanding of operations on either side of =.",
+    "question_ids": [
+      "G1_U2_a1_q4",
+      "G1_U2_a1_q5",
+      "G1_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "match_add_to_story",
+    "title": "Match Addition Equation to Story (Add To/Put Together)",
+    "description": "Select or write an addition equation that represents an add-to or put-together story situation.",
+    "condition": "Given a story problem describing combining quantities with a known total or unknown addend.",
+    "response": "Write or select an equation of the form a + b = c that matches the quantities in the story.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Story: 6 footballs and some baseballs make 10. Equation: $6 + \\Box = 10$.",
+    "notes": "Requires mapping story quantities to equation positions.",
+    "question_ids": [
+      "G1_U2_a1_q2",
+      "G1_U2_a1_q4",
+      "G1_U2_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "match_subtract_to_story",
+    "title": "Match Subtraction Equation to Story",
+    "description": "Select or write a subtraction equation that represents a take-from or compare story situation.",
+    "condition": "Given a story problem describing taking away or comparing two quantities.",
+    "response": "Write or select an equation of the form a \u2212 b = c that matches the story.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Story: 8 shapes total, 2 are stars. Equation: $8 - 2 = \\Box$.",
+    "notes": "Includes compare, difference unknown situations.",
+    "question_ids": [
+      "G1_U2_a1_q3",
+      "G1_U2_a1_q4",
+      "G1_U2_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "represent_difference_with_objects",
+    "title": "Represent Difference Using Objects or Drawings",
+    "description": "Use visual models (e.g., circles) to determine how many more or how many remain.",
+    "condition": "Given a visual representation of two quantities.",
+    "response": "Count remaining or extra objects to determine the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From 8 red and 5 yellow circles, 3 red circles are extra, so $8 - 5 = 3$.",
+    "notes": "Often involves counting unmatched objects.",
+    "question_ids": [
+      "G1_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_unknown_addend",
+    "title": "Solve for Unknown Addend",
+    "description": "Determine the missing number in an addition equation with one unknown addend.",
+    "condition": "Given an equation of the form a + \u25a1 = c or \u25a1 + a = c within 10.",
+    "response": "State the value of the unknown addend.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Solve $6 + \\Box = 10$. The missing number is $4$.",
+    "notes": "May use counting on or related subtraction.",
+    "question_ids": [
+      "G1_U2_a1_q2",
+      "G1_U2_a1_q3",
+      "G1_U2_a1_q4",
+      "G1_U2_a1_q5",
+      "G1_U2_a1_q6",
+      "G1_U3_a1_q2",
+      "G1_U4_a1_q3",
+      "GK_U8_a1_q11",
+      "GK_U8_a1_q6"
+    ]
+  }
+]

@@ -103,43 +103,6 @@
     ]
   },
   {
-    "kc_id": "evaluate_basic_subtraction_within_10",
-    "title": "Evaluate Subtraction Within 10",
-    "description": "Compute the difference when subtracting within 10.",
-    "condition": "Given a subtraction situation a \u2212 b within 10, numerically or in a story.",
-    "response": "State the remaining amount.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$8 - 5 = 3$.",
-    "notes": "",
-    "question_ids": [
-      "GK_U8_a1_q10",
-      "GK_U8_a1_q7",
-      "GK_U8_a1_q9"
-    ]
-  },
-  {
-    "kc_id": "missing_addend_for_target_sum",
-    "title": "Find Missing Addends for Given Total",
-    "description": "Determine numbers that combine to equal a specified total.",
-    "condition": "An equation with blanks such as ___ + ___ = n is given.",
-    "response": "Provide two numbers whose sum equals n.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "For ___ + ___ = 13, one solution is $10 + 3 = 13$.",
-    "notes": "Multiple correct responses possible.",
-    "question_ids": [
-      "GK_U8_a1_q11",
-      "GK_U8_a1_q6"
-    ]
-  },
-  {
     "kc_id": "compose_decompose_to_make_10",
     "title": "Find Number to Make 10",
     "description": "Determine the missing addend that combines with a given number to total 10.",

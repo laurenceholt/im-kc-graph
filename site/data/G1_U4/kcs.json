@@ -1,0 +1,88 @@
+[
+  {
+    "kc_id": "compose_ten_from_ones",
+    "title": "Compose a Ten from Ones",
+    "description": "Recognizes that 10 ones can be regrouped as 1 ten when determining a standard two-digit number.",
+    "condition": "A representation includes 10 or more ones (e.g., 5 tens and 11 ones).",
+    "response": "Convert each group of 10 ones into 1 additional ten and adjust the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "5 tens and 11 ones = 6 tens and 1 one = $61$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U4_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_forward_backward_by_ones",
+    "title": "Count Forward or Backward by Ones",
+    "description": "Identifies numbers that come immediately before or after a given number when counting by ones.",
+    "condition": "Prompt asks for numbers before or after a given number in the counting sequence (e.g., before/after 80).",
+    "response": "State the next two numbers (+1, +2) or previous two numbers (\u22121, \u22122).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "After 80: $81, 82$; Before 80: $79, 78$.",
+    "notes": "Order of listing before numbers may vary (78, 79) depending on prompt interpretation.",
+    "question_ids": [
+      "G1_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "decompose_two_digit_number",
+    "title": "Decompose Two-Digit Number into Tens and Ones",
+    "description": "Breaks a two-digit number into its tens and ones components.",
+    "condition": "A two-digit number (e.g., 53) is given.",
+    "response": "Express the number as tens + ones (e.g., 50 + 3).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$53 = 50 + 3$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_base_ten_representation",
+    "title": "Interpret Base-Ten Representation",
+    "description": "Determines the two-digit number represented by tens rods and ones cubes or verbal statements of tens and ones.",
+    "condition": "A representation shows a number using tens and ones (pictures, words, or expanded form).",
+    "response": "Combine tens and ones to state the standard two-digit number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "4 ones and 3 tens = $30 + 4 = 34$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U4_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "subtract_multiple_of_ten",
+    "title": "Subtract a Multiple of Ten",
+    "description": "Subtracts a multiple of ten from a two-digit number by decreasing the tens digit while keeping the ones digit the same.",
+    "condition": "Expression of the form a two-digit number \u2212 multiple of 10 (e.g., 60 \u2212 20).",
+    "response": "Decrease the tens digit by the number of tens subtracted and keep the ones digit unchanged.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$60 - 20 = 40$ because 6 tens minus 2 tens equals 4 tens.",
+    "notes": "",
+    "question_ids": [
+      "G1_U4_a1_q3",
+      "G1_U8_a1_q14"
+    ]
+  }
+]

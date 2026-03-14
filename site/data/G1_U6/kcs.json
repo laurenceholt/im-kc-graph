@@ -1,0 +1,87 @@
+[
+  {
+    "kc_id": "count_tens_and_ones",
+    "title": "Compose Number from Tens and Ones",
+    "description": "Determine total quantity by counting groups of ten and additional ones and combining them.",
+    "condition": "Objects are grouped into tens and some extra ones.",
+    "response": "Compute total as 10 \u00d7 (number of tens) + ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 10 tens and 8 ones, compute $10 \\times 10 + 8 = 108$.",
+    "notes": "Place value understanding within 120.",
+    "question_ids": [
+      "G1_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "compare_lengths_directly",
+    "title": "Directly Compare Object Lengths",
+    "description": "Compare the lengths of multiple objects and determine their relative order from shortest to longest.",
+    "condition": "Given two or more objects with visibly different lengths.",
+    "response": "Determine which is shorter or longer and order them accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If rectangle B is shorter than A and C, and A is shorter than C, then order is B, A, C.",
+    "notes": "Orientation may differ; comparison is based on length, not position.",
+    "question_ids": [
+      "G1_U6_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "measure_length_with_cubes",
+    "title": "Measure Length by Counting Units",
+    "description": "Measure an object's length by counting the number of equal-length units that span from one endpoint to the other.",
+    "condition": "An object is aligned with connecting cubes from its start point to its end point.",
+    "response": "Count only the cubes that align with the object's length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If 7 cubes span the rectangle from start to end, the length is 7 units.",
+    "notes": "Exclude extra cubes beyond endpoints.",
+    "question_ids": [
+      "G1_U6_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "write_subtraction_equation_start_unknown",
+    "title": "Represent Start Unknown with Subtraction Equation",
+    "description": "Write an equation of the form ? \u2212 a = b to represent a Take From, Start Unknown story.",
+    "condition": "Story describes an unknown starting amount, a known amount taken away, and a known result.",
+    "response": "Write equation ? \u2212 a = b using a symbol for the unknown.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "There were ? students. 7 left and 6 remain: $? - 7 = 6$.",
+    "notes": "Mapping story structure to equation form.",
+    "question_ids": [
+      "G1_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compare_using_transitive",
+    "title": "Use Transitive Comparison",
+    "description": "Use known comparisons between objects to infer a new comparison.",
+    "condition": "Given statements such as A is shorter than B and B is shorter/longer than C.",
+    "response": "Infer and state the relationship between A and C.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the noodle is shorter than the pencil and the straw is longer than the pencil, then the straw is longer than the noodle.",
+    "notes": "Applies transitive property of inequalities.",
+    "question_ids": [
+      "G1_U6_a1_q3"
+    ]
+  }
+]

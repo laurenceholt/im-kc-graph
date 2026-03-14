@@ -1,5 +1,53 @@
 [
   {
+    "id": "G1_U1",
+    "label": "Grade 1 Unit 1",
+    "kc_count": 3,
+    "question_count": 4
+  },
+  {
+    "id": "G1_U2",
+    "label": "Grade 1 Unit 2",
+    "kc_count": 7,
+    "question_count": 6
+  },
+  {
+    "id": "G1_U3",
+    "label": "Grade 1 Unit 3",
+    "kc_count": 8,
+    "question_count": 12
+  },
+  {
+    "id": "G1_U4",
+    "label": "Grade 1 Unit 4",
+    "kc_count": 5,
+    "question_count": 6
+  },
+  {
+    "id": "G1_U5",
+    "label": "Grade 1 Unit 5",
+    "kc_count": 6,
+    "question_count": 4
+  },
+  {
+    "id": "G1_U6",
+    "label": "Grade 1 Unit 6",
+    "kc_count": 5,
+    "question_count": 7
+  },
+  {
+    "id": "G1_U7",
+    "label": "Grade 1 Unit 7",
+    "kc_count": 8,
+    "question_count": 6
+  },
+  {
+    "id": "G1_U8",
+    "label": "Grade 1 Unit 8",
+    "kc_count": 14,
+    "question_count": 18
+  },
+  {
     "id": "G5_U1",
     "label": "Grade 5 Unit 1",
     "kc_count": 14,
@@ -14,13 +62,13 @@
   {
     "id": "G5_U3",
     "label": "Grade 5 Unit 3",
-    "kc_count": 16,
+    "kc_count": 15,
     "question_count": 16
   },
   {
     "id": "G5_U4",
     "label": "Grade 5 Unit 4",
-    "kc_count": 23,
+    "kc_count": 20,
     "question_count": 14
   },
   {
@@ -44,7 +92,7 @@
   {
     "id": "G5_U8",
     "label": "Grade 5 Unit 8",
-    "kc_count": 12,
+    "kc_count": 11,
     "question_count": 20
   },
   {
@@ -74,13 +122,13 @@
   {
     "id": "G6_U5",
     "label": "Grade 6 Unit 5",
-    "kc_count": 18,
+    "kc_count": 17,
     "question_count": 49
   },
   {
     "id": "G6_U6",
     "label": "Grade 6 Unit 6",
-    "kc_count": 20,
+    "kc_count": 19,
     "question_count": 51
   },
   {
@@ -98,13 +146,13 @@
   {
     "id": "G7_U1",
     "label": "Grade 7 Unit 1",
-    "kc_count": 15,
+    "kc_count": 14,
     "question_count": 31
   },
   {
     "id": "G7_U2",
     "label": "Grade 7 Unit 2",
-    "kc_count": 18,
+    "kc_count": 17,
     "question_count": 35
   },
   {
@@ -158,7 +206,7 @@
   {
     "id": "G8_U3",
     "label": "Grade 8 Unit 3",
-    "kc_count": 18,
+    "kc_count": 17,
     "question_count": 31
   },
   {
@@ -212,7 +260,7 @@
   {
     "id": "GK_U4",
     "label": "Kindergarten Unit 4",
-    "kc_count": 8,
+    "kc_count": 7,
     "question_count": 6
   },
   {
@@ -236,7 +284,7 @@
   {
     "id": "GK_U8",
     "label": "Kindergarten Unit 8",
-    "kc_count": 11,
+    "kc_count": 9,
     "question_count": 13
   }
 ]

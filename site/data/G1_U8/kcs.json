@@ -1,0 +1,252 @@
+[
+  {
+    "kc_id": "add_multiples_of_ten_to_two_digit",
+    "title": "Add a Multiple of Ten to a Two-Digit Number",
+    "description": "Add 10, 20, 30, etc. to a two-digit number by increasing the tens digit while keeping the ones digit the same.",
+    "condition": "An addition expression where one addend is a multiple of 10 and the other is a two-digit number (e.g., 74 + 20, 47 + 10).",
+    "response": "Increase the tens digit by the number of tens in the multiple of 10; keep the ones digit unchanged.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$74 + 20 = (7\\text{ tens} + 2\\text{ tens}) + 4 = 9\\text{ tens} + 4 = 94$",
+    "notes": "",
+    "question_ids": [
+      "G1_U4_a1_q3",
+      "G1_U5_a1_q1",
+      "G1_U8_a1_q14",
+      "G1_U8_a1_q16",
+      "G1_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "add_ones_without_regrouping",
+    "title": "Add Ones Without Making a New Ten",
+    "description": "Add ones digits when their sum is less than 10, keeping the tens unchanged.",
+    "condition": "An addition expression where the ones digits sum to less than 10 (e.g., 23 + 6).",
+    "response": "Add the ones digits and keep the tens digit the same.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$23 + 6 = 2\\text{ tens} + (3 + 6) = 2\\text{ tens} + 9 = 29$",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "solve_three_addend_within_20",
+    "title": "Add Three Numbers Within 20",
+    "description": "Add three numbers within 20, possibly using grouping strategies.",
+    "condition": "A word problem or expression with three addends within 20 (e.g., 7 + 6 + 3).",
+    "response": "Combine two addends (often to make 10) and add the third to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$7 + 3 = 10$, then $10 + 6 = 16$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "add_with_make_ten_strategy",
+    "title": "Add Using Make-a-Ten Strategy",
+    "description": "Add two numbers by decomposing one addend to make a ten with the other.",
+    "condition": "An addition expression where decomposing an addend can create a ten (e.g., 57 + 8, 8 + 5).",
+    "response": "Break apart one addend to complete the next ten, then add the remaining ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$57 + 8 = 57 + 3 + 5 = 60 + 5 = 65$",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q15",
+      "G1_U8_a1_q16",
+      "G1_U8_a1_q18",
+      "G1_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_two_digit_numbers_place_value",
+    "title": "Compare Two-Digit Numbers by Place Value",
+    "description": "Compare two-digit numbers by examining tens first, then ones if needed.",
+    "condition": "Two two-digit numbers presented with <, >, or = to determine.",
+    "response": "Compare tens digits; if equal, compare ones digits; choose the correct symbol.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Compare $25$ and $52$: since $2$ tens < $5$ tens, $25 < 52$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U4_a1_q4",
+      "G1_U8_a1_q11",
+      "G1_U8_a1_q16"
+    ]
+  },
+  {
+    "kc_id": "compose_decompose_teen_number",
+    "title": "Compose and Decompose Teen Numbers",
+    "description": "Understand a teen number as 10 and some ones.",
+    "condition": "A teen number (11\u201319) is given or referenced.",
+    "response": "Express the number as 10 and some ones (e.g., 16 = 10 + 6).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$16 = 10 + 6$",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q18",
+      "G1_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "count_back_to_subtract",
+    "title": "Count Back to Subtract",
+    "description": "Subtract by counting backward from the starting number.",
+    "condition": "A subtraction expression within 20 (e.g., 15 \u2212 11).",
+    "response": "Count backward from the first number to the second and determine the number of counts.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$15 - 11$: 14, 13, 12, 11 \u2192 4 counts, so $15 - 11 = 4$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q15",
+      "G1_U8_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "count_on_to_find_difference",
+    "title": "Count On to Find Difference",
+    "description": "Find a difference by counting up from the smaller number to the larger number.",
+    "condition": "A comparison or subtraction situation within 20 (e.g., 15 \u2212 11).",
+    "response": "Count up from the smaller number to the larger and record the number of counts.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From $11$ to $15$: 12, 13, 14, 15 \u2192 4 counts, so the difference is $4$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q4",
+      "G1_U8_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "evaluate_equation_true_false",
+    "title": "Evaluate Equation as True or False",
+    "description": "Determine whether a given addition or subtraction equation is correct.",
+    "condition": "An equation with given numbers and an equals sign (e.g., 6 + 6 = 14).",
+    "response": "Compute both sides and decide if they are equal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$6 + 6 = 12$, and $12 \\ne 14$, so the equation is false.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "find_unknown_in_add_sub_equation",
+    "title": "Find Unknown in Addition or Subtraction Equation",
+    "description": "Determine the missing number that makes an equation true.",
+    "condition": "An addition or subtraction equation with one unknown (e.g., 10 + \u25a1 = 16, \u25a1 \u2212 4 = 7).",
+    "response": "Use inverse operations or known facts to determine the missing value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$10 + \\Box = 16$ so $\\Box = 6$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q10"
+    ]
+  },
+  {
+    "kc_id": "interpret_compare_word_problem",
+    "title": "Interpret Compare (Difference Unknown) Word Problem",
+    "description": "Translate a comparison story problem into a subtraction or counting-on equation to find how many more.",
+    "condition": "A word problem asking how many more one quantity is than another.",
+    "response": "Represent the situation with subtraction or counting-on and compute the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Jada has 17 and Noah has 9. Compute $17 - 9 = 8$.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "represent_tens_and_ones_with_objects",
+    "title": "Represent Tens and Ones with Objects",
+    "description": "Interpret groups of ten objects and single objects as tens and ones to determine total value.",
+    "condition": "A visual model showing tens (e.g., rods) and ones (e.g., cubes).",
+    "response": "Count tens and ones and combine to state the total number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "3 tens and 4 ones represent $30 + 4 = 34$.",
+    "notes": "Non-verbal classification assumes reliance on visual pattern recognition.",
+    "question_ids": [
+      "G1_U8_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "transitive_comparison_lengths",
+    "title": "Use Transitive Reasoning to Compare Lengths",
+    "description": "Use two given comparisons to determine a third comparison.",
+    "condition": "Given A > B and B > C for lengths.",
+    "response": "Conclude A > C and equivalent shorter/longer statements.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If hallway > flagpole and flagpole > snake, then hallway > snake.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q13"
+    ]
+  },
+  {
+    "kc_id": "verify_measurement_no_gaps",
+    "title": "Verify Accurate Measurement Without Gaps",
+    "description": "Recognize that length units must be placed end-to-end without gaps or overlaps for accurate measurement.",
+    "condition": "A length measured with units that have visible gaps or overlaps.",
+    "response": "State that the measurement is inaccurate and explain units must be contiguous.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 7 cubes have gaps between them, they do not correctly measure the object\u2019s length.",
+    "notes": "",
+    "question_ids": [
+      "G1_U8_a1_q12"
+    ]
+  }
+]

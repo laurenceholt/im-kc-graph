@@ -1,0 +1,146 @@
+[
+  {
+    "kc_id": "add_within_20",
+    "title": "Add Two Numbers Within 20",
+    "description": "Compute the sum of two whole numbers within 20.",
+    "condition": "Addition expression $a + b$ where $a,b \\le 20$.",
+    "response": "State the correct sum.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$6 + 8 = 14$.",
+    "notes": "Includes counting on or derived facts.",
+    "question_ids": [
+      "G1_U3_a1_q4",
+      "G1_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_representation_of_number",
+    "title": "Identify Equivalent Representation of a Number",
+    "description": "Recognize whether a visual or symbolic representation equals a given number.",
+    "condition": "Given a target number (e.g., 17) and multiple representations (equations, ten\u2011frames, cubes).",
+    "response": "Select the representations equal to the target number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Recognize $10 + 7$, $19 - 2$, and a double ten\u2011frame showing 17 as representations of 17.",
+    "notes": "Requires evaluating expressions and counting visuals.",
+    "question_ids": [
+      "G1_U3_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "represent_teen_as_ten_and_ones",
+    "title": "Represent Teen Number as Ten and Ones",
+    "description": "Understand a teen number as 10 and some ones.",
+    "condition": "Teen number between 11 and 19.",
+    "response": "Express as $10 + n$ ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$17 = 10 + 7$.",
+    "notes": "Place-value foundation.",
+    "question_ids": [
+      "G1_U3_a1_q1",
+      "G1_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "solve_add_to_start_unknown",
+    "title": "Solve Add-To, Start Unknown Problem",
+    "description": "Find the starting quantity in a result-unknown addition story.",
+    "condition": "Story where start + change = result, start unknown (e.g., some kids + 6 = 15).",
+    "response": "Subtract change from result to find start.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $x + 6 = 15$, then $15 - 6 = 9$, so $x = 9$.",
+    "notes": "Inverse relationship required.",
+    "question_ids": [
+      "G1_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "subtract_within_20",
+    "title": "Subtract Within 20",
+    "description": "Compute the difference of two whole numbers within 20.",
+    "condition": "Subtraction expression $a - b$ where $a,b \\le 20$.",
+    "response": "State the correct difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$18 - 5 = 13$.",
+    "notes": "Includes counting back or known facts.",
+    "question_ids": [
+      "G1_U3_a1_q4",
+      "G1_U3_a1_q7",
+      "G1_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "subtract_using_addition_fact",
+    "title": "Use Addition to Solve Subtraction",
+    "description": "Use a known addition fact to determine a related subtraction fact.",
+    "condition": "Subtraction expression $a - b$ with known related fact $c + b = a$.",
+    "response": "State $a - b = c$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Since $9 + 7 = 16$, then $16 - 7 = 9$.",
+    "notes": "Fact family reasoning.",
+    "question_ids": [
+      "G1_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "make_a_ten_addition",
+    "title": "Use Make\u2011a\u2011Ten Strategy for Addition",
+    "description": "Decompose an addend to make 10 before completing addition.",
+    "condition": "Addition $a + b$ where composing 10 is helpful (e.g., 6 + 8).",
+    "response": "Break apart one addend to make 10, then add the remainder.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $6 + 8$: take $4$ from $8$ to make $10$, then $10 + 4 = 14$.",
+    "notes": "Relies on understanding of 10 as benchmark.",
+    "question_ids": [
+      "G1_U3_a1_q14",
+      "G1_U3_a1_q15",
+      "G1_U3_a1_q3",
+      "G1_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "make_a_ten_subtraction",
+    "title": "Use Make\u2011a\u2011Ten Strategy for Subtraction",
+    "description": "Decompose the subtrahend to subtract to 10 first, then subtract the rest.",
+    "condition": "Subtraction $a - b$ where bridging to 10 is efficient (e.g., 13 \u2212 5, 15 \u2212 6).",
+    "response": "Subtract enough to reach 10, then subtract remaining amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $13 - 5$: $13 - 3 = 10$, then $10 - 2 = 8$.",
+    "notes": "Uses decomposition of subtrahend.",
+    "question_ids": [
+      "G1_U3_a1_q8",
+      "G1_U3_a1_q9"
+    ]
+  }
+]

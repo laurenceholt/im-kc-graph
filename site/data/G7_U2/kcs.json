@@ -76,23 +76,6 @@
     ]
   },
   {
-    "kc_id": "determine_constant_of_proportionality",
-    "title": "Determine Constant of Proportionality from Table",
-    "description": "Find the constant of proportionality by dividing the dependent quantity by the independent quantity in a proportional relationship.",
-    "condition": "Given paired values (x, y) in a table representing a proportional relationship.",
-    "response": "Compute k = y/x.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "From $(\\tfrac{1}{2}, 4)$, compute $k = 4 \\div \\tfrac{1}{2} = 8$.",
-    "notes": "Applies to part (d).",
-    "question_ids": [
-      "G7_U2_SA_a1_q1"
-    ]
-  },
-  {
     "kc_id": "determine_proportional_from_graph",
     "title": "Determine if Graph Represents Proportional Relationship",
     "description": "Decide whether a graphed relationship is proportional by checking key structural features.",
@@ -300,7 +283,7 @@
     ]
   },
   {
-    "kc_id": "write_equation_from_constant_of_proportionality",
+    "kc_id": "write_proportional_equation",
     "title": "Write Equation from Constant of Proportionality",
     "description": "Express a proportional relationship as an equation using the constant of proportionality.",
     "condition": "Given constant of proportionality $k$ relating variables $x$ and $y$ proportionally.",
@@ -315,7 +298,8 @@
     "question_ids": [
       "G7_U2_SB_a1_q1",
       "G7_U2_a1_q3",
-      "G7_U2_a1_q7"
+      "G7_U2_a1_q7",
+      "G8_U3_SA_a1_q1"
     ]
   }
 ]

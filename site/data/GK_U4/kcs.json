@@ -1,24 +1,5 @@
 [
   {
-    "kc_id": "add_two_small_numbers_within_10",
-    "title": "Add Two Numbers Within 10",
-    "description": "Compute the sum of two given whole numbers within 10.",
-    "condition": "Given an addition expression a + b where a and b are whole numbers within 10.",
-    "response": "State the sum a + b.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "Given $2 + 3$, compute $5$.",
-    "notes": "Includes story problems and numeric expressions.",
-    "question_ids": [
-      "GK_U4_a1_q10",
-      "GK_U4_a1_q2",
-      "GK_U4_a1_q4"
-    ]
-  },
-  {
     "kc_id": "count_all_objects_in_combined_sets",
     "title": "Count All Objects in Combined Sets",
     "description": "Count every object across two or more visible groups to determine the total number of objects.",

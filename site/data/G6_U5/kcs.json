@@ -79,23 +79,6 @@
     ]
   },
   {
-    "kc_id": "area_of_rectangle",
-    "title": "Area of a Rectangle",
-    "description": "Compute the area of a rectangle by multiplying its length by its width (or height).",
-    "condition": "Given a rectangle with known length and width (or height).",
-    "response": "Multiply length \u00d7 width to find the area.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If a rectangle has length $7.2$ m and height $3.8$ m, then area $= 7.2 \\times 3.8 = 27.36$ square meters.",
-    "notes": "",
-    "question_ids": [
-      "G6_U5_SB_a1_q1"
-    ]
-  },
-  {
     "kc_id": "compute_quotient_long_division",
     "title": "Compute Quotient Using Long Division",
     "description": "Carry out the full long division algorithm (divide, multiply, subtract, bring down) to compute a quotient.",

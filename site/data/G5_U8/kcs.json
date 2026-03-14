@@ -89,7 +89,7 @@
     ]
   },
   {
-    "kc_id": "long_division_partial_quotients",
+    "kc_id": "partial_quotients_strategy",
     "title": "Divide using partial quotients",
     "description": "Find a quotient by subtracting convenient multiples of the divisor.",
     "condition": "Multi-digit dividend divided by two-digit divisor.",
@@ -102,6 +102,7 @@
     "example": "$7{,}776 \\div 36 = 200 + 10 + 6 = 216$.",
     "notes": "",
     "question_ids": [
+      "G5_U4_SB_a1_q42",
       "G5_U8_a1_q216",
       "G5_U8_a1_q8"
     ]
@@ -138,23 +139,6 @@
     "notes": "",
     "question_ids": [
       "G5_U8_a1_q13"
-    ]
-  },
-  {
-    "kc_id": "decimal_multiply_place_value",
-    "title": "Multiply decimals using place value",
-    "description": "Multiply decimals by multiplying as whole numbers and adjusting place value.",
-    "condition": "Multiplication of decimal numbers (e.g., 0.4 \u00d7 0.2).",
-    "response": "Multiply as whole numbers and place decimal according to total decimal places.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$0.4 \\times 0.2 = 4 \\times 2 \\div 100 = 0.08$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q9"
     ]
   },
   {
