@@ -87,7 +87,7 @@
     ]
   },
   {
-    "kc_id": "determine_slope_from_graph",
+    "kc_id": "compute_slope_from_graph",
     "title": "Determine Slope from Graph",
     "description": "Calculate slope as rise over run using two points on a graphed line.",
     "condition": "Given a graph of a non-vertical line with at least two identifiable points.",
@@ -102,24 +102,8 @@
     "question_ids": [
       "G8_U3_SC_a1_q1",
       "G8_U3_a1_q3",
-      "G8_U3_a1_q5"
-    ]
-  },
-  {
-    "kc_id": "evaluate_linear_expression",
-    "title": "Evaluate Linear Expression with Substitution",
-    "description": "Substitute a numerical value for a variable in a linear expression and simplify using order of operations.",
-    "condition": "Given a linear expression in one variable (e.g., $8 - 3x$) and a numerical value for the variable.",
-    "response": "Compute the numerical value of the expression.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "Substitute $x = 3$ into $8 - 3x$: $8 - 3(3) = 8 - 9 = -1$.",
-    "notes": "Requires correct use of multiplication before subtraction.",
-    "question_ids": [
-      "G8_U3_SD_a1_q1"
+      "G8_U3_a1_q5",
+      "G8_U5_SC_a1_q1"
     ]
   },
   {
@@ -225,27 +209,6 @@
     "notes": "",
     "question_ids": [
       "G8_U3_SA_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "interpret_slope_as_rate",
-    "title": "Interpret Slope as Rate of Change",
-    "description": "Interpret slope in context as the rate at which one quantity changes per unit of another.",
-    "condition": "Given a linear relationship in context (equation, table, or graph).",
-    "response": "Explain slope as change in dependent variable per 1 unit of independent variable.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "In $y=10+4.5x$, slope $4.5$ means each sandwich adds $\\$4.50$ to total cost.",
-    "notes": "",
-    "question_ids": [
-      "G8_U3_SB_a1_q1",
-      "G8_U3_SC_a1_q1",
-      "G8_U3_a1_q2",
-      "G8_U3_a1_q5",
-      "G8_U3_a1_q6"
     ]
   },
   {

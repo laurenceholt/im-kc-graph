@@ -105,6 +105,7 @@
     "example": "If there are seventeen objects, write $17$.",
     "notes": "Assumes knowledge of standard numeral symbols.",
     "question_ids": [
+      "GK_U2_a1_q2",
       "GK_U6_a1_q2",
       "GK_U6_a1_q4"
     ]

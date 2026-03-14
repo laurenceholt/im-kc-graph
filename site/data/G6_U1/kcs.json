@@ -36,7 +36,8 @@
       "G6_U1_SB_a1_q2",
       "G6_U1_a1_q1",
       "G6_U1_a1_q3",
-      "G6_U1_a1_q5"
+      "G6_U1_a1_q5",
+      "G8_U1_a1_q10"
     ]
   },
   {
@@ -57,7 +58,8 @@
       "G6_U1_SD_a1_q2",
       "G6_U1_a1_q3",
       "G6_U1_a1_q6",
-      "G6_U1_a1_q7"
+      "G6_U1_a1_q7",
+      "G6_U4_SD_a1_q1"
     ]
   },
   {
@@ -75,7 +77,8 @@
     "notes": "Used when small triangles are rearranged into a square.",
     "question_ids": [
       "G6_U1_SA_a1_q1",
-      "G6_U1_SE_a1_q1"
+      "G6_U1_SE_a1_q1",
+      "G8_U8_SB_a1_q3"
     ]
   },
   {
@@ -98,7 +101,8 @@
       "G6_U1_SD_a1_q2",
       "G6_U1_a1_q2",
       "G6_U1_a1_q6",
-      "G6_U1_a1_q7"
+      "G6_U1_a1_q7",
+      "G8_U8_SB_a1_q3"
     ]
   },
   {

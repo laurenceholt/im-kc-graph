@@ -117,7 +117,8 @@
     "notes": "",
     "question_ids": [
       "G7_U7_a1_q1",
-      "G7_U7_a1_q6"
+      "G7_U7_a1_q6",
+      "G8_U1_SD_a1_q1"
     ]
   },
   {
@@ -293,7 +294,7 @@
     ]
   },
   {
-    "kc_id": "vertical_angles_equal",
+    "kc_id": "vertical_angles_congruent",
     "title": "Vertical Angles are Equal",
     "description": "Opposite angles formed by intersecting lines are congruent.",
     "condition": "Two angles are vertical (formed by intersecting straight lines and opposite each other).",
@@ -308,7 +309,9 @@
     "question_ids": [
       "G7_U7_SA_a1_q1",
       "G7_U7_a1_q1",
-      "G7_U7_a1_q6"
+      "G7_U7_a1_q6",
+      "G8_U1_SD_a1_q1",
+      "G8_U1_a1_q1"
     ]
   },
   {
@@ -326,24 +329,6 @@
     "notes": "",
     "question_ids": [
       "G7_U7_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "volume_prism",
-    "title": "Volume of a Prism",
-    "description": "Calculate volume as base area times height (depth).",
-    "condition": "Given base area and perpendicular height (or depth) of a prism.",
-    "response": "Compute volume as $B \\times h$.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "If base area $= 6$ ft$^2$ and depth $= 2.5$ ft, volume $= 6 \\times 2.5 = 15$ ft$^3$.",
-    "notes": "",
-    "question_ids": [
-      "G7_U7_SC_a1_q2",
-      "G7_U7_a1_q7"
     ]
   }
 ]

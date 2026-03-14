@@ -15,7 +15,8 @@
     "question_ids": [
       "GK_U2_a1_q1",
       "GK_U2_a1_q2",
-      "GK_U2_a1_q3"
+      "GK_U2_a1_q3",
+      "GK_U3_a1_q2"
     ]
   },
   {
@@ -85,23 +86,6 @@
     "question_ids": [
       "GK_U2_a1_q1",
       "GK_U2_a1_q4"
-    ]
-  },
-  {
-    "kc_id": "write_numeral_for_quantity",
-    "title": "Write Numeral to Represent Quantity",
-    "description": "Produce a written numeral that represents a counted quantity.",
-    "condition": "Given a counted total of objects and asked to write the number.",
-    "response": "Write the corresponding numeral.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "After counting 7 dots, write the numeral 7.",
-    "notes": "Includes correct numeral formation.",
-    "question_ids": [
-      "GK_U2_a1_q2"
     ]
   }
 ]

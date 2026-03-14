@@ -185,7 +185,7 @@
     ]
   },
   {
-    "kc_id": "multiply_whole_numbers",
+    "kc_id": "multiply_whole_numbers_standard",
     "title": "Multiply Whole Numbers",
     "description": "Compute the product of two whole numbers to determine total quantity.",
     "condition": "Two whole numbers to be multiplied.",
@@ -201,7 +201,14 @@
       "G5_U1_SA_a1_q2",
       "G5_U1_SA_a1_q3",
       "G5_U1_SC_a1_q1",
-      "G5_U1_SC_a1_q2"
+      "G5_U1_SC_a1_q2",
+      "G5_U5_SC_a1_q2",
+      "G5_U5_SC_a1_q3",
+      "G5_U6_SA_a1_q3",
+      "G5_U8_a1_q14",
+      "G5_U8_a1_q72",
+      "G6_U5_SB_a1_q1",
+      "G6_U5_SB_a1_q2"
     ]
   },
   {

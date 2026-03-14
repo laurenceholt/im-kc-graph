@@ -1,22 +1,5 @@
 [
   {
-    "kc_id": "add_decimal_align_place_value",
-    "title": "Add decimals by aligning place values",
-    "description": "To add decimal numbers, align digits by place value (including trailing zeros if needed) and add corresponding places.",
-    "condition": "Addition of two or more decimal numbers (e.g., 2.4 + 0.02).",
-    "response": "Rewrite with aligned place values and add to find the decimal sum.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$2.4 + 0.02 = 2.40 + 0.02 = 2.42$",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q9"
-    ]
-  },
-  {
     "kc_id": "add_fractions_common_denominator",
     "title": "Add fractions with common denominator",
     "description": "When fractions share a common denominator, add the numerators and keep the denominator.",
@@ -30,8 +13,10 @@
     "example": "$\\frac{4}{16} + \\frac{5}{16} = \\frac{9}{16}$",
     "notes": "",
     "question_ids": [
+      "G5_U6_a1_q4",
       "G5_U8_a1_q16",
-      "G5_U8_a1_q6"
+      "G5_U8_a1_q6",
+      "G7_U5_SA_a1_q1"
     ]
   },
   {
@@ -84,24 +69,6 @@
     "notes": "",
     "question_ids": [
       "G5_U8_a1_q17"
-    ]
-  },
-  {
-    "kc_id": "convert_between_mixed_and_improper",
-    "title": "Convert mixed number to improper fraction",
-    "description": "Rewrite a mixed number as an improper fraction before multiplying or adding.",
-    "condition": "A mixed number appears in a multiplication or addition context.",
-    "response": "Multiply whole number by denominator, add numerator, and place over denominator.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$2\\frac{1}{8} = \\frac{2\\times 8 + 1}{8} = \\frac{17}{8}$",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q10",
-      "G5_U8_a1_q5"
     ]
   },
   {
@@ -174,23 +141,6 @@
     ]
   },
   {
-    "kc_id": "identify_power_of_ten_value",
-    "title": "Identify value of power of 10",
-    "description": "Recognize and evaluate powers of 10 and equivalent expanded forms.",
-    "condition": "Expression involving $10^n$ or repeated multiplication by 10.",
-    "response": "Compute value as 1 followed by n zeros.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$10^6 = 1{,}000{,}000$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q7"
-    ]
-  },
-  {
     "kc_id": "decimal_multiply_place_value",
     "title": "Multiply decimals using place value",
     "description": "Multiply decimals by multiplying as whole numbers and adjusting place value.",
@@ -205,24 +155,6 @@
     "notes": "",
     "question_ids": [
       "G5_U8_a1_q9"
-    ]
-  },
-  {
-    "kc_id": "multiply_multi_digit_numbers",
-    "title": "Multiply multi-digit whole numbers",
-    "description": "Use standard algorithm or distributive property to multiply multi-digit numbers.",
-    "condition": "Product of two multi-digit whole numbers is required.",
-    "response": "Compute partial products and sum to find total.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$473 \\times 36 = 473\\times30 + 473\\times6 = 17{,}028$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q14",
-      "G5_U8_a1_q72"
     ]
   },
   {
@@ -244,23 +176,6 @@
     ]
   },
   {
-    "kc_id": "plot_point_coordinate_grid",
-    "title": "Plot ordered pair on coordinate grid",
-    "description": "Plot a point using given x- and y-values on labeled axes.",
-    "condition": "Given ordered pair representing quantities (e.g., number of coins and weight).",
-    "response": "Locate x-value on horizontal axis and y-value on vertical axis; mark point.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Plot (5, 23.84) by moving to 5 on x-axis and up to 23.84 on y-axis.",
-    "notes": "Non-verbal spatial skill.",
-    "question_ids": [
-      "G5_U8_a1_q15"
-    ]
-  },
-  {
     "kc_id": "rewrite_fraction_equivalent",
     "title": "Rewrite fraction with equivalent denominator",
     "description": "Generate an equivalent fraction by multiplying numerator and denominator by same number.",
@@ -278,23 +193,6 @@
     ]
   },
   {
-    "kc_id": "subtract_decimal_align_place_value",
-    "title": "Subtract decimals by aligning place values",
-    "description": "Align decimals by place value and subtract corresponding digits.",
-    "condition": "Subtraction of two decimal numbers (e.g., 2.4 \u2212 0.02).",
-    "response": "Rewrite with aligned place values and subtract.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$2.40 - 0.02 = 2.38$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q9"
-    ]
-  },
-  {
     "kc_id": "subtract_fractions_common_denominator",
     "title": "Subtract fractions with common denominator",
     "description": "When fractions share a denominator, subtract numerators and keep denominator.",
@@ -308,28 +206,11 @@
     "example": "$\\frac{10}{20} - \\frac{1}{12}$ after rewriting $\\frac{10}{20}=\\frac{1}{2}$.",
     "notes": "Example simplified for illustration.",
     "question_ids": [
+      "G5_U6_a1_q4",
+      "G5_U6_a1_q7",
       "G5_U8_a1_q16",
       "G5_U8_a1_q3",
       "G5_U8_a1_q6"
-    ]
-  },
-  {
-    "kc_id": "find_volume_rectangular_prism",
-    "title": "Volume of rectangular prism",
-    "description": "Find volume by multiplying length, width, and height.",
-    "condition": "Dimensions of a rectangular prism are given.",
-    "response": "Compute $V = l \\times w \\times h$.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$5 \\times 4 \\times 3 = 60$ cubic units.",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q1",
-      "G5_U8_a1_q17",
-      "G5_U8_a1_q2"
     ]
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "kc_id": "add_fractions_common_denominator",
-    "title": "Add Fractions Using a Common Denominator",
-    "description": "To add two fractions, rewrite them with a common denominator, then add the numerators and keep the denominator.",
-    "condition": "Expression of the form a/b + c/d where denominators may differ.",
-    "response": "Rewrite with common denominator bd (or LCM), compute (ad + bc)/bd, and simplify if needed.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "\\( \\frac{7}{4} + \\frac{3}{5} = \\frac{35}{20} + \\frac{12}{20} = \\frac{47}{20} \\)",
-    "notes": "",
-    "question_ids": [
-      "G5_U6_a1_q4"
-    ]
-  },
-  {
     "kc_id": "add_or_subtract_whole_and_fraction_parts",
     "title": "Add or Subtract Mixed Numbers by Parts",
     "description": "Add or subtract mixed numbers by operating on whole-number parts and fractional parts (after ensuring common denominators).",
@@ -178,23 +161,6 @@
     ]
   },
   {
-    "kc_id": "evaluate_power_of_ten",
-    "title": "Evaluate Power of Ten",
-    "description": "Interpret and compute a power of 10 as a 1 followed by a specific number of zeros.",
-    "condition": "Given an expression of the form $10^n$.",
-    "response": "Write the equivalent whole number with n zeros (e.g., $10^8 = 100{,}000{,}000$).",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$10^8 = 100{,}000{,}000$.",
-    "notes": "Connects exponents to place value structure.",
-    "question_ids": [
-      "G5_U6_SA_a1_q2"
-    ]
-  },
-  {
     "kc_id": "identify_equivalent_fraction_by_multiplying_by_one",
     "title": "Generate Equivalent Fraction by Multiplying by 1",
     "description": "Create an equivalent fraction by multiplying numerator and denominator by the same nonzero number.",
@@ -284,40 +250,6 @@
     ]
   },
   {
-    "kc_id": "compute_product_multi_digit_whole",
-    "title": "Multiply Multi-Digit Whole Numbers",
-    "description": "Compute the product of two whole numbers using standard or decomposed multiplication.",
-    "condition": "Given two whole numbers (e.g., 325 and 12) that must be combined multiplicatively.",
-    "response": "Calculate their product (e.g., 325 \u00d7 12 = 3,900).",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Compute $325 \\times 12 = 325 \\times (10 + 2) = 3250 + 650 = 3900$.",
-    "notes": "Procedural fluency in multi-digit multiplication.",
-    "question_ids": [
-      "G5_U6_SA_a1_q3"
-    ]
-  },
-  {
-    "kc_id": "multiply_whole_number_by_fraction_or_whole",
-    "title": "Multiply Whole Number by Fraction or Whole",
-    "description": "Compute the product of a whole number and another whole number or fraction.",
-    "condition": "Expression of the form n \u00d7 a/b or n \u00d7 k where n is a whole number.",
-    "response": "Multiply n by the numerator and keep denominator (if any), simplifying if needed.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "\\(9 \\times 250 = 2250\\).",
-    "notes": "",
-    "question_ids": [
-      "G5_U6_a1_q6"
-    ]
-  },
-  {
     "kc_id": "find_difference_of_fractions",
     "title": "Subtract Fractions to Find Difference",
     "description": "Compute the difference between two fractions or mixed numbers to determine how much greater one value is than another.",
@@ -333,24 +265,6 @@
     "question_ids": [
       "G5_U6_SB_a1_q1",
       "G5_U6_SB_a1_q3"
-    ]
-  },
-  {
-    "kc_id": "subtract_fractions_common_denominator",
-    "title": "Subtract Fractions Using a Common Denominator",
-    "description": "To subtract two fractions, rewrite them with a common denominator, then subtract numerators.",
-    "condition": "Expression of the form a/b \u2212 c/d.",
-    "response": "Rewrite with common denominator and compute (ad \u2212 bc)/bd, simplifying if needed.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "\\( \\frac{3}{4} - \\frac{2}{5} = \\frac{15}{20} - \\frac{8}{20} = \\frac{7}{20} \\)",
-    "notes": "",
-    "question_ids": [
-      "G5_U6_a1_q4",
-      "G5_U6_a1_q7"
     ]
   }
 ]

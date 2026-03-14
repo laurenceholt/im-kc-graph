@@ -36,24 +36,8 @@
     "question_ids": [
       "G5_U2_a1_q4",
       "G5_U2_a1_q5",
-      "G5_U2_a1_q6"
-    ]
-  },
-  {
-    "kc_id": "convert_mixed_to_improper",
-    "title": "Convert Mixed Number to Improper Fraction",
-    "description": "Rewrite a mixed number as an improper fraction before multiplication.",
-    "condition": "A mixed number (e.g., $a \\frac{b}{c}$) appears as a factor in multiplication.",
-    "response": "Convert to improper fraction using $a \\frac{b}{c} = \\frac{ac+b}{c}$.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$5\\frac{2}{3} = \\frac{5\\cdot3+2}{3} = \\frac{17}{3}$.",
-    "notes": "Alternative strategy is distributive property (see separate KC).",
-    "question_ids": [
-      "G5_U2_SC_a1_q3"
+      "G5_U2_a1_q6",
+      "G6_U5_SC_a1_q2"
     ]
   },
   {
@@ -93,7 +77,7 @@
     ]
   },
   {
-    "kc_id": "interpret_fraction_as_division",
+    "kc_id": "fraction_as_division",
     "title": "Interpret Fraction as Division",
     "description": "Explain that a fraction a/b represents the division of a by b.",
     "condition": "A fraction written in the form a/b.",
@@ -107,7 +91,9 @@
     "notes": "Central conceptual link between fractions and division.",
     "question_ids": [
       "G5_U2_SA_a1_q3",
-      "G5_U2_SB_a1_q1"
+      "G5_U2_SB_a1_q1",
+      "G6_U5_SC_a1_q2",
+      "G8_U8_SD_a1_q1"
     ]
   },
   {
@@ -165,7 +151,7 @@
     ]
   },
   {
-    "kc_id": "multiply_whole_by_fraction",
+    "kc_id": "multiply_fraction_by_whole",
     "title": "Multiply Whole Number by Fraction",
     "description": "Multiply a whole number by a fraction by multiplying the whole number by the numerator and dividing by the denominator.",
     "condition": "Expression of the form N \\u00d7 a/b.",
@@ -185,7 +171,10 @@
       "G5_U2_a1_q3",
       "G5_U2_a1_q5",
       "G5_U2_a1_q6",
-      "G5_U2_a1_q7"
+      "G5_U2_a1_q7",
+      "G5_U3_SC_a1_q2",
+      "G5_U3_a1_q5",
+      "G5_U6_a1_q6"
     ]
   },
   {

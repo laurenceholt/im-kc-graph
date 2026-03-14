@@ -187,24 +187,9 @@
     "example": "For $t < 10$, draw an open circle at $10$ and shade to the left.",
     "notes": "Direction of shading depends on inequality symbol.",
     "question_ids": [
-      "G6_U7_SB_a1_q1"
-    ]
-  },
-  {
-    "kc_id": "shade_number_line_inequality",
-    "title": "Graph Inequality on Number Line",
-    "description": "Represent a one-variable inequality on a number line with correct endpoint and direction.",
-    "condition": "An inequality such as $x > -8$ is given.",
-    "response": "Draw an open or closed circle at the boundary and shade in the correct direction.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "For $x > -8$, draw an open circle at $-8$ and shade to the right.",
-    "notes": "",
-    "question_ids": [
-      "G6_U7_a1_q5"
+      "G6_U7_SB_a1_q1",
+      "G6_U7_a1_q5",
+      "G7_U6_SC_a1_q1"
     ]
   },
   {
@@ -376,6 +361,9 @@
     "example": "Plot $(1,-2)$ by moving 1 unit right and 2 units down from the origin.",
     "notes": "",
     "question_ids": [
+      "G5_U7_SA_a1_q1",
+      "G5_U7_SC_a1_q2",
+      "G5_U8_a1_q15",
       "G6_U7_SC_a1_q1",
       "G6_U7_a1_q6",
       "G6_U7_a1_q7"
@@ -396,23 +384,6 @@
     "notes": "Primarily procedural spatial skill.",
     "question_ids": [
       "G6_U7_SA_a1_q1"
-    ]
-  },
-  {
-    "kc_id": "identify_coordinates_from_graph",
-    "title": "Read Coordinates from Graph",
-    "description": "Identify the ordered pair of a plotted point by reading its horizontal and vertical positions.",
-    "condition": "A point is plotted on a coordinate grid.",
-    "response": "State its coordinates as (x, y) by reading x-value first, then y-value.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Point A is 5 units right and 2 units up, so its coordinates are $(5, 2)$.",
-    "notes": "Requires procedural graph reading.",
-    "question_ids": [
-      "G6_U7_SC_a1_q1"
     ]
   },
   {

@@ -1,22 +1,5 @@
 [
   {
-    "kc_id": "add_fractions_common_denominator",
-    "title": "Add Fractions with Common Denominator",
-    "description": "When adding fractions that share a common denominator, add the numerators and keep the denominator the same.",
-    "condition": "An expression of the form a/b + c/b where denominators are equal.",
-    "response": "Compute (a + c)/b and simplify if possible.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$-\\frac{7}{9} + \\frac{2}{9} = \\frac{-7+2}{9} = -\\frac{5}{9}$",
-    "notes": "",
-    "question_ids": [
-      "G7_U5_SA_a1_q1"
-    ]
-  },
-  {
     "kc_id": "add_signed_integers",
     "title": "Add Signed Integers",
     "description": "Add integers with the same or different signs by combining magnitudes and determining the sign from the larger magnitude.",
@@ -261,24 +244,6 @@
     "notes": "Choice of which direction is positive is conventional.",
     "question_ids": [
       "G7_U5_SB_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "solve_one_step_addition_equation",
-    "title": "Solve One-Step Addition Equation",
-    "description": "Solve equations of the form x + p = q by isolating the variable.",
-    "condition": "Equation of the form x + p = q with signed numbers.",
-    "response": "Subtract p from both sides to find x = q - p.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Rule",
-    "example": "$b + 14.5 = 10 \\Rightarrow b = 10 - 14.5 = -4.5$.",
-    "notes": "Includes negative constants. [merged: condition varies] [merged: response varies] [merged: label varies]",
-    "question_ids": [
-      "G7_U5_SC_a1_q1",
-      "G7_U5_a1_q5"
     ]
   },
   {

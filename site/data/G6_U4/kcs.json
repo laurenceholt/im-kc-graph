@@ -1,22 +1,5 @@
 [
   {
-    "kc_id": "rect_area_formula",
-    "title": "Area of a Rectangle Formula",
-    "description": "Relate rectangle area to the product of its side lengths.",
-    "condition": "Rectangle with side lengths \\ell and w.",
-    "response": "State or use A = \\ell \\cdot w.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If $\\ell = 4$ and $w = 3$, then $A = 4 \\cdot 3 = 12$.",
-    "notes": "Foundation for dividing to find unknown side.",
-    "question_ids": [
-      "G6_U4_SD_a1_q1"
-    ]
-  },
-  {
     "kc_id": "convert_mixed_to_improper",
     "title": "Convert Mixed Number to Improper Fraction",
     "description": "Convert a mixed number to an equivalent improper fraction before performing operations.",
@@ -30,6 +13,11 @@
     "example": "Convert $1\\tfrac{2}{3}$ to an improper fraction: $(1\\times3+2)/3=5/3$.",
     "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
     "question_ids": [
+      "G5_U2_SC_a1_q3",
+      "G5_U3_SA_a1_q3",
+      "G5_U3_a1_q5",
+      "G5_U8_a1_q10",
+      "G5_U8_a1_q5",
       "G6_U4_SB_a1_q2",
       "G6_U4_SC_a1_q2",
       "G6_U4_SD_a1_q1",
@@ -329,23 +317,6 @@
     ]
   },
   {
-    "kc_id": "simplify_fraction",
-    "title": "Simplify a Fraction",
-    "description": "Reduce a fraction to an equivalent fraction in lowest terms by dividing numerator and denominator by a common factor.",
-    "condition": "Fraction with common factors in numerator and denominator",
-    "response": "Divide numerator and denominator by greatest common factor",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "$\\frac{18}{24} = \\frac{18 \\div 6}{24 \\div 6} = \\frac{3}{4}$",
-    "notes": "Final step in many quotient calculations.",
-    "question_ids": [
-      "G6_U4_SC_a1_q2"
-    ]
-  },
-  {
     "kc_id": "use_visual_fraction_model",
     "title": "Use Visual Model to Represent Fraction Division",
     "description": "Represent fraction division with a tape diagram or number line partitioned into equal fractional units.",
@@ -378,24 +349,6 @@
     "notes": "Specific to 1/2-edge cube in this task.",
     "question_ids": [
       "G6_U4_SD_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "rect_prism_volume_formula",
-    "title": "Volume of Rectangular Prism Formula",
-    "description": "Relate volume of a rectangular prism to the product of its three edge lengths.",
-    "condition": "Rectangular prism with length l, width w, height h.",
-    "response": "State or use V = l \\cdot w \\cdot h.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$V = 2\\tfrac{1}{2} \\cdot 2 \\cdot 3 = 15$ cubic inches.",
-    "notes": "Also interpreted as base area \u00d7 height.",
-    "question_ids": [
-      "G6_U4_SD_a1_q2",
-      "G6_U4_SD_a1_q3"
     ]
   },
   {

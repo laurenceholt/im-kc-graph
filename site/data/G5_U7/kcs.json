@@ -316,24 +316,6 @@
     ]
   },
   {
-    "kc_id": "locate_point_from_ordered_pair",
-    "title": "Plot Point from Ordered Pair",
-    "description": "Plot a point on the coordinate grid by moving horizontally to the x-value and vertically to the y-value.",
-    "condition": "Given an ordered pair (x, y) and a coordinate grid.",
-    "response": "Move to x on the horizontal axis, then to y vertically, and mark the point.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "No",
-    "label": "Rule / Plan",
-    "example": "To plot $(3,0)$, move 3 units right along the x-axis and 0 units up, marking the point at $(3,0)$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U7_SA_a1_q1",
-      "G5_U7_SC_a1_q2"
-    ]
-  },
-  {
     "kc_id": "recognize_multiple_classification",
     "title": "Recognize Multiple Valid Classifications",
     "description": "Understand that a single shape can belong to more than one category if it satisfies multiple definitions.",

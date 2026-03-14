@@ -17,43 +17,6 @@
     ]
   },
   {
-    "kc_id": "add_same_number_both_sides",
-    "title": "Add the Same Number to Both Sides",
-    "description": "To isolate a variable, add the same number to both sides of an equation to maintain equality.",
-    "condition": "Equation of the form px + q = r where a constant term q must be removed by addition (e.g., px - 8 = -22).",
-    "response": "Add the opposite of q to both sides of the equation.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "Solve $7p - 8 = -22$ by adding 8 to both sides: \n$7p - 8 + 8 = -22 + 8$.",
-    "notes": "Based on properties of equality.",
-    "question_ids": [
-      "G7_U6_SB_a1_q1"
-    ]
-  },
-  {
-    "kc_id": "apply_distributive_property",
-    "title": "Apply Distributive Property",
-    "description": "Multiply a factor across all terms inside parentheses.",
-    "condition": "An expression of the form a(b + c).",
-    "response": "Rewrite as ab + ac.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$3(x+8)=3x+24$.",
-    "notes": "",
-    "question_ids": [
-      "G7_U6_SB_a1_q1",
-      "G7_U6_SD_a1_q2",
-      "G7_U6_a1_q4",
-      "G7_U6_a1_q5"
-    ]
-  },
-  {
     "kc_id": "combine_like_terms",
     "title": "Combine Like Terms",
     "description": "Add or subtract coefficients of terms that have the same variable part to simplify an expression.",
@@ -128,23 +91,6 @@
     ]
   },
   {
-    "kc_id": "evaluate_linear_expression",
-    "title": "Evaluate Linear Expression",
-    "description": "Substitute a given value into a linear expression and compute the result.",
-    "condition": "A linear expression in n and a specific value for n.",
-    "response": "Substitute the value and simplify.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If cost is $5.3n+250$, for $n=40$: $5.3(40)+250=462$.",
-    "notes": "",
-    "question_ids": [
-      "G7_U6_a1_q7"
-    ]
-  },
-  {
     "kc_id": "factor_greatest_common_factor",
     "title": "Factor Out the Greatest Common Factor",
     "description": "Rewrite a sum of terms as a product by factoring out their greatest common factor (GCF).",
@@ -159,23 +105,6 @@
     "notes": "Students may factor out a negative instead (e.g., -6(2a - 5b + 3)), which is equivalent.",
     "question_ids": [
       "G7_U6_SD_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "graph_strict_inequality_number_line",
-    "title": "Graph a Strict Inequality on a Number Line",
-    "description": "Represent the solution to a strict inequality (< or >) on a number line using an open circle at the boundary and shading in the correct direction.",
-    "condition": "Given a solution to a one-variable inequality of the form x > a or x < a.",
-    "response": "Place an open circle at a and shade to the right for > or to the left for <.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "For $x > 10$, draw an open circle at 10 and shade to the right.",
-    "notes": "Open circle indicates the endpoint is not included.",
-    "question_ids": [
-      "G7_U6_SC_a1_q1"
     ]
   },
   {

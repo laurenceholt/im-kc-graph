@@ -1,25 +1,5 @@
 [
   {
-    "kc_id": "add_decimals_align_place_values",
-    "title": "Add Decimals by Aligning Place Values",
-    "description": "Add two decimal numbers by aligning digits by place value and regrouping as needed.",
-    "condition": "Given an addition expression with two decimal numbers.",
-    "response": "Align decimal points, add digits by place value from right to left, regroup as needed, and write the sum with the decimal point aligned.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$613.5 + 7.68 = 621.18$ by aligning decimals and regrouping.",
-    "notes": "",
-    "question_ids": [
-      "G5_U5_SB_a1_q1",
-      "G5_U5_SB_a1_q2",
-      "G5_U5_a1_q4",
-      "G5_U5_a1_q6"
-    ]
-  },
-  {
     "kc_id": "apply_place_value_scaling_in_product",
     "title": "Apply Place Value Scaling in Decimal Products",
     "description": "After multiplying whole-number equivalents, adjust the product by multiplying by powers of 0.1 to account for the decimal places in the original factors.",
@@ -234,24 +214,6 @@
     ]
   },
   {
-    "kc_id": "multiply_whole_numbers_standard",
-    "title": "Multiply Whole Numbers",
-    "description": "Compute the product of two whole numbers using a standard algorithm or decomposition.",
-    "condition": "Given two whole numbers (e.g., 28 and 37, or 21 and 73) to be multiplied.",
-    "response": "Calculate their product accurately.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "$28 \\times 37 = 1036$.",
-    "notes": "Assumed prerequisite skill.",
-    "question_ids": [
-      "G5_U5_SC_a1_q2",
-      "G5_U5_SC_a1_q3"
-    ]
-  },
-  {
     "kc_id": "read_decimal_in_words",
     "title": "Read Decimal in Word Form",
     "description": "Express a decimal in words by naming the whole number part and the fractional part using place value language (tenths, hundredths, thousandths).",
@@ -316,7 +278,8 @@
     "example": "In $38.12 - 27.30$, regroup 1 tenth as 10 hundredths so $12 - 0$ and $1$ tenth becomes $0$ tenths after regrouping.",
     "notes": "Based on base\u2011ten structure.",
     "question_ids": [
-      "G5_U5_SB_a1_q2"
+      "G5_U5_SB_a1_q2",
+      "G6_U5_SA_a1_q2"
     ]
   },
   {
@@ -390,7 +353,11 @@
       "G5_U5_SB_a1_q2",
       "G5_U5_a1_q4",
       "G5_U5_a1_q6",
-      "G5_U5_a1_q8"
+      "G5_U5_a1_q8",
+      "G5_U8_a1_q9",
+      "G6_U5_SA_a1_q2",
+      "G6_U5_a1_q3",
+      "G6_U5_a1_q6"
     ]
   },
   {

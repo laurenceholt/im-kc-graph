@@ -390,7 +390,7 @@
     ]
   },
   {
-    "kc_id": "compute_rectangular_prism_volume",
+    "kc_id": "volume_prism",
     "title": "Volume of a Rectangular Prism",
     "description": "Use the formula for volume of a rectangular prism as the product of its three dimensions.",
     "condition": "Given length, width, and height of a rectangular prism.",
@@ -405,7 +405,14 @@
     "question_ids": [
       "G5_U4_SB_a1_q2",
       "G5_U4_SC_a1_q2",
-      "G5_U4_a1_q6"
+      "G5_U4_a1_q6",
+      "G5_U8_a1_q1",
+      "G5_U8_a1_q17",
+      "G5_U8_a1_q2",
+      "G6_U4_SD_a1_q2",
+      "G6_U4_SD_a1_q3",
+      "G7_U7_SC_a1_q2",
+      "G7_U7_a1_q7"
     ]
   }
 ]

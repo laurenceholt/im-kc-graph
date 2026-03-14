@@ -1,6 +1,6 @@
 [
   {
-    "kc_id": "add_decimals_align_place_value",
+    "kc_id": "add_decimals_align_place_values",
     "title": "Add Decimals by Aligning Place Value",
     "description": "Add two decimal numbers by aligning decimal points and adding corresponding place values.",
     "condition": "Two or more decimal numbers to be added.",
@@ -13,6 +13,11 @@
     "example": "$$16.4 + 0.35 = 16.75$$",
     "notes": "Used in multi-step context problems as well.",
     "question_ids": [
+      "G5_U5_SB_a1_q1",
+      "G5_U5_SB_a1_q2",
+      "G5_U5_a1_q4",
+      "G5_U5_a1_q6",
+      "G5_U8_a1_q9",
       "G6_U5_SA_a1_q1",
       "G6_U5_a1_q2",
       "G6_U5_a1_q3",
@@ -126,23 +131,6 @@
     ]
   },
   {
-    "kc_id": "fraction_to_mixed_number",
-    "title": "Convert Improper Fraction to Mixed Number",
-    "description": "Rewrite an improper fraction as a mixed number by dividing the numerator by the denominator.",
-    "condition": "Given an improper fraction $\\frac{a}{b}$ with $a>b$.",
-    "response": "Divide $a$ by $b$ to express the result as a whole number and remainder, forming a mixed number.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$\\frac{120}{75} = \\frac{8}{5} = 1\\frac{3}{5}$ because $8 \\div 5 = 1$ remainder $3$.",
-    "notes": "Appears in solution explanation for expressing 1.6 as $1\\frac{3}{5}$.",
-    "question_ids": [
-      "G6_U5_SC_a1_q2"
-    ]
-  },
-  {
     "kc_id": "convert_decimal_division_to_whole_numbers",
     "title": "Create Equivalent Whole-Number Division Expression",
     "description": "Rewrite a decimal division problem as an equivalent problem with whole numbers by multiplying both numbers by the same power of 10.",
@@ -229,23 +217,6 @@
     ]
   },
   {
-    "kc_id": "interpret_division_as_fraction",
-    "title": "Interpret Division as a Fraction",
-    "description": "Rewrite a division expression as a fraction with the dividend as numerator and divisor as denominator.",
-    "condition": "Given a division expression $a \\div b$.",
-    "response": "Rewrite as the fraction $\\frac{a}{b}$.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$120 \\div 75 = \\frac{120}{75}$.",
-    "notes": "Supports reasoning about quotient size and simplification.",
-    "question_ids": [
-      "G6_U5_SC_a1_q2"
-    ]
-  },
-  {
     "kc_id": "multiply_decimals_standard_algorithm",
     "title": "Multiply Decimals Using Standard Algorithm",
     "description": "Multiply decimal numbers using the standard multiplication algorithm.",
@@ -262,24 +233,6 @@
       "G6_U5_a1_q5",
       "G6_U5_a1_q6",
       "G6_U5_a1_q7"
-    ]
-  },
-  {
-    "kc_id": "multiply_whole_numbers_standard",
-    "title": "Multiply Whole Numbers Using Standard Algorithm",
-    "description": "Use the standard multiplication algorithm to compute the product of multi-digit whole numbers.",
-    "condition": "Given two whole numbers to multiply.",
-    "response": "Apply the standard algorithm (partial products and addition) to find the product.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "$64 \\times 9 = 576$ using the standard algorithm.",
-    "notes": "Algorithmic skill; explanation not required for execution.",
-    "question_ids": [
-      "G6_U5_SB_a1_q1",
-      "G6_U5_SB_a1_q2"
     ]
   },
   {
@@ -337,23 +290,6 @@
     ]
   },
   {
-    "kc_id": "regroup_in_decimal_subtraction",
-    "title": "Regroup in Decimal Subtraction",
-    "description": "Decompose a unit from a higher place value when the top digit is smaller than the bottom digit in subtraction.",
-    "condition": "In a subtraction column, the minuend digit is less than the subtrahend digit.",
-    "response": "Borrow 1 unit from the next place to the left, convert it to 10 of the current place, and subtract.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "Compute $6.000 - 3.042$:\nBorrow to get $5.1000 - 3.042 = 2.958$.",
-    "notes": "Requires understanding of place value decomposition.",
-    "question_ids": [
-      "G6_U5_SA_a1_q2"
-    ]
-  },
-  {
     "kc_id": "scale_product_by_power_of_ten",
     "title": "Scale Product by Powers of Ten",
     "description": "Adjust a whole-number product when factors are scaled by powers of 10.",
@@ -368,25 +304,6 @@
     "notes": "",
     "question_ids": [
       "G6_U5_SB_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "decimal_subtraction_align_place_value",
-    "title": "Subtract Decimals by Aligning Place Value",
-    "description": "Subtract one decimal from another by aligning decimal points and subtracting by place value.",
-    "condition": "A subtraction expression involving decimals.",
-    "response": "Align decimal points, subtract by place value, and place the decimal point in the difference.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "$$1 - 0.5904 = 0.4096$$",
-    "notes": "May involve regrouping across decimal places.",
-    "question_ids": [
-      "G6_U5_SA_a1_q2",
-      "G6_U5_a1_q3",
-      "G6_U5_a1_q6"
     ]
   },
   {

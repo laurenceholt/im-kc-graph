@@ -13,6 +13,7 @@
     "example": "From $3x = 12$, add 3 to both sides: $3x + 3 = 12 + 3 = 15$.",
     "notes": "Also used with variable terms, e.g., adding $4x$ to both sides.",
     "question_ids": [
+      "G7_U6_SB_a1_q1",
       "G8_U4_SA_a1_q1",
       "G8_U4_SA_a1_q2"
     ]
@@ -31,6 +32,12 @@
     "example": "$4(3 - x) = 12 - 4x$ and $3x + 3 = 3(x + 1)$.",
     "notes": "Includes both distributing and factoring using the same structural principle.",
     "question_ids": [
+      "G6_U6_SB_a1_q2",
+      "G6_U6_a1_q3",
+      "G7_U6_SB_a1_q1",
+      "G7_U6_SD_a1_q2",
+      "G7_U6_a1_q4",
+      "G7_U6_a1_q5",
       "G8_U4_SA_a1_q1",
       "G8_U4_SA_a1_q2",
       "G8_U4_SB_a1_q2",

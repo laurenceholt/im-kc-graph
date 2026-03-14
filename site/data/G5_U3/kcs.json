@@ -18,24 +18,6 @@
     ]
   },
   {
-    "kc_id": "convert_mixed_to_improper",
-    "title": "Convert Mixed Number to Improper Fraction",
-    "description": "Rewrite a mixed number as an improper fraction before multiplying.",
-    "condition": "Mixed number of the form a b/c.",
-    "response": "Compute (a\u00d7c + b)/c.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$5\\frac{2}{3} = \\frac{5\\times3+2}{3} = \\frac{17}{3}$",
-    "notes": "[merged: condition varies] [merged: response varies]",
-    "question_ids": [
-      "G5_U3_SA_a1_q3",
-      "G5_U3_a1_q5"
-    ]
-  },
-  {
     "kc_id": "compute_fraction_divided_by_whole",
     "title": "Divide a Fraction by a Whole Number",
     "description": "Divide a fraction by a whole number by multiplying by the reciprocal of the whole number.",
@@ -248,43 +230,6 @@
       "G5_U3_SC_a1_q2",
       "G5_U3_a1_q1",
       "G5_U3_a1_q2",
-      "G5_U3_a1_q5",
-      "G5_U3_a1_q7"
-    ]
-  },
-  {
-    "kc_id": "multiply_fraction_by_whole",
-    "title": "Multiply Whole Number by Fraction",
-    "description": "Multiply a whole number by a fraction by multiplying the whole number and numerator.",
-    "condition": "Expression of the form n \u00d7 a/b.",
-    "response": "Compute (n\u00d7a)/b.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$4 \\times \\frac{69}{10} = \\frac{276}{10} = 27\\frac{6}{10}$",
-    "notes": "",
-    "question_ids": [
-      "G5_U3_SC_a1_q2",
-      "G5_U3_a1_q5"
-    ]
-  },
-  {
-    "kc_id": "simplify_fraction_equivalent",
-    "title": "Recognize or Produce Equivalent Fraction",
-    "description": "Recognize that different fractions can represent the same value.",
-    "condition": "Fraction result that can be simplified or written in equivalent form.",
-    "response": "Rewrite fraction in equivalent form (e.g., simplify or convert to mixed number).",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$\\frac{6}{60} = \\frac{1}{10}$",
-    "notes": "",
-    "question_ids": [
-      "G5_U3_SA_a1_q2",
       "G5_U3_a1_q5",
       "G5_U3_a1_q7"
     ]

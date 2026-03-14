@@ -18,23 +18,6 @@
     ]
   },
   {
-    "kc_id": "area_parallelogram_base_height",
-    "title": "Area of a Parallelogram Using Base and Height",
-    "description": "Compute the area of a parallelogram by multiplying its base by its corresponding height.",
-    "condition": "Given a parallelogram with a known base length and perpendicular height.",
-    "response": "Calculate area as base \u00d7 height.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If a parallelogram has base $4$ units and height $3$ units, then $A = 4 \\times 3 = 12$ square units.",
-    "notes": "",
-    "question_ids": [
-      "G8_U1_a1_q10"
-    ]
-  },
-  {
     "kc_id": "area_parallelogram_decompose",
     "title": "Area of Parallelogram by Decomposition",
     "description": "Find the area of a parallelogram by decomposing it into rectangles and/or triangles and summing or subtracting areas.",
@@ -155,23 +138,6 @@
     ]
   },
   {
-    "kc_id": "linear_pair_supplementary",
-    "title": "Linear Pair Angles Are Supplementary",
-    "description": "Two adjacent angles forming a straight line sum to 180 degrees.",
-    "condition": "Two adjacent angles form a straight line (linear pair).",
-    "response": "Set their measures to sum to $180^\\circ$ and solve for the unknown angle.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "If $m\\angle a = 45^\\circ$ and $\\angle a$ and $\\angle b$ form a linear pair, then $m\\angle b = 180^\\circ - 45^\\circ = 135^\\circ$.",
-    "notes": "",
-    "question_ids": [
-      "G8_U1_SD_a1_q1"
-    ]
-  },
-  {
     "kc_id": "parallel_after_180_rotation",
     "title": "Parallelism After 180\u00b0 Rotation",
     "description": "Recognize that a segment and its image under a 180\u00b0 rotation are parallel.",
@@ -186,23 +152,6 @@
     "notes": "",
     "question_ids": [
       "G8_U1_SB_a1_q1"
-    ]
-  },
-  {
-    "kc_id": "read_point_coordinates_from_grid",
-    "title": "Read Coordinates from a Coordinate Grid",
-    "description": "Identify the ordered pair representing a plotted point on a coordinate plane.",
-    "condition": "Given a plotted point on a standard coordinate grid with labeled axes.",
-    "response": "State its coordinates as (x, y) by reading horizontal position first, then vertical position.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Point $B$ is located 3 units right and 2 units up, so its coordinates are $(3, 2)$.",
-    "notes": "Often implicit prerequisite skill.",
-    "question_ids": [
-      "G8_U1_SA_a1_q1"
     ]
   },
   {
@@ -381,24 +330,6 @@
     "notes": "",
     "question_ids": [
       "G8_U1_a1_q3"
-    ]
-  },
-  {
-    "kc_id": "vertical_angles_congruent",
-    "title": "Vertical Angles Are Congruent",
-    "description": "When two lines intersect, opposite (vertical) angles have equal measure.",
-    "condition": "Two lines intersect forming vertical (opposite) angles.",
-    "response": "Set the measures of the vertical angles equal.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "If two lines intersect and $m\\angle 1 = 45^\\circ$, then the vertical angle also measures $45^\\circ$.",
-    "notes": "",
-    "question_ids": [
-      "G8_U1_SD_a1_q1",
-      "G8_U1_a1_q1"
     ]
   }
 ]

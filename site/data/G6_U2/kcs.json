@@ -104,25 +104,6 @@
     ]
   },
   {
-    "kc_id": "compute_unit_rate_division",
-    "title": "Compute Unit Rate by Division",
-    "description": "Find the amount for one unit by dividing the total quantity by the number of units.",
-    "condition": "Given a ratio a units correspond to b total amount (e.g., 4 lengths \u2192 96 seconds, 8 bars \u2192 $6) and asked for the value per 1 unit.",
-    "response": "Divide total amount by number of units (b \u00f7 a) to find the unit rate.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "From 4 lengths in 96 seconds, time for 1 length is $96 \\div 4 = 24$ seconds.",
-    "notes": "",
-    "question_ids": [
-      "G6_U2_SC_a1_q2",
-      "G6_U2_SD_a1_q1",
-      "G6_U2_SD_a1_q2"
-    ]
-  },
-  {
     "kc_id": "construct_discrete_ratio_diagram",
     "title": "Construct Discrete Ratio Diagram",
     "description": "Create a visual diagram (e.g., repeated symbols or boxes) to represent a ratio between two quantities.",
@@ -438,7 +419,8 @@
     "notes": "Division may be used when unit rate is expressed as time per unit.",
     "question_ids": [
       "G6_U2_SD_a1_q1",
-      "G6_U2_SD_a1_q2"
+      "G6_U2_SD_a1_q2",
+      "G6_U6_a1_q6"
     ]
   },
   {
