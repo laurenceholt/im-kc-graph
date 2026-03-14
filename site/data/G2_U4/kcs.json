@@ -1,0 +1,219 @@
+[
+  {
+    "kc_id": "compare_positions_on_number_line",
+    "title": "Compare Quantities by Position",
+    "description": "Determine which quantity is greater or lesser by comparing their positions on a number line.",
+    "condition": "Two or more labeled points are shown on the same number line.",
+    "response": "Identify the point farthest to the right as greatest and farthest to the left as least.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Elena is at 15, Andre at 28, and Clare at 38, then 38 is greatest and 15 is least.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "decompose_number_into_tens_ones",
+    "title": "Decompose Number into Tens and Ones",
+    "description": "Break a two-digit number into tens and ones to make counting on or back easier.",
+    "condition": "A two-digit number such as 19 or 38 used in addition or subtraction.",
+    "response": "Rewrite the number as the sum of its tens and ones (e.g., 19 = 10 + 9).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$19 = 10 + 9$, so $55 - 19$ can be thought of as $55 - 10 - 9$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SB_a1_q2",
+      "G2_U4_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_midpoint_of_interval",
+    "title": "Identify Midpoint of an Interval",
+    "description": "Determine the number halfway between two labeled endpoints on a number line.",
+    "condition": "Two labeled endpoints on a number line (e.g., 0 and 80).",
+    "response": "Compute or state the midpoint value between the endpoints.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Between 0 and 80, the midpoint is $\\frac{0 + 80}{2} = 40$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "interpret_jump_direction",
+    "title": "Interpret Jump Direction",
+    "description": "Determine whether a jump on a number line represents addition or subtraction based on its direction.",
+    "condition": "A visual jump on a number line pointing either left or right.",
+    "response": "Identify rightward jumps as addition and leftward jumps as subtraction.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "A jump from 34 to 43 moving right represents addition.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SB_a1_q1",
+      "G2_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "locate_number_on_number_line",
+    "title": "Locate and Label a Number",
+    "description": "Place a given number accurately on a number line using equal spacing and benchmarks.",
+    "condition": "A number line with labeled intervals is shown and a specific number is given.",
+    "response": "Mark the position corresponding to that number at the correct tick mark.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "On a 0\u201350 number line with unit ticks, place 43 three units to the right of 40.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_a1_q1",
+      "G2_U4_a1_q3",
+      "G2_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "locate_number_relative_to_benchmark",
+    "title": "Locate Number Relative to Nearest Benchmark",
+    "description": "Place or identify a number on a number line by comparing it to the nearest labeled multiple (e.g., nearest ten).",
+    "condition": "A target whole number within 100 and nearby labeled benchmark numbers (e.g., 30 and 40).",
+    "response": "Determine whether the number is to the left or right of the benchmark and place it the correct number of intervals away.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To locate 34, note it is between 30 and 40 and 4 units to the right of 30.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "match_expression_to_number_line",
+    "title": "Match Expression to Number Line Representation",
+    "description": "Match a numerical expression to a number line by aligning starting point, direction, and jump size.",
+    "condition": "A number line diagram showing a starting point, direction of movement, and distance moved.",
+    "response": "Select or write the expression whose first number is the starting point and whose operation and second number match the direction and size of the jump.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A jump starting at 34 and moving 9 units right matches $34 + 9$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SB_a1_q1",
+      "G2_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_equal_spacing_structure",
+    "title": "Recognize Equal Spacing on Number Line",
+    "description": "Understand that equal distances between tick marks represent equal numerical increments.",
+    "condition": "A number line with uniformly spaced tick marks.",
+    "response": "Infer that each interval represents the same numerical increase.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If the \u0641\u0627\u0635\u0644\u0629 between 0 and 10 is divided into 10 equal \u0623\u062c\u0632\u0627\u0621, each interval represents 1.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SA_a1_q1",
+      "G2_U4_SA_a1_q2",
+      "G2_U4_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "add_on_number_line_right",
+    "title": "Represent Addition as Rightward Jumps",
+    "description": "Represent addition on a number line by starting at the first addend and making rightward jumps equal to the second addend.",
+    "condition": "An addition expression a + b is to be represented on a number line.",
+    "response": "Start at a and move right a total distance of b (possibly in parts) to locate the sum.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To represent $25 + 44$, start at 25 and move right 44 units to land on 69.",
+    "notes": "[merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G2_U4_SB_a1_q1",
+      "G2_U4_SB_a1_q3",
+      "G2_U4_a1_q4",
+      "G2_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "subtract_on_number_line_left",
+    "title": "Represent Subtraction as Leftward Jumps",
+    "description": "Represent subtraction on a number line by starting at the minuend and making leftward jumps equal to the subtrahend.",
+    "condition": "A subtraction expression a \u2212 b is to be represented on a number line.",
+    "response": "Start at a and move left a total distance of b to locate the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To represent $53 - 17$, start at 53 and move left 17 units to land on 36.",
+    "notes": "[merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G2_U4_SB_a1_q2",
+      "G2_U4_a1_q2",
+      "G2_U4_a1_q3",
+      "G2_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "represent_unknown_with_equation",
+    "title": "Represent Word Problem with Equation",
+    "description": "Translate a word problem describing a total or increase into an addition equation with an unknown.",
+    "condition": "A word problem stating a starting amount and an additional amount, asking for the total.",
+    "response": "Write an equation of the form start + increase = ?.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Bracelet is 17 cm and necklace is 38 cm longer: $17 + 38 = ?$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "use_relative_position_for_estimation",
+    "title": "Use Relative Position to Estimate Value",
+    "description": "Estimate the value of a point by judging its position relative to known reference points (e.g., midpoint).",
+    "condition": "A point placed on a number line between two labeled endpoints without intermediate labels.",
+    "response": "Estimate a reasonable numerical value based on proximity to known reference points.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a point is slightly left of the midpoint 40 on a 0\u201380 number line, a reasonable estimate is about $30$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U4_SA_a1_q3"
+    ]
+  }
+]

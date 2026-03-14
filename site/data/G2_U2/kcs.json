@@ -1,0 +1,381 @@
+[
+  {
+    "kc_id": "add_multiples_of_ten",
+    "title": "Add Multiples of Ten to Two-Digit Numbers",
+    "description": "Add a multiple of 10 to a two-digit number by increasing the tens digit while keeping the ones digit the same.",
+    "condition": "Expression of the form a two-digit number + multiple of 10 (e.g., 35 + 20).",
+    "response": "Increase the tens place by the given tens and keep the ones digit unchanged.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $35 + 20$: $35 = 3$ tens $5$ ones. Adding $2$ tens gives $5$ tens $5$ ones = $55$.",
+    "notes": "Based on place value structure.",
+    "question_ids": [
+      "G2_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "add_tens_then_ones_strategy",
+    "title": "Add Tens Then Ones Strategy",
+    "description": "Add a multiple of ten first, then add the remaining ones to reach a target number.",
+    "condition": "When adding a two-digit number by decomposing it into tens and ones (e.g., +14 as +10 and +4).",
+    "response": "Add the tens first, then add the ones to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To add 14 to 61: $61 + 10 = 71$, then $71 + 4 = 75$.",
+    "notes": "Used as a counting-up strategy to find differences.",
+    "question_ids": [
+      "G2_U2_SA_a1_q14"
+    ]
+  },
+  {
+    "kc_id": "add_three_numbers_within_100",
+    "title": "Add Three Numbers Within 100",
+    "description": "Compute the total of three addends within 100, often by grouping or sequential addition.",
+    "condition": "Given three whole numbers within 100 to be combined into one total (e.g., a + b + c).",
+    "response": "Add the three numbers to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$23 + 14 + 15 = 37 + 15 = 52$",
+    "notes": "Often decomposed into two sequential addition steps.",
+    "question_ids": [
+      "G2_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "add_two_digit_compose_ten",
+    "title": "Add Two-Digit Numbers with Composing a Ten",
+    "description": "Add two two-digit numbers where the ones sum to 10 or more, requiring composing a new ten.",
+    "condition": "Addition of two two-digit numbers where ones digits sum to \u2265 10 (e.g., 23 + 19).",
+    "response": "Add ones to form a new ten, regroup to tens place, then add tens.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$23 + 19$: $3 + 9 = 12$ \u2192 $1$ ten $2$ ones. Tens: $2 + 1 + 1 = 4$ tens. Sum = $42$.",
+    "notes": "Also used when adding three numbers in Q6.",
+    "question_ids": [
+      "G2_U2_a1_q3",
+      "G2_U2_a1_q5",
+      "G2_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "subtract_two_digit_numbers_within_100",
+    "title": "Compute Two-Digit Subtraction Within 100",
+    "description": "Accurately compute the difference between two two-digit numbers within 100 (no regrouping).",
+    "condition": "Given a subtraction expression with two two-digit numbers within 100 that does not require regrouping.",
+    "response": "State the correct numerical difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$75 - 61 = 14$.",
+    "notes": "Procedural fluency outcome of place-value reasoning.",
+    "question_ids": [
+      "G2_U2_SA_a1_q1",
+      "G2_U2_SA_a1_q3",
+      "G2_U2_SC_a1_q1",
+      "G2_U2_SC_a1_q2",
+      "G2_U3_SA_a1_q2",
+      "G2_U3_SB_a1_q2",
+      "G2_U6_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "decompose_ten_to_ones",
+    "title": "Decompose One Ten into Ten Ones",
+    "description": "Trade one ten for ten ones when there are not enough ones to subtract.",
+    "condition": "In subtraction, the ones digit of the minuend is less than the ones digit of the subtrahend (e.g., 45 \u2212 18).",
+    "response": "Decompose one ten into 10 ones and add them to the ones place before subtracting.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $45 - 18$, rewrite $45$ as $3$ tens and $15$ ones, then subtract $8$ ones.",
+    "notes": "Also called regrouping or trading.",
+    "question_ids": [
+      "G2_U2_SB_a1_q1",
+      "G2_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_subtrahend_by_place",
+    "title": "Decompose Subtrahend into Tens and Ones",
+    "description": "Break apart a two-digit number into tens and ones (or further into parts) to make subtraction easier.",
+    "condition": "Given a two-digit number to subtract (e.g., 28 or 17).",
+    "response": "Rewrite the number as a sum of tens and ones (e.g., 28 = 20 + 8 or 20 + 5 + 3).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$17 = 10 + 7$ and $28 = 20 + 8$ (or $20 + 5 + 3$).",
+    "notes": "Supports subtraction by place-value reasoning.",
+    "question_ids": [
+      "G2_U2_SB_a1_q2",
+      "G2_U2_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "decompose_two_digit_place_value",
+    "title": "Decompose Two-Digit Number into Tens and Ones",
+    "description": "Represent a two-digit number as a sum of tens and ones.",
+    "condition": "Given any two-digit number (e.g., 65).",
+    "response": "Express the number as tens and ones (e.g., 6 tens and 5 ones).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "$65 = 6$ tens and $5$ ones.",
+    "notes": "Supports place-value-based addition and subtraction.",
+    "question_ids": [
+      "G2_U2_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "select_expression_equal_target",
+    "title": "Evaluate and Match Expression to Target Value",
+    "description": "Compute the value of expressions and determine which equal a specified target number.",
+    "condition": "A set of numerical expressions and a target value (e.g., select expressions equal to 75).",
+    "response": "Evaluate each expression and select those whose value matches the target.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Check $85 - 10 = 75$, $45 + 30 = 75$, $95 - 20 = 75$ \u2192 select B, D, E.",
+    "notes": "Requires accurate computation first.",
+    "question_ids": [
+      "G2_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "total_multiple_quantities",
+    "title": "Find Total of Multiple Quantities",
+    "description": "Add three or more quantities to find a total.",
+    "condition": "Table or list of three quantities requiring a total (e.g., 35 dogs, 19 rabbits, 27 cats).",
+    "response": "Add all quantities accurately, composing tens as needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$35 + 19 + 27 = 35 + 19 = 54$, $54 + 27 = 81$.",
+    "notes": "May involve multiple compositions of tens.",
+    "question_ids": [
+      "G2_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "interpret_base_ten_subtraction_representation",
+    "title": "Interpret Base-Ten Block Subtraction Model",
+    "description": "Identify the subtraction expression and result represented by base-ten blocks with some units crossed out.",
+    "condition": "A base-ten block diagram showing tens and ones with some blocks crossed out.",
+    "response": "State the subtraction equation represented and determine the remaining tens and ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "A diagram showing 4 tens and 5 ones with 1 ten decomposed and 18 units crossed out represents $45 - 18 = 27$ (2 tens and 7 ones).",
+    "notes": "Requires connecting visual model to symbolic subtraction.",
+    "question_ids": [
+      "G2_U2_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_add_to_result_unknown",
+    "title": "Represent Add-To, Result Unknown",
+    "description": "Translate an 'add to' story situation into an addition equation.",
+    "condition": "Story problem describing an initial amount that increases (e.g., 40 stickers, gets 13 more).",
+    "response": "Write and solve an addition equation representing total = start + change.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Jada has 40 stickers and gets 13 more \u2192 $40 + 13 = 53$.",
+    "notes": "Requires identifying structure of situation.",
+    "question_ids": [
+      "G2_U2_a1_q2",
+      "GK_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_part_part_whole_equations",
+    "title": "Represent Part-Part-Whole Relationships with Equations",
+    "description": "Express a part-part-whole situation as related addition and subtraction equations with an unknown in any position.",
+    "condition": "Given a total and one or two parts in a part-part-whole context (e.g., tape diagram).",
+    "response": "Write equivalent equations such as part + part = whole, whole \u2212 part = part, or ? + part = whole.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If total is 46 and one part is 29, write $? + 29 = 46$, $46 - 29 = ?$, or $46 - ? = 29$.",
+    "notes": "Includes unknowns in any position.",
+    "question_ids": [
+      "G2_U2_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_take_from_result_unknown",
+    "title": "Represent Take-From, Result Unknown",
+    "description": "Translate a 'take from' story situation into a subtraction equation.",
+    "condition": "Story problem describing an initial amount that decreases (e.g., gave away 15).",
+    "response": "Write and solve a subtraction equation representing remaining = start \u2212 change.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Jada had 53 stickers and gave away 15 \u2192 $53 - 15 = 38$.",
+    "notes": "Structure recognition is conventional.",
+    "question_ids": [
+      "G2_U2_a1_q2",
+      "GK_U4_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_multiples_of_ten",
+    "title": "Subtract Multiples of Ten from Two-Digit Numbers",
+    "description": "Subtract a multiple of 10 from a two-digit number by decreasing the tens digit while keeping the ones digit the same.",
+    "condition": "Expression of the form a two-digit number \u2212 multiple of 10 (e.g., 85 \u2212 10).",
+    "response": "Decrease the tens place by the given tens and keep the ones digit unchanged.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $85 - 10$: $8$ tens $5$ ones minus $1$ ten = $7$ tens $5$ ones = $75$.",
+    "notes": "Place value reasoning.",
+    "question_ids": [
+      "G2_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "subtract_by_place_value_parts",
+    "title": "Subtract Tens and Ones in Parts",
+    "description": "Subtract tens first and then subtract ones to find the total difference.",
+    "condition": "A two-digit subtraction problem where numbers are decomposed into tens and ones (e.g., 44 \u2212 17).",
+    "response": "Subtract the tens (e.g., 44 \u2212 10 = 34) and then subtract the remaining ones (34 \u2212 7 = 27).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$44 - 17$: $44 - 10 = 34$, then $34 - 7 = 27$.",
+    "notes": "Relies on place-value structure and properties of operations.",
+    "question_ids": [
+      "G2_U2_SB_a1_q2",
+      "G2_U2_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_by_place_value_no_regroup",
+    "title": "Subtract Tens and Ones Without Regrouping",
+    "description": "Subtract two-digit numbers by subtracting tens and ones separately when no regrouping is required.",
+    "condition": "A subtraction problem within 100 where ones digit of minuend is greater than or equal to ones digit of subtrahend (e.g., 75 \u2212 61).",
+    "response": "Subtract tens from tens and ones from ones, then combine the results.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $75 - 61$: $(70 - 60) = 10$ and $(5 - 1) = 4$, so total $= 14$.",
+    "notes": "Restricted to cases not requiring composing or decomposing a ten.",
+    "question_ids": [
+      "G2_U2_SA_a1_q1",
+      "G2_U2_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_two_digit_decompose_ten",
+    "title": "Subtract Two-Digit Numbers with Decomposing a Ten",
+    "description": "Subtract two-digit numbers when the ones digit of the minuend is smaller than the subtrahend, requiring decomposing a ten.",
+    "condition": "Subtraction of two two-digit numbers where ones digit of minuend < ones digit of subtrahend (e.g., 53 \u2212 17).",
+    "response": "Decompose one ten into 10 ones, subtract ones, then subtract tens.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$53 - 17$: Decompose to $4$ tens $13$ ones. $13 - 7 = 6$, $4 - 1 = 3$ \u2192 $36$.",
+    "notes": "Core place value strategy.",
+    "question_ids": [
+      "G2_U2_SB_a1_q2",
+      "G2_U2_SB_a1_q3",
+      "G2_U2_a1_q3",
+      "G2_U2_a1_q4",
+      "G2_U2_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "translate_tape_diagram_to_equation",
+    "title": "Translate Tape Diagram to Equation",
+    "description": "Map quantities and unknowns in a tape diagram to a matching numerical equation.",
+    "condition": "Given a tape diagram showing parts and a whole with labeled quantities and/or unknowns.",
+    "response": "Construct an equation that matches the relationships shown in the diagram.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "A bar split into ? and 29 totaling 46 corresponds to $? + 29 = 46$.",
+    "notes": "Requires aligning diagram structure with symbolic representation.",
+    "question_ids": [
+      "G2_U2_SC_a1_q1",
+      "G2_U2_SC_a1_q2",
+      "G2_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "inverse_addition_subtraction",
+    "title": "Use Addition\u2013Subtraction Inverse Relationship",
+    "description": "Use subtraction to find an unknown addend in an addition equation.",
+    "condition": "An equation of the form $\\square + a = b$.",
+    "response": "Compute $b - a$ to find the unknown addend.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $x + 18 = 59$, compute $59 - 18 = 41$, so $x = 41$.",
+    "notes": "Relies on understanding inverse operations.",
+    "question_ids": [
+      "G2_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_difference_to_compare",
+    "title": "Use Subtraction to Compare Quantities",
+    "description": "Find how many fewer or more by subtracting the smaller quantity from the larger.",
+    "condition": "Comparison question asking 'how many fewer/more' between two quantities.",
+    "response": "Subtract smaller quantity from larger to find the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Dogs: 35, Rabbits: 19. $35 - 19 = 16$, so 16 fewer rabbits than dogs.",
+    "notes": "Interpretation of comparison language is conventional.",
+    "question_ids": [
+      "G2_U2_SA_a1_q3",
+      "G2_U2_SC_a1_q2",
+      "G2_U2_a1_q6"
+    ]
+  }
+]

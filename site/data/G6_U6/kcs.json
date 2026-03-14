@@ -35,23 +35,6 @@
     ]
   },
   {
-    "kc_id": "compute_unit_rate_from_pair",
-    "title": "Compute Unit Rate from Ordered Pair",
-    "description": "Given one pair of corresponding values in a proportional relationship, compute the constant rate by dividing the dependent quantity by the independent quantity.",
-    "condition": "Given a proportional pair (e.g., 4 ounces costs $10).",
-    "response": "Divide cost by weight to find unit rate (e.g., 10 \u00f7 4 = 2.5 dollars per ounce).",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "From $(4, 10)$ compute unit rate: $10 \\div 4 = 2.5$, so $\\$2.50$ per ounce.",
-    "notes": "Assumes proportional relationship.",
-    "question_ids": [
-      "G6_U6_SD_a1_q1"
-    ]
-  },
-  {
     "kc_id": "compute_power_whole_number",
     "title": "Compute Whole-Number Power",
     "description": "Evaluate an expression where a whole number is raised to a whole-number exponent.",
@@ -320,25 +303,6 @@
     "notes": "",
     "question_ids": [
       "G6_U6_a1_q4"
-    ]
-  },
-  {
-    "kc_id": "identify_proportional_equation_from_context",
-    "title": "Write Proportional Equation from Context",
-    "description": "Represent a multiplicative relationship between two quantities with an equation of the form y = kx.",
-    "condition": "A context states one quantity is a constant multiple or percentage of another.",
-    "response": "Write an equation multiplying the variable by the constant of proportionality.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "If 55% of $b$ is 30, write $0.55b=30$.",
-    "notes": "",
-    "question_ids": [
-      "G6_U6_a1_q10",
-      "G6_U6_a1_q20",
-      "G6_U6_a1_q5"
     ]
   }
 ]

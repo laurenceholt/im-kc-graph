@@ -1,0 +1,214 @@
+[
+  {
+    "kc_id": "add_multi_digit_place_value",
+    "title": "Add Multi-Digit Numbers by Place Value",
+    "description": "Add two multi-digit numbers within 1,000 by decomposing into hundreds, tens, and ones and combining partial sums.",
+    "condition": "Two 2- or 3-digit numbers to be added (within 1,000).",
+    "response": "Decompose into hundreds, tens, ones; add like place values; combine sums.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$347 + 583 = (300+40+7) + (500+80+3) = 800 + 120 + 10 = 930$",
+    "notes": "Includes composing a new ten or hundred when needed.",
+    "question_ids": [
+      "G2_U9_a1_q11",
+      "G2_U9_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "add_with_compensation",
+    "title": "Add Using Compensation Strategy",
+    "description": "Adjust one addend to a friendly number and compensate to find the correct sum.",
+    "condition": "Addition problem where one addend is close to a friendly number (e.g., 19 close to 20).",
+    "response": "Add using adjusted number, then compensate to correct the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$34 + 19 = 34 + 20 - 1 = 54 - 1 = 53$",
+    "notes": "Compensation relies on maintaining equality.",
+    "question_ids": [
+      "G2_U9_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "strategic_digit_arrangement",
+    "title": "Arrange Digits to Optimize Sum or Difference",
+    "description": "Use place-value reasoning to arrange given digits into two numbers to maximize or minimize sum or difference.",
+    "condition": "Four given digits to form two two-digit numbers without repetition; goal to maximize/minimize sum or difference.",
+    "response": "Assign larger digits to tens place (for larger values) or balance digits to minimize difference; compute result.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "With digits 1,4,8,5: largest sum is $84+51=135$.",
+    "notes": "Requires reasoning about place value and optimization.",
+    "question_ids": [
+      "G2_U9_a1_q13"
+    ]
+  },
+  {
+    "kc_id": "unit_size_comparison",
+    "title": "Compare Measurement Units by Size",
+    "description": "Reason that larger units require fewer counts and smaller units require more counts for the same length.",
+    "condition": "Same object measured in two different units (e.g., centimeters vs feet).",
+    "response": "Determine which unit yields a greater numerical measure and select true statements.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "A hallway measured in centimeters has more units than when measured in feet because centimeters are smaller.",
+    "notes": "Inverse relationship between unit size and count.",
+    "question_ids": [
+      "G2_U9_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compare_numbers_place_value",
+    "title": "Compare Numbers by Place Value",
+    "description": "Compare two numbers within 1,000 using place value to determine >, <, or =.",
+    "condition": "Two numbers (standard or expanded form) to compare.",
+    "response": "Compare hundreds, then tens, then ones; select correct comparison symbol.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$675$ vs. $576$: since $6$ hundreds > $5$ hundreds, $675 > 576$.",
+    "notes": "May require first evaluating expanded form.",
+    "question_ids": [
+      "G2_U9_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compose_decompose_ten_hundred",
+    "title": "Compose or Decompose Tens/Hundreds",
+    "description": "Regroup ones into a ten or tens into a hundred (or reverse) during addition or subtraction.",
+    "condition": "Place-value operation where a column sums to 10 or more, or subtraction requires borrowing.",
+    "response": "Compose a new ten/hundred or decompose a higher unit.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$7 + 8 = 15$, compose $1$ ten and $5$ ones.",
+    "notes": "Core to standard algorithms.",
+    "question_ids": [
+      "G2_U9_a1_q11",
+      "G2_U9_a1_q12",
+      "G2_U9_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "expanded_form_evaluate",
+    "title": "Evaluate Expanded Form",
+    "description": "Convert a number written in expanded form into standard form by summing place-value parts.",
+    "condition": "Number written as a sum of hundreds, tens, and ones.",
+    "response": "Add the parts to determine the standard-form number.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$300 + 50 + 2 = 352$",
+    "notes": "Response is constant for a given expression.",
+    "question_ids": [
+      "G2_U9_a1_q1",
+      "G2_U9_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "measure_length_difference",
+    "title": "Find Difference Between Lengths",
+    "description": "Measure or use given lengths and subtract to find how much longer one is than another.",
+    "condition": "Two lengths given or measured in same units.",
+    "response": "Subtract shorter length from longer length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If lengths are $15$ cm and $8$ cm, then $15-8=7$ cm.",
+    "notes": "Includes measurement and comparison contexts.",
+    "question_ids": [
+      "G2_U9_a1_q4",
+      "G2_U9_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "interpret_line_plot_counts",
+    "title": "Interpret Line Plot Data",
+    "description": "Read a line plot to count data points at or above a value and determine differences.",
+    "condition": "Line plot with Xs marking data values.",
+    "response": "Count relevant marks or compute difference between extreme values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If longest chain is $22$ in. and shortest is $13$ in., difference is $22-13=9$.",
+    "notes": "Includes counting frequencies and comparing values.",
+    "question_ids": [
+      "G2_U9_a1_q14"
+    ]
+  },
+  {
+    "kc_id": "skip_count_by_ten",
+    "title": "Skip-Count by Tens",
+    "description": "Identify numbers that occur when counting by 10s from a given starting point.",
+    "condition": "Counting by 10 from 0 (or multiple of 10) within a range.",
+    "response": "Recognize or state numbers that are multiples of 10 in the sequence.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Counting by 10s: $0,10,20,30,\\dots,150,160,\\dots$",
+    "notes": "Numbers must end in 0.",
+    "question_ids": [
+      "G2_U9_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_multi_digit_place_value",
+    "title": "Subtract Multi-Digit Numbers by Place Value",
+    "description": "Subtract two multi-digit numbers within 1,000 using place-value reasoning and regrouping if needed.",
+    "condition": "Two 2- or 3-digit numbers to subtract (within 1,000).",
+    "response": "Subtract hundreds, tens, ones; regroup if necessary.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$612 - 174 = 612 - 100 - 70 - 4 = 438$",
+    "notes": "May use number line or decomposition.",
+    "question_ids": [
+      "G2_U9_a1_q11",
+      "G2_U9_a1_q12",
+      "G2_U9_a1_q7",
+      "G2_U9_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "subtraction_with_compensation",
+    "title": "Subtract Using Compensation",
+    "description": "Subtract a nearby friendly number and adjust to maintain equality.",
+    "condition": "Subtraction where subtrahend is close to a friendly number (e.g., 596 close to 600).",
+    "response": "Subtract friendly number, then compensate by adding or subtracting the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$831-596 = 831-600+4 = 231+4 = 235$",
+    "notes": "Maintains equivalent difference.",
+    "question_ids": [
+      "G2_U9_a1_q10"
+    ]
+  }
+]

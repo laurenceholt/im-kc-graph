@@ -1,0 +1,220 @@
+[
+  {
+    "kc_id": "write_total_from_repeated_addition",
+    "title": "Compute Total from Equal Addends",
+    "description": "Find the total by summing equal addends in a repeated addition expression.",
+    "condition": "Given a repeated addition expression with equal addends.",
+    "response": "Compute the sum to determine the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Compute $4 + 4 + 4 + 4 + 4 = 20$.",
+    "notes": "Requires accurate addition of equal groups.",
+    "question_ids": [
+      "G2_U8_SB_a1_q1",
+      "G2_U8_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_objects_up_to_20",
+    "title": "Count Objects in a Set (\u226420)",
+    "description": "Determine the total number of objects in a pictured or described group up to 20.",
+    "condition": "Given a visual or described set of objects (up to 20).",
+    "response": "Count and state the total number of objects.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Counting 15 socks results in \\(15\\).",
+    "notes": "Foundational counting skill; may involve one-to-one correspondence.",
+    "question_ids": [
+      "G2_U8_SA_a1_q1",
+      "G2_U8_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_array_by_rows_or_columns",
+    "title": "Count Total in Array by Equal Groups",
+    "description": "Find the total number of objects in a rectangular array by counting equal rows or equal columns.",
+    "condition": "Given a rectangular array with equal number of objects in each row or each column.",
+    "response": "Add the number of objects in each equal row (or column) to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "An array has 4 rows of 5 circles. Compute $5 + 5 + 5 + 5 = 20$.",
+    "notes": "Students may count by rows or by columns.",
+    "question_ids": [
+      "G2_U8_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_objects_in_array",
+    "title": "Count Total Objects in Array",
+    "description": "Determine the total number of objects arranged in equal rows and columns.",
+    "condition": "Given a rectangular array of equal-size squares or objects.",
+    "response": "Count or compute the total number of objects.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "An array with 2 rows and 4 columns has $2 \\times 4 = 8$ squares.",
+    "notes": "May be done by counting all or by repeated addition.",
+    "question_ids": [
+      "G2_U8_aNone_q2",
+      "G2_U8_aNone_q3"
+    ]
+  },
+  {
+    "kc_id": "find_number_of_pairs",
+    "title": "Find Number of Pairs in a Quantity",
+    "description": "Determine how many groups of 2 can be made from a given whole number up to 20.",
+    "condition": "Given a whole number up to 20 and forming pairs.",
+    "response": "Calculate or count the number of groups of 2 that can be made.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "Yes",
+    "label": "Production / Skill",
+    "example": "From 15 objects, \\(15 \\div 2 = 7\\) pairs with 1 left over.",
+    "notes": "May be done via repeated subtraction or skip counting by 2.",
+    "question_ids": [
+      "G2_U8_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_equal_groups",
+    "title": "Identify Equal Groups",
+    "description": "Recognize when objects can be partitioned into two or more groups with the same number in each group.",
+    "condition": "Given a collection of objects or shapes.",
+    "response": "State or show equal groups with the same number in each group.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "12 blocks can be split into 2 groups of 6 each.",
+    "notes": "Used to justify evenness or fair sharing.",
+    "question_ids": [
+      "G2_U8_aNone_q4",
+      "G2_U8_aNone_q6"
+    ]
+  },
+  {
+    "kc_id": "identify_equal_rows_columns",
+    "title": "Identify Equal Rows and Columns",
+    "description": "Recognize that a rectangular array has the same number of objects in each row and the same number in each column.",
+    "condition": "Given a rectangular arrangement of objects aligned in rows and columns.",
+    "response": "State or recognize that each row has the same number and each column has the same number.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In a 4 by 5 array, each row has 5 objects and each column has 4 objects.",
+    "notes": "Conceptual understanding of array structure.",
+    "question_ids": [
+      "G2_U8_SB_a1_q1",
+      "G2_U8_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "odd_as_leftover_one",
+    "title": "Odd as One Left Over",
+    "description": "Determine that a number is odd if pairing or grouping leaves exactly one unpaired object.",
+    "condition": "Given a set of objects that can be paired except for one leftover.",
+    "response": "Conclude the total number is odd.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 9 circles are paired and 1 circle remains, then 9 is odd.",
+    "notes": "Relies on structure of pairing.",
+    "question_ids": [
+      "G2_U8_SA_a1_q1",
+      "G2_U8_aNone_q1",
+      "G2_U8_aNone_q4"
+    ]
+  },
+  {
+    "kc_id": "partition_rectangle_equal_squares",
+    "title": "Partition Rectangle into Equal Squares",
+    "description": "Draw lines to divide a rectangle completely into equal-size squares.",
+    "condition": "Given a rectangle partially partitioned into equal squares.",
+    "response": "Draw additional horizontal and vertical lines to form only equal-size squares.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Extend grid lines to form a $2 \\times 4$ array of 8 equal squares.",
+    "notes": "Spatial reasoning skill. [merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G2_U8_SB_a1_q2",
+      "G2_U8_aNone_q3"
+    ]
+  },
+  {
+    "kc_id": "recognize_even_by_pairing",
+    "title": "Recognize Even by Pairing",
+    "description": "Determine that a number is even if all objects can be paired with none left over.",
+    "condition": "Given a set of objects that can be grouped into pairs with no leftovers.",
+    "response": "Conclude the total number is even.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 8 circles form 4 pairs with none left over, then 8 is even.",
+    "notes": "Core definition of even number.",
+    "question_ids": [
+      "G2_U8_SA_a1_q2",
+      "G2_U8_aNone_q1",
+      "G2_U8_aNone_q4",
+      "G2_U8_aNone_q6"
+    ]
+  },
+  {
+    "kc_id": "represent_array_as_repeated_addition",
+    "title": "Represent Array as Repeated Addition",
+    "description": "Write an equation with equal addends to represent the total number of objects in an array.",
+    "condition": "Given a rectangular array with known number of rows and columns.",
+    "response": "Write a repeated addition equation using either rows or columns as equal addends.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For 5 rows of 3 squares: $3 + 3 + 3 + 3 + 3 = 15$.",
+    "notes": "Either orientation (rows or columns) is valid.",
+    "question_ids": [
+      "G2_U8_SB_a1_q1",
+      "G2_U8_SB_a1_q2",
+      "G2_U8_aNone_q2"
+    ]
+  },
+  {
+    "kc_id": "write_even_as_two_equal_addends",
+    "title": "Write Even Number as Two Equal Addends",
+    "description": "Express an even number as the sum of two identical addends.",
+    "condition": "Given an even whole number.",
+    "response": "Write the number in the form $n = a + a$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$14 = 7 + 7$.",
+    "notes": "Only applies to even numbers.",
+    "question_ids": [
+      "G2_U8_SA_a1_q3",
+      "G2_U8_aNone_q5"
+    ]
+  }
+]

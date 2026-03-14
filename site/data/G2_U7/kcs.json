@@ -1,0 +1,303 @@
+[
+  {
+    "kc_id": "add_hundreds",
+    "title": "Add Hundreds",
+    "description": "Add the hundreds digits of two three-digit numbers.",
+    "condition": "Two three-digit numbers are being added and their hundreds digits are identified.",
+    "response": "Add the hundreds values to get a total number of hundreds.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $203 + 213$, add hundreds: $200 + 200 = 400$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_SB_a1_q1",
+      "G2_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "add_ones",
+    "title": "Add Ones",
+    "description": "Add the ones digits of two numbers and determine the total number of ones.",
+    "condition": "Two numbers are being added and their ones digits are identified.",
+    "response": "Add the ones values to get a total number of ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $419 + 372$, add ones: $9 + 2 = 11$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_SB_a1_q1",
+      "G2_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "add_multiples_of_10_100",
+    "title": "Add or Subtract Multiples of 10 or 100",
+    "description": "Mentally adjust the tens or hundreds digit when adding or subtracting 10 or 100.",
+    "condition": "A three-digit number plus or minus a multiple of 10 or 100.",
+    "response": "Increase or decrease the tens or hundreds digit accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$235 + 100 = 335$ (increase hundreds by 1).",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_a1_q1",
+      "G2_U7_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "add_tens",
+    "title": "Add Tens",
+    "description": "Add the tens digits of two numbers and determine the total number of tens.",
+    "condition": "Two numbers are being added and their tens digits are identified.",
+    "response": "Add the tens values to get a total number of tens.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $419 + 372$, add tens: $10 + 70 = 80$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_SB_a1_q1",
+      "G2_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "add_by_place_value_with_regroup",
+    "title": "Add with Regrouping by Place Value",
+    "description": "Compose a ten or hundred when the sum of ones or tens is 10 or more during addition.",
+    "condition": "Addition of multi-digit numbers where ones or tens sum to 10 or more.",
+    "response": "Compose a new ten or hundred and adjust the place-value totals accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $428 + 175$: $8+5=13$ so write 3 ones and compose 1 ten; combine tens to make a new hundred, giving $603$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_SA_a1_q2",
+      "G2_U7_a1_q2",
+      "G2_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "combine_place_value_totals",
+    "title": "Combine Place-Value Totals",
+    "description": "Combine the totals of hundreds, tens, and ones to form the final sum.",
+    "condition": "Totals for hundreds, tens, and ones have been determined (after any composing).",
+    "response": "Add the place-value totals to state the final number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "After finding $700$, $80$, and $11$, combine: $700 + 80 + 11 = 791$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_SA_a1_q2",
+      "G2_U7_SB_a1_q1",
+      "G2_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_difference_within_1000",
+    "title": "Compute Difference Within 1,000",
+    "description": "Subtract one three-digit number from another, possibly requiring regrouping.",
+    "condition": "Given a subtraction expression with two numbers within 1,000 (e.g., 421 \u2212 139).",
+    "response": "Compute and state the correct difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$421 - 139 = 282$.",
+    "notes": "Overall multi-step subtraction performance.",
+    "question_ids": [
+      "G2_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_hundred_to_tens",
+    "title": "Decompose a Hundred into Ten Tens",
+    "description": "Regroup one hundred as ten tens when there are not enough tens to subtract.",
+    "condition": "In subtraction, the tens digit of the minuend is smaller than the tens digit of the subtrahend after accounting for ones regrouping.",
+    "response": "Trade 1 hundred for 10 tens, increasing the tens place by 10 and decreasing the hundreds place by 1.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $421 - 139$, after regrouping a ten, 1 ten is not enough to subtract 3 tens, so trade 1 hundred for 10 tens: $4$ hundreds becomes $3$ hundreds and $1$ ten becomes $11$ tens.",
+    "notes": "Based on place-value equivalence: $1$ hundred = $10$ tens.",
+    "question_ids": [
+      "G2_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_number_place_value",
+    "title": "Decompose Number into Place Values",
+    "description": "Rewrite a three-digit number as the sum of its hundreds, tens, and ones.",
+    "condition": "A three-digit number within 1,000 is given.",
+    "response": "Express the number as hundreds + tens + ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$273 = 200 + 70 + 3$.",
+    "notes": "Based on base-ten place value structure.",
+    "question_ids": [
+      "G2_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "find_missing_addend_to_1000",
+    "title": "Find Missing Addend to 1,000",
+    "description": "Determine the number that must be added to a given number to make 1,000.",
+    "condition": "Equation of the form $a + \\square = 1000$ or $\\square + a = 1000$.",
+    "response": "Subtract the known addend from 1,000 to find the missing number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $748 + \\square = 1000$, compute $1000 - 748 = 252$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "group_addends_make_friendly_numbers",
+    "title": "Group Addends to Make Friendly Sums",
+    "description": "Reorder and group addends to form tens or hundreds to simplify addition.",
+    "condition": "Sum of three or more numbers where some pairs make 10 or 100.",
+    "response": "Rearrange and group numbers to form friendly sums before adding remaining values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $83 + 48 + 17 + 32$, group $(83+17)=100$ and $(48+32)=80$, then $100+80=180$.",
+    "notes": "Uses commutative and associative properties implicitly.",
+    "question_ids": [
+      "G2_U7_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_equivalent_expression",
+    "title": "Identify Equivalent Numerical Expressions",
+    "description": "Determine whether two numerical expressions have the same value.",
+    "condition": "Given two addition or subtraction expressions.",
+    "response": "Evaluate or mentally compare both expressions and determine if their values are equal.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$135 + 200 = 335$ and $295 + 40 = 335$, so they are equivalent.",
+    "notes": "Response is a fixed judgment (equal/not equal) for each comparison.",
+    "question_ids": [
+      "G2_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_base_ten_blocks",
+    "title": "Interpret Base-Ten Block Values",
+    "description": "Identify the number represented by hundreds flats, tens rods, and ones cubes in a diagram.",
+    "condition": "Given a base-ten block diagram showing hundreds, tens, and ones.",
+    "response": "State the total value represented by the blocks.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "4 hundreds, 3 tens, and 4 ones represent $434$.",
+    "notes": "Requires knowledge that a flat = 100, a rod = 10, a unit cube = 1.",
+    "question_ids": [
+      "G2_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "match_diagram_to_subtraction_expression",
+    "title": "Match Diagram to Subtraction Expression",
+    "description": "Translate a base-ten diagram with crossed-out units into the corresponding subtraction expression.",
+    "condition": "Given a base-ten diagram where certain hundreds, tens, or ones are crossed out to show removal.",
+    "response": "Write or select the subtraction expression that matches the initial quantity and the amount removed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A diagram showing $434$ with $72$ crossed out corresponds to $434 - 72$.",
+    "notes": "Requires identifying minuend as total shown and subtrahend as crossed-out amount.",
+    "question_ids": [
+      "G2_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_subtraction_not_commutative",
+    "title": "Recognize Subtraction Is Not Commutative",
+    "description": "Understand that changing the order of numbers in subtraction changes the result.",
+    "condition": "Given two numbers $a$ and $b$ in a subtraction context.",
+    "response": "Maintain correct order (minuend \u2212 subtrahend) and do not reverse them.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$434 - 72 \\neq 72 - 434$.",
+    "notes": "Highlighted by distractor choice $72 + 434$ and discussion of commutative property.",
+    "question_ids": [
+      "G2_U7_SC_a1_q1",
+      "G2_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "subtract_by_place_value",
+    "title": "Subtract Numbers by Place Value",
+    "description": "Subtract multi-digit numbers by subtracting corresponding place values when no regrouping is required.",
+    "condition": "Two multi-digit numbers (within 1,000) presented for subtraction without need for decomposition/regrouping.",
+    "response": "Subtract hundreds, tens, and ones separately; combine the partial differences.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $798 - 238$: $(700-200) + (90-30) + (8-8) = 500 + 60 + 0 = 560$.",
+    "notes": "Valid when each place can be subtracted without regrouping.",
+    "question_ids": [
+      "G2_U7_SA_a1_q2",
+      "G2_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compensation_subtraction",
+    "title": "Use Compensation (Add-On) Strategy for Subtraction",
+    "description": "Find a difference by adding up from the subtrahend to the minuend using friendly numbers.",
+    "condition": "Subtraction problem where counting up to a friendly number (ten or hundred) is efficient.",
+    "response": "Add in parts to reach the minuend and sum the partial addends to find the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "To find $500 - 389$: $389 + 1 = 390$, $390 + 10 = 400$, $400 + 100 = 500$; total added $1+10+100=111$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U7_SA_a1_q1",
+      "G2_U7_a1_q4",
+      "G2_U7_a1_q7"
+    ]
+  }
+]

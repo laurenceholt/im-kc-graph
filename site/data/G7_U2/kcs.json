@@ -66,6 +66,7 @@
     "example": "From point $(7,17.5)$, $k = \\frac{17.5}{7} = 2.5$.",
     "notes": "",
     "question_ids": [
+      "G6_U6_SD_a1_q1",
       "G7_U2_SA_a1_q1",
       "G7_U2_SB_a1_q1",
       "G7_U2_SC_a1_q1",
@@ -296,6 +297,9 @@
     "example": "If $k=\\frac{1}{15}$ miles per minute, then $d = \\frac{1}{15}t$.",
     "notes": "",
     "question_ids": [
+      "G6_U6_a1_q10",
+      "G6_U6_a1_q20",
+      "G6_U6_a1_q5",
       "G7_U2_SB_a1_q1",
       "G7_U2_a1_q3",
       "G7_U2_a1_q7",

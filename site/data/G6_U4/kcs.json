@@ -87,23 +87,6 @@
     ]
   },
   {
-    "kc_id": "divide_by_fraction_as_multiply_by_reciprocal",
-    "title": "Divide Whole Number by a Fraction",
-    "description": "Dividing a number by a fraction a/b is equivalent to multiplying by b/a.",
-    "condition": "Expression of the form n \u00f7 (a/b)",
-    "response": "Rewrite as n \u00d7 (b/a)",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "$6 \\div \\frac{3}{2} = 6 \\times \\frac{2}{3}$",
-    "notes": "Generalized process emphasized in Question 1.",
-    "question_ids": [
-      "G6_U4_SC_a1_q1"
-    ]
-  },
-  {
     "kc_id": "volume_divide_by_base_area",
     "title": "Find Prism Height from Volume and Base Area",
     "description": "Compute the height of a rectangular prism by dividing volume by base area.",

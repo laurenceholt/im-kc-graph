@@ -258,23 +258,6 @@
     ]
   },
   {
-    "kc_id": "compare_unit_rates_context",
-    "title": "Select and Use Appropriate Unit Rate",
-    "description": "Choose the appropriate unit rate (e.g., minutes per lap vs. laps per minute) to answer a contextual question and apply it.",
-    "condition": "Given a situation with two related unit rates and a goal quantity in one unit.",
-    "response": "Select the unit rate that aligns with the goal quantity and multiply or divide to find the answer.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If Andre swims $\\frac{4}{5}$ minutes per lap, then for $22$ laps compute $22\\cdot\\frac{4}{5}=17.6$ minutes.",
-    "notes": "Requires interpreting which rate matches the question.",
-    "question_ids": [
-      "G6_U3_a1_q4"
-    ]
-  },
-  {
     "kc_id": "use_equivalent_ratios_for_percent",
     "title": "Use Equivalent Ratios to Represent Percents",
     "description": "Create an equivalent ratio with denominator 100 to represent or interpret a percent relationship.",

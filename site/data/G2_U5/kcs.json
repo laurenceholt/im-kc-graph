@@ -1,0 +1,392 @@
+[
+  {
+    "kc_id": "add_tens_place_value",
+    "title": "Add 10 Using Place Value",
+    "description": "Add 10 to a number by increasing the tens digit by 1 when no regrouping is needed.",
+    "condition": "Expression of the form n + 10 where n is a three-digit number and no regrouping is required.",
+    "response": "Increase the tens digit of n by 1; keep hundreds and ones unchanged.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$118 + 10 = 128$",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "add_hundreds_place_value",
+    "title": "Add 100 Using Place Value",
+    "description": "Add 100 to a three-digit number by increasing the hundreds digit by 1 while keeping tens and ones the same.",
+    "condition": "Expression of the form n + 100 where n is a three-digit number and no regrouping is required.",
+    "response": "Increase the hundreds digit of n by 1; keep tens and ones unchanged.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$497 + 100 = 597$",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compare_hundreds_digit",
+    "title": "Compare Hundreds Digits First",
+    "description": "When comparing three-digit numbers, compare the hundreds digits to determine which number is greater if they differ.",
+    "condition": "Two three-digit numbers with different hundreds digits",
+    "response": "The number with the greater hundreds digit is greater",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $796$ and $709$. Since $7=7$ in the hundreds place, compare tens (next step). But compare $796$ and $679$: since $7>6$ in the hundreds place, $796>679$.",
+    "notes": "Applies before comparing tens or ones.",
+    "question_ids": [
+      "G2_U5_SB_a1_q2",
+      "G2_U5_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_tens_ones_after_hundreds",
+    "title": "Compare Tens and Ones When Hundreds Are Equal",
+    "description": "If two three-digit numbers have the same hundreds digit, compare tens digits; if tens are equal, compare ones digits.",
+    "condition": "Two three-digit numbers with equal hundreds digits",
+    "response": "Compare tens digits; if equal, compare ones digits to determine which number is greater",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $697$ and $679$. Hundreds: $6=6$. Tens: $9>7$, so $697>679$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_three_digit_numbers",
+    "title": "Compare Three-Digit Numbers by Place Value",
+    "description": "Determine which of two three-digit numbers is greater by comparing hundreds, then tens, then ones.",
+    "condition": "Two three-digit numbers written in standard form.",
+    "response": "Compare digits from left to right and determine <, >, or = based on the first place value that differs.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $6 > 5$, $613 > 509$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q4",
+      "G2_U5_a1_q5",
+      "G2_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compose_hundred_from_tens",
+    "title": "Compose 1 Hundred from 10 Tens",
+    "description": "Recognize that 10 tens can be regrouped as 1 hundred.",
+    "condition": "A representation includes 10 tens.",
+    "response": "Replace 10 tens with 1 hundred.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$10$ tens $= 1$ hundred",
+    "notes": "[merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G2_U5_SA_a1_q1",
+      "G2_U5_SA_a1_q2",
+      "G2_U5_a1_q2",
+      "G2_U7_SB_a1_q1",
+      "G2_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "convert_expanded_to_standard",
+    "title": "Convert Expanded Form to Standard Form",
+    "description": "Combine hundreds, tens, and ones written in expanded form into a single standard-form number.",
+    "condition": "A number written as a sum of hundreds, tens, and ones (e.g., 300 + 40 + 3).",
+    "response": "Add the place-value parts to write the standard-form number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$300 + 40 + 3 = 343$",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q3",
+      "G2_U5_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "count_base_ten_blocks",
+    "title": "Count Base-Ten Blocks",
+    "description": "Determine the total value represented by a combination of hundreds, tens, and ones blocks.",
+    "condition": "Given any combination of hundreds flats, tens rods, and ones cubes.",
+    "response": "Calculate total value by summing (hundreds \u00d7 100) + (tens \u00d7 10) + ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "2 \\text{ hundreds} + 4 \\text{ tens} + 3 \\text{ ones} = 2(100) + 4(10) + 3 = 243.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q1",
+      "G2_U5_SA_a1_q2",
+      "G2_U5_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "evaluate_sum_three_digit",
+    "title": "Evaluate Sum of Three-Digit Expressions",
+    "description": "Compute the value of an expression involving addition of three-digit numbers or place-value parts.",
+    "condition": "An addition expression such as 4 + 80 + 200 or 118 + 10 + 10.",
+    "response": "Add the quantities to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$4 + 80 + 200 = 284$",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q4",
+      "G2_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "identify_hundred_block",
+    "title": "Identify Hundred Block",
+    "description": "Recognize that a 10\u00d710 flat represents 100.",
+    "condition": "Given a single 10\u00d710 base-ten flat.",
+    "response": "State that its value is 100.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "A 10 \\times 10 flat represents 100.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q1",
+      "G2_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_unit_cube",
+    "title": "Identify Ones Cube",
+    "description": "Recognize that a single small cube represents 1.",
+    "condition": "Given a single unit cube.",
+    "response": "State that its value is 1.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "One small cube represents 1.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q1",
+      "G2_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_ten_rod",
+    "title": "Identify Ten Rod",
+    "description": "Recognize that a base-ten rod represents 10.",
+    "condition": "Given a single base-ten rod.",
+    "response": "State that its value is 10.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "One rod represents 10.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q1",
+      "G2_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_less_than_symbol",
+    "title": "Interpret Less-Than Symbol",
+    "description": "Understand that the symbol < means the number on the left is less than the number on the right.",
+    "condition": "An inequality statement using the symbol <",
+    "response": "Interpret the statement as left number is less than right number",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "In $819 < 821$, $819$ is less than $821$.",
+    "notes": "Symbol meaning is conventional.",
+    "question_ids": [
+      "G2_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "label_consecutive_integers_on_unit_scale",
+    "title": "Label Consecutive Integers on Unit Number Line",
+    "description": "When a number line shows consecutive whole numbers with unit spacing, label each tick mark by counting by ones.",
+    "condition": "A number line with endpoints given and evenly spaced tick marks representing increments of 1",
+    "response": "Assign consecutive whole numbers increasing by 1 from left endpoint to right endpoint",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the left endpoint is $380$ and each tick mark increases by $1$, the labels are $380,381,382,\\dots,390$.",
+    "notes": "Requires recognizing total difference and equal spacing.",
+    "question_ids": [
+      "G2_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "match_representation_to_target_value",
+    "title": "Match Representation to Target Number",
+    "description": "Determine whether a base-ten representation equals a specified target number.",
+    "condition": "Given a target number (e.g., 200) and a base-ten block representation.",
+    "response": "Select or confirm the representations whose total value equals the target.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If the target is 200 and the model shows 2 hundreds, then 2(100) = 200, so it matches.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "order_numbers_greatest_to_least",
+    "title": "Order Numbers from Greatest to Least",
+    "description": "Arrange a set of numbers in descending order based on place value comparison.",
+    "condition": "A list of three-digit numbers with instruction to order from greatest to least",
+    "response": "Sequence the numbers from largest value to smallest value",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $697, 769, 679, 709, 796$, ordering greatest to least gives $796, 769, 709, 697, 679$.",
+    "notes": "Builds on place value comparison KCs.",
+    "question_ids": [
+      "G2_U5_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "recognize_equivalent_place_value_forms",
+    "title": "Recognize Equivalent Place Value Representations",
+    "description": "Identify different representations that equal the same three-digit number.",
+    "condition": "Multiple expressions or descriptions of hundreds, tens, and ones.",
+    "response": "Determine which representations equal the given number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$518 = 500 + 10 + 8 = 51$ tens and $8$ ones.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q3",
+      "G2_U5_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "select_digit_to_satisfy_inequality",
+    "title": "Select Digit to Make Inequality True",
+    "description": "Determine which digit in a missing place makes a three-digit number satisfy a given inequality.",
+    "condition": "A three-digit number with one unknown digit compared to another number using < or >",
+    "response": "Choose digit(s) that make the inequality true based on place value comparison",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $8\\_9 < 821$, compare hundreds (8=8). Compare tens: to be less than $821$, the tens digit must be $0$ or $1$, giving $809$ or $819$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_by_tens_on_number_line",
+    "title": "Skip Count by Tens on a Number Line",
+    "description": "Label equally spaced tick marks on a number line by counting by tens starting at 0.",
+    "condition": "A number line starting at 0 where each interval represents 10.",
+    "response": "Label successive tick marks as 0, 10, 20, 30, ...",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Tick marks labeled $0, 10, 20, 30, 40$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "write_expanded_form_three_digit",
+    "title": "Write Expanded Form (Three-Digit Number)",
+    "description": "Express a three-digit number as the sum of its hundreds, tens, and ones values.",
+    "condition": "Given any three-digit number.",
+    "response": "Write it as (hundreds \u00d7 100) + (tens \u00d7 10) + ones.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "492 = 400 + 90 + 2.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "write_standard_form_from_blocks",
+    "title": "Write Standard Numeral from Base-Ten Representation",
+    "description": "Translate a base-ten block representation into a three-digit numeral using place value.",
+    "condition": "Given counts of hundreds, tens, and ones blocks.",
+    "response": "Write the corresponding three-digit number with digits matching each place value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "2 hundreds, 4 tens, 3 ones \u2192 243.",
+    "notes": "",
+    "question_ids": [
+      "G2_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "write_number_in_words",
+    "title": "Write Three-Digit Number in Words",
+    "description": "Convert a three-digit numeral into its standard written word form.",
+    "condition": "Given any three-digit numeral.",
+    "response": "Write the number using words following standard place-value naming conventions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "243 \u2192 Two hundred forty-three.",
+    "notes": "Conventions (e.g., hyphenation) may vary slightly by curriculum.",
+    "question_ids": [
+      "G2_U5_SA_a1_q2",
+      "G2_U5_SA_a1_q3"
+    ]
+  }
+]

@@ -52,7 +52,7 @@
     ]
   },
   {
-    "kc_id": "compare_unit_rates",
+    "kc_id": "compare_unit_rates_context",
     "title": "Compare Unit Rates from Multiple Representations",
     "description": "Determine and compare unit rates (slopes) from equations, tables, or graphs to decide which rate is greater or smaller.",
     "condition": "Given multiple proportional relationships represented as equations, tables, or graphs.",
@@ -65,6 +65,7 @@
     "example": "From $d=9.5t$, slope $=9.5$. From table, $16\\div2=8$. From graph using $(0,0)$ and $(30,300)$, slope $=300\\div30=10$. Since $8<9.5<10$, the second plane is slowest.",
     "notes": "[merged: condition varies] [merged: response varies]",
     "question_ids": [
+      "G6_U3_a1_q4",
       "G8_U3_SA_a1_q2",
       "G8_U3_a1_q5"
     ]

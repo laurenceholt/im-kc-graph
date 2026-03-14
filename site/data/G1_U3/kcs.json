@@ -31,7 +31,8 @@
     "example": "Recognize $10 + 7$, $19 - 2$, and a double ten\u2011frame showing 17 as representations of 17.",
     "notes": "Requires evaluating expressions and counting visuals.",
     "question_ids": [
-      "G1_U3_a1_q1"
+      "G1_U3_a1_q1",
+      "G2_U9_a1_q1"
     ]
   },
   {
@@ -70,25 +71,6 @@
     ]
   },
   {
-    "kc_id": "subtract_within_20",
-    "title": "Subtract Within 20",
-    "description": "Compute the difference of two whole numbers within 20.",
-    "condition": "Subtraction expression $a - b$ where $a,b \\le 20$.",
-    "response": "State the correct difference.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "$18 - 5 = 13$.",
-    "notes": "Includes counting back or known facts.",
-    "question_ids": [
-      "G1_U3_a1_q4",
-      "G1_U3_a1_q7",
-      "G1_U6_a1_q5"
-    ]
-  },
-  {
     "kc_id": "subtract_using_addition_fact",
     "title": "Use Addition to Solve Subtraction",
     "description": "Use a known addition fact to determine a related subtraction fact.",
@@ -122,7 +104,12 @@
       "G1_U3_a1_q14",
       "G1_U3_a1_q15",
       "G1_U3_a1_q3",
-      "G1_U3_a1_q4"
+      "G1_U3_a1_q4",
+      "G1_U5_a1_q3",
+      "G1_U8_a1_q15",
+      "G1_U8_a1_q16",
+      "G1_U8_a1_q18",
+      "G1_U8_a1_q3"
     ]
   },
   {

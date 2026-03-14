@@ -108,23 +108,6 @@
     ]
   },
   {
-    "kc_id": "divide_whole_by_fraction",
-    "title": "Divide whole number by unit fraction",
-    "description": "Dividing by a unit fraction is equivalent to multiplying by its reciprocal.",
-    "condition": "Expression of the form whole number \u00f7 (1/n).",
-    "response": "Multiply the whole number by n.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$5 \\div \\frac{1}{8} = 5 \\times 8 = 40$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U8_a1_q5"
-    ]
-  },
-  {
     "kc_id": "evaluate_expression_order_operations",
     "title": "Evaluate expression using order of operations",
     "description": "Apply parentheses and operation hierarchy to evaluate multi-step expressions.",

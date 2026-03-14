@@ -1,0 +1,410 @@
+[
+  {
+    "kc_id": "add_two_digit_numbers_within_100",
+    "title": "Add Two-Digit Numbers Within 100",
+    "description": "Add two whole numbers within 100 to find a total.",
+    "condition": "Given two whole numbers less than 100 to be combined.",
+    "response": "Compute their sum accurately.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Add 25 + 27 = 52.",
+    "notes": "",
+    "question_ids": [
+      "G2_U2_SC_a1_q3",
+      "G2_U3_SB_a1_q2",
+      "G2_U4_a1_q4",
+      "G2_U4_a1_q5",
+      "G2_U6_SD_a1_q1",
+      "G2_U6_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_amounts_to_target",
+    "title": "Compare Total to Target Amount",
+    "description": "Determine whether a computed total is greater than, less than, or equal to a target amount.",
+    "condition": "Given a computed total and a target amount (e.g., cost of an item).",
+    "response": "State whether the total is enough (\u2265 target) or not.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Since 52 \u2265 50, Mai has enough money.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_dollars_to_cents",
+    "title": "Convert Dollars to Cents",
+    "description": "Use the equivalence that 1 dollar equals 100 cents.",
+    "condition": "Given an amount in dollars (specifically $1).",
+    "response": "State or use that $1 = 100$ cents.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "$1 = 100$ cents.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_SD_a1_q2",
+      "G2_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "count_sides_polygon",
+    "title": "Count Sides of a Polygon",
+    "description": "Determine the number of straight sides in a closed shape.",
+    "condition": "Given any closed polygon.",
+    "response": "Count each straight side once and state the total number of sides.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "A shape with sides traced as 1, 2, 3, 4, 5 has a total of 5 sides.",
+    "notes": "Applies only to closed figures.",
+    "question_ids": [
+      "G2_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "define_pentagon_by_sides",
+    "title": "Define Pentagon by Number of Sides",
+    "description": "Understand that a pentagon is a polygon with 5 sides and 5 corners.",
+    "condition": "Given a polygon with a known number of sides.",
+    "response": "Classify it as a pentagon if and only if it has 5 sides.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If a shape has 5 sides and 5 vertices, then it is a pentagon.",
+    "notes": "Definition-based; relies on memorized vocabulary.",
+    "question_ids": [
+      "G2_U6_SA_a1_q1",
+      "G2_U6_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "define_triangle_by_sides",
+    "title": "Define Triangle by Number of Sides",
+    "description": "Understand that a triangle is a polygon with 3 sides and 3 corners.",
+    "condition": "Given a polygon or a drawing task requiring a triangle.",
+    "response": "Identify or draw a shape with exactly 3 straight sides.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A shape with 3 sides is a triangle.",
+    "notes": "Applies regardless of side lengths or angle measures.",
+    "question_ids": [
+      "G2_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "determine_am_pm_from_context",
+    "title": "Determine a.m. or p.m. from Context",
+    "description": "Use contextual clues (morning, bedtime, etc.) to decide whether a time is a.m. or p.m.",
+    "condition": "A described daily event (e.g., morning wake-up, going to bed).",
+    "response": "Label the time as a.m. or p.m. appropriately.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If Jada gets up in the morning at 6:45, then it is 6:45 a.m.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G2_U6_SC_a1_q2",
+      "G2_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "draw_quadrilateral_two_equal_sides",
+    "title": "Draw Quadrilateral with Exactly Two Equal Sides",
+    "description": "Create a four-sided figure in which exactly two sides are equal in length.",
+    "condition": "Instruction to draw a quadrilateral with only two equal sides.",
+    "response": "Draw a 4-sided closed figure where one pair of sides are equal and the other sides are different lengths.",
+    "cond_type": "Constant",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Association",
+    "example": "Draw a quadrilateral with side lengths 3 cm, 3 cm, 4 cm, and 5 cm.",
+    "notes": "Classification as Association assumes task performance is primarily perceptual/constructive.???",
+    "question_ids": [
+      "G2_U6_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "draw_triangle_with_attributes",
+    "title": "Draw Triangle with Given Attributes",
+    "description": "Construct a triangle that satisfies specified angle and side-length conditions.",
+    "condition": "Given instructions to draw a triangle with 1 right (square) corner and 2 equal sides.",
+    "response": "Draw a closed 3-sided figure with one 90\u00b0 angle and two congruent sides.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Draw two perpendicular segments of length 4 units meeting at a right angle, then connect their endpoints to form a triangle with sides 4, 4, and $4\\sqrt{2}$.",
+    "notes": "Multiple correct constructions are possible.",
+    "question_ids": [
+      "G2_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_equal_parts_requirement",
+    "title": "Equal Parts Define Fractional Partition",
+    "description": "Recognize that a shape must be divided into equal-sized parts to represent halves, thirds, or fourths.",
+    "condition": "A shape is partitioned into multiple parts and a fraction name (e.g., third, fourth) is referenced.",
+    "response": "Determine whether all parts are equal in size.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a rectangle is split into 3 parts and one part is larger than the others, then it is **not** divided into thirds because the parts are not equal.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_SB_a1_q1",
+      "G2_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "subtract_to_find_difference_to_100",
+    "title": "Find Amount Needed to Reach 100",
+    "description": "Subtract a current total from 100 to determine how much more is needed.",
+    "condition": "Given a total amount less than 100 and goal of 100.",
+    "response": "Compute $100 - \\text{current total}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Jada has 42\u00a2, then $100 - 42 = 58$ cents more are needed.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compute_missing_addend_with_subtraction",
+    "title": "Find Missing Addend Using Subtraction",
+    "description": "Use subtraction to find an unknown part when the total and one part are known.",
+    "condition": "Given a total amount and one known part in a part\u2013whole situation.",
+    "response": "Subtract the known part from the total to find the unknown part.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If the total is 76 and one part is 39, compute 76 - 39 = 37.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "name_four_equal_parts_fourths",
+    "title": "Four Equal Parts Are Fourths",
+    "description": "Identify that when a whole is divided into four equal parts, each part is called a fourth (or quarter).",
+    "condition": "A shape is split into 4 equal parts.",
+    "response": "State that each part is a fourth (or quarter).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If a square is divided into 4 equal regions, each region represents $\\frac{1}{4}$ of the whole.",
+    "notes": "Terminology ('fourth'/'quarter') is conventional.",
+    "question_ids": [
+      "G2_U6_SB_a1_q1",
+      "G2_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_coin_value",
+    "title": "Identify Coin Value",
+    "description": "Recall the value in cents of common U.S. coins (penny, nickel, dime, quarter).",
+    "condition": "Given a specific U.S. coin (penny, nickel, dime, quarter).",
+    "response": "State its value in cents (1, 5, 10, or 25).",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "A quarter is worth 25\u00a2.",
+    "notes": "Each coin-value pair is a separate fact but grouped here as a set of related facts.",
+    "question_ids": [
+      "G2_U6_SD_a1_q1",
+      "G2_U6_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "define_isosceles_by_equal_sides",
+    "title": "Identify Equal Sides in a Triangle",
+    "description": "Recognize or require that a triangle has two sides of equal length.",
+    "condition": "Given a triangle or a requirement that two sides have the same length.",
+    "response": "State or construct a triangle with at least two congruent sides.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A triangle with side lengths 3, 3, and 4 units has two equal sides.",
+    "notes": "In Grade 2, described as '2 sides that have the same length.'",
+    "question_ids": [
+      "G2_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_hour_from_hour_hand",
+    "title": "Identify Hour from Hour Hand Position",
+    "description": "Determine the hour by locating where the short hand points or has most recently passed.",
+    "condition": "An analog clock with a visible hour hand position.",
+    "response": "State the hour number the short hand is pointing to or has just passed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the short hand is between 2 and 3 (closer to 3), the hour is $2$ (as in $2{:}45$).",
+    "notes": "Students must distinguish the hour hand from the minute hand.",
+    "question_ids": [
+      "G2_U6_SC_a1_q1",
+      "G2_U6_SC_a1_q2",
+      "G2_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "interpret_quarter_past",
+    "title": "Interpret \u201cQuarter Past\u201d",
+    "description": "Translate the phrase \u201cquarter past\u201d into 15 minutes after the stated hour.",
+    "condition": "A time phrase of the form \"quarter past h.\"",
+    "response": "Convert to digital time $h{:}15$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\"Quarter past 2\" corresponds to $2{:}15$.",
+    "notes": "\"Quarter\" as 15 minutes is conventional language.",
+    "question_ids": [
+      "G2_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_one_shaded_part_of_three_as_one_third",
+    "title": "One of Three Equal Parts Is One Third",
+    "description": "Determine that shading exactly one of three equal parts represents one third of the whole.",
+    "condition": "A shape is divided into 3 equal parts and exactly 1 part is shaded.",
+    "response": "State that $\\frac{1}{3}$ (one third) of the shape is shaded.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 1 of 3 equal sections is shaded, then the shaded portion is $\\frac{1}{3}$.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_SB_a1_q2",
+      "G2_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "partition_rectangle_into_four_equal_parts",
+    "title": "Partition Rectangle into Four Equal Parts",
+    "description": "Create four equal regions within a rectangle.",
+    "condition": "Given a rectangle and instructed to split it into 4 equal parts.",
+    "response": "Draw partition lines that create 4 equal-sized regions.",
+    "cond_type": "Constant",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Category",
+    "example": "Draw three evenly spaced vertical lines to create 4 equal strips in the rectangle.",
+    "notes": "Multiple correct partitions possible (vertical, horizontal, grid).",
+    "question_ids": [
+      "G2_U6_SB_a1_q1",
+      "G2_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "recognize_right_angle_square_corner",
+    "title": "Recognize a Right (Square) Corner",
+    "description": "Identify or construct a 90\u00b0 angle, often called a square corner.",
+    "condition": "Given an angle in a shape or a requirement for a square corner.",
+    "response": "Identify or create an angle measuring 90\u00b0.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "An angle formed by perpendicular segments (like the corner of a square) is a right angle (90\u00b0).",
+    "notes": "In Grade 2 language, referred to as a 'square corner.'",
+    "question_ids": [
+      "G2_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "sum_values_of_multiple_coins",
+    "title": "Sum Values of Multiple Coins",
+    "description": "Multiply or repeatedly add coin values based on quantity and combine totals.",
+    "condition": "Given quantities of different coin types.",
+    "response": "Calculate the total value in cents by combining each coin's value times its quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "3 pennies (3) + 4 nickels (4\u00d75=20) + 1 dime (10) + 2 quarters (2\u00d725=50) gives 3 + 20 + 10 + 50 = 83.",
+    "notes": "",
+    "question_ids": [
+      "G2_U6_SD_a1_q1",
+      "G2_U6_SD_a1_q2",
+      "G2_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "recognize_whole_as_sum_of_equal_fractional_parts",
+    "title": "Whole as Sum of Equal Fractional Parts",
+    "description": "Recognize that when all equal fractional parts are shaded, they compose one whole.",
+    "condition": "All equal parts of a partitioned shape (e.g., 4 fourths) are shaded.",
+    "response": "State that the entire shape (one whole) is shaded.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If all 4 parts of a square divided into fourths are shaded, then $4 \\times \\frac{1}{4} = 1$ whole.",
+    "notes": "Connects repeated unit fractions to 1 whole.",
+    "question_ids": [
+      "G2_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "write_money_with_dollar_symbol",
+    "title": "Write Amount Using Dollar Symbol",
+    "description": "Express a money amount using the dollar symbol correctly.",
+    "condition": "Given a whole-number dollar amount.",
+    "response": "Write the amount with the \"$\" symbol preceding the number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "Write 37 dollars as $37.",
+    "notes": "Conventional notation rule.",
+    "question_ids": [
+      "G2_U6_SD_a1_q3"
+    ]
+  }
+]

@@ -17,23 +17,6 @@
     ]
   },
   {
-    "kc_id": "add_ones_make_ten",
-    "title": "Compose a Ten When Adding Ones",
-    "description": "When the sum of ones is 10 or more, compose a new ten and adjust the remaining ones.",
-    "condition": "Adding two numbers where the ones digits sum to 10 or more (e.g., 45 + 9).",
-    "response": "Combine ones to make a group of 10, add it to the tens, and keep leftover ones.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "$45 + 9$: $5 + 9 = 14$, so make $10$ and $4$; $45 + 5 = 50$, then $50 + 4 = 54$.",
-    "notes": "Often described as \u201cmaking a ten.\u201d",
-    "question_ids": [
-      "G1_U5_a1_q3"
-    ]
-  },
-  {
     "kc_id": "decompose_addends_equivalent_expression",
     "title": "Decompose Addends to Form Equivalent Expression",
     "description": "Breaks apart addends into tens and ones to create an equivalent expression with the same total.",

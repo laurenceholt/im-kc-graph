@@ -249,7 +249,7 @@
     ]
   },
   {
-    "kc_id": "isolate_variable_two_step",
+    "kc_id": "solve_two_step_linear_equation",
     "title": "Solve Two-Step Linear Equation",
     "description": "Solve an equation requiring two inverse operations to isolate the variable.",
     "condition": "An equation of the form ax + b = c or a(x + b) = c.",
@@ -267,7 +267,8 @@
       "G7_U6_a1_q4",
       "G7_U6_a1_q5",
       "G7_U6_a1_q6",
-      "G7_U6_a1_q7"
+      "G7_U6_a1_q7",
+      "G8_U4_a1_q4"
     ]
   },
   {

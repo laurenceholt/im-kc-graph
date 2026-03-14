@@ -1,23 +1,5 @@
 [
   {
-    "kc_id": "use_pythagorean_theorem_distance",
-    "title": "Apply Pythagorean Theorem for Distance",
-    "description": "Compute the distance between two points in the coordinate plane using the distance formula.",
-    "condition": "Given two points $(x_1,y_1)$ and $(x_2,y_2)$.",
-    "response": "Compute $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "Distance between $(-7,2)$ and $(3,5)$ is $\\sqrt{(3-(-7))^2+(5-2)^2}=\\sqrt{10^2+3^2}=\\sqrt{109}$.",
-    "notes": "Care needed with signed differences.",
-    "question_ids": [
-      "G8_U8_SB_a1_q2",
-      "G8_U8_a1_q2"
-    ]
-  },
-  {
     "kc_id": "approximate_cube_root_between_perfect_cubes",
     "title": "Approximate Cube Root Using Nearby Perfect Cubes",
     "description": "Estimate the value of a cube root by locating it between two nearby perfect cubes and interpolating its decimal value.",
@@ -134,23 +116,6 @@
     "notes": "",
     "question_ids": [
       "G8_U8_SC_a1_q2"
-    ]
-  },
-  {
-    "kc_id": "long_division_to_decimal",
-    "title": "Convert Fraction to Decimal by Long Division",
-    "description": "Divide the numerator by the denominator to produce a decimal representation, continuing as needed.",
-    "condition": "A division expression a \u00f7 b where a and b are integers.",
-    "response": "Carry out long division to obtain a decimal quotient.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Divide $4 \\div 11$ to get $0.3636\\ldots$.",
-    "notes": "Algorithmic procedure.",
-    "question_ids": [
-      "G8_U8_SD_a1_q1"
     ]
   },
   {
@@ -311,7 +276,8 @@
     "notes": "",
     "question_ids": [
       "G8_U8_SB_a1_q1",
-      "G8_U8_SB_a1_q2"
+      "G8_U8_SB_a1_q2",
+      "G8_U8_a1_q2"
     ]
   },
   {

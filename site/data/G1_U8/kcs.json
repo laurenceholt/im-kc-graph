@@ -55,26 +55,6 @@
     ]
   },
   {
-    "kc_id": "add_with_make_ten_strategy",
-    "title": "Add Using Make-a-Ten Strategy",
-    "description": "Add two numbers by decomposing one addend to make a ten with the other.",
-    "condition": "An addition expression where decomposing an addend can create a ten (e.g., 57 + 8, 8 + 5).",
-    "response": "Break apart one addend to complete the next ten, then add the remaining ones.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "$57 + 8 = 57 + 3 + 5 = 60 + 5 = 65$",
-    "notes": "",
-    "question_ids": [
-      "G1_U8_a1_q15",
-      "G1_U8_a1_q16",
-      "G1_U8_a1_q18",
-      "G1_U8_a1_q3"
-    ]
-  },
-  {
     "kc_id": "compare_two_digit_numbers_place_value",
     "title": "Compare Two-Digit Numbers by Place Value",
     "description": "Compare two-digit numbers by examining tens first, then ones if needed.",

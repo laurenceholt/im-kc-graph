@@ -1,0 +1,381 @@
+[
+  {
+    "kc_id": "add_selected_frequencies",
+    "title": "Add Frequencies for Selected Categories",
+    "description": "Add the counts (number of Xs) for specified values on a line plot to find a combined total.",
+    "condition": "Given a line plot and a question asking for the total number of data points in two or more specified categories (e.g., 1, 2, or 3 pets).",
+    "response": "Add the frequencies (number of Xs) above each specified value to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If there are 5 Xs above 1, 4 Xs above 2, and 1 X above 3, then total = $5 + 4 + 1 = 10$.",
+    "notes": "Requires interpreting each X as one data point.",
+    "question_ids": [
+      "G2_U3_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "add_three_two_digit_numbers",
+    "title": "Add Three Two-Digit Numbers",
+    "description": "Add three two-digit numbers to find a total sum.",
+    "condition": "Given three two-digit numbers to combine (e.g., total distance jumped).",
+    "response": "Compute the total by adding all three numbers accurately.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Compute $37 + 25 + 29 = 91$.",
+    "notes": "May involve place-value strategies or standard algorithm.",
+    "question_ids": [
+      "G2_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "align_ruler_zero",
+    "title": "Align Ruler at Zero",
+    "description": "Line up the 0 mark of a ruler with one endpoint of an object before measuring.",
+    "condition": "Given a physical object and a ruler with a marked 0 point.",
+    "response": "Place the 0 mark at one endpoint of the object before reading the measurement.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "To measure a rectangle, place the 0 cm mark at the left end before reading the right end.",
+    "notes": "Foundational measuring behavior.",
+    "question_ids": [
+      "G2_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_centimeter_units",
+    "title": "Count Centimeter Units",
+    "description": "Count the number of centimeter units that span the length of an object.",
+    "condition": "An object is aligned with a centimeter ruler.",
+    "response": "Count the centimeter marks from 0 to the endpoint to determine length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the object ends at the 12 mark, count 12 centimeter units.",
+    "notes": "Requires accurate one\u2011to\u2011one correspondence.",
+    "question_ids": [
+      "G2_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_total_marks",
+    "title": "Count Total Data Points on Line Plot",
+    "description": "Determine the total number of data points represented on a line plot by counting all X marks.",
+    "condition": "Given a complete line plot with Xs representing data points and asked for the total number surveyed.",
+    "response": "Count all X marks on the plot to find the total number of data points.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If there are 17 Xs shown on the plot, then 17 students took the survey.",
+    "notes": "May be done by counting individually or by adding grouped counts.",
+    "question_ids": [
+      "G2_U3_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "decompose_subtraction_place_value",
+    "title": "Decompose for Subtraction Within 100",
+    "description": "Break apart numbers by tens and ones to subtract within 100.",
+    "condition": "A two-digit subtraction problem within 100 (e.g., 37 \u2212 13).",
+    "response": "Subtract tens and ones separately or decompose one number (e.g., 37 \u2212 10 \u2212 3).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$37 - 13 = 37 - 10 - 3 = 27 - 3 = 24$.",
+    "notes": "Based on place value structure.",
+    "question_ids": [
+      "G2_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "report_length_in_inches",
+    "title": "Express Measurement with Unit Label",
+    "description": "State a measured length using the correct unit (inches).",
+    "condition": "A length has been measured in inch units.",
+    "response": "Report the numerical value followed by the unit 'inches'.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "The rectangle measures $5$ inches.",
+    "notes": "Emphasizes inclusion of appropriate measurement unit.",
+    "question_ids": [
+      "G2_U3_SA_a1_q1",
+      "G2_U3_SB_a1_q1",
+      "G2_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_reasonable_height_unit",
+    "title": "Identify Reasonable Height Estimate with Units",
+    "description": "Select the measurement with an appropriate unit and reasonable magnitude for a person's height.",
+    "condition": "Given several numerical height estimates with different units for a second grader.",
+    "response": "Choose the estimate that matches typical human height (e.g., 50 inches).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Among 50 cm, 50 in, 50 ft, 50 m, select 50 inches as reasonable.",
+    "notes": "Relies on real-world knowledge of typical human heights.",
+    "question_ids": [
+      "G2_U3_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_longer_than_difference",
+    "title": "Interpret \"Longer Than\" as Difference",
+    "description": "Translate comparison language such as '13 cm longer than' into an addition or subtraction relationship.",
+    "condition": "A comparison statement of the form 'A is k units longer than B.'",
+    "response": "Represent the relationship as A = B + k or B = A \u2212 k.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If Noah is 13 cm longer than Tyler and Noah is 37 cm, then $T = 37 - 13$.",
+    "notes": "Language-to-equation translation skill.",
+    "question_ids": [
+      "G2_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_trimming_as_subtraction",
+    "title": "Interpret Decrease as Subtraction",
+    "description": "Recognize that language indicating removal means quantities should be subtracted.",
+    "condition": "A word problem states an amount was 'cut off', 'trimmed', 'removed', or 'less'.",
+    "response": "Represent the situation using subtraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\"Cut off 15 inches\" \u2192 compute $42 - 15$.",
+    "notes": "Relies on conventional problem-language cues.",
+    "question_ids": [
+      "G2_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_x_as_one",
+    "title": "Interpret Each X as One Data Value",
+    "description": "Understand that each X on a line plot represents one instance of the measured quantity.",
+    "condition": "Given a line plot where X marks are placed above numbers on a number line.",
+    "response": "Interpret each X as representing one data point with that value.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "An X above 2 on the line plot means one student has 2 pets.",
+    "notes": "Conventional representation of line plots.",
+    "question_ids": [
+      "G2_U3_SC_a1_q1",
+      "G2_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_growth_as_addition",
+    "title": "Interpret Growth as Addition",
+    "description": "Recognize that language indicating an increase means quantities should be added.",
+    "condition": "A word problem states an amount 'grew', 'increased', or 'more' than an initial amount.",
+    "response": "Represent the situation using addition.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\"It grew 34 inches\" \u2192 compute $8 + 34$.",
+    "notes": "Conventional interpretation of comparison/change language.",
+    "question_ids": [
+      "G2_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "label_line_plot_scale",
+    "title": "Label Line Plot Scale Including Range",
+    "description": "Determine and label an appropriate numeric scale on a line plot that includes the minimum and maximum data values.",
+    "condition": "Given a set of data values and a blank number line for a line plot.",
+    "response": "Write consecutive numbers spanning at least from the smallest to the largest data value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For data 13 to 25, label the line plot from 12 to 26 to include all values.",
+    "notes": "Scale choice may vary slightly but must include full data range.",
+    "question_ids": [
+      "G2_U3_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "label_line_plot",
+    "title": "Label Line Plot with Title and Axis",
+    "description": "Provide an appropriate title and label for the measurement axis of a line plot.",
+    "condition": "Given data to display on a line plot and instructed to include a title and axis label.",
+    "response": "Write a descriptive title and label the axis with the measured quantity and units.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Title: \"Seedling Heights\"; Axis label: \"height in centimeters.\"",
+    "notes": "Follows conventional structure of graphs.",
+    "question_ids": [
+      "G2_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "read_value_from_axis",
+    "title": "Match X Position to Numerical Value",
+    "description": "Determine the data value represented by the position of an X on the number line.",
+    "condition": "Given an X placed above a tick mark on a labeled number line.",
+    "response": "Identify the number on the axis directly below the X as the data value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If an X is above 4 on the number line, the data value is 4.",
+    "notes": "Requires understanding of number line alignment.",
+    "question_ids": [
+      "G2_U3_SC_a1_q1",
+      "G2_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "measure_length_with_ruler_cm",
+    "title": "Measure Length in Centimeters",
+    "description": "Measure an object's length using a centimeter ruler.",
+    "condition": "Given a physical rectangle and a centimeter ruler.",
+    "response": "Align the ruler at zero and read the length in centimeters.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Rectangle A measures 16 cm when aligned to the ruler's zero mark.",
+    "notes": "Procedural measurement skill.",
+    "question_ids": [
+      "G2_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "measure_length_with_ruler",
+    "title": "Measure Length with an Inch Ruler",
+    "description": "Determine an object's length by aligning a ruler at zero and counting inch units to the endpoint.",
+    "condition": "Given a physical object and an inch ruler with marked units.",
+    "response": "Align the 0 mark with one end and count the number of whole inches to the other end.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Align the ruler at 0 and count to the endpoint: 5 inch marks \u2192 $5$ inches.",
+    "notes": "Includes correct alignment at zero and counting unit intervals.",
+    "question_ids": [
+      "G2_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "place_x_for_each_datapoint",
+    "title": "Place One X per Data Value",
+    "description": "Represent each occurrence of a data value by placing one X above the corresponding number on the number line.",
+    "condition": "Given a list of numerical data values to represent on a line plot.",
+    "response": "For each data value, place one X above the matching number on the number line, stacking Xs for repeated values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Given data $3,2,1,4,2,3,2,1,1,2$, place three Xs above 1, four Xs above 2, two Xs above 3, and one X above 4.",
+    "notes": "All Xs should be the same size and aligned vertically.",
+    "question_ids": [
+      "G2_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_comparison_with_bar_model",
+    "title": "Represent Comparison with Bar Model",
+    "description": "Draw a diagram showing one quantity as longer than another by a specified difference.",
+    "condition": "A comparison story problem with a known total and known difference.",
+    "response": "Draw two aligned bars showing the total and the extra part representing the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Draw Noah\u2019s bar labeled 37 cm and Tyler\u2019s shorter bar with an extra 13 cm segment shown.",
+    "notes": "Diagram must match quantitative relationships.",
+    "question_ids": [
+      "G2_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_data_on_line_plot",
+    "title": "Represent Data on Line Plot",
+    "description": "Plot each data value as a mark above the corresponding number on a labeled line plot.",
+    "condition": "Given labeled line plot and a list of numerical data values.",
+    "response": "Place one mark (e.g., X) above each value for every occurrence in the data set.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For data 20, 20, 20, place three Xs above 20.",
+    "notes": "Includes counting frequency of repeated values.",
+    "question_ids": [
+      "G2_U3_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "unit_size_affects_measurement_count",
+    "title": "Smaller Unit Produces Larger Count",
+    "description": "For the same object, a smaller measurement unit results in a larger numerical measurement.",
+    "condition": "Comparing measurements of the same object expressed in two different-sized units (e.g., centimeters and inches).",
+    "response": "Assign the larger number to the smaller unit and explain that smaller units require more to measure the same length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a pencil measures 6 and 15, then 15 is centimeters because centimeters are smaller than inches.",
+    "notes": "Relies on understanding relative unit sizes.",
+    "question_ids": [
+      "G2_U3_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "subtract_to_compare_lengths",
+    "title": "Subtract to Compare Lengths",
+    "description": "Find how much longer one length is than another by subtracting the smaller from the larger.",
+    "condition": "Given two measured lengths and asked how much longer one is.",
+    "response": "Compute larger minus smaller to find the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If A = 16 cm and B = 9 cm, compute $16 - 9 = 7$ cm.",
+    "notes": "Requires identifying which length is greater first.",
+    "question_ids": [
+      "G2_U3_a1_q4",
+      "G2_U3_a1_q6"
+    ]
+  }
+]

@@ -302,23 +302,6 @@
     ]
   },
   {
-    "kc_id": "solve_two_step_linear_equation",
-    "title": "Solve Two-Step Linear Equation",
-    "description": "Solve a linear equation by isolating the variable using inverse operations.",
-    "condition": "Linear equation in one variable requiring multiple inverse operations.",
-    "response": "Perform inverse operations to isolate variable and determine its value.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Rule / Plan",
-    "example": "From $8=\\tfrac{2}{3}x$, multiply both sides by $\\tfrac{3}{2}$ to get $x=12$.",
-    "notes": "",
-    "question_ids": [
-      "G8_U4_a1_q4"
-    ]
-  },
-  {
     "kc_id": "substitute_and_check_system_solution",
     "title": "Substitute to Verify System Solution",
     "description": "Check whether an ordered pair is a solution to a system by substituting into both equations.",
