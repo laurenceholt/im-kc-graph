@@ -1,0 +1,352 @@
+[
+  {
+    "kc_id": "identify_similarity_by_aa",
+    "title": "AA Similarity Criterion",
+    "description": "Two triangles are similar if they have two pairs of congruent angles.",
+    "condition": "Given two triangles with two corresponding angles equal.",
+    "response": "Conclude the triangles are similar.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If two triangles each have angles 90\u00b0 and 40\u00b0, then they are similar by AA.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "apply_dilation_origin",
+    "title": "Apply Dilation from the Origin",
+    "description": "Given a point and a scale factor with center at (0,0), compute the coordinates of its image by multiplying both coordinates by the scale factor.",
+    "condition": "A point (x, y) is dilated from center (0,0) with scale factor k.",
+    "response": "Compute image as (kx, ky).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Dilate (3, -4) by scale factor 2 from (0,0): $(2\\cdot3, 2\\cdot(-4)) = (6, -8)$.",
+    "notes": "Core coordinate rule for dilations centered at the origin.",
+    "question_ids": [
+      "G8_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "apply_scale_factor_multiply",
+    "title": "Apply Scale Factor to Find Corresponding Side",
+    "description": "Multiply a known side length by the scale factor to find the corresponding side in a similar triangle.",
+    "condition": "Given a scale factor between similar triangles and a known side length in one triangle.",
+    "response": "Multiply the known side length by the scale factor to compute the corresponding side length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "If the scale factor is $\\frac{5}{3}$ and a side is $\\frac{7}{3}$, then the corresponding side is $\\frac{5}{3} \\cdot \\frac{7}{3} = \\frac{35}{9}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SB_a1_q2",
+      "G8_U2_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "point_satisfies_line_equation_check",
+    "title": "Check if Point Lies on Line",
+    "description": "Determine whether a point lies on a line by substituting into the line\u2019s equation.",
+    "condition": "Given a linear equation and a coordinate point.",
+    "response": "Substitute the coordinates; if the equation is true, conclude the point lies on the line.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $y = 3x - 2$, test $(4,10)$: $10 = 3(4) - 2 = 10$, so the point lies on the line.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SC_a1_q2",
+      "G8_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compute_scale_factor_ratio",
+    "title": "Compute Scale Factor from Corresponding Sides",
+    "description": "Determine the scale factor by forming a ratio of corresponding side lengths in similar triangles.",
+    "condition": "Given two corresponding side lengths from similar triangles.",
+    "response": "Divide one corresponding side length by the other to determine the scale factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "If corresponding sides are $5$ and $3$, then the scale factor (large to small) is $\\frac{5}{3}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_slope_from_points",
+    "title": "Compute Slope from Two Points",
+    "description": "Calculate the slope of a line using two points by finding the ratio of vertical change to horizontal change.",
+    "condition": "Given two points (x1, y1) and (x2, y2) on a line.",
+    "response": "Compute slope as (y2 - y1) / (x2 - x1).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Using (3,4) and (7,6): slope = (6 - 4) / (7 - 3) = 2/4 = 1/2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "recognize_constant_scale_factor_required",
+    "title": "Constant Scale Factor for Similarity",
+    "description": "For two polygons to be similar, all corresponding side lengths must be related by the same scale factor.",
+    "condition": "Given two polygons with measured corresponding sides.",
+    "response": "Check whether ratios of all corresponding sides are equal; if not, conclude they are not similar.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If one pair of sides has ratio $2$ but another pair has ratio $1.5$, then the polygons are not similar.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "triangle_similarity_proportional_sides",
+    "title": "Corresponding Sides of Similar Triangles Are Proportional",
+    "description": "Use the property that corresponding sides in similar triangles have equal ratios.",
+    "condition": "Given two triangles known to be similar.",
+    "response": "Set up equal ratios of corresponding side lengths.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $\\triangle ABC \\sim \\triangle DEF$, then $\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "dilation_center_collinearity",
+    "title": "Dilated Point Lies on Ray from Center",
+    "description": "Under a dilation, the image of a point lies on the line through the center and the original point.",
+    "condition": "Given a dilation with center P and original point A.",
+    "response": "Place the image of A on line PA at a distance scaled by the scale factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If the scale factor is 2 and $PA = 3$, then the image $A'$ lies on ray $PA$ with $PA' = 6$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_a1_q1",
+      "G8_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "dilation_preserves_angle_measure",
+    "title": "Dilations Preserve Angle Measure",
+    "description": "A dilation keeps all corresponding angle measures equal.",
+    "condition": "Given a polygon and its image under dilation.",
+    "response": "Conclude corresponding angles are congruent.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If triangle $ABC$ is dilated to $A'B'C'$, then $\\angle A = \\angle A'$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "dilation_produces_similar_figures",
+    "title": "Dilations Produce Similar Figures",
+    "description": "A dilation of a figure results in a figure similar to the original.",
+    "condition": "A figure is transformed by a dilation with any nonzero scale factor.",
+    "response": "Conclude the image is similar to the original figure.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If triangle $ABC$ is dilated by scale factor $\\tfrac{1}{2}$, then $\\triangle ABC \\sim \\triangle A'B'C'$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SB_a1_q1",
+      "G8_U2_a1_q1",
+      "G8_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_center_by_collinearity",
+    "title": "Identify Center of Dilation by Collinearity",
+    "description": "Determine the center of dilation by finding the point through which lines connecting corresponding vertices of a figure and its image pass.",
+    "condition": "Given a preimage and image under dilation on a plane.",
+    "response": "Locate the common intersection point of lines drawn through each pair of corresponding vertices; this point is the center of dilation.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If lines connecting corresponding vertices of triangles $L$ and $M$ all pass through point $C$, then $C$ is the center of dilation.",
+    "notes": "Relies on geometric property that dilation maps points along rays from the center.",
+    "question_ids": [
+      "G8_U2_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_corresponding_vertices",
+    "title": "Identify Corresponding Vertices in Similar Triangles",
+    "description": "Match vertices of two triangles based on naming order or geometric position to determine corresponding sides.",
+    "condition": "Given a statement that triangle ABC is similar to triangle DEF.",
+    "response": "Match A\u2194D, B\u2194E, C\u2194F to identify corresponding sides and angles.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If $\\triangle ABC \\sim \\triangle DEF$, then $AB \\leftrightarrow DE$, $BC \\leftrightarrow EF$, and $AC \\leftrightarrow DF$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_slope_as_rate",
+    "title": "Interpret Slope as Rise over Run",
+    "description": "Understand slope as the quotient of vertical change divided by horizontal change.",
+    "condition": "Given a line or slope triangle on a coordinate plane.",
+    "response": "Express slope as vertical change / horizontal change.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If a line rises 2 units and runs 4 units, slope = 2/4 = 1/2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SC_a1_q1",
+      "G8_U2_SC_a1_q2",
+      "G8_U2_SC_a1_q3",
+      "G8_U2_a1_q3",
+      "G8_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "identify_line_by_slope_graph",
+    "title": "Match Line to Given Slope on Graph",
+    "description": "Identify which graphed line corresponds to a specified slope by comparing steepness (rise over run).",
+    "condition": "Given multiple lines on a coordinate grid and specified slope values.",
+    "response": "Select or label the line whose rise/run matches each given slope.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "A line that rises 1 unit for every 1 unit right has slope 1; the steepest line rising 3 units for every 1 unit right has slope 3.",
+    "notes": "Visual comparison of steepness; often intuitive.",
+    "question_ids": [
+      "G8_U2_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_scale_factor_effect",
+    "title": "Recognize Effect of Scale Factor on Distance",
+    "description": "Understand that a dilation multiplies all distances from the center by the scale factor.",
+    "condition": "A dilation with scale factor k and center C is applied to a figure.",
+    "response": "Conclude that each image point lies on the ray from C through the original point at k times the original distance.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $CP = 3$ units and the scale factor is 2, then $CP' = 6$ units along the same ray.",
+    "notes": "Supports both graphical identification of center and coordinate computation.",
+    "question_ids": [
+      "G8_U2_SA_a1_q1",
+      "G8_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_equivalent_point_slope_forms",
+    "title": "Recognize Equivalent Point-Slope Equations",
+    "description": "Determine whether different point-slope equations describe the same line by checking slope and reference point consistency.",
+    "condition": "Given multiple equations of the form (y - y1)/(x - x1) = m.",
+    "response": "Identify equations that use correct slope and a point on the line.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Using point (7,6) and slope 1/2: (y - 6)/(x - 7) = 1/2 describes the same line as (y - 4)/(x - 3) = 1/2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "solve_proportion_cross_multiply",
+    "title": "Solve Proportion by Cross Multiplication",
+    "description": "Solve an equation of the form $\\frac{a}{b} = \\frac{c}{x}$ by cross multiplying and isolating the unknown.",
+    "condition": "Given a proportion involving a single unknown variable.",
+    "response": "Cross multiply and solve the resulting equation for the unknown value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $\\frac{3}{5} = \\frac{\\frac{7}{3}}{x}$, then $3x = 5 \\cdot \\frac{7}{3}$, so $x = \\frac{35}{9}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "angle_sum_triangle_180",
+    "title": "Triangle Angle Sum",
+    "description": "The interior angles of a triangle sum to 180 degrees.",
+    "condition": "Given two interior angles of a triangle and needing the third angle.",
+    "response": "Compute the third angle as 180\u00b0 minus the sum of the two given angles.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a triangle has angles 90\u00b0 and 40\u00b0, then the third angle is $180 - (90 + 40) = 50\u00b0$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "write_line_equation_from_point_slope",
+    "title": "Write Equation Using Point-Slope Form",
+    "description": "Given a point and slope, write an equation of the line using point-slope form.",
+    "condition": "Given slope m and point $(x_1, y_1)$ on a line.",
+    "response": "Write equation $y - y_1 = m(x - x_1)$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "With slope $3$ through $(2,4)$: $y - 4 = 3(x - 2)$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U2_a1_q6"
+    ]
+  }
+]

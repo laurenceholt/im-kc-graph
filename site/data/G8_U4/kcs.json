@@ -1,0 +1,349 @@
+[
+  {
+    "kc_id": "add_same_number_both_sides",
+    "title": "Add the Same Number to Both Sides",
+    "description": "Use the addition property of equality to create an equivalent equation by adding the same number to both sides.",
+    "condition": "An equation of the form A = B where a number k is added to both sides.",
+    "response": "Rewrite as A + k = B + k.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $3x = 12$, add 3 to both sides: $3x + 3 = 12 + 3 = 15$.",
+    "notes": "Also used with variable terms, e.g., adding $4x$ to both sides.",
+    "question_ids": [
+      "G8_U4_SA_a1_q1",
+      "G8_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "apply_distributive_property",
+    "title": "Apply the Distributive Property",
+    "description": "Expand or factor expressions using the distributive property of multiplication over addition.",
+    "condition": "An expression of the form a(b + c) or ab + ac with a common factor.",
+    "response": "Rewrite as ab + ac (expansion) or a(b + c) (factoring).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$4(3 - x) = 12 - 4x$ and $3x + 3 = 3(x + 1)$.",
+    "notes": "Includes both distributing and factoring using the same structural principle.",
+    "question_ids": [
+      "G8_U4_SA_a1_q1",
+      "G8_U4_SA_a1_q2",
+      "G8_U4_SB_a1_q2",
+      "G8_U4_SC_a1_q1",
+      "G8_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "classify_system_by_slopes",
+    "title": "Classify System by Comparing Slopes",
+    "description": "Determine the number of solutions of a linear system by comparing slopes and intercepts of the two equations.",
+    "condition": "Two linear equations in slope-intercept form y = mx + b (or rewritten into that form).",
+    "response": "If slopes are different \u2192 one solution; if slopes equal and intercepts different \u2192 no solution; if both equal \u2192 infinitely many solutions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $y=2x-4$ and $y=-\\tfrac{1}{2}x-4$, slopes 2 and $-\\tfrac{1}{2}$ differ, so there is exactly one solution.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "classify_parallel_no_solution",
+    "title": "Classify System with Same Slope, Different Intercepts",
+    "description": "Determine that a system of two linear equations has no solution when the lines have equal slopes but different y-intercepts.",
+    "condition": "Two linear equations in slope-intercept form with equal slopes and different y-intercepts.",
+    "response": "State that the system has no solution.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $y = 3x + 5$ and $y = 3x + 3$, both have slope $3$ but different y-intercepts, so the system has no solution.",
+    "notes": "Relies on understanding that parallel distinct lines do not intersect.",
+    "question_ids": [
+      "G8_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "combine_like_terms_linear",
+    "title": "Combine Like Terms in Linear Expression",
+    "description": "Combine terms with the same variable or constants to simplify a linear expression.",
+    "condition": "An algebraic expression contains like terms (e.g., ax + bx or c + d).",
+    "response": "Add or subtract coefficients of like terms to produce a simplified expression.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Simplify $180t - 540 + 100$ by combining constants: $-540 + 100 = -440$, so the result is $180t - 440$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_linear_coefficients",
+    "title": "Compare Coefficients to Determine Number of Solutions",
+    "description": "Determine whether a linear equation has one solution by comparing coefficients of the variable on both sides.",
+    "condition": "A linear equation in one variable has different coefficients of the variable on each side (e.g., ax + b = cx + d with a \u2260 c).",
+    "response": "Conclude that the equation has exactly one solution.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $3x + 7 = 5x + 7$, since $3 \\ne 5$, the equation has one solution.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "determine_equivalent_equations_by_solution_set",
+    "title": "Determine if Equations Are Equivalent",
+    "description": "Determine whether two equations are equivalent by comparing their solution sets.",
+    "condition": "Two equations in the same variable are given.",
+    "response": "Decide whether they have the same solution set (state Yes or No with justification).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $4x + 2 = 20x$ and $x + 2 = 5x$. Solving the second gives $x = \\tfrac{1}{2}$, which does not satisfy the first, so they are not equivalent.",
+    "notes": "Justification may involve solving both equations or testing a solution.",
+    "question_ids": [
+      "G8_U4_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "divide_both_sides_by_same_nonzero",
+    "title": "Divide Both Sides by the Same Nonzero Number",
+    "description": "Use the division property of equality to isolate a variable by dividing both sides by the same nonzero coefficient.",
+    "condition": "An equation of the form aA = aB where a \u2260 0.",
+    "response": "Rewrite as A = B by dividing both sides by a.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $7x = 14$, divide both sides by 7: $x = 2$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SA_a1_q2",
+      "G8_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "form_total_count_equation",
+    "title": "Form Total Count Equation",
+    "description": "Translate a context with a fixed total number of events into an equation summing category counts.",
+    "condition": "Context gives total number of events and variables represent category counts.",
+    "response": "Write an equation of the form $x + y = \\text{total events}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If there are 5 total rounds, write $x + y = 5$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_infinite_solutions_structure",
+    "title": "Identify Structure for Infinitely Many Solutions",
+    "description": "Recognize that a linear equation has infinitely many solutions when both sides are equivalent expressions.",
+    "condition": "A linear equation simplifies to identical expressions on both sides (e.g., ax + b = ax + b).",
+    "response": "Conclude the equation has infinitely many solutions.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "The equation $2x + 4 = 2x + 4$ is true for all x, so it has infinitely many solutions.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_solution_in_context",
+    "title": "Interpret Equation Solution in Context",
+    "description": "Explain the meaning of a solution to an equation within the context of a real-world situation.",
+    "condition": "A value that solves a contextual equation is found.",
+    "response": "State what the value represents in terms of the situation described.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If $t = 22$ solves $160t = 180(t - 3) + 100$, then 22 minutes after Friend A starts, both friends are the same distance from the starting line.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_intersection_as_solution",
+    "title": "Interpret Graph Intersection as Solution",
+    "description": "Understand that the intersection point of two lines represents the solution to the system.",
+    "condition": "Two linear relationships represented graphically.",
+    "response": "Identify ordered pair where the lines intersect as the solution.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If lines intersect at $(3,55)$, then the solution to the system is $(3,55)$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "interpret_parallel_graphs",
+    "title": "Interpret Parallel Lines Graphically",
+    "description": "Describe the graph of a system with no solutions as parallel lines.",
+    "condition": "System of linear equations determined to have no solutions.",
+    "response": "State that the graphs are parallel lines.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a system has no solution because slopes are equal and intercepts differ, the lines are parallel.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "model_linear_from_context",
+    "title": "Model Linear Relationship from Context",
+    "description": "Translate a verbal situation with constant rate of change into a linear equation.",
+    "condition": "Context describing initial value and constant rate (increase or decrease).",
+    "response": "Write equation in form $y = mx + b$ with slope as rate and intercept as initial value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Han starts with $100$ and spends $15$ per week: $H = 100 - 15x$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "identify_incorrect_division_of_terms",
+    "title": "Recognize Division Must Apply to All Terms",
+    "description": "When dividing both sides of an equation by a number, each term on that side must be divided.",
+    "condition": "An equation where one side has multiple terms and a division by a common factor is performed.",
+    "response": "Divide every term on that side by the factor; recognize errors if a term is omitted.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $4x + 2 = 20x$, dividing the left side by 4 correctly gives $x + \\tfrac{1}{2}$, not $x + 2$.",
+    "notes": "Supports reasoning about why two equations are not equivalent.",
+    "question_ids": [
+      "G8_U4_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "set_up_system_from_constraints",
+    "title": "Set Up System from Contextual Constraints",
+    "description": "Form a system of equations representing totals and constraints in a word problem.",
+    "condition": "Word problem describing totals (e.g., total players or total games) and per-unit quantities.",
+    "response": "Write equations representing each constraint using variables for unknown quantities.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $x$ is 6-player games and $y$ is 2-player games: $6x+2y=50$ and $x+y=13$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "eliminate_variable_substitution",
+    "title": "Solve System by Substitution",
+    "description": "Substitute an expression for one variable into the other equation to solve a system.",
+    "condition": "A system where one equation is solved for a variable (e.g., $y = ...$).",
+    "response": "Replace that variable in the other equation and solve resulting one-variable equation.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $y=x+15$ and $\\tfrac{1}{2}x+6y=12$, substitute to get $\\tfrac{1}{2}x+6(x+15)=12$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "solve_two_step_linear_equation",
+    "title": "Solve Two-Step Linear Equation",
+    "description": "Solve a linear equation by isolating the variable using inverse operations.",
+    "condition": "Linear equation in one variable requiring multiple inverse operations.",
+    "response": "Perform inverse operations to isolate variable and determine its value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "From $8=\\tfrac{2}{3}x$, multiply both sides by $\\tfrac{3}{2}$ to get $x=12$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "substitute_and_check_system_solution",
+    "title": "Substitute to Verify System Solution",
+    "description": "Check whether an ordered pair is a solution to a system by substituting into both equations.",
+    "condition": "Given a system of equations and a candidate ordered pair $(x, y)$.",
+    "response": "Substitute the values into both equations and verify each equation is true.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "Check $(7,10)$ in $3x+5y=19$ and $x+y=5$ by evaluating both sides and confirming equality.",
+    "notes": "Defines solution as making both equations true simultaneously.",
+    "question_ids": [
+      "G8_U4_SC_a1_q2",
+      "G8_U4_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_term_both_sides",
+    "title": "Subtract Same Term from Both Sides",
+    "description": "Maintain equality by subtracting the same expression from both sides of an equation.",
+    "condition": "An equation contains the same variable term on both sides (e.g., ax + b = cx + d).",
+    "response": "Subtract one variable term (e.g., cx) from both sides to collect like terms.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $160t = 180t - 440$, subtract $180t$ from both sides to get $-20t = -440$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U4_SB_a1_q2"
+    ]
+  }
+]

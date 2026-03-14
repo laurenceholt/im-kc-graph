@@ -1,0 +1,331 @@
+[
+  {
+    "kc_id": "compute_row_relative_frequency",
+    "title": "Compute Row Relative Frequency",
+    "description": "Calculate the relative frequency within a row of a two-way table by dividing a cell count by the row total and converting to a percentage.",
+    "condition": "Given a two-way table with a specific row category, a cell count in that row, and the row total.",
+    "response": "Divide the cell count by the row total and express the result as a percentage.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For water creatures with power < 100: $\\frac{22}{25} = 0.88 = 88\\%$.",
+    "notes": "Applies to any row-based relative frequency calculation.",
+    "question_ids": [
+      "G8_U6_SC_a1_q1",
+      "G8_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "construct_segmented_bar_graph",
+    "title": "Create segmented bar graph from relative frequencies",
+    "description": "Represent row relative frequencies as proportional segments within equal-length bars.",
+    "condition": "Given relative frequency percentages for categories within groups.",
+    "response": "Draw one bar per group with segments sized according to percentages summing to 100%.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For adults: draw a bar to 100% with 31% labeled pizza and 69% labeled hot dog.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_a1_q2",
+      "G8_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "represent_positive_non_linear_association",
+    "title": "Draw positive non-linear association",
+    "description": "Create a scatter plot showing a generally increasing trend that is not linear.",
+    "condition": "Asked to represent a positive association that is not linear.",
+    "response": "Plot points that increase overall but follow a curved or non-straight pattern.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Plot points that rise as $x$ increases but curve upward rather than forming a straight line.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "complete_two_way_table_using_totals",
+    "title": "Find missing values in two-way table",
+    "description": "Use row and column totals to determine missing frequencies in a two-way table.",
+    "condition": "Given a partially completed two-way table with some row or column totals provided.",
+    "response": "Use subtraction within rows or columns and addition across totals to fill in missing entries.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If total for 7th grade is 293 and 219 prefer bike, then prefer walk $= 293 - 219 = 74$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "identify_cluster_range",
+    "title": "Identify Clusters in a Scatter Plot",
+    "description": "Recognize groups of data points concentrated within a specific range of x-values (or region of the graph).",
+    "condition": "Given a scatter plot with visible groupings of points in certain x-value intervals.",
+    "response": "State the approximate x-value ranges where clusters of points appear.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If many points occur for $5 \\le x \\le 20$ and another group for $30 \\le x \\le 45$, identify these intervals as clusters.",
+    "notes": "Requires visual interpretation of density.",
+    "question_ids": [
+      "G8_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_negative_association_from_context",
+    "title": "Identify negative association",
+    "description": "Recognize when two variables have a negative association based on contextual description.",
+    "condition": "Given a pair of variables described in context.",
+    "response": "Determine whether as one variable increases, the other tends to decrease.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "As number of absences increases, final grades tend to decrease \u2192 negative association.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_nonlinear_association",
+    "title": "Identify Non-Linear Association",
+    "description": "Determine that a scatter plot shows a non-linear association when points do not follow a steady increasing or decreasing linear trend.",
+    "condition": "Given a scatter plot where points rise and fall or curve rather than align around a straight line.",
+    "response": "State that the association is non-linear and justify based on the changing pattern.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If as $x$ increases, $y$ sometimes increases and sometimes decreases, the association is non-linear.",
+    "notes": "Concept of non-linear trend based on visual pattern.",
+    "question_ids": [
+      "G8_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_outlier_in_scatter_plot",
+    "title": "Identify outlier in scatter plot",
+    "description": "Recognize and mark a data point that does not follow the general pattern of a scatter plot.",
+    "condition": "Given a scatter plot with one point far from the overall trend.",
+    "response": "Circle or identify the point that lies far from the general trend.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "In a downward trend, circle a single point far above the fitted line.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_SB_a1_q1",
+      "G8_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "identify_positive_association",
+    "title": "Identify Positive Association",
+    "description": "Recognize that a scatter plot shows positive association when y-values tend to increase as x-values increase.",
+    "condition": "Given a scatter plot where points trend upward from left to right.",
+    "response": "State that the association is positive and describe that y increases as x increases.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If larger diameters correspond to greater heights, the scatter plot shows a positive association.",
+    "notes": "Core vocabulary concept.",
+    "question_ids": [
+      "G8_U6_SA_a1_q1",
+      "G8_U6_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_association_from_relative_frequencies",
+    "title": "Interpret Association from Relative Frequencies",
+    "description": "Determine whether two categorical variables are associated by comparing relative frequencies across categories.",
+    "condition": "Given relative frequencies for different categories of one variable across levels of another variable.",
+    "response": "Conclude there is an association if the relative frequencies differ substantially across categories; otherwise conclude there is likely no association.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Fire creatures: 44% have power < 100, while water creatures: 88% have power < 100. Because these percentages differ greatly, there is an association between element and power.",
+    "notes": "Requires contextual explanation referencing compared percentages.",
+    "question_ids": [
+      "G8_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "read_axis_units",
+    "title": "Interpret Axis Labels and Units",
+    "description": "Determine what each axis represents and interpret values according to the stated units (e.g., thousands of dollars).",
+    "condition": "Given a graph with labeled axes that include variable names and units.",
+    "response": "Identify the quantity and unit represented on each axis and scale values accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "The x-axis shows advertising in thousands of dollars, so 26 represents $26{,}000.",
+    "notes": "Supports correct interpretation of plotted values.",
+    "question_ids": [
+      "G8_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_point_in_context",
+    "title": "Interpret Scatter Plot Point in Context",
+    "description": "Explain the meaning of a specific plotted point using the real-world context of the variables and their units.",
+    "condition": "Given a labeled scatter plot and a specific ordered pair (x, y).",
+    "response": "State what the x-value and y-value represent in context, including units.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "The point $(26, 76.5)$ means the business spent $26{,}000 on advertising and earned $76{,}500 in income that month.",
+    "notes": "Requires mapping coordinate values to axis labels and units.",
+    "question_ids": [
+      "G8_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_slope_context",
+    "title": "Interpret Slope in Context",
+    "description": "Explain the meaning of the slope of a linear model in terms of the context of the variables.",
+    "condition": "Given a linear model such as $y = mx + b$ representing a real-world relationship.",
+    "response": "State that for each 1-unit increase in x, y changes by m units, interpreted in context.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $y = \\frac{7}{10}x + 3.8$, the slope $\\frac{7}{10}$ means the height increases $\\frac{7}{10}$ inch for each additional inch of diameter.",
+    "notes": "Based on definition of slope as rate of change.",
+    "question_ids": [
+      "G8_U6_SB_a1_q1",
+      "G8_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "add_point_to_scatter_plot",
+    "title": "Plot Ordered Pair on Scatter Plot",
+    "description": "Given numerical values for two variables, place the corresponding ordered pair correctly on a scatter plot with appropriate scales.",
+    "condition": "Given an ordered pair (x, y) and a scatter plot with labeled axes and scale.",
+    "response": "Plot a point at the horizontal value x and vertical value y on the graph.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "To add November's data, plot the point $(25, 95)$ on the graph.",
+    "notes": "Requires coordinating axis scales and ordered pair structure.",
+    "question_ids": [
+      "G8_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "determine_no_association_via_equal_proportions",
+    "title": "Recognize no association from equal proportions",
+    "description": "Determine that two categorical variables show no association when corresponding conditional proportions are equal.",
+    "condition": "Given a two-way table where conditional proportions for one variable are the same across categories of the other variable.",
+    "response": "Conclude there is no association and use proportional reasoning to find missing counts if needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $\\frac{112}{112+52} = \\frac{x}{x+84}$, solve for $x$ to maintain equal proportions (giving $x=181$).",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "percentages_sum_to_100_in_row",
+    "title": "Row Percentages Sum to 100%",
+    "description": "Recognize that relative frequencies within a row must sum to 100%.",
+    "condition": "Given all relative frequencies for categories within a single row of a two-way table.",
+    "response": "Ensure or state that the percentages add to 100%.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "For water creatures: $88\\% + 12\\% = 100\\%$.",
+    "notes": "Supports checking correctness of computed relative frequencies.",
+    "question_ids": [
+      "G8_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "select_best_fit_line_visual",
+    "title": "Select Better Fitting Line by Visual Fit",
+    "description": "Choose the linear model that best fits a scatter plot by judging which line passes through the middle of the data and follows the overall trend.",
+    "condition": "Given a scatter plot with two or more proposed linear models drawn.",
+    "response": "Select the line that more closely follows the overall pattern and has points balanced above and below it.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Between $y=\\frac{4}{5}x+3.5$ and $y=\\frac{7}{10}x+3.8$, choose the line that runs through the center of the data cloud.",
+    "notes": "Primarily perceptual judgment of fit rather than formal calculation.",
+    "question_ids": [
+      "G8_U6_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "draw_line_of_best_fit",
+    "title": "Sketch reasonable line of best fit",
+    "description": "Draw a line that represents the general linear trend in a scatter plot.",
+    "condition": "Given a scatter plot showing an approximately linear trend.",
+    "response": "Sketch a straight line that follows the overall direction and center of the data points.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Draw a downward-sloping line through the middle of points showing soup sales decreasing as temperature increases.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "apply_linear_model_to_predict",
+    "title": "Use linear equation to make prediction",
+    "description": "Substitute a given input value into a linear equation to compute a predicted output.",
+    "condition": "Given a linear equation in two variables and a specific input value for the independent variable.",
+    "response": "Substitute the value into the equation and evaluate to find the predicted output.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Given $s = -t + 120$ and $t = 32$, compute $s = -32 + 120 = 88$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U6_SA_a1_q1",
+      "G8_U6_a1_q7"
+    ]
+  }
+]

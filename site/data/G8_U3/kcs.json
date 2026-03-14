@@ -1,0 +1,355 @@
+[
+  {
+    "kc_id": "substitute_point_in_equation",
+    "title": "Check if Point Satisfies Equation",
+    "description": "Determine whether an ordered pair lies on a line by substitution.",
+    "condition": "Given linear equation and ordered pair $(x,y)$.",
+    "response": "Substitute $x$ and check if resulting $y$ matches.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "For $y=-2x+8$, test $(4,0)$: $-2(4)+8=0$, so point lies on line.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SD_a1_q1",
+      "G8_U3_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_lhs_rhs_equality",
+    "title": "Compare Left and Right Sides for Equality",
+    "description": "Determine whether the evaluated expression equals the given y-value to decide if a coordinate pair satisfies an equation.",
+    "condition": "Given a substituted equation with a numerical left-hand side and a numerical right-hand side.",
+    "response": "State whether the two sides are equal (true) or not equal (false).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "For point $(6,0)$ in $y = 8 - 3x$: compute $8 - 3(6) = 8 - 18 = -10$. Since $0 \\ne -10$, the sides are not equal.",
+    "notes": "Determines whether a point is a solution to the equation.",
+    "question_ids": [
+      "G8_U3_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_slopes_same_rate",
+    "title": "Compare Slopes to Determine Same Growth Rate",
+    "description": "Determine whether two linear relationships have the same rate of change by comparing their slopes.",
+    "condition": "Given two linear relationships (equations or graphs) with identifiable slopes.",
+    "response": "Conclude that the relationships have the same growth rate if and only if their slopes are equal.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If line \u2113 has slope 4 and another line has equation $h = 4w + 3$, both have slope 4, so they grow at the same rate.",
+    "notes": "Often supported visually by observing that the lines are parallel.",
+    "question_ids": [
+      "G8_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_unit_rates",
+    "title": "Compare Unit Rates from Multiple Representations",
+    "description": "Determine and compare unit rates (slopes) from equations, tables, or graphs to decide which rate is greater or smaller.",
+    "condition": "Given multiple proportional relationships represented as equations, tables, or graphs.",
+    "response": "Compute each unit rate (slope) and identify which is largest or smallest.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $d=9.5t$, slope $=9.5$. From table, $16\\div2=8$. From graph using $(0,0)$ and $(30,300)$, slope $=300\\div30=10$. Since $8<9.5<10$, the second plane is slowest.",
+    "notes": "[merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G8_U3_SA_a1_q2",
+      "G8_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compute_constant_of_proportionality",
+    "title": "Compute Constant of Proportionality",
+    "description": "Find the constant of proportionality from a pair of corresponding values in a proportional relationship.",
+    "condition": "A proportional situation with corresponding values (x, y) is given.",
+    "response": "Compute the ratio y/x (or equivalent) to determine the constant of proportionality k.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Jada takes $8$ steps when Noah takes $10$, then $k = \\frac{10}{8} = \\frac{5}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "determine_slope_from_graph",
+    "title": "Determine Slope from Graph",
+    "description": "Calculate slope as rise over run using two points on a graphed line.",
+    "condition": "Given a graph of a non-vertical line with at least two identifiable points.",
+    "response": "Compute slope as $(y_2-y_1)/(x_2-x_1)$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Using $(0,0)$ and $(30,300)$, slope $=\\frac{300-0}{30-0}=10$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SC_a1_q1",
+      "G8_U3_a1_q3",
+      "G8_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "evaluate_linear_expression",
+    "title": "Evaluate Linear Expression with Substitution",
+    "description": "Substitute a numerical value for a variable in a linear expression and simplify using order of operations.",
+    "condition": "Given a linear expression in one variable (e.g., $8 - 3x$) and a numerical value for the variable.",
+    "response": "Compute the numerical value of the expression.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Substitute $x = 3$ into $8 - 3x$: $8 - 3(3) = 8 - 9 = -1$.",
+    "notes": "Requires correct use of multiplication before subtraction.",
+    "question_ids": [
+      "G8_U3_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "graph_proportional_relationship",
+    "title": "Graph a Proportional Relationship",
+    "description": "Represent a proportional relationship on a coordinate plane as a straight line through the origin using an appropriate scale.",
+    "condition": "An equation of the form y = kx (or equivalent proportional relationship) is given.",
+    "response": "Plot (0,0) and additional points satisfying the equation, then draw a straight line through them.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "Yes",
+    "label": "Production / Skill",
+    "example": "For $n = \\frac{5}{4}j$, plot $(0,0)$ and $(100,125)$ and draw the line through them.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "graph_line_from_slope_intercept",
+    "title": "Graph Line from Slope and Initial Value",
+    "description": "Graph a linear relationship given an initial value and a constant rate of change.",
+    "condition": "Given an initial value (y-intercept) and a constant rate of change (slope).",
+    "response": "Plot the y-intercept and use the slope to generate additional points, then draw the line.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Given initial height 3 inches and growth 4 inches per week, plot $(0,3)$, then $(1,7)$, $(2,11)$, and draw the line through them.",
+    "notes": "Requires coordinating slope as rise over run on a graph.",
+    "question_ids": [
+      "G8_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_horizontal_line",
+    "title": "Identify Horizontal Line as Constant",
+    "description": "Recognize that a horizontal line has slope 0 and represents a constant value.",
+    "condition": "Given a graph of a horizontal line.",
+    "response": "State slope is 0 and the quantity does not change.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Line $m$ is horizontal, so slope $=0$ and downloads remain constant.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SC_a1_q1",
+      "G8_U3_a1_q2",
+      "G8_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "identify_solution_to_linear_equation",
+    "title": "Identify Solution to Linear Equation",
+    "description": "Recognize that a coordinate pair is a solution to a linear equation if substituting its x- and y-values makes the equation true.",
+    "condition": "Given a linear equation in two variables and a coordinate pair $(x, y)$.",
+    "response": "Conclude that the point lies on the line if substitution makes the equation true; otherwise conclude it does not.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Check $(0,8)$ in $y = 8 - 3x$: $8 - 3(0) = 8$. Since $y = 8$, the equation is true, so $(0,8)$ lies on the line.",
+    "notes": "Encapsulates the definition of a solution to an equation in two variables.",
+    "question_ids": [
+      "G8_U3_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_y_intercept_from_graph",
+    "title": "Identify Y-Intercept from Graph",
+    "description": "Determine the y-value where a line crosses the y-axis.",
+    "condition": "Given a linear graph.",
+    "response": "State the y-value at x = 0.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Category",
+    "example": "From the graph, when x = 0, y = 10000. The y-intercept is 10000.",
+    "notes": "Requires recognizing the vertical axis intersection.",
+    "question_ids": [
+      "G8_U3_SB_a1_q1",
+      "G8_U3_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_rate_from_equation",
+    "title": "Interpret Rate from Proportional Equation",
+    "description": "Identify the constant of proportionality as the rate of change in a proportional equation.",
+    "condition": "An equation in the form y = kx is given in context.",
+    "response": "State that k represents the rate per unit of x.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "In $y = 3x$, the coefficient $3$ means 3 buckets per minute.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_slope_as_rate",
+    "title": "Interpret Slope as Rate of Change",
+    "description": "Interpret slope in context as the rate at which one quantity changes per unit of another.",
+    "condition": "Given a linear relationship in context (equation, table, or graph).",
+    "response": "Explain slope as change in dependent variable per 1 unit of independent variable.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $y=10+4.5x$, slope $4.5$ means each sandwich adds $\\$4.50$ to total cost.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SB_a1_q1",
+      "G8_U3_SC_a1_q1",
+      "G8_U3_a1_q2",
+      "G8_U3_a1_q5",
+      "G8_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "solve_linear_constraint",
+    "title": "Model and Solve Linear Constraint",
+    "description": "Form and use a linear equation representing a total constraint from weighted quantities.",
+    "condition": "Given item weights and a total capacity constraint.",
+    "response": "Write equation (e.g., $40w+16t=2000$) and find solution pairs.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If jugs weigh 40 lb and cases 16 lb with 2000 lb limit, equation is $40w+16t=2000$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "parallel_lines_same_slope",
+    "title": "Parallel Lines Have Equal Slopes",
+    "description": "Recognize that parallel lines have the same slope and differ only in intercept.",
+    "condition": "Given two lines described as parallel.",
+    "response": "Conclude their slopes are equal.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If the second store\u2019s graph is parallel to $y=10+4.5x$, its slope is also $4.5$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "use_proportional_equation_to_predict",
+    "title": "Use Proportional Equation to Predict Value",
+    "description": "Substitute a given value into a proportional equation to determine the corresponding value.",
+    "condition": "A proportional equation and a specific input value are given.",
+    "response": "Substitute the input and compute the corresponding output.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $n = \\frac{5}{4}j$, if $j = 100$, then $n = \\frac{5}{4}(100) = 125$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "write_proportional_equation",
+    "title": "Write Equation for Proportional Relationship",
+    "description": "Express a proportional relationship between two variables using an equation of the form y = kx or equivalent.",
+    "condition": "A context describes two quantities varying proportionally.",
+    "response": "Write an equation relating the variables using the constant of proportionality.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $k = \\frac{5}{4}$, the relationship can be written as $n = \\frac{5}{4}j$ (or $j = \\frac{4}{5}n$).",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_vertical_line_equation",
+    "title": "Write Equation of Vertical Line",
+    "description": "Recognize that a vertical line has equation of the form $x=c$.",
+    "condition": "Given a vertical line on a graph crossing the x-axis at a constant value.",
+    "response": "Write equation $x=c$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "A vertical line through $x=1$ has equation $x=1$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "write_linear_equation_slope_intercept",
+    "title": "Write Linear Equation in Slope-Intercept Form",
+    "description": "Construct a linear equation in the form $y = mx + b$ from a given slope and y-intercept.",
+    "condition": "Given a constant rate of change (slope) and an initial value (y-intercept).",
+    "response": "Write an equation of the form $y = mx + b$ substituting the given slope and intercept.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Slope $4$ and initial value $3$ gives $h = 4w + 3$.",
+    "notes": "Relies on the general linear model $y = mx + b$. [merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G8_U3_SB_a1_q1",
+      "G8_U3_SC_a1_q1",
+      "G8_U3_a1_q4"
+    ]
+  }
+]

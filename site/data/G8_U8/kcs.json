@@ -1,0 +1,624 @@
+[
+  {
+    "kc_id": "use_pythagorean_theorem_distance",
+    "title": "Apply Pythagorean Theorem for Distance",
+    "description": "Compute the distance between two points in the coordinate plane using the distance formula.",
+    "condition": "Given two points $(x_1,y_1)$ and $(x_2,y_2)$.",
+    "response": "Compute $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Distance between $(-7,2)$ and $(3,5)$ is $\\sqrt{(3-(-7))^2+(5-2)^2}=\\sqrt{10^2+3^2}=\\sqrt{109}$.",
+    "notes": "Care needed with signed differences.",
+    "question_ids": [
+      "G8_U8_SB_a1_q2",
+      "G8_U8_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "approximate_cube_root_between_perfect_cubes",
+    "title": "Approximate Cube Root Using Nearby Perfect Cubes",
+    "description": "Estimate the value of a cube root by locating it between two nearby perfect cubes and interpolating its decimal value.",
+    "condition": "Given a non-perfect cube number n under a cube root symbol.",
+    "response": "Identify consecutive perfect cubes around n and estimate \\(\\sqrt[3]{n}\\) as a decimal between their cube roots.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "To approximate \\(\\sqrt[3]{90}\\): since \\(4^3=64\\) and \\(5^3=125\\), \\(\\sqrt[3]{90}\\) is between 4 and 5, about \\(4.48\\).",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "area_square_formula",
+    "title": "Area of a Square",
+    "description": "Calculate the area of a square from its side length.",
+    "condition": "Square with side length s.",
+    "response": "Compute area as s^2.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a square has side length a+b, its area is (a+b)^2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "area_triangle_formula",
+    "title": "Area of a Triangle",
+    "description": "Calculate the area of a triangle using base and height.",
+    "condition": "Triangle with base b and height h.",
+    "response": "Compute area as \\frac{1}{2}bh.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For a right triangle with legs a and b, area = \\frac{1}{2}ab.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "classify_rational_fraction",
+    "title": "Classify Fraction as Rational",
+    "description": "Recognize that any ratio of integers with nonzero denominator is rational.",
+    "condition": "A number written as $\\frac{a}{b}$ where $a,b$ are integers and $b\\neq 0$.",
+    "response": "Classify the number as rational.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{22}{7}$ is rational because it is a ratio of two integers.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "classify_rational_number",
+    "title": "Classify Rational Number",
+    "description": "Determine that a number is rational if it can be written as a ratio of integers.",
+    "condition": "Given a number that can be expressed as a fraction of integers (e.g., an integer or terminating/repeating decimal).",
+    "response": "State that the number is rational.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $\\sqrt{49}=7$ and $7=\\frac{7}{1}$, the number is rational.",
+    "notes": "Includes integers as a subset of rational numbers.",
+    "question_ids": [
+      "G8_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "classify_irrational_sqrt_nonperfect",
+    "title": "Classify Square Root of Non-Perfect Square as Irrational",
+    "description": "Recognize that the square root of a non-perfect square integer is irrational.",
+    "condition": "A number of the form $\\sqrt{n}$ where $n$ is not a perfect square.",
+    "response": "Classify the number as irrational.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $10$ is not a perfect square, $\\sqrt{10}$ is irrational.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "classify_sqrt_perfect_square_rational",
+    "title": "Classify Square Root of Perfect Square as Rational",
+    "description": "Recognize that the square root of a perfect square integer is rational.",
+    "condition": "A number of the form $\\sqrt{n}$ where $n$ is a perfect square.",
+    "response": "Classify the number as rational.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $81=9^2$, $\\sqrt{81}=9$, which is rational.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "classify_rational_terminating_decimal",
+    "title": "Classify Terminating or Repeating Decimal as Rational",
+    "description": "Recognize that terminating or repeating decimals are rational numbers.",
+    "condition": "A decimal that terminates or repeats.",
+    "response": "Classify the number as rational.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$-5.867$ is a terminating decimal, so it is rational.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compute_cube_of_integer",
+    "title": "Compute Cube of an Integer",
+    "description": "Find the cube of a given integer by multiplying it by itself three times.",
+    "condition": "Given an integer n.",
+    "response": "Compute \\(n^3 = n \\times n \\times n\\).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If point F is at 7, then the number is \\(7^3 = 343\\).",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "long_division_to_decimal",
+    "title": "Convert Fraction to Decimal by Long Division",
+    "description": "Divide the numerator by the denominator to produce a decimal representation, continuing as needed.",
+    "condition": "A division expression a \u00f7 b where a and b are integers.",
+    "response": "Carry out long division to obtain a decimal quotient.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Divide $4 \\div 11$ to get $0.3636\\ldots$.",
+    "notes": "Algorithmic procedure.",
+    "question_ids": [
+      "G8_U8_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_fraction_to_repeating_decimal",
+    "title": "Convert Fraction with Denominator 9 to Repeating Decimal",
+    "description": "Convert a fraction with denominator 9 into its repeating decimal form.",
+    "condition": "Given a fraction of the form $\\frac{a}{9}$ where $a$ is an integer.",
+    "response": "Express the fraction as a repeating decimal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{16}{9}=1.\\overline{7}$ because $9\\times1=9$ with remainder $7$, and $\\frac{7}{9}=0.\\overline{7}$.",
+    "notes": "Relies on understanding of division and repeating decimals.",
+    "question_ids": [
+      "G8_U8_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "equate_areas_same_side_square",
+    "title": "Equal Areas of Congruent Squares",
+    "description": "Set expressions equal when they represent the area of squares with the same side length.",
+    "condition": "Two area expressions each represent a square with identical side length.",
+    "response": "Set the expressions equal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If both large squares have side a+b, then a^2 + b^2 + 2ab = 4\\left(\\frac{1}{2}ab\\right) + c^2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "evaluate_perfect_cube_root",
+    "title": "Evaluate Perfect Cube Root",
+    "description": "Determine the cube root of a perfect cube.",
+    "condition": "Given an expression of the form \\(\\sqrt[3]{n}\\) where n is a perfect cube.",
+    "response": "State the integer whose cube equals n.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "\\(\\sqrt[3]{64} = 4\\) because \\(4^3 = 64\\).",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_perfect_square_root",
+    "title": "Evaluate Perfect Square Root",
+    "description": "Recognize and evaluate the square root of a perfect square.",
+    "condition": "Given an expression $\\sqrt{n}$ where $n$ is a perfect square.",
+    "response": "State the integer whose square equals $n$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\sqrt{9}=3$ because $3^2=9$.",
+    "notes": "Assumes principal (nonnegative) square root.",
+    "question_ids": [
+      "G8_U8_SA_a1_q1",
+      "G8_U8_SA_a1_q3",
+      "G8_U8_SB_a1_q1",
+      "G8_U8_SB_a1_q2",
+      "G8_U8_a1_q1",
+      "G8_U8_a1_q3",
+      "G8_U8_a1_q5",
+      "G8_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "expand_binomial_square",
+    "title": "Expand (a+b)^2",
+    "description": "Expand the square of a binomial.",
+    "condition": "Expression of the form (a+b)^2.",
+    "response": "Rewrite as a^2 + 2ab + b^2.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "(a+b)^2 = a^2 + 2ab + b^2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "use_pythagorean_theorem_height_cone",
+    "title": "Find Cone Height from Slant Height",
+    "description": "Use the Pythagorean Theorem to find the height of a right cone from its slant height and radius.",
+    "condition": "Given slant height $l$ and radius $r$ of a right cone.",
+    "response": "Compute height $h=\\sqrt{l^2-r^2}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $l=13$ and $r=5$, then $h=\\sqrt{13^2-5^2}=\\sqrt{169-25}=12$.",
+    "notes": "Based on right triangle formed by radius, height, and slant height.",
+    "question_ids": [
+      "G8_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "side_length_from_cube_volume",
+    "title": "Find Cube Side Length from Volume",
+    "description": "Determine the side length of a cube given its volume by taking the cube root.",
+    "condition": "Given the volume V of a cube.",
+    "response": "Compute the side length as \\(\\sqrt[3]{V}\\).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If volume is 64 cm^3, then side length is \\(\\sqrt[3]{64} = 4\\) cm.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_coordinate_differences",
+    "title": "Find Horizontal and Vertical Differences",
+    "description": "Determine the horizontal and vertical distances between two points in the coordinate plane.",
+    "condition": "Two points (x1, y1) and (x2, y2).",
+    "response": "Compute |x2 - x1| and |y2 - y1|.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Between (-3,4) and (5,-2): horizontal change = 8, vertical change = 6.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "apply_pythagorean_find_hypotenuse",
+    "title": "Find Hypotenuse Using Pythagorean Theorem",
+    "description": "Use the Pythagorean Theorem to compute the hypotenuse of a right triangle when both legs are known.",
+    "condition": "Right triangle with legs of lengths a and b; hypotenuse unknown.",
+    "response": "Compute c = \\sqrt{a^2 + b^2}.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If legs are 7 and \\sqrt{32}, then c = \\sqrt{7^2 + (\\sqrt{32})^2} = \\sqrt{49 + 32} = \\sqrt{81} = 9.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q1",
+      "G8_U8_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "take_square_root_of_area",
+    "title": "Find Side Length from Area of Square",
+    "description": "Use the definition of square root to find the side length of a square given its area.",
+    "condition": "The area of a square is given as $n$ square units.",
+    "response": "State the side length as $\\sqrt{n}$ (or its simplified value).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the area is $49$, the side length is $\\sqrt{49}=7$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "fraction_as_division",
+    "title": "Interpret Fraction as Division",
+    "description": "Understand a fraction a/b as the division expression a \u00f7 b.",
+    "condition": "A fraction written in the form a/b.",
+    "response": "Rewrite or interpret the fraction as a \u00f7 b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Interpret $\\frac{4}{11}$ as $4 \\div 11$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "locate_irrational_between_squares",
+    "title": "Locate Irrational Between Consecutive Squares",
+    "description": "Approximate the location of a square root by comparing the radicand to nearby perfect squares.",
+    "condition": "Given $\\sqrt{n}$ where $n$ is not a perfect square.",
+    "response": "Identify consecutive integers $a$ and $b$ such that $a^2<n<b^2$ to bound the value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $1^2=1<3<4=2^2$, $\\sqrt{3}$ is between 1 and 2.",
+    "notes": "Used to place points on a number line.",
+    "question_ids": [
+      "G8_U8_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "map_number_to_number_line_point",
+    "title": "Map Number to Labeled Point",
+    "description": "Match a numerical value to its corresponding labeled location on a number line.",
+    "condition": "Given a number and a number line with labeled points.",
+    "response": "Select the letter corresponding to the point at that value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Since $\\sqrt{16}=4$, choose the point labeled at 4 (e.g., N).",
+    "notes": "Spatial mapping skill; may involve prior approximation.",
+    "question_ids": [
+      "G8_U8_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "match_decimal_to_number_line_point",
+    "title": "Match Decimal to Number Line Point",
+    "description": "Match a decimal approximation to the correctly located labeled point on a number line.",
+    "condition": "Given a decimal value and a number line with labeled points.",
+    "response": "Select the point whose position corresponds to the decimal\u2019s location.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Since \\(\\sqrt[3]{25} \\approx 2.92\\), choose the point plotted near 2.9 (Q).",
+    "notes": "Involves spatial estimation on number line.",
+    "question_ids": [
+      "G8_U8_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "plot_positive_square_root",
+    "title": "Plot Positive Square Root on Number Line",
+    "description": "Place the positive solution of $x^2=n$ at its approximate location on a number line.",
+    "condition": "An equation of the form $x^2=n$ with $x$ positive.",
+    "response": "Plot $\\sqrt{n}$ at its position on the number line.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If $x^2=5$, then $x=\\sqrt{5}\\approx2.24$, so plot a point slightly above 2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_repeating_decimal",
+    "title": "Recognize and Notate Repeating Decimal",
+    "description": "Identify when a decimal quotient begins to repeat and denote the repeating block with a bar.",
+    "condition": "A decimal expansion in which a sequence of digits recurs indefinitely.",
+    "response": "Write the decimal using bar notation over the repeating digits.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$0.363636\\ldots = 0.\\overline{36}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_equivalent_radical_forms",
+    "title": "Recognize Equivalent Radical and Integer Forms",
+    "description": "Identify when a radical expression is equivalent to an integer value.",
+    "condition": "Given multiple representations of a number (e.g., integer and cube root form).",
+    "response": "Select all forms that represent the same numerical value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Since \\(\\sqrt[3]{64}=4\\), both 4 and \\(\\sqrt[3]{64}\\) represent the same value.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_pythagorean_triple",
+    "title": "Recognize Pythagorean Relationship",
+    "description": "Determine whether three side lengths satisfy the Pythagorean Theorem.",
+    "condition": "Given three positive numbers representing triangle side lengths.",
+    "response": "Check whether $a^2+b^2=c^2$ for some ordering.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $\\sqrt{32},\\sqrt{32},8$: $(\\sqrt{32})^2+(\\sqrt{32})^2=32+32=64=8^2$.",
+    "notes": "Requires identifying the largest side as hypotenuse.",
+    "question_ids": [
+      "G8_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "repeating_decimal_to_fraction_setup",
+    "title": "Set Up Equation for Repeating Decimal",
+    "description": "Represent a repeating decimal as a variable and create an equation by multiplying by a power of 10 to align repeating digits.",
+    "condition": "A repeating decimal with n repeating digits.",
+    "response": "Let x equal the decimal, multiply by 10^n, and subtract to eliminate the repeating part.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Let $x = 0.\\overline{15}$. Then $100x = 15.\\overline{15}$. Subtract: $100x - x = 15$, so $99x = 15$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "simplify_fraction_by_gcf",
+    "title": "Simplify Fraction Using GCF",
+    "description": "Reduce a fraction to lowest terms by dividing numerator and denominator by their greatest common factor.",
+    "condition": "A fraction whose numerator and denominator share a common factor greater than 1.",
+    "response": "Divide both numerator and denominator by their greatest common factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{15}{99} = \\frac{15 \\div 3}{99 \\div 3} = \\frac{5}{33}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "simplify_sqrt_fraction_perfect_squares",
+    "title": "Simplify Square Root of Fraction with Perfect Squares",
+    "description": "Use the property $\\sqrt{\\frac{a}{b}}=\\frac{\\sqrt{a}}{\\sqrt{b}}$ when $a$ and $b$ are perfect squares.",
+    "condition": "A square root applied to a fraction whose numerator and denominator are perfect squares.",
+    "response": "Rewrite as a simplified fraction of square roots and compute.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\sqrt{\\frac{4}{81}}=\\frac{\\sqrt{4}}{\\sqrt{81}}=\\frac{2}{9}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_quadratic_by_square_root",
+    "title": "Solve Equation of Form x\u00b2 = a",
+    "description": "Solve a quadratic equation by taking square roots of both sides.",
+    "condition": "Given an equation of the form $x^2=a$ where $a>0$.",
+    "response": "State both solutions $x=\\pm\\sqrt{a}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $x^2=9$, then $x=\\pm3$.",
+    "notes": "Students may omit the negative solution.",
+    "question_ids": [
+      "G8_U8_SA_a1_q2",
+      "G8_U8_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_one_step_multiplication_equation",
+    "title": "Solve One-Step Multiplication Equation",
+    "description": "Solve an equation of the form ax = b by dividing both sides by a.",
+    "condition": "An equation in the form ax = b, where a \u2260 0.",
+    "response": "Divide both sides by a to isolate x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "From $99x = 15$, divide by 99 to get $x = \\frac{15}{99}$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "subtract_equal_quantities_from_equals",
+    "title": "Subtract Equal Quantities from Both Sides",
+    "description": "Maintain equality by subtracting the same quantity from both sides of an equation.",
+    "condition": "Equation of the form A = B and a common term k appears on both sides.",
+    "response": "Subtract k from both sides to obtain A - k = B - k.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From a^2 + b^2 + 2ab = 2ab + c^2, subtract 2ab to get a^2 + b^2 = c^2.",
+    "notes": "",
+    "question_ids": [
+      "G8_U8_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "use_volume_formula_cone",
+    "title": "Use Volume Formula for Cone",
+    "description": "Calculate the volume of a cone using its radius and height.",
+    "condition": "Given radius $r$ and height $h$ of a cone.",
+    "response": "Compute $V=\\frac{1}{3}\\pi r^2 h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "With $r=5$ and $h=12$, $V=\\frac{1}{3}\\pi(5^2)(12)=100\\pi\\approx314$.",
+    "notes": "Formula is conventional and memorized.",
+    "question_ids": [
+      "G8_U8_a1_q7"
+    ]
+  }
+]

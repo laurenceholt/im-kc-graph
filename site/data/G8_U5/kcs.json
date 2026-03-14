@@ -1,0 +1,598 @@
+[
+  {
+    "kc_id": "use_cone_volume_formula",
+    "title": "Apply Cone Volume Formula",
+    "description": "Calculate the volume of a cone using its radius and height.",
+    "condition": "Given radius $r$ and height $h$ of a cone.",
+    "response": "Compute volume using $V = \\frac{1}{3}\\pi r^2 h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $r = 2$ cm and $h = 6$ cm, then $V = \\frac{1}{3}\\pi (2^2)(6) = 8\\pi$ cm$^3$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SD_a1_q2",
+      "G8_U5_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_cylinder_volume_formula",
+    "title": "Apply Cylinder Volume Formula",
+    "description": "Calculate the volume of a cylinder using its radius and height.",
+    "condition": "Given radius $r$ and height $h$ of a cylinder.",
+    "response": "Compute volume using $V = \\pi r^2 h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $r = 4$ cm and $h = 12$ cm, then $V = \\pi (4^2)(12) = 192\\pi \\approx 603$ cm$^3$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SD_a1_q1",
+      "G8_U5_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "approximate_with_pi",
+    "title": "Approximate Volume Using \u03c0",
+    "description": "Substitute a decimal approximation for \u03c0 and compute a numerical approximation of a volume expression.",
+    "condition": "A volume expression contains \u03c0 and a decimal approximation is requested.",
+    "response": "Replace \u03c0 with an approximate value (e.g., 3.14) and evaluate the expression numerically.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Given $2304\\pi$, approximate using $\\pi \\approx 3.14$: \n$2304\\pi \\approx 2304(3.14) = 7238.56$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SE_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "substitute_ordered_pair",
+    "title": "Check Ordered Pair in Equation",
+    "description": "Determine whether an ordered pair satisfies a given equation.",
+    "condition": "Equation and ordered pair $(x,y)$.",
+    "response": "Substitute x into equation and check if resulting y matches.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Check $(1,5)$ in $y=3x+2$: $3(1)+2=5$, so true.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "select_existing_input_to_break_function",
+    "title": "Choose Existing Input to Break Function",
+    "description": "To ensure a relation is not a function, assign a new output to an input value already listed.",
+    "condition": "A table of input-output pairs is missing an input value, and the relation must not be a function.",
+    "response": "Select an input value already present in the table.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If existing inputs include 2 with output 8, choosing 2 again for output 15 makes the relation not a function.",
+    "notes": "Creates a duplicate input with two different outputs.",
+    "question_ids": [
+      "G8_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "select_new_input_to_preserve_function",
+    "title": "Choose Unused Input to Preserve Function",
+    "description": "To keep a relation a function, a new ordered pair must use an input value not already listed.",
+    "condition": "A table of input-output pairs is missing an input value, and the relation must remain a function.",
+    "response": "Select any input value not already present in the table.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If existing inputs are 1, 2, 3, 7, and 20, a valid missing input for output 15 could be 4, since 4 is not already used.",
+    "notes": "Ensures no input maps to more than one output.",
+    "question_ids": [
+      "G8_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_numeric_volumes",
+    "title": "Compare Computed Volumes",
+    "description": "Determine which of two solids has greater volume by comparing their calculated numerical values.",
+    "condition": "Given two computed volume values for geometric solids.",
+    "response": "Identify which volume is larger and state the corresponding object.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $V_A \\approx 603$ cm$^3$ and $V_B \\approx 628$ cm$^3$, then $628 > 603$, so Candle B has the greater volume.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_rates_of_change",
+    "title": "Compare Rates of Change Across Intervals",
+    "description": "Determine whether two linear intervals have approximately the same rate of change by comparing their slopes from a graph.",
+    "condition": "Two distinct linear intervals on a graph with visible endpoints.",
+    "response": "Compute or estimate each slope and compare their numerical values to judge similarity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From months 0 to 3: slope \\(= \\frac{6664-6676}{3-0}=-4\\). From months 7 to 12: slope \\(= \\frac{6700-6720}{12-7}=-4\\). The rates are about the same.",
+    "notes": "Supports selecting statement E.",
+    "question_ids": [
+      "G8_U5_SB_a1_q1",
+      "G8_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_linear_inequality_compare_costs",
+    "title": "Compare Two Linear Cost Functions",
+    "description": "Determine when one linear function is less than another by solving or reasoning about their intersection.",
+    "condition": "Two linear cost relationships with different rates and intercepts.",
+    "response": "Find intersection or test values to determine when one cost is less.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Solve $16h+40<20h+30$ to find $h>2.5$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compare_symbolic_volumes_same_r",
+    "title": "Compare Volumes with Common Radius r",
+    "description": "Compare algebraic volume expressions for different solids when all dimensions are given in terms of the same variable r.",
+    "condition": "Volume formulas for multiple solids are expressed in terms of the same variable r.",
+    "response": "Simplify each expression and compare coefficients to order volumes from least to greatest.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Cube: $r^3$; Cone: $\\frac{1}{3}\\pi r^3$; Cylinder: $\\pi r^3$; Sphere: $\\frac{4}{3}\\pi r^3$. \nCompare coefficients: $1 < \\frac{1}{3}\\pi < \\pi < \\frac{4}{3}\\pi$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_slope_from_graph",
+    "title": "Compute Slope from Graph",
+    "description": "Calculate the rate of change between two points read from a graph.",
+    "condition": "Two points \\((x_1,y_1)\\) and \\((x_2,y_2)\\) identified on a linear graph.",
+    "response": "Compute slope using \\(m=\\frac{y_2-y_1}{x_2-x_1}\\).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Using points \\((0,6676)\\) and \\((3,6664)\\), \\(m=\\frac{6664-6676}{3-0}=-4\\).",
+    "notes": "Core skill for interpreting piecewise linear graphs.",
+    "question_ids": [
+      "G8_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_diameter_to_radius",
+    "title": "Convert Diameter to Radius",
+    "description": "Find the radius of a circle when given its diameter.",
+    "condition": "Given the diameter $d$ of a circular base.",
+    "response": "Compute the radius using $r = \\frac{d}{2}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $d = 8$ cm, then $r = \\frac{8}{2} = 4$ cm.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "volume_cube_formula",
+    "title": "Cube Volume Formula",
+    "description": "Use the formula for the volume of a cube in terms of its side length.",
+    "condition": "A cube with side length s (or r) is given.",
+    "response": "Compute volume using $V=s^3$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If side length is $r$, then $V=r^3$.",
+    "notes": "Formula typically memorized.",
+    "question_ids": [
+      "G8_U5_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_slope_magnitude_error",
+    "title": "Detect Incorrect Slope Magnitude",
+    "description": "Recognize when a stated slope value is inconsistent with the scale of the graph.",
+    "condition": "A claimed slope value compared with visually estimated change over an interval.",
+    "response": "Reject the claim if the numerical rate contradicts observed change.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "From months 3 to 5 the height rises about 30 feet over 2 months (\u224815 ft/month), not 57 ft/month.",
+    "notes": "Supports rejecting statement B.",
+    "question_ids": [
+      "G8_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_duplicate_input_violation",
+    "title": "Duplicate Input with Different Output Violates Function Rule",
+    "description": "If an input value appears more than once with different outputs, the relation is not a function.",
+    "condition": "An input value is repeated in a table and paired with a different output.",
+    "response": "Conclude that the relation is not a function.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If the table contains (2, 8) and (2, 15), then it is not a function because input 2 has two outputs.",
+    "notes": "Derived directly from the definition of a function.",
+    "question_ids": [
+      "G8_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "evaluate_linear_expression",
+    "title": "Evaluate Linear Function at Given Input",
+    "description": "Substitute a given input value into a linear equation to compute the output.",
+    "condition": "Linear expression and specific input value.",
+    "response": "Substitute input and simplify to find output.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $y=3x+2$, if $x=1$, then $y=3(1)+2=5$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G8_U5_SB_a1_q1",
+      "G8_U5_a1_q1",
+      "G8_U5_a1_q5",
+      "G8_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_radius_from_height_sphere",
+    "title": "Find Radius from Sphere Height",
+    "description": "Recognize that the height of a sphere equals its diameter and compute the radius as half the height.",
+    "condition": "The height (or total vertical measure) of a sphere is given.",
+    "response": "Divide the height by 2 to find the radius.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the height is $24$ in, then diameter $=24$ and radius $=\\frac{24}{2}=12$ in.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SE_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_unit_rate_from_table",
+    "title": "Find Unit Rate from Table",
+    "description": "Determine the constant rate of change from tabular data.",
+    "condition": "A table showing pairs with constant rate of change.",
+    "response": "Compute difference in outputs divided by difference in inputs.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From $(1,56)$ and $(2,72)$, rate $=\\frac{72-56}{2-1}=16$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_a1_q2",
+      "G8_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_constant_rate",
+    "title": "Identify Constant Rate of Change",
+    "description": "Recognize that equal changes in input produce equal changes in output in a linear relationship.",
+    "condition": "Multiple input-output pairs showing equal differences.",
+    "response": "State or compute the constant rate of change.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Heights increase $6\\to8$ in 2 weeks, so rate $=1$ cm/week.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_a1_q2",
+      "G8_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "identify_independent_dependent_variables",
+    "title": "Identify Independent and Dependent Variables",
+    "description": "Determine which variable is the input (independent) and which is the output (dependent) in a functional relationship.",
+    "condition": "An equation or context describing one quantity depending on another.",
+    "response": "State which variable is independent (input) and which is dependent (output).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "In $P = 6w$, $w$ is the independent variable and $P$ is the dependent variable.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SB_a1_q1",
+      "G8_U5_SB_a1_q2",
+      "G8_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_graph_output_from_input",
+    "title": "Interpret Output from Graph Given Input",
+    "description": "Read the value of the dependent variable from a graph at a specified input value.",
+    "condition": "A graph of a function and a specified x-value.",
+    "response": "Locate the x-value and read the corresponding y-value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "At $r = 4$ on the graph of circumference vs. radius, the y-value is about $8\\pi \\approx 25$ cm.",
+    "notes": "Graph reading is largely procedural/visual.",
+    "question_ids": [
+      "G8_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_graph_slope_context",
+    "title": "Interpret Slope in Context",
+    "description": "Interpret slope as speed or rate of change in a real-world graph.",
+    "condition": "Graph of quantity versus time with varying slopes.",
+    "response": "Describe whether quantity is increasing, decreasing, or constant and compare rates.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "A steeper line segment means a faster increase in distance.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SC_a1_q1",
+      "G8_U5_a1_q3",
+      "G8_U5_a1_q4",
+      "G8_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "label_cone_height_radius",
+    "title": "Label Cone Dimensions",
+    "description": "Correctly label the height and radius on a sketch of a cone.",
+    "condition": "Given a cone with known height and radius values.",
+    "response": "Draw and label the vertical height and the base radius on the cone diagram.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Sketch a cone and label the vertical segment as $6$ cm and the base radius as $2$ cm.",
+    "notes": "Primarily diagrammatic skill.",
+    "question_ids": [
+      "G8_U5_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_line_from_slope_intercept",
+    "title": "Match Graph to Slope and Intercept",
+    "description": "Identify which real-world situation matches a graphed line by interpreting its slope and intercept.",
+    "condition": "A graphed line with visible y-intercept and slope, plus contextual descriptions of linear models.",
+    "response": "Match the graph to the description whose initial value and rate of change agree with the line.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "The line has y-intercept 34 and slope 1, matching cost \\(c=34+1m\\), so it represents Program A.",
+    "notes": "Requires interpreting both intercept and rate.",
+    "question_ids": [
+      "G8_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "model_context_with_piecewise_graph",
+    "title": "Model Context with Piecewise Graph",
+    "description": "Translate a real-world time-based story into a graph showing distance versus time with increasing, decreasing, or constant segments.",
+    "condition": "A narrative describing how a quantity changes over time.",
+    "response": "Sketch a graph with appropriate segments reflecting increases, decreases, and constant intervals.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Walking home \u2192 increasing line; staying home \u2192 horizontal line; walking back \u2192 decreasing line; returning home again \u2192 increasing line.",
+    "notes": "Requires coordinating context with graph shape.",
+    "question_ids": [
+      "G8_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "model_linear_equation_from_graph_segment",
+    "title": "Model Linear Equation from Graph Segment",
+    "description": "Write an equation in slope-intercept form that models a linear segment of a graph.",
+    "condition": "A linear segment with known slope and y-intercept.",
+    "response": "Write equation in form \\(y=mx+b\\) using identified \\(m\\) and \\(b\\).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For slope \\(-4\\) and intercept 6676, \\(h=-4x+6676\\).",
+    "notes": "Used to validate statement A.",
+    "question_ids": [
+      "G8_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "read_point_on_graph",
+    "title": "Read Coordinates from Graph",
+    "description": "Identify approximate coordinates of a point on a graph.",
+    "condition": "A plotted point or intersection on a graph.",
+    "response": "State the corresponding (x, y) values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Point at top appears near $(6,150)$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_a1_q3",
+      "G8_U5_a1_q4",
+      "G8_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "round_to_nearest_whole_number",
+    "title": "Round to Nearest Whole Number",
+    "description": "Round a decimal value to the nearest whole number based on the tenths digit.",
+    "condition": "A decimal value must be expressed to the nearest whole number.",
+    "response": "If the tenths digit is 5 or greater, round up; otherwise round down.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$7238.56$ rounds to $7239$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SE_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_for_radius_in_cone_volume",
+    "title": "Solve for Radius from Cone Volume",
+    "description": "Rearrange the cone volume formula to determine the radius when volume and height are known.",
+    "condition": "Given cone volume $V$ and height $h$.",
+    "response": "Rearrange $V = \\frac{1}{3}\\pi r^2 h$ to solve for $r$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Given $V = 8\\pi$ and $h = 6$, \n$8\\pi = \\frac{1}{3}\\pi r^2 (6)$ \n$8 = 2r^2$ \n$4 = r^2$ \n$r = 2$ cm.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "volume_sphere_formula",
+    "title": "Sphere Volume Formula",
+    "description": "Use the formula for the volume of a sphere in terms of its radius.",
+    "condition": "A sphere with radius r is given.",
+    "response": "Compute volume using $V=\\frac{4}{3}\\pi r^3$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If $r=12$, then $V=\\frac{4}{3}\\pi (12)^3=2304\\pi$.",
+    "notes": "Formula typically memorized.",
+    "question_ids": [
+      "G8_U5_SE_a1_q1",
+      "G8_U5_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "state_function_relationship_from_context",
+    "title": "State Functional Dependence from Context",
+    "description": "Explain which quantity is a function of another based on a contextual description.",
+    "condition": "A real-world situation describing how one quantity changes with another.",
+    "response": "State that one quantity depends on (is a function of) the other and justify briefly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Distance from school is a function of time since school ended because for each time there is exactly one distance.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_circumference_formula",
+    "title": "Use Circle Circumference Formula",
+    "description": "Apply the formula relating circumference and radius of a circle.",
+    "condition": "Given the radius of a circle.",
+    "response": "Compute circumference using $C = 2\\pi r$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $r = 4$, then $C = 2\\pi(4) = 8\\pi$.",
+    "notes": "",
+    "question_ids": [
+      "G8_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_function_definition",
+    "title": "Use Definition of Function",
+    "description": "Determine whether a relation is a function using the definition that each input has exactly one output.",
+    "condition": "A relation described by table, graph, or context.",
+    "response": "State whether it is a function based on one output per input.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Each month corresponds to exactly one height, so height is a function of months.",
+    "notes": "Rationale marked No because definition is conventional.",
+    "question_ids": [
+      "G8_U5_SA_a1_q1",
+      "G8_U5_a1_q2",
+      "G8_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "write_linear_equation_with_constraints",
+    "title": "Write Linear Equation Satisfying Constraints",
+    "description": "Construct a linear equation whose slope and intercept satisfy given inequalities.",
+    "condition": "Constraints such as intercept < 50 and slope < 1 in a real-world context.",
+    "response": "Produce an equation \\(y=mx+b\\) meeting those conditions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "One possible model is \\(c=45+0.25m\\), where 45 < 50 and 0.25 < 1.",
+    "notes": "Multiple correct responses possible.",
+    "question_ids": [
+      "G8_U5_SC_a1_q2"
+    ]
+  }
+]
