@@ -1,0 +1,409 @@
+[
+  {
+    "kc_id": "add_decimals_align_place_value",
+    "title": "Add Decimals by Aligning Place Value",
+    "description": "Add two decimal numbers by aligning decimal points and adding corresponding place values.",
+    "condition": "Two or more decimal numbers to be added.",
+    "response": "Line up decimal points, add by place value, and place the decimal point in the sum.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$$16.4 + 0.35 = 16.75$$",
+    "notes": "Used in multi-step context problems as well.",
+    "question_ids": [
+      "G6_U5_SA_a1_q1",
+      "G6_U5_a1_q2",
+      "G6_U5_a1_q3",
+      "G6_U5_a1_q4",
+      "G6_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "align_decimal_points",
+    "title": "Align Decimal Points",
+    "description": "Line up decimal points so that digits of the same place value are in the same column before adding or subtracting.",
+    "condition": "Two or more decimal numbers to be added or subtracted.",
+    "response": "Rewrite numbers vertically so decimal points are directly aligned.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "To add $31.076$ and $4.85$, write:\n\n$\\begin{array}{r}\n31.076 \\\\\n 4.850\n\\end{array}$",
+    "notes": "Critical prerequisite for correct computation.",
+    "question_ids": [
+      "G6_U5_SA_a1_q1",
+      "G6_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "append_trailing_zeros_decimal",
+    "title": "Append Trailing Zeros to Decimals",
+    "description": "Add zeros to the right of a decimal number without changing its value to match place values.",
+    "condition": "A decimal number has fewer decimal places than another number in the same calculation.",
+    "response": "Add one or more zeros to the right of the decimal digits to match place value positions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$4.85 = 4.850$ so it can align with $31.076$.",
+    "notes": "Based on place value equivalence (e.g., $0.3 = 0.30$).",
+    "question_ids": [
+      "G6_U5_SA_a1_q1",
+      "G6_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "rectangle_area_decomposition",
+    "title": "Area Model for Decimal Multiplication",
+    "description": "Use a decomposed rectangle (area model) to compute a product by summing partial areas.",
+    "condition": "Decimal factors decomposed by place value in an area diagram.",
+    "response": "Compute each partial area and sum them.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$2.4 \\times 3.7 = (2+0.4)(3+0.7)=6+1.4+1.2+0.28=8.88$.",
+    "notes": "Conceptual strategy alternative to algorithm.",
+    "question_ids": [
+      "G6_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "area_of_rectangle",
+    "title": "Area of a Rectangle",
+    "description": "Compute the area of a rectangle by multiplying its length by its width (or height).",
+    "condition": "Given a rectangle with known length and width (or height).",
+    "response": "Multiply length \u00d7 width to find the area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a rectangle has length $7.2$ m and height $3.8$ m, then area $= 7.2 \\times 3.8 = 27.36$ square meters.",
+    "notes": "",
+    "question_ids": [
+      "G6_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_quotient_long_division",
+    "title": "Compute Quotient Using Long Division",
+    "description": "Carry out the full long division algorithm (divide, multiply, subtract, bring down) to compute a quotient.",
+    "condition": "Given a dividend and divisor set up in long division format.",
+    "response": "Iteratively divide, multiply, subtract, and bring down digits until the quotient is found.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "To compute $78.9 \\div 2$, divide 7 by 2 (3), multiply $3\\times2=6$, subtract to get 1, bring down 8, and continue until $39.45$ is obtained.",
+    "notes": "Encapsulates the repeated procedural cycle of long division.",
+    "question_ids": [
+      "G6_U5_SC_a1_q1",
+      "G6_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "convert_decimal_to_fraction_power10",
+    "title": "Convert Decimal to Fraction (Power of 10)",
+    "description": "Rewrite a terminating decimal as a fraction with denominator a power of 10 based on place value.",
+    "condition": "Given a terminating decimal number.",
+    "response": "Express the decimal as an integer over $10^n$, where $n$ is the number of decimal places.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$3.8 = \\frac{38}{10}$ and $7.2 = \\frac{72}{10}$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "fraction_to_mixed_number",
+    "title": "Convert Improper Fraction to Mixed Number",
+    "description": "Rewrite an improper fraction as a mixed number by dividing the numerator by the denominator.",
+    "condition": "Given an improper fraction $\\frac{a}{b}$ with $a>b$.",
+    "response": "Divide $a$ by $b$ to express the result as a whole number and remainder, forming a mixed number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{120}{75} = \\frac{8}{5} = 1\\frac{3}{5}$ because $8 \\div 5 = 1$ remainder $3$.",
+    "notes": "Appears in solution explanation for expressing 1.6 as $1\\frac{3}{5}$.",
+    "question_ids": [
+      "G6_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "convert_decimal_division_to_whole_numbers",
+    "title": "Create Equivalent Whole-Number Division Expression",
+    "description": "Rewrite a decimal division problem as an equivalent problem with whole numbers by multiplying both numbers by the same power of 10.",
+    "condition": "Given a division expression with decimals in the dividend and/or divisor.",
+    "response": "Multiply both dividend and divisor by a power of 10 to form an equivalent division expression with whole numbers.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$1.2 \\div 0.75 = 120 \\div 75$ because both numbers are multiplied by $100$.",
+    "notes": "Uses the principle that multiplying numerator and denominator by the same nonzero number preserves quotient value.",
+    "question_ids": [
+      "G6_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "estimate_decimal_product_by_rounding",
+    "title": "Estimate Decimal Product by Rounding",
+    "description": "Estimate a product of decimals by rounding to compatible numbers and multiplying.",
+    "condition": "A product of decimals where an estimate is requested.",
+    "response": "Round factors to convenient numbers and multiply to estimate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$3.99437 \\approx 4$ and $2.6851 \\approx 2.7$, so $4 \\times 2.7 = 10.8$.",
+    "notes": "Used to select closest multiple-choice estimate.",
+    "question_ids": [
+      "G6_U5_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "select_expressions_greater_than_value",
+    "title": "Evaluate and Compare to Threshold",
+    "description": "Evaluate numerical expressions and determine whether their values exceed a given number.",
+    "condition": "Several expressions and a comparison value (e.g., greater than 5).",
+    "response": "Compute each expression and select those exceeding the threshold.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$3.76+1.3=5.06>5$, so select it.",
+    "notes": "Requires computation plus comparison.",
+    "question_ids": [
+      "G6_U5_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "percent_of_quantity_as_decimal",
+    "title": "Find Percent of Quantity Using Decimal",
+    "description": "Convert a percent to a decimal and multiply to find the part of a quantity.",
+    "condition": "A percent and a base quantity are given.",
+    "response": "Convert percent to decimal and multiply by the quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "20\\% = 0.20, so $84.50 \\times 0.20 = 16.90$.",
+    "notes": "Used to compute discounts.",
+    "question_ids": [
+      "G6_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "decimal_place_value_interpretation",
+    "title": "Interpret Decimal Place Value",
+    "description": "Understand the value of digits based on their position relative to the decimal point.",
+    "condition": "A decimal number with digits in tenths, hundredths, etc.",
+    "response": "State or use the value of a digit according to its place (e.g., 0.49 < 0.5).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "In 0.49, the 9 is in the hundredths place, so $0.49 < 0.5$.",
+    "notes": "Supports comparison and correct computation.",
+    "question_ids": [
+      "G6_U5_a1_q2",
+      "G6_U5_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "interpret_division_as_fraction",
+    "title": "Interpret Division as a Fraction",
+    "description": "Rewrite a division expression as a fraction with the dividend as numerator and divisor as denominator.",
+    "condition": "Given a division expression $a \\div b$.",
+    "response": "Rewrite as the fraction $\\frac{a}{b}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$120 \\div 75 = \\frac{120}{75}$.",
+    "notes": "Supports reasoning about quotient size and simplification.",
+    "question_ids": [
+      "G6_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_decimals_standard_algorithm",
+    "title": "Multiply Decimals Using Standard Algorithm",
+    "description": "Multiply decimal numbers using the standard multiplication algorithm.",
+    "condition": "Two decimal factors to multiply.",
+    "response": "Multiply as with whole numbers and adjust decimal placement.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$$0.072 \\times 0.31 = 0.02232$$",
+    "notes": "Often executed procedurally without full verbalization.",
+    "question_ids": [
+      "G6_U5_a1_q5",
+      "G6_U5_a1_q6",
+      "G6_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "multiply_whole_numbers_standard",
+    "title": "Multiply Whole Numbers Using Standard Algorithm",
+    "description": "Use the standard multiplication algorithm to compute the product of multi-digit whole numbers.",
+    "condition": "Given two whole numbers to multiply.",
+    "response": "Apply the standard algorithm (partial products and addition) to find the product.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$64 \\times 9 = 576$ using the standard algorithm.",
+    "notes": "Algorithmic skill; explanation not required for execution.",
+    "question_ids": [
+      "G6_U5_SB_a1_q1",
+      "G6_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_decimals_place_value_rule",
+    "title": "Place Decimal in Product",
+    "description": "Determine the position of the decimal point in a product based on total decimal places in factors.",
+    "condition": "Product of two decimals computed as whole numbers first.",
+    "response": "Place decimal so total decimal places equals sum of decimal places in factors.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$2.4 \\times 3.7 = 24 \\times 37 = 888$, then place 2 decimal places \u2192 $8.88$.",
+    "notes": "Core procedural rule for decimal multiplication.",
+    "question_ids": [
+      "G6_U5_SB_a1_q2",
+      "G6_U5_a1_q5",
+      "G6_U5_a1_q6",
+      "G6_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "decimal_point_in_quotient",
+    "title": "Place Decimal Point in Quotient",
+    "description": "Place the decimal point in the quotient directly above the decimal point in the dividend during long division by a whole number.",
+    "condition": "Dividing a decimal by a whole number using long division.",
+    "response": "Write the decimal point in the quotient aligned vertically with the decimal point in the dividend.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Category",
+    "example": "In $78.9 \\div 2$, place the decimal point in the quotient directly above the decimal in 78.9 to get $39.45$.",
+    "notes": "Often applied procedurally without verbal justification.",
+    "question_ids": [
+      "G6_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "regroup_in_decimal_addition",
+    "title": "Regroup in Decimal Addition",
+    "description": "Compose a unit of higher place value when a column sum is 10 or more in decimal addition.",
+    "condition": "Sum of digits in a place value column is 10 or greater during decimal addition.",
+    "response": "Write the ones digit in the column and add the tens digit to the next column to the left.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $0.076 + 0.850$, hundredths: $7 + 5 = 12$ hundredths, write $2$ hundredths and regroup $1$ tenth.",
+    "notes": "Applies across whole and decimal places.",
+    "question_ids": [
+      "G6_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "regroup_in_decimal_subtraction",
+    "title": "Regroup in Decimal Subtraction",
+    "description": "Decompose a unit from a higher place value when the top digit is smaller than the bottom digit in subtraction.",
+    "condition": "In a subtraction column, the minuend digit is less than the subtrahend digit.",
+    "response": "Borrow 1 unit from the next place to the left, convert it to 10 of the current place, and subtract.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compute $6.000 - 3.042$:\nBorrow to get $5.1000 - 3.042 = 2.958$.",
+    "notes": "Requires understanding of place value decomposition.",
+    "question_ids": [
+      "G6_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_product_by_power_of_ten",
+    "title": "Scale Product by Powers of Ten",
+    "description": "Adjust a whole-number product when factors are scaled by powers of 10.",
+    "condition": "One or both factors are multiplied or divided by powers of 10 relative to whole numbers.",
+    "response": "Multiply or divide the original product by the corresponding power of 10.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $6.4 = 64 \\div 10$ and $0.009 = 9 \\div 1000$, \n$6.4 \\times 0.009 = 576 \\div 10{,}000 = 0.0576$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decimal_subtraction_align_place_value",
+    "title": "Subtract Decimals by Aligning Place Value",
+    "description": "Subtract one decimal from another by aligning decimal points and subtracting by place value.",
+    "condition": "A subtraction expression involving decimals.",
+    "response": "Align decimal points, subtract by place value, and place the decimal point in the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$$1 - 0.5904 = 0.4096$$",
+    "notes": "May involve regrouping across decimal places.",
+    "question_ids": [
+      "G6_U5_SA_a1_q2",
+      "G6_U5_a1_q3",
+      "G6_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "ten_times_relationship_division",
+    "title": "Use Ten-Times Relationship",
+    "description": "If one quantity is 10 times another, divide by 10 (or multiply by 1/10) to find the smaller quantity.",
+    "condition": "Statement that one quantity is 10 times another and the larger value is known.",
+    "response": "Divide the larger quantity by 10 or multiply by 1/10.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If A = 50 and A is 10\u00d7B, then $B = 50 \\div 10 = 5$.",
+    "notes": "Equivalent to multiplying by $\\frac{1}{10}$.",
+    "question_ids": [
+      "G6_U5_a1_q10"
+    ]
+  }
+]

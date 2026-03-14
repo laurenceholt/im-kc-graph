@@ -1,0 +1,512 @@
+[
+  {
+    "kc_id": "add_component_areas",
+    "title": "Add Areas of Decomposed Parts",
+    "description": "When a figure is decomposed into non-overlapping shapes, add their individual areas to find the total area.",
+    "condition": "A composite figure is partitioned into non-overlapping rectangles and/or triangles with known areas.",
+    "response": "Add the areas of all component shapes to obtain the total area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a figure is split into a rectangle of area $24$ and a triangle of area $10$, total area $=24+10=34$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SA_a1_q1",
+      "G6_U1_SC_a1_q3",
+      "G6_U1_a1_q6",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "area_parallelogram_base_height",
+    "title": "Area of a Parallelogram",
+    "description": "Compute the area of a parallelogram as base times corresponding height.",
+    "condition": "A parallelogram with a known base and its perpendicular height.",
+    "response": "Calculate $A=b\\times h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $b=6$ cm and $h=4$ cm, then $A=6\\times4=24\\text{ cm}^2$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SB_a1_q2",
+      "G6_U1_a1_q1",
+      "G6_U1_a1_q3",
+      "G6_U1_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "area_rectangle_length_width",
+    "title": "Area of a Rectangle",
+    "description": "Compute the area of a rectangle by multiplying length by width.",
+    "condition": "A rectangle with given length and width.",
+    "response": "Calculate $A=l\\times w$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $l=26$ and $w=10$, then $A=26\\times10=260$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SA_a1_q1",
+      "G6_U1_SD_a1_q2",
+      "G6_U1_a1_q3",
+      "G6_U1_a1_q6",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "area_square_side_squared",
+    "title": "Area of a Square",
+    "description": "Compute the area of a square by squaring the side length.",
+    "condition": "A square with given side length.",
+    "response": "Calculate A = s^2.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If side length is 4, then $A = 4^2 = 16$.",
+    "notes": "Used when small triangles are rearranged into a square.",
+    "question_ids": [
+      "G6_U1_SA_a1_q1",
+      "G6_U1_SE_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "area_triangle_half_base_height",
+    "title": "Area of a Triangle",
+    "description": "Compute the area of a triangle as one-half the product of base and corresponding height.",
+    "condition": "A triangle with known base and perpendicular height.",
+    "response": "Calculate $A=\\tfrac{1}{2}bh$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $b=20$ and $h=10$, then $A=\\tfrac{1}{2}\\cdot20\\cdot10=100$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G6_U1_SA_a1_q1",
+      "G6_U1_SC_a1_q2",
+      "G6_U1_SC_a1_q3",
+      "G6_U1_SD_a1_q2",
+      "G6_U1_a1_q2",
+      "G6_U1_a1_q6",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compare_area_to_threshold",
+    "title": "Compare Computed Area to Given Limit",
+    "description": "Determine if a computed total area is less than or equal to a given coverage amount.",
+    "condition": "A calculated total area and a given maximum coverage value.",
+    "response": "Compare values and state whether the total area is less than or equal to the limit.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If total area is $720$ and coverage is $800$, since $720<800$, it is enough.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "count_grid_squares_area",
+    "title": "Count Unit Squares on Grid",
+    "description": "Find area by counting full unit squares (and combining partial squares) on a grid.",
+    "condition": "A shape drawn on a square grid with unit squares.",
+    "response": "Count the number of square units covering the region.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If a shaded region covers 12 full grid squares, the area is $12$ square units.",
+    "notes": "May involve combining partial squares.",
+    "question_ids": [
+      "G6_U1_a1_q3",
+      "G6_U1_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "decompose_composite_figure",
+    "title": "Decompose Composite Figure",
+    "description": "Break a complex polygon into simpler shapes (rectangles/triangles) to facilitate area calculation.",
+    "condition": "A composite polygon whose area is not directly given by a single formula.",
+    "response": "Partition the figure into rectangles and/or triangles with computable dimensions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Enclose an irregular shape in a $6\\times9$ rectangle and subtract triangular parts.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SA_a1_q1",
+      "G6_U1_a1_q6",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "decompose_polygon_into_triangles",
+    "title": "Decompose Polygon into Triangles",
+    "description": "Partition a composite polygon into triangles (or other familiar shapes) to simplify area calculation.",
+    "condition": "A polygon\u2019s area is difficult to compute directly.",
+    "response": "Draw segments to divide the polygon into triangles or rectangles with known area formulas.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Split a polygon into two right triangles; compute each area separately.",
+    "notes": "Decomposition must preserve total area without overlap.",
+    "question_ids": [
+      "G6_U1_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "multiple_base_height_same_area",
+    "title": "Different Base\u2013Height Pairs Yield Same Area",
+    "description": "Understand that any valid base\u2013height pair for a parallelogram produces the same area.",
+    "condition": "Given a parallelogram with more than one possible base and corresponding height pair.",
+    "response": "Recognize that calculating b \\times h for either pair gives the same area.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Using b = 4 cm and h = 8 cm gives 32 cm^2, and using b = 10 cm and h = 3.2 cm also gives 10 \\times 3.2 = 32 cm^2.",
+    "notes": "Follows from the geometric structure of parallelograms.",
+    "question_ids": [
+      "G6_U1_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "draw_height_perpendicular",
+    "title": "Draw Height Perpendicular to Base",
+    "description": "Given a chosen base of a triangle, draw the corresponding height as a perpendicular segment from the opposite vertex (possibly extending the base).",
+    "condition": "A triangle with a specified base.",
+    "response": "Draw a segment from the opposite vertex perpendicular to the line containing the base and label it as height.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From the top vertex, draw a perpendicular to the base line to form a right angle.",
+    "notes": "Height may fall outside the triangle.",
+    "question_ids": [
+      "G6_U1_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "verify_non_congruent_parallelograms",
+    "title": "Ensure Parallelograms Are Not Identical",
+    "description": "When drawing multiple parallelograms with equal area, ensure they are not congruent copies.",
+    "condition": "Instruction to draw two parallelograms with equal area that are not identical.",
+    "response": "Produce two shapes with equal area but different side lengths or angles.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Draw a $4\\times4$ rectangle (area $16$) and a parallelogram with $b=8$, $h=2$ (area $16$).",
+    "notes": "Non-congruence requirement is task-specific.",
+    "question_ids": [
+      "G6_U1_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "evaluate_small_exponent",
+    "title": "Evaluate Small Whole-Number Exponents",
+    "description": "Evaluate expressions where a whole number is raised to a small exponent such as 2 or 3.",
+    "condition": "Expression of the form a^n with small whole-number exponent (e.g., 2 or 3)",
+    "response": "Multiply a by itself n times",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$2^3 = 2 \\cdot 2 \\cdot 2 = 8$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "exponent_two_represents_square",
+    "title": "Exponent 2 Represents Squaring",
+    "description": "Recognize that raising a number to the second power represents multiplying the number by itself.",
+    "condition": "Expression of the form a^2",
+    "response": "Interpret as a \\u00b7 a",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$15^2 = 15 \\cdot 15$.",
+    "notes": "Based on definition of exponent notation.",
+    "question_ids": [
+      "G6_U1_SE_a1_q1",
+      "G6_U1_SE_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_base_height_pair",
+    "title": "Identify Corresponding Base and Height",
+    "description": "Recognize which measurements form a perpendicular base\u2013height pair for area calculation.",
+    "condition": "Multiple side lengths are given in a parallelogram or triangle.",
+    "response": "Select the base and the perpendicular height (not a slanted side) for use in area formula.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "In a parallelogram with side $5$ and height $4$, use $b=6$ and $h=4$, not the slanted side $5$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G6_U1_SB_a1_q1",
+      "G6_U1_SB_a1_q2",
+      "G6_U1_SC_a1_q1",
+      "G6_U1_SC_a1_q2",
+      "G6_U1_SC_a1_q3",
+      "G6_U1_a1_q1",
+      "G6_U1_a1_q2",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "triangular_prism_lateral_rectangles",
+    "title": "Identify Lateral Rectangles of a Triangular Prism",
+    "description": "Recognize that each side of the triangular base forms a rectangular lateral face whose dimensions are the side length and the prism length.",
+    "condition": "Given a triangular prism with triangular base side lengths a, b, c and prism length L.",
+    "response": "Form three rectangles with dimensions a\u00d7L, b\u00d7L, and c\u00d7L.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "With triangle sides 5, 12, 13 and prism length 8, the rectangles are 5\u00d78, 12\u00d78, and 13\u00d78.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_volume_from_cube_expression",
+    "title": "Interpret Cube Volume from Exponential Form",
+    "description": "Recognize that a cube's volume is given by s^3 and interpret the edge length from that expression.",
+    "condition": "Given volume of a cube expressed as s^3",
+    "response": "Identify edge length as s",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a cube's volume is $2^3$, then its edge length is $2$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "net_matches_prism_faces",
+    "title": "Match Net Faces to Prism Faces",
+    "description": "Determine whether a net can form a given prism by verifying it contains the correct number and shapes of faces.",
+    "condition": "Given a proposed net and a specified prism with known face shapes and dimensions.",
+    "response": "Check that the net has two congruent triangular bases and three rectangular lateral faces with matching side lengths.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A triangular prism with triangular sides 5, 12, 13 and length 8 must have 2 triangles (5-12-13) and 3 rectangles with dimensions 8\u00d75, 8\u00d712, and 8\u00d713.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "net_matches_pyramid_faces",
+    "title": "Match Net Faces to Pyramid Faces",
+    "description": "Determine whether a net represents a given pyramid by verifying the base and triangular faces match the given dimensions.",
+    "condition": "Given a square pyramid with base side length s and slant height h.",
+    "response": "Construct or verify a net with one square of side s and four congruent triangles each with base s and height h.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For base 4 and slant height 7, draw a square of side 4 and attach four triangles each with base 4 and height 7.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_base_height",
+    "title": "Multiply Base and Height",
+    "description": "Multiply numerical base and height values as part of area computation.",
+    "condition": "Numeric values for base and height are given.",
+    "response": "Compute the product of the two numbers.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Compute $6\\times4=24$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_a1_q1",
+      "G6_U1_a1_q2",
+      "G6_U1_a1_q5",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compute_multiplication_expression",
+    "title": "Multiply Numerical Expressions",
+    "description": "Multiply given numerical factors accurately to evaluate an area expression.",
+    "condition": "A numerical expression involving multiplication (and possibly $\\tfrac{1}{2}$) is given.",
+    "response": "Carry out the multiplication to find the product.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compute $\\tfrac{1}{2}\\cdot14\\cdot12 = \\tfrac{1}{2}\\cdot168 = 84$.",
+    "notes": "Includes multi-step products.",
+    "question_ids": [
+      "G6_U1_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "rearrange_pieces_to_form_known_shape",
+    "title": "Rearrange Pieces to Form Known Shape",
+    "description": "Reposition congruent pieces (e.g., triangles) to create a rectangle or square to simplify area calculation.",
+    "condition": "Congruent pieces from a composite figure that can be recombined.",
+    "response": "Rearrange pieces to form a rectangle or square and compute its area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Combine two congruent right triangles to form a $3 \\times 3$ square with area $9$.",
+    "notes": "Relies on spatial reasoning about congruence.",
+    "question_ids": [
+      "G6_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_height_perpendicularity",
+    "title": "Recognize Height as Perpendicular Segment",
+    "description": "Understand that the height of a triangle is the segment perpendicular to the chosen base from the opposite vertex.",
+    "condition": "A base of a triangle has been chosen.",
+    "response": "Identify or construct the segment from the opposite vertex that forms a right angle with the base.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Given base $b$, the height $h$ satisfies $h \\perp b$.",
+    "notes": "The height may lie inside or outside the triangle.",
+    "question_ids": [
+      "G6_U1_SC_a1_q1",
+      "G6_U1_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "translate_repeated_addition_of_faces",
+    "title": "Represent Surface Area as Repeated Addition",
+    "description": "Express the total surface area of a cube as the sum of the areas of its six congruent square faces.",
+    "condition": "Given a cube with edge length s and asked for surface area expression",
+    "response": "Write s^2 + s^2 + s^2 + s^2 + s^2 + s^2 (or equivalent repeated products)",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For edge length 47: $47^2 + 47^2 + 47^2 + 47^2 + 47^2 + 47^2$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SE_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "solve_for_missing_height",
+    "title": "Solve for Missing Height",
+    "description": "Find the unknown height of a parallelogram when the area and base are known.",
+    "condition": "Given the area A and base b of a parallelogram, with unknown height h.",
+    "response": "Compute h = A \\div b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If A = 60 \\text{ in}^2 and b = 5 \\text{ in}, then h = 60 \\div 5 = 12 \\text{ in}.",
+    "notes": "Derived algebraically from A = b \\times h.",
+    "question_ids": [
+      "G6_U1_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_extraneous_areas",
+    "title": "Subtract Areas Not Included",
+    "description": "When enclosing a figure in a larger shape, subtract the areas of regions that are not part of the target figure.",
+    "condition": "A composite figure is enclosed in a larger rectangle with identifiable extra regions.",
+    "response": "Compute the area of the large shape and subtract the areas of the extra parts.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If enclosing rectangle has area $54$ and outside triangles total $16$, target area $=54-16=38$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SA_a1_q1",
+      "G6_U1_a1_q6",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "sum_surface_area_faces",
+    "title": "Sum Areas for Surface Area",
+    "description": "Find total surface area by adding the areas of all faces of a polyhedron.",
+    "condition": "Given the areas of each face of a prism or pyramid.",
+    "response": "Add all face areas to obtain total surface area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Surface area = 16 + (4 \u00d7 14) = 16 + 56 = 72.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "surface_area_cube_formula",
+    "title": "Surface Area of a Cube",
+    "description": "The surface area of a cube equals 6 times the area of one square face.",
+    "condition": "Given a cube with edge length s",
+    "response": "Compute 6 \\u00b7 s^2",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a cube has edge length 47, its surface area is $6 \\cdot 47^2$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U1_SE_a1_q3"
+    ]
+  }
+]

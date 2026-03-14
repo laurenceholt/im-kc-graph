@@ -1,0 +1,308 @@
+[
+  {
+    "kc_id": "compare_two_quantities_same_unit",
+    "title": "Compare Quantities in Same Unit",
+    "description": "Compare two quantities expressed in the same unit to determine which is greater and by how much.",
+    "condition": "Given two numerical quantities expressed in the same unit.",
+    "response": "Determine which quantity is greater and optionally compute their difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Compare $72$ minutes and $70$ minutes: since $72>70$, $72$ minutes is greater by $2$ minutes.",
+    "notes": "Often follows percent or unit conversions.",
+    "question_ids": [
+      "G6_U3_a1_q6",
+      "G6_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compute_percent_from_part_whole",
+    "title": "Compute Percent from Part and Whole",
+    "description": "Determine what percent a part is of a whole by forming an equivalent ratio with denominator 100 or multiplying the fraction by 100%.",
+    "condition": "Given a part P and whole W, asked what percent P is of W.",
+    "response": "Compute (P/W) \u00d7 100% or create an equivalent ratio with denominator 100.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For 7 out of 50: \\(\\frac{7}{50} = \\frac{14}{100} = 14\\%\\).",
+    "notes": "",
+    "question_ids": [
+      "G6_U3_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_unit_rate_division",
+    "title": "Compute Unit Rate by Division",
+    "description": "Find a unit rate by dividing one quantity by the corresponding quantity of another unit.",
+    "condition": "Given two related quantities (e.g., distance and time) and asked for a per-1 rate.",
+    "response": "Divide the dependent quantity by the independent quantity to find the rate per 1 unit.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $240$ miles in $4$ hours, then speed $=240\\div4=60$ miles per hour.",
+    "notes": "Applies to miles/hour, laps/minute, etc. [merged: condition varies] [merged: response varies]",
+    "question_ids": [
+      "G6_U3_SA_a1_q1",
+      "G6_U3_SA_a1_q2",
+      "G6_U3_SB_a1_q1",
+      "G6_U3_SB_a1_q2",
+      "G6_U3_a1_q2",
+      "G6_U3_a1_q4",
+      "G6_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "convert_minutes_to_seconds",
+    "title": "Convert Minutes to Seconds",
+    "description": "Convert a time measurement in minutes to seconds using the relationship 1 minute = 60 seconds.",
+    "condition": "A time in minutes must be expressed in seconds.",
+    "response": "Multiply the number of minutes by 60.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$4$ minutes $= 4 \\times 60 = 240$ seconds.",
+    "notes": "Based on conventional time conversion factor.",
+    "question_ids": [
+      "G6_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "convert_units_using_rate",
+    "title": "Convert Units Using Conversion Factor",
+    "description": "Convert a measurement from one unit to another using a given multiplicative conversion factor.",
+    "condition": "Given a quantity in one unit and a conversion rate between units.",
+    "response": "Multiply (or divide) by the conversion factor to express the quantity in the target unit.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$9$ pounds $\\times 0.45\\frac{\\text{kg}}{\\text{lb}}=4.05$ kg.",
+    "notes": "Direction of multiplication must match units.",
+    "question_ids": [
+      "G6_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compute_part_from_percent",
+    "title": "Find Part from Percent",
+    "description": "Compute the part when given a percent and the whole quantity.",
+    "condition": "Given a percent $p\\%$ and a whole quantity $W$.",
+    "response": "Compute $\\frac{p}{100}\\times W$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$35\\%$ of $200$ is $\\frac{35}{100}\\cdot 200=70$.",
+    "notes": "Core percent-of quantity computation.",
+    "question_ids": [
+      "G6_U3_SC_a1_q1",
+      "G6_U3_a1_q3",
+      "G6_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "find_whole_from_percent",
+    "title": "Find Whole from Percent and Part",
+    "description": "Determine the whole quantity when given that a known part represents a given percent of the whole.",
+    "condition": "Given that $P$ is $p\\%$ of an unknown whole.",
+    "response": "Compute $\\text{Whole}=P\\div(\\frac{p}{100})$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $30$ is $60\\%$ of a trip, then total $=30\\div0.6=50$.",
+    "notes": "Inverse of percent-of computation.",
+    "question_ids": [
+      "G6_U3_SC_a1_q2",
+      "G6_U3_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "scale_ratio_to_equivalent",
+    "title": "Generate an Equivalent Ratio",
+    "description": "Create an equivalent ratio by multiplying or dividing both quantities by the same number.",
+    "condition": "A ratio a:b is given and a related quantity is desired.",
+    "response": "Multiply or divide both terms of the ratio by the same factor to form an equivalent ratio.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From $4:17$, divide both by $2$ to get $2:8.5$.",
+    "notes": "Alternative strategy to unit rate; explicitly shown in Q1 sample table.",
+    "question_ids": [
+      "G6_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_reciprocal_unit_rate",
+    "title": "Identify Reciprocal Unit Rate",
+    "description": "Recognize that a ratio produces two related unit rates by inverting the quantities.",
+    "condition": "A ratio a:b is given and all unit rates describing the situation are requested.",
+    "response": "State both a per 1 b and b per 1 a by dividing in both directions.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $3$ dollars for $12$ yards: $3 \\div 12 = 0.25$ dollars per yard and $12 \\div 3 = 4$ yards per dollar.",
+    "notes": "Explains why both C and D are correct in Q1.",
+    "question_ids": [
+      "G6_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_unit_rate_context",
+    "title": "Interpret Unit Rate in Context",
+    "description": "Match a computed unit rate to a verbal description with correct units.",
+    "condition": "A numerical unit rate is computed and multiple verbal descriptions with units are given.",
+    "response": "Select the description whose units and value match the computed unit rate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If the unit rate is $0.25$ dollars per yard, select \"0.25 dollar per yard.\"",
+    "notes": "Requires attention to unit order (dollars per yard vs yards per dollar).",
+    "question_ids": [
+      "G6_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_100_percent_equals_whole",
+    "title": "Recognize 100% as the Whole",
+    "description": "Understand that 100% represents the entire quantity in a percent context.",
+    "condition": "A context involving percentages where the whole amount must be identified.",
+    "response": "Identify the whole quantity as corresponding to 100%.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If there are 50 states total, then 50 states corresponds to 100%.",
+    "notes": "",
+    "question_ids": [
+      "G6_U3_SC_a1_q1",
+      "G6_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_equivalent_measurement_ratio",
+    "title": "Recognize Equivalent Measurement Ratios",
+    "description": "Understand that two measurements of the same quantity in different units form an equivalent ratio.",
+    "condition": "A statement gives a measurement equivalence (e.g., 4 liters is 17 cups).",
+    "response": "Interpret the pair as a ratio that can generate equivalent ratios.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "\"8 kilometers is approximately 5 miles\" is interpreted as the ratio $\\frac{8 \\text{ km}}{5 \\text{ miles}}$.",
+    "notes": "Conceptual understanding enabling unit conversion.",
+    "question_ids": [
+      "G6_U3_SA_a1_q1",
+      "G6_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_by_scale_factor",
+    "title": "Scale a Quantity by Multiplication",
+    "description": "Multiply a unit rate or proportional value by a given factor to find an equivalent quantity.",
+    "condition": "A per\u2011unit amount or proportional relationship is known and a new quantity is given.",
+    "response": "Multiply the unit rate by the new quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $1$ mile $= 1.6$ km, then $3$ miles $= 3 \\times 1.6 = 4.8$ km.",
+    "notes": "Implements proportional scaling after unit rate is found.",
+    "question_ids": [
+      "G6_U3_SA_a1_q1",
+      "G6_U3_SA_a1_q2",
+      "G6_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_quantity_by_unit_rate",
+    "title": "Scale Quantity Using Unit Rate",
+    "description": "Multiply a given quantity by a known unit rate to find a proportional amount.",
+    "condition": "Given a unit rate and a target quantity in the corresponding unit.",
+    "response": "Multiply the target quantity by the unit rate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "At $60$ miles per hour, time for $90$ miles is $90\\div60=1.5$ hours.",
+    "notes": "May involve multiplication or division depending on rate orientation.",
+    "question_ids": [
+      "G6_U3_SB_a1_q2",
+      "G6_U3_a1_q2",
+      "G6_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "compare_unit_rates_context",
+    "title": "Select and Use Appropriate Unit Rate",
+    "description": "Choose the appropriate unit rate (e.g., minutes per lap vs. laps per minute) to answer a contextual question and apply it.",
+    "condition": "Given a situation with two related unit rates and a goal quantity in one unit.",
+    "response": "Select the unit rate that aligns with the goal quantity and multiply or divide to find the answer.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Andre swims $\\frac{4}{5}$ minutes per lap, then for $22$ laps compute $22\\cdot\\frac{4}{5}=17.6$ minutes.",
+    "notes": "Requires interpreting which rate matches the question.",
+    "question_ids": [
+      "G6_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "use_equivalent_ratios_for_percent",
+    "title": "Use Equivalent Ratios to Represent Percents",
+    "description": "Create an equivalent ratio with denominator 100 to represent or interpret a percent relationship.",
+    "condition": "Given a ratio A:B where B is not 100, and asked to express it as a percent or connect it to percent form.",
+    "response": "Scale the ratio to an equivalent ratio with 100 as the second term.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "The ratio 23:50 is equivalent to 46:100, so 23 is 46%.",
+    "notes": "",
+    "question_ids": [
+      "G6_U3_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "use_unit_percent_strategy",
+    "title": "Use Unit Percent Strategy",
+    "description": "Find the value of 1% or 10% of a quantity and scale up to determine other percentages.",
+    "condition": "Given a whole corresponding to 100%, asked to find a smaller percent such as 1%, 2%, 7%, or 10%.",
+    "response": "Divide the whole by 100 (or 10) to find 1% (or 10%), then multiply to reach the target percent.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 50 states is 100%, then 1% is 0.5 states and 7 states = 7 \u00d7 2% = 14%.",
+    "notes": "In Q1, reasoning uses 1 state = 2% since 50 corresponds to 100%.",
+    "question_ids": [
+      "G6_U3_SC_a1_q1",
+      "G6_U3_SC_a1_q2"
+    ]
+  }
+]

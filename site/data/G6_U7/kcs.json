@@ -1,0 +1,487 @@
+[
+  {
+    "kc_id": "compare_integers_on_number_line",
+    "title": "Compare Integers Using Number Line Order",
+    "description": "Determine which of two integers is greater based on their positions on the number line.",
+    "condition": "Two integers (positive or negative) are given for comparison.",
+    "response": "State the correct inequality (< or >) based on which number lies to the right on the number line.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Compare $-8$ and $-13$. Since $-8$ is to the right of $-13$, $-8 > -13$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G6_U7_SA_a1_q2",
+      "G6_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compare_signed_numbers_same_sign",
+    "title": "Compare Negative Numbers",
+    "description": "When comparing two negative numbers, recognize that the number closer to zero is greater.",
+    "condition": "Given two negative numbers.",
+    "response": "Determine which number is greater by comparing their distances from zero.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $-11$ and $-22$. Since $-11$ is closer to 0, $-11 > -22$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_least_common_multiple",
+    "title": "Determine the Least Common Multiple (LCM)",
+    "description": "Given two whole numbers, determine the smallest positive number that is a multiple of both numbers.",
+    "condition": "Two whole numbers are given and a smallest shared total (common multiple) is required.",
+    "response": "Identify common multiples of both numbers and select the least positive one (the LCM).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For 12 and 9:\nMultiples of 12: 12, 24, 36, 48, ...\nMultiples of 9: 9, 18, 27, 36, ...\nCommon multiples: 36, 72, ...\nLeast common multiple: $\\mathrm{LCM}(12,9)=36$.",
+    "notes": "Selecting the least common multiple justifies equal totals with minimal quantity.",
+    "question_ids": [
+      "G6_U7_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "absolute_value_distance",
+    "title": "Distance as Absolute Difference",
+    "description": "Find the distance between two numbers on a number line by taking the absolute value of their difference.",
+    "condition": "Two numerical coordinates along the same axis are given (same x or same y).",
+    "response": "Compute the distance as |a - b|.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Distance between y = 4 and y = -4 is $|4 - (-4)| = |8| = 8$.",
+    "notes": "Used after identifying that points share one coordinate.",
+    "question_ids": [
+      "G6_U7_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "horizontal_vertical_distance",
+    "title": "Distance on Horizontal or Vertical Line",
+    "description": "Determine the length of a horizontal or vertical segment by comparing the differing coordinate only.",
+    "condition": "Two points share the same x-coordinate or the same y-coordinate.",
+    "response": "Subtract the differing coordinates and take the absolute value to find the segment length.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For C(-5, -1) and D(-7, -1), distance is $|-5 - (-7)| = 2$ units.",
+    "notes": "Relies on recognizing horizontal/vertical alignment.",
+    "question_ids": [
+      "G6_U7_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "evaluate_absolute_value",
+    "title": "Evaluate Absolute Value",
+    "description": "Compute the absolute value of a number as its distance from zero on the number line.",
+    "condition": "Given an expression of the form $|a|$.",
+    "response": "State the nonnegative distance of $a$ from zero.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$|-8| = 8$ because the distance from 0 to $-8$ is 8 units.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SA_a1_q1",
+      "G6_U7_SA_a1_q2",
+      "G6_U7_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "rectangle_missing_vertex_by_coordinate_pattern",
+    "title": "Find Missing Rectangle Vertex",
+    "description": "Determine the fourth vertex of an axis-aligned rectangle using matching x- and y-coordinates.",
+    "condition": "Three vertices of a rectangle are given with sides parallel to axes.",
+    "response": "Combine the unmatched x-coordinate with the unmatched y-coordinate to form the missing point.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Given R(-7,10), E(-7,-10), and C(7,10), the missing vertex is $(7,-10)$.",
+    "notes": "Assumes rectangle sides are horizontal/vertical.",
+    "question_ids": [
+      "G6_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "numbers_with_given_absolute_value",
+    "title": "Find Numbers with Given Absolute Value",
+    "description": "Identify all numbers whose absolute value equals a specified positive number.",
+    "condition": "Given an equation of the form $|x| = a$, where $a > 0$.",
+    "response": "State both solutions $x = a$ and $x = -a$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $|x| = 2$, then $x = 2$ or $x = -2$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "opposite_of_number",
+    "title": "Find the Opposite of a Number",
+    "description": "Determine the opposite (additive inverse) of a given number.",
+    "condition": "Given a rational number $a$.",
+    "response": "State $-a$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "The opposite of $-8$ is $8$ because $-8 + 8 = 0$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SA_a1_q1",
+      "G6_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "divide_by_common_factor_to_form_equal_groups",
+    "title": "Form Equal Groups Using a Common Factor",
+    "description": "Use a common factor of two quantities to divide both into the same number of equal groups.",
+    "condition": "Two totals are given and groups must be identical with each group containing both quantities.",
+    "response": "Choose a common factor of both totals as the number of groups and divide each total by that factor to find the amount per group.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "30 tulips and 40 daffodils. Choose 5 groups (since 5 is a common factor of 30 and 40).\nEach group has $30\\div5=6$ tulips and $40\\div5=8$ daffodils.",
+    "notes": "Any common factor can be used to create valid equal groups.",
+    "question_ids": [
+      "G6_U7_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "graph_strict_inequality_number_line",
+    "title": "Graph a Strict Inequality on a Number Line",
+    "description": "Represent all solutions to a strict inequality using an open circle and shading in the correct direction.",
+    "condition": "Given a strict inequality in one variable (e.g., t < 10 or n > -3).",
+    "response": "Place an open circle at the boundary value and shade the number line in the direction of all values that satisfy the inequality.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For $t < 10$, draw an open circle at $10$ and shade to the left.",
+    "notes": "Direction of shading depends on inequality symbol.",
+    "question_ids": [
+      "G6_U7_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "shade_number_line_inequality",
+    "title": "Graph Inequality on Number Line",
+    "description": "Represent a one-variable inequality on a number line with correct endpoint and direction.",
+    "condition": "An inequality such as $x > -8$ is given.",
+    "response": "Draw an open or closed circle at the boundary and shade in the correct direction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For $x > -8$, draw an open circle at $-8$ and shade to the right.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "identify_common_factors",
+    "title": "Identify Common Factors of Two Numbers",
+    "description": "Determine which numbers divide evenly into both given numbers.",
+    "condition": "Two whole numbers are given and shared divisors are requested or needed.",
+    "response": "List factors of each number and identify the numbers that appear in both lists.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "Factors of 30: 1, 2, 3, 5, 6, 10, 15, 30.\nFactors of 40: 1, 2, 4, 5, 8, 10, 20, 40.\nCommon factors: 1, 2, 5, 10.",
+    "notes": "Supports determining possible numbers of identical groups.",
+    "question_ids": [
+      "G6_U7_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_common_multiples",
+    "title": "Identify Common Multiples of Two Numbers",
+    "description": "Determine which numbers appear in the lists of multiples of both given numbers.",
+    "condition": "Two whole numbers are given and a shared multiple is needed.",
+    "response": "List multiples of each number and identify overlapping values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "Multiples of 12: 12, 24, 36, 48, ...\nMultiples of 9: 9, 18, 27, 36, 45, ...\nCommon multiples: 36, 72, ...",
+    "notes": "Used to ensure equal totals when quantities come in fixed package sizes.",
+    "question_ids": [
+      "G6_U7_SD_a1_q2",
+      "G6_U7_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_lowest_elevation",
+    "title": "Identify Lowest Signed Value in Context",
+    "description": "Determine the lowest elevation by identifying the smallest (most negative) rational number in context.",
+    "condition": "Given several elevations represented as signed numbers.",
+    "response": "Select the time or situation corresponding to the smallest numerical value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Morning: $-7$, Lunch: $11$, Afternoon: $-4$. Since $-7$ is smallest, morning is lowest.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "interpret_absolute_value",
+    "title": "Interpret Absolute Value",
+    "description": "Evaluate or interpret absolute value as distance from zero on the number line.",
+    "condition": "An expression of the form $|a|$ or a statement involving absolute value.",
+    "response": "State the nonnegative distance of $a$ from 0.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$|-6| = 6$ because it is 6 units from 0.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "interpret_strict_inequality_endpoint",
+    "title": "Interpret Strict Inequality Endpoints",
+    "description": "Recognize that strict inequalities (< or >) exclude the boundary value from the solution set.",
+    "condition": "Given a strict inequality symbol (< or >).",
+    "response": "Represent the boundary point with an open circle (not included in the solution set).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Category",
+    "example": "For $n > -3$, the point $-3$ is shown with an open circle because $-3$ is not included.",
+    "notes": "Contrast with \u2264 or \u2265, which use closed circles.",
+    "question_ids": [
+      "G6_U7_SB_a1_q1",
+      "G6_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_zero_in_context",
+    "title": "Interpret Zero in Context",
+    "description": "Interpret what a value of 0 represents in a real-world signed-number context.",
+    "condition": "Given a contextual situation involving positive and negative quantities relative to a reference point.",
+    "response": "State that 0 represents the reference level.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If elevations are measured relative to sea level, $0$ represents sea level.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_factors_of_number",
+    "title": "List Factors of a Number",
+    "description": "Determine all whole numbers that divide a given whole number without remainder.",
+    "condition": "A single whole number is given and its factors are requested or needed.",
+    "response": "List all positive integers that divide the number evenly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "Factors of 30 are $1,2,3,5,6,10,15,30$ because each divides 30 with no remainder.",
+    "notes": "Foundational step before identifying common factors.",
+    "question_ids": [
+      "G6_U7_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_multiples_of_number",
+    "title": "List Multiples of a Number",
+    "description": "Generate successive products of a whole number and counting numbers.",
+    "condition": "A whole number is given and its multiples are requested or needed.",
+    "response": "Multiply the number by 1, 2, 3, ... to generate its multiples.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "Multiples of 9 are $9\\times1=9$, $9\\times2=18$, $9\\times3=27$, $9\\times4=36$, ...",
+    "notes": "Supports identifying common multiples and the LCM.",
+    "question_ids": [
+      "G6_U7_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_negative_fractions",
+    "title": "Order Negative and Positive Fractions",
+    "description": "Order a set of positive and negative fractions from least to greatest using their values.",
+    "condition": "A list of positive and negative fractions is given.",
+    "response": "Arrange the fractions from least (most negative) to greatest.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Order $-\\frac{4}{5}, -\\frac{3}{4}, \\frac{1}{8}, \\frac{1}{2}$. Since $-\\frac{4}{5} < -\\frac{3}{4} < \\frac{1}{8} < \\frac{1}{2}$, this is the correct order.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "plot_point_coordinates",
+    "title": "Plot a Point on the Coordinate Plane",
+    "description": "Place a point at the location specified by an ordered pair (x, y).",
+    "condition": "An ordered pair $(x,y)$ is given.",
+    "response": "Mark the point x units horizontally and y units vertically from the origin.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Plot $(1,-2)$ by moving 1 unit right and 2 units down from the origin.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_SC_a1_q1",
+      "G6_U7_a1_q6",
+      "G6_U7_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "plot_point_on_number_line",
+    "title": "Plot a Rational Number on a Number Line",
+    "description": "Locate and label a rational number at its correct position on a number line.",
+    "condition": "Given a rational number and a scaled number line.",
+    "response": "Place a point at the corresponding location and label it with the number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "To plot $-6.5$, locate the point halfway between $-6$ and $-7$ on the number line and label it $-6.5$.",
+    "notes": "Primarily procedural spatial skill.",
+    "question_ids": [
+      "G6_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_coordinates_from_graph",
+    "title": "Read Coordinates from Graph",
+    "description": "Identify the ordered pair of a plotted point by reading its horizontal and vertical positions.",
+    "condition": "A point is plotted on a coordinate grid.",
+    "response": "State its coordinates as (x, y) by reading x-value first, then y-value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Point A is 5 units right and 2 units up, so its coordinates are $(5, 2)$.",
+    "notes": "Requires procedural graph reading.",
+    "question_ids": [
+      "G6_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "reflection_sign_relationship",
+    "title": "Reflection Changes Coordinate Signs",
+    "description": "Recognize that reflected points across an axis differ only by the sign of one coordinate.",
+    "condition": "Two points differ only by the sign of one coordinate.",
+    "response": "Identify them as reflections across the corresponding axis.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "(-7, 10) and (-7, -10) are reflections across the x-axis.",
+    "notes": "Supports reasoning about rectangle vertices.",
+    "question_ids": [
+      "G6_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "determine_solution_to_inequality",
+    "title": "Test Whether a Value Satisfies an Inequality",
+    "description": "Determine if a given numerical value makes an inequality statement true.",
+    "condition": "Given an inequality with a variable (e.g., n > -3) and a specific number to test.",
+    "response": "Substitute or compare the given number to the inequality and decide whether the statement is true or false.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $n > -3$, test $n = -2.9$. Since $-2.9 > -3$ is true, $-2.9$ is a solution.",
+    "notes": "Relies on properties of the number line and order of real numbers.",
+    "question_ids": [
+      "G6_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "write_inequality_from_less_than_statement",
+    "title": "Translate 'Less Than' into an Inequality",
+    "description": "Convert a verbal statement describing a quantity being less than a number into a symbolic inequality.",
+    "condition": "A verbal statement of the form 'a quantity is less than a given number.'",
+    "response": "Write a symbolic inequality using < with the variable representing the quantity (e.g., t < 10).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\u201cThe temperature is less than 10 degrees\u201d \u2192 Let $t$ be temperature: $t < 10$.",
+    "notes": "Follows language-to-symbol conventions for inequalities.",
+    "question_ids": [
+      "G6_U7_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "represent_inequality_from_context",
+    "title": "Write Inequality from Context",
+    "description": "Translate a verbal description of a boundary or range into an inequality.",
+    "condition": "A real-world description involving quantities greater than or less than a boundary value.",
+    "response": "Write a correct inequality using <, >, \u2264, or \u2265.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a shirt fits children up to 55 lb, a child who outgrew it satisfies $w > 55$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U7_a1_q4",
+      "G6_U7_a1_q5"
+    ]
+  }
+]

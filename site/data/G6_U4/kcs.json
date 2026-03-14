@@ -1,0 +1,419 @@
+[
+  {
+    "kc_id": "rect_area_formula",
+    "title": "Area of a Rectangle Formula",
+    "description": "Relate rectangle area to the product of its side lengths.",
+    "condition": "Rectangle with side lengths \\ell and w.",
+    "response": "State or use A = \\ell \\cdot w.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $\\ell = 4$ and $w = 3$, then $A = 4 \\cdot 3 = 12$.",
+    "notes": "Foundation for dividing to find unknown side.",
+    "question_ids": [
+      "G6_U4_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_mixed_to_improper",
+    "title": "Convert Mixed Number to Improper Fraction",
+    "description": "Convert a mixed number to an equivalent improper fraction before performing operations.",
+    "condition": "A mixed number (e.g., 4 1/2 or 1 2/3) appears in a computation.",
+    "response": "Rewrite the mixed number as an improper fraction using (whole \u00d7 denominator + numerator)/denominator.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Convert $1\\tfrac{2}{3}$ to an improper fraction: $(1\\times3+2)/3=5/3$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G6_U4_SB_a1_q2",
+      "G6_U4_SC_a1_q2",
+      "G6_U4_SD_a1_q1",
+      "G6_U4_SD_a1_q2",
+      "G6_U4_SD_a1_q3",
+      "G6_U4_a1_q2",
+      "G6_U4_a1_q4",
+      "G6_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "count_unit_cubes_by_division",
+    "title": "Count Fractional Unit Cubes",
+    "description": "Determine how many fractional edge-length cubes fit along a prism edge by dividing total length by cube edge length.",
+    "condition": "Prism edge length L and unit cube edge length u are given.",
+    "response": "Compute L \u00f7 u to find number of cubes along that edge.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$2\\tfrac{1}{2} \\div \\tfrac{1}{2} = 5$ cubes along the length.",
+    "notes": "Applied to each dimension before multiplying counts.",
+    "question_ids": [
+      "G6_U4_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_less_than_one_by_comparison",
+    "title": "Determine if Quotient Is Less Than 1 by Comparing Fractions",
+    "description": "Decide whether a fraction division result is less than 1 by comparing dividend and divisor.",
+    "condition": "An expression a/b \u00f7 c/d where a/b and c/d are positive fractions.",
+    "response": "Conclude quotient < 1 if dividend < divisor; > 1 if dividend > divisor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$\\frac{14}{8} \\div \\frac{15}{8}<1$ since $14/8<15/8$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "divide_fraction_by_fraction",
+    "title": "Divide a Fraction by a Fraction",
+    "description": "Compute the quotient of two fractions by multiplying by the reciprocal of the divisor.",
+    "condition": "An expression of the form a/b \u00f7 c/d.",
+    "response": "Rewrite as a/b \u00d7 d/c and simplify.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$\\frac{5}{6} \\div \\frac{1}{12}=\\frac{5}{6}\\times\\frac{12}{1}=10$.",
+    "notes": "[merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G6_U4_SB_a1_q1",
+      "G6_U4_SB_a1_q2",
+      "G6_U4_SC_a1_q2",
+      "G6_U4_SD_a1_q1",
+      "G6_U4_SD_a1_q3",
+      "G6_U4_a1_q1",
+      "G6_U4_a1_q2",
+      "G6_U4_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "divide_by_fraction_as_multiply_by_reciprocal",
+    "title": "Divide Whole Number by a Fraction",
+    "description": "Dividing a number by a fraction a/b is equivalent to multiplying by b/a.",
+    "condition": "Expression of the form n \u00f7 (a/b)",
+    "response": "Rewrite as n \u00d7 (b/a)",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$6 \\div \\frac{3}{2} = 6 \\times \\frac{2}{3}$",
+    "notes": "Generalized process emphasized in Question 1.",
+    "question_ids": [
+      "G6_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "volume_divide_by_base_area",
+    "title": "Find Prism Height from Volume and Base Area",
+    "description": "Compute the height of a rectangular prism by dividing volume by base area.",
+    "condition": "Volume V and base area B of a rectangular prism are given; height unknown.",
+    "response": "Compute V \u00f7 B.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$11 \\div 8\\tfrac{4}{5} = 11 \\div \\frac{44}{5} = \\frac{5}{4} = 1\\tfrac{1}{4}$ meters.",
+    "notes": "Based on V = B \\cdot h.",
+    "question_ids": [
+      "G6_U4_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "area_divide_to_find_side",
+    "title": "Find Unknown Side from Area",
+    "description": "Use division to find a missing side length of a rectangle when area and one side are known.",
+    "condition": "Rectangle area A and one side length s are given; need the other side.",
+    "response": "Compute A \u00f7 s.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $A = 5\\tfrac{5}{8}$ and $s = 1\\tfrac{1}{4}$, then width $= A \\div s = 5\\tfrac{5}{8} \\div 1\\tfrac{1}{4} = 4\\tfrac{1}{2}$.",
+    "notes": "Derived from $\\ell \\cdot w = A$.",
+    "question_ids": [
+      "G6_U4_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_division_how_many_groups",
+    "title": "Interpret Division as \u201cHow Many Groups?\u201d",
+    "description": "Model a situation asking how many groups of a given size fit into a quantity using division.",
+    "condition": "A word problem asks \u201cHow many groups?\u201d or \u201cHow many batches/boxes?\u201d given total and group size.",
+    "response": "Represent with total \u00f7 group size.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Batches: $4\\tfrac{1}{2} \\div \\frac{3}{4}=6$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SA_a1_q1",
+      "G6_U4_SA_a1_q2",
+      "G6_U4_SB_a1_q2",
+      "G6_U4_a1_q2",
+      "G6_U4_a1_q3",
+      "G6_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "interpret_division_how_much_in_one_group",
+    "title": "Interpret Division as \u201cHow Much in One Group?\u201d",
+    "description": "Model a situation asking for the size of one group given total and number of groups.",
+    "condition": "A word problem asks for amount per 1 unit given total for several units.",
+    "response": "Represent with total \u00f7 number of units.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Paint per box: $2 \\div \\frac{5}{3}=\\frac{6}{5}$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SA_a1_q1",
+      "G6_U4_SA_a1_q2",
+      "G6_U4_a1_q4",
+      "G6_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "interpret_division_two_ways",
+    "title": "Interpret Division in Two Ways",
+    "description": "Interpret a division expression as answering either a 'How many groups?' or a 'How many in each group?' question.",
+    "condition": "A division expression of the form a \u00f7 b in an equal-groups context.",
+    "response": "State both interpretations: (1) a items split into groups of size b, or (2) a items split into b equal groups.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "For $28 \\div 7$, this can mean: (1) 28 items in groups of 7 each, or (2) 28 items split into 7 equal groups.",
+    "notes": "Classification as Rule / Plan assumes interpreting both forms is a taught convention rather than derived each time.???",
+    "question_ids": [
+      "G6_U4_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "match_representation_equal_groups",
+    "title": "Match Equivalent Equal-Group Representations",
+    "description": "Determine whether a verbal description, equation, or diagram represents the same equal-groups relationship as a given multiplication equation.",
+    "condition": "Given a multiplication equation (e.g., a \u00d7 b = c) and alternative representations (verbal statements, diagrams, or division equations).",
+    "response": "Select all representations that express the same relationship among the three quantities.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $6 \\times ? = 54$, matching representations include $54 \\div 6 = ?$ and a diagram showing 6 equal parts totaling 54.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "equal_groups_multiplication_model",
+    "title": "Multiplication Model of Equal Groups",
+    "description": "Recognize that total equals number of groups multiplied by size of each group.",
+    "condition": "An equal-size groups situation with a known relationship among total, number of groups, and size per group.",
+    "response": "Represent the situation with (number of groups) \u00d7 (size of one group) = total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 7 pages with 4 photos each, then $7 \\times 4 = 28$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SA_a1_q1",
+      "G6_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "fraction_as_equal_parts_reasoning",
+    "title": "Reason About Fraction as Equal Parts of Whole",
+    "description": "Use the idea that a fraction represents equal parts of a whole to scale up or down.",
+    "condition": "A quantity representing a fraction of a whole is given (e.g., 8/5 kg is 2/3 of a batch).",
+    "response": "Find the value of one fractional part, then scale to the whole.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $\\frac{8}{5}$ kg is $\\frac{2}{3}$ of a batch, then $\\frac{1}{3}$ is $\\frac{4}{5}$ kg, so 1 batch is $3 \\times \\frac{4}{5} = \\frac{12}{5}$ kg.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_equivalent_division_expression",
+    "title": "Recognize Equivalent Division Expressions",
+    "description": "Determine whether two numerical expressions are equivalent by rewriting division by a fraction as multiplication or by restructuring factors.",
+    "condition": "Multiple expressions intended to equal the same division expression (e.g., 6 \u00f7 3/2)",
+    "response": "Select or produce expressions that evaluate to the same numerical value",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$6 \\div \\frac{3}{2} = 6 \\times \\frac{2}{3} = (6\\cdot2) \\div 3$",
+    "notes": "Requires structural understanding of operations.",
+    "question_ids": [
+      "G6_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "represent_with_visual_fraction_model",
+    "title": "Represent Fraction Situation with Diagram",
+    "description": "Draw and label a visual model (e.g., tape diagram) to represent fractional parts and wholes.",
+    "condition": "A word problem involving a fraction of a whole and a related quantity.",
+    "response": "Partition a bar into equal fractional parts and label known and unknown quantities.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Draw a bar split into 3 equal parts; label 2 parts as $\\frac{8}{5}$ kg and all 3 parts as 1 batch.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "represent_with_multiplication_equation",
+    "title": "Represent Situation with Multiplication Equation",
+    "description": "Write a multiplication equation relating number of groups, size of group, and total.",
+    "condition": "A groups-and-total context with one unknown value.",
+    "response": "Write equation: (number of groups) \u00d7 (size of group) = total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$? \\cdot \\frac{3}{10} = 4\\tfrac{1}{2}$",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_fraction_to_whole_by_multiplication",
+    "title": "Scale Fractional Part to Whole",
+    "description": "Multiply the value of one fractional part by the number of equal parts in the whole.",
+    "condition": "Value of 1/n of a whole is known and the whole (n/n) is required.",
+    "response": "Multiply the 1/n value by n.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $\\frac{1}{3}$ of a batch is $\\frac{4}{5}$ kg, then 1 batch is $3 \\times \\frac{4}{5} = \\frac{12}{5}$ kg.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "simplify_fraction",
+    "title": "Simplify a Fraction",
+    "description": "Reduce a fraction to an equivalent fraction in lowest terms by dividing numerator and denominator by a common factor.",
+    "condition": "Fraction with common factors in numerator and denominator",
+    "response": "Divide numerator and denominator by greatest common factor",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$\\frac{18}{24} = \\frac{18 \\div 6}{24 \\div 6} = \\frac{3}{4}$",
+    "notes": "Final step in many quotient calculations.",
+    "question_ids": [
+      "G6_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_visual_fraction_model",
+    "title": "Use Visual Model to Represent Fraction Division",
+    "description": "Represent fraction division with a tape diagram or number line partitioned into equal fractional units.",
+    "condition": "Prompt requests a diagram to justify fraction division reasoning.",
+    "response": "Partition a whole into equal fractional parts and count how many divisor-sized parts fit in the dividend.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Show $5/6$ as $10/12$ and count 10 segments of $1/12$.",
+    "notes": "Non-verbal classification reflects reliance on diagram construction.",
+    "question_ids": [
+      "G6_U4_a1_q10",
+      "G6_U4_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "unit_cube_volume_one_half",
+    "title": "Volume of 1/2-Inch Cube",
+    "description": "Recognize that a cube with edge length 1/2 inch has volume 1/8 cubic inch.",
+    "condition": "Cube with edge length 1/2 unit.",
+    "response": "State volume as (1/2)^3 = 1/8 cubic units.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Fact",
+    "example": "$(\\tfrac{1}{2})^3 = \\tfrac{1}{8}$ cubic inch.",
+    "notes": "Specific to 1/2-edge cube in this task.",
+    "question_ids": [
+      "G6_U4_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "rect_prism_volume_formula",
+    "title": "Volume of Rectangular Prism Formula",
+    "description": "Relate volume of a rectangular prism to the product of its three edge lengths.",
+    "condition": "Rectangular prism with length l, width w, height h.",
+    "response": "State or use V = l \\cdot w \\cdot h.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$V = 2\\tfrac{1}{2} \\cdot 2 \\cdot 3 = 15$ cubic inches.",
+    "notes": "Also interpreted as base area \u00d7 height.",
+    "question_ids": [
+      "G6_U4_SD_a1_q2",
+      "G6_U4_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "rewrite_division_as_multiplication_equation",
+    "title": "Write Related Multiplication Equation for Division",
+    "description": "Express a division situation as an equivalent multiplication equation with an unknown factor.",
+    "condition": "A question asks to write a multiplication equation for \u201cHow many a/b are in c/d?\u201d",
+    "response": "Write ? \u00d7 a/b = c/d.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "? \u00d7 $\\frac{2}{3}=\\frac{9}{8}$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U4_SC_a1_q2",
+      "G6_U4_a1_q5"
+    ]
+  }
+]

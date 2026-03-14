@@ -1,0 +1,479 @@
+[
+  {
+    "kc_id": "add_ratio_parts",
+    "title": "Add Parts of a Ratio",
+    "description": "Find the total number of equal parts represented in a ratio by adding its terms.",
+    "condition": "Given a ratio a:b (or a:b:c:...) and asked for the total number of parts.",
+    "response": "Compute a + b (+ c + ...).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For the ratio 3:5, total parts = 3 + 5 = 8.",
+    "notes": "Applies to any finite ratio.",
+    "question_ids": [
+      "G6_U2_SE_a1_q1",
+      "G6_U2_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_ratio_to_statement",
+    "title": "Compare Given Ratio to Stated Ratio",
+    "description": "Determine whether a verbal or symbolic ratio statement matches quantities in a situation.",
+    "condition": "Given two quantities and a proposed ratio statement relating them.",
+    "response": "Check whether the stated ratio is equivalent to the actual ratio of the quantities.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given 10 red and 8 brown pencils, compare to statement \"5 red for every 4 brown\": since $\\frac{10}{8} = \\frac{5}{4}$, the statement is true.",
+    "notes": "Includes checking order and equivalence of ratios.",
+    "question_ids": [
+      "G6_U2_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_unit_rates_same_quantity",
+    "title": "Compare Mixtures Using Unit Rates",
+    "description": "Given two ratios describing mixtures, compute and compare unit rates (e.g., powder per cup of water) to determine which mixture is stronger.",
+    "condition": "Two ratios describing quantities of the same two measures (e.g., 3 scoops to 5 cups and 4 scoops to 6 cups) and a prompt to compare them.",
+    "response": "Compute unit rates (e.g., scoops per cup) and compare their values to determine which is greater.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Priya: $\\frac{3}{5}=0.6$ scoops per cup; Mai: $\\frac{4}{6}=\\frac{2}{3}\\approx0.67$. Since $\\frac{2}{3}>\\frac{3}{5}$, Mai's mixture is stronger.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compare_rates_same_units",
+    "title": "Compare Rates with Common Units",
+    "description": "Determine which situation has a greater rate by expressing both ratios with the same unit of measure and comparing.",
+    "condition": "Two rate situations are given with different but related time or quantity units (e.g., 60 minutes vs 15 minutes).",
+    "response": "Rewrite both rates using the same unit (e.g., per 60 minutes) and compare the resulting quantities.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Priya rides $2$ km in $15$ minutes. In $60$ minutes (4 groups of 15), she rides $2 \\times 4 = 8$ km. Diego rides $7$ km in $60$ minutes. Since $8 > 7$, Priya is faster.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compute_total_from_unit_and_parts",
+    "title": "Compute Total from Unit Size and Parts",
+    "description": "Find the total quantity by multiplying the number of equal parts by the value of one part.",
+    "condition": "Given the value of one part and the total number of parts in a ratio situation.",
+    "response": "Multiply (number of parts) \u00d7 (value per part).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If each part represents 5 teachers and there are 9 parts, total = 9 \\times 5 = 45.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SE_a1_q1",
+      "G6_U2_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_unit_price",
+    "title": "Compute Unit Price",
+    "description": "Find the cost per one item by dividing total cost by number of items.",
+    "condition": "Total cost for a given number of identical items is provided.",
+    "response": "Divide total cost by number of items to find cost per one item.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 3 tickets cost $45$, then cost per ticket is $45 \\div 3 = 15$ dollars.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compute_unit_rate_division",
+    "title": "Compute Unit Rate by Division",
+    "description": "Find the amount for one unit by dividing the total quantity by the number of units.",
+    "condition": "Given a ratio a units correspond to b total amount (e.g., 4 lengths \u2192 96 seconds, 8 bars \u2192 $6) and asked for the value per 1 unit.",
+    "response": "Divide total amount by number of units (b \u00f7 a) to find the unit rate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From 4 lengths in 96 seconds, time for 1 length is $96 \\div 4 = 24$ seconds.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SC_a1_q2",
+      "G6_U2_SD_a1_q1",
+      "G6_U2_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "construct_discrete_ratio_diagram",
+    "title": "Construct Discrete Ratio Diagram",
+    "description": "Create a visual diagram (e.g., repeated symbols or boxes) to represent a ratio between two quantities.",
+    "condition": "Given two related quantities expressed as a ratio.",
+    "response": "Draw or list repeated visual units to represent each part of the ratio proportionally.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "To represent $12:3$, draw 12 cocoa symbols and 3 milk symbols, grouped proportionally (e.g., 4 cocoa per 1 milk).",
+    "notes": "Diagram structure may vary but must preserve proportional relationship.",
+    "question_ids": [
+      "G6_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_quantities_from_image",
+    "title": "Count Quantities in a Representation",
+    "description": "Determine the number of each type of object shown in a visual representation.",
+    "condition": "A visual display of objects (e.g., smiley faces, squares, triangles).",
+    "response": "Count and state the number of each object type.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From the image: 4 smiley faces, 2 squares, and 6 triangles.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "equivalent_ratio_definition",
+    "title": "Definition of Equivalent Ratios",
+    "description": "Recognize that two ratios are equivalent if one can be obtained from the other by multiplying or dividing both terms by the same nonzero number.",
+    "condition": "Given two ratios a:b and c:d,",
+    "response": "State whether they are equivalent based on whether both terms are scaled by the same nonzero factor.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "The ratios $4:3$ and $20:15$ are equivalent because $20=5\\cdot4$ and $15=5\\cdot3$.",
+    "notes": "Focuses on the definitional meaning of equivalent ratios.",
+    "question_ids": [
+      "G6_U2_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "find_missing_value_by_scaling",
+    "title": "Find Missing Value Using Equivalent Ratios",
+    "description": "Determine an unknown quantity by scaling both parts of a ratio by the same factor.",
+    "condition": "Given a proportional relationship a:b and a new related value for one quantity, with the other quantity unknown.",
+    "response": "Determine the scale factor and multiply (or divide) both quantities by the same factor to find the missing value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 8 bars cost $6, then 60 bars cost $6 \\times (60 \\div 8) = 6 \\times 7.5 = 45$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SD_a1_q1",
+      "G6_U2_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "find_scale_factor_between_ratios",
+    "title": "Find Scale Factor Between Ratios",
+    "description": "Determine the multiplicative factor that maps one ratio to another by comparing corresponding terms.",
+    "condition": "Given ratios a:b and c:d where c corresponds to a and d to b,",
+    "response": "Compute the common factor k such that c = k\u00b7a and d = k\u00b7b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "To compare $4:3$ and $20:15$, compute $20 \\div 4 = 5$ and $15 \\div 3 = 5$, so the scale factor is $5$.",
+    "notes": "Both terms must yield the same factor.",
+    "question_ids": [
+      "G6_U2_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "find_part_value_from_total",
+    "title": "Find Value of One Ratio Part",
+    "description": "Determine the value represented by one equal part by dividing the total quantity by the total number of ratio parts.",
+    "condition": "Given a total quantity and the total number of equal parts in a ratio.",
+    "response": "Divide total quantity by total number of parts.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 32 students and 8 total parts, each part = 32 \\div 8 = 4.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SE_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "formulate_ratio_sentence",
+    "title": "Formulate Ratio Sentence",
+    "description": "Express a ratio between two quantities as a correct verbal sentence.",
+    "condition": "Given two quantities and their ratio.",
+    "response": "State a sentence such as \"The ratio of A to B is x to y\" or \"For every x A, there are y B.\"",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If chocolate syrup to milk is $6:2$, state: \"The ratio of tablespoons of chocolate syrup to cups of milk is 6 to 2.\"",
+    "notes": "Order of terms must match the stated comparison.",
+    "question_ids": [
+      "G6_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "find_equivalent_ratio_by_scaling",
+    "title": "Generate Equivalent Ratio by Scaling",
+    "description": "Create an equivalent ratio by multiplying or dividing both terms by the same nonzero factor.",
+    "condition": "A ratio $a:b$ and a scale factor $k$.",
+    "response": "Produce the equivalent ratio $ka:kb$ (or divide both terms by a common factor).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From $9:6$, divide both terms by 3 to get $3:2$, or multiply by 2 to get $18:12$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SB_a1_q1",
+      "G6_U2_SC_a1_q1",
+      "G6_U2_SC_a1_q3",
+      "G6_U2_a1_q2",
+      "G6_U2_a1_q3",
+      "G6_U2_a1_q6",
+      "G6_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_ratio_from_quantities",
+    "title": "Identify Ratio from Quantities",
+    "description": "Form a ratio directly from two given quantities in a specified order.",
+    "condition": "Given two numerical quantities and a specified order (e.g., red to brown).",
+    "response": "Write the ratio as first quantity to second quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "With 10 red and 8 brown pencils, the ratio of red to brown is $10:8$.",
+    "notes": "Order matters (a:b \u2260 b:a).",
+    "question_ids": [
+      "G6_U2_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_double_number_line",
+    "title": "Interpret Corresponding Values on a Double Number Line",
+    "description": "Read corresponding aligned values on a double number line to determine equivalent ratios.",
+    "condition": "A double number line diagram shows aligned tick marks for two related quantities.",
+    "response": "Identify aligned values across the two lines as equivalent ratio pairs.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "On aligned ticks, $15$ cups of black paint corresponds to $100$ cups of white paint, forming the ratio $15:100$.",
+    "notes": "Primarily procedural/visual interpretation.",
+    "question_ids": [
+      "G6_U2_SC_a1_q1",
+      "G6_U2_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "interpret_ratio_as_equal_groups",
+    "title": "Interpret Ratio as Equal Groups",
+    "description": "Understand that each term in a ratio represents a number of equal-sized groups of the same unit value.",
+    "condition": "Given a ratio a:b describing two quantities.",
+    "response": "Recognize that the quantities can be represented as a equal groups and b equal groups of the same size.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In the ratio 3:5, the first quantity has 3 equal parts and the second has 5 equal parts of the same size.",
+    "notes": "Conceptual understanding underlying tape diagrams.",
+    "question_ids": [
+      "G6_U2_SE_a1_q1",
+      "G6_U2_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_ratio_from_diagram",
+    "title": "Interpret Ratio from Diagram",
+    "description": "Determine the numerical ratio represented by a discrete visual diagram.",
+    "condition": "Given a diagram showing repeated units for two categories.",
+    "response": "Count units in each category and state their ratio.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If a diagram shows 6 syrup boxes and 2 milk boxes, the ratio is $6:2$.",
+    "notes": "Requires accurate counting of visual units.",
+    "question_ids": [
+      "G6_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_correct_ratio_order",
+    "title": "Maintain Correct Ratio Order",
+    "description": "Interpret ratio language to match the correct order of quantities (e.g., triangles to squares means triangles first).",
+    "condition": "A verbal ratio statement such as \"triangles to squares\".",
+    "response": "Write or interpret the ratio with quantities in the stated order.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\"Squares to smiley faces\" with 2 squares and 4 smileys is written $2:4$, not $4:2$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_proportional_relationship_constant_rate",
+    "title": "Recognize Constant Rate as Proportional Relationship",
+    "description": "Identify that a situation described as occurring at a constant rate represents a proportional relationship.",
+    "condition": "A context states quantities change at a constant rate (e.g., swimming at a constant rate, fixed price per number of items).",
+    "response": "Model the situation using equivalent ratios or multiplicative scaling.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Because the swimmer moves at a constant rate, $\\frac{4}{96} = \\frac{1}{24}$ represents an equivalent ratio.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_SD_a1_q1",
+      "G6_U2_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_ratio_by_fraction_or_multiple",
+    "title": "Scale Ratio by Fraction or Whole Number",
+    "description": "Create equivalent ratios by multiplying or dividing both quantities by the same number.",
+    "condition": "Given a ratio a:b and a strategic multiplier or divisor (e.g., \u00d73, \u00f74, \u00d710).",
+    "response": "Apply the same multiplier or divisor to both terms of the ratio.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From $8:6$, divide both by 4 to get $2:1.5$, then multiply both by 30 to get $60:45$.",
+    "notes": "Supports strategic table building.",
+    "question_ids": [
+      "G6_U2_SB_a1_q1",
+      "G6_U2_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_ratio_to_match_known_quantity",
+    "title": "Scale Ratio to Match Known Quantity",
+    "description": "Determine the scale factor needed so that one part of a ratio matches a given known quantity.",
+    "condition": "Given a ratio a:b and the actual value corresponding to one of the terms (e.g., b corresponds to 10).",
+    "response": "Compute scale factor = (actual value) \\div (ratio term), then multiply all ratio terms by this factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the ratio is 7:2 and 2 parts = 10 teachers, scale factor = 10 \\div 2 = 5, so total parts = 9 \\times 5 = 45 teachers.",
+    "notes": "General method using equivalent ratios.",
+    "question_ids": [
+      "G6_U2_SC_a1_q1",
+      "G6_U2_SE_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_ratio_to_match_total",
+    "title": "Scale Ratio to Reach Given Total",
+    "description": "Given a part-to-part ratio and a total amount, determine the scale factor so that the sum of scaled parts equals the total.",
+    "condition": "A ratio $a:b$ and a total $T$ for $a+b$ combined.",
+    "response": "Find scale factor $k$ such that $k(a+b)=T$, then compute $ka$ and $kb$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "For $21:4$ with total $150$, $21+4=25$ and $150 \\div 25=6$, so blue marbles $=21\\times6=126$.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "multiply_unit_rate_by_quantity",
+    "title": "Scale Unit Rate to Target Quantity",
+    "description": "Use a known unit rate to calculate the total for any number of units.",
+    "condition": "Given a unit rate (value per 1 unit) and a target number of units.",
+    "response": "Multiply the unit rate by the target number of units.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 1 length takes 24 seconds, then in 60 seconds the swimmer completes $60 \\div 24 = 2.5$ lengths.",
+    "notes": "Division may be used when unit rate is expressed as time per unit.",
+    "question_ids": [
+      "G6_U2_SD_a1_q1",
+      "G6_U2_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "simplify_ratio_by_common_factor",
+    "title": "Simplify Ratio by Common Factor",
+    "description": "Reduce a ratio to an equivalent ratio in simplest form by dividing both terms by a common factor.",
+    "condition": "Given a ratio where both terms share a common factor greater than 1.",
+    "response": "Divide both terms by the common factor to produce an equivalent simplified ratio.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Simplify $6:2$ by dividing both terms by 2 to get $3:1$.",
+    "notes": "Based on properties of equivalent ratios.",
+    "question_ids": [
+      "G6_U2_SA_a1_q1",
+      "G6_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_unit_rate_to_complete_table",
+    "title": "Use Unit Rate to Complete Table",
+    "description": "Determine missing values in a ratio table by finding and applying a unit rate.",
+    "condition": "A table with one known ratio pair (e.g., 2 miles in 10 minutes) and missing related entries.",
+    "response": "Compute the unit rate and use it to fill in equivalent pairs.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 2 miles take 10 minutes, then 1 mile takes $10 \\div 2 = 5$ minutes; in 1 minute, distance is $2 \\div 10 = \\frac{1}{5}$ mile.",
+    "notes": "",
+    "question_ids": [
+      "G6_U2_a1_q4"
+    ]
+  }
+]
