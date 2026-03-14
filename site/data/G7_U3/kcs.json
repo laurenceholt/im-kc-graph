@@ -1,0 +1,300 @@
+[
+  {
+    "kc_id": "add_perimeter_components",
+    "title": "Add Straight and Curved Perimeter Parts",
+    "description": "Add all exterior straight segments and arc lengths to obtain the total perimeter of a composite figure.",
+    "condition": "Given a composite figure with multiple exterior straight sides and arc portions whose lengths are known or computed.",
+    "response": "Sum all exterior linear and arc lengths to find the total perimeter.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a figure has straight sides totaling 14 and a quarter-circle arc of length $\\frac{1}{4}(2\\pi\\cdot 3)$, then total perimeter is $14 + \\frac{1}{4}(2\\pi\\cdot 3)$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "quarter_circle_arc_length",
+    "title": "Arc Length of a Quarter Circle",
+    "description": "Compute the arc length of a quarter circle as one-fourth of a full circumference.",
+    "condition": "Given the radius $r$ of a quarter circle.",
+    "response": "Compute arc length as $\\frac{1}{4}(2\\pi r)$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $r=3$, arc length is $\\frac{1}{4}(2\\pi\\cdot3)=\\frac{3\\pi}{2}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "area_not_proportional_diameter",
+    "title": "Area Not Proportional to Diameter",
+    "description": "Recognize that the area of a circle scales with the square of the diameter (or radius), not linearly.",
+    "condition": "Comparing two circles where one diameter is a scale factor k of another.",
+    "response": "Conclude that the area scales by k^2, not k.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If one diameter is 1/2 of another, then area scales by (1/2)^2 = 1/4.",
+    "notes": "Addresses misconception of linear proportionality.",
+    "question_ids": [
+      "G7_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "area_circle_formula",
+    "title": "Area of a Circle Formula",
+    "description": "Use the formula for the area of a circle in terms of its radius.",
+    "condition": "Given the radius $r$ of a circle.",
+    "response": "Compute area as $A = \\pi r^2$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $r = 40$, then $A = \\pi(40)^2 = 1600\\pi$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G7_U3_SB_a1_q1",
+      "G7_U3_SB_a1_q2",
+      "G7_U3_a1_q1",
+      "G7_U3_a1_q6",
+      "G7_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compute_fractional_circle_area",
+    "title": "Area of Fraction of a Circle",
+    "description": "Find the area of a sector or fractional part of a circle by multiplying the full area by the fraction represented.",
+    "condition": "Given a circle (or its radius) and a shaded region representing a known fraction (e.g., 1/4) of the circle.",
+    "response": "Compute the full area \u03c0r^2 and multiply by the given fraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If r = 6 and the region is 1/4 of the circle, area = (1/4)\u03c0(6^2) = (1/4)(36\u03c0) = 9\u03c0.",
+    "notes": "Requires recognizing the fraction represented by the shaded sector.",
+    "question_ids": [
+      "G7_U3_SB_a1_q2",
+      "G7_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "area_from_circumference_radius",
+    "title": "Area Using Circumference and Radius",
+    "description": "Compute the area of a circle using A = (1/2)Cr when circumference and radius are known.",
+    "condition": "Given the circumference C and radius r of a circle.",
+    "response": "Compute A = (1/2)Cr.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If C = 9.5 and r = 1.5, then A = (1/2)(9.5)(1.5) = 7.125.",
+    "notes": "Derived from rearranging A = \u03c0r^2 and C = 2\u03c0r.",
+    "question_ids": [
+      "G7_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "circumference_from_diameter",
+    "title": "Circumference Formula Using Diameter",
+    "description": "Relate circumference to diameter using the formula C = \u03c0d.",
+    "condition": "Given the diameter d of a circle.",
+    "response": "Compute circumference using C = \u03c0d.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $d = 10$, then $C = \\pi d = 10\\pi$.",
+    "notes": "Derived from the definition of \u03c0 as the ratio of circumference to diameter.",
+    "question_ids": [
+      "G7_U3_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "circumference_from_radius",
+    "title": "Circumference Formula Using Radius",
+    "description": "Relate circumference to radius using the formula C = 2\u03c0r.",
+    "condition": "Given the radius r of a circle.",
+    "response": "Compute circumference using C = 2\\pi r.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $r = 5$, then $C = 2\\pi r = 10\\pi$.",
+    "notes": "Equivalent to C = \u03c0d since d = 2r.",
+    "question_ids": [
+      "G7_U3_SA_a1_q1",
+      "G7_U3_SA_a1_q2",
+      "G7_U3_a1_q3",
+      "G7_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "convert_gallons_to_coverage",
+    "title": "Compute Total Coverage from Rate",
+    "description": "Use a coverage rate (area per gallon or per can) to compute total area covered.",
+    "condition": "Given a rate such as 300 square feet per gallon and a number of gallons or cans.",
+    "response": "Multiply rate by quantity to find total area covered.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 1 gallon covers 300 ft$^2$, then 5 gallons cover $5\\times300 = 1500$ ft$^2$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "context_area_vs_circumference",
+    "title": "Distinguish Area vs. Circumference in Context",
+    "description": "Determine whether a real-world situation requires area (surface) or circumference (distance around).",
+    "condition": "Given a contextual description involving covering a surface or measuring around an edge.",
+    "response": "Identify whether area or circumference is needed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Painting a bullseye requires area because it covers a surface; measuring around a Ferris wheel requires circumference.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "evaluate_circumference_numerically",
+    "title": "Evaluate Circumference with Numerical Substitution",
+    "description": "Substitute a numerical value for radius or diameter into a circumference formula and compute the result.",
+    "condition": "A known numerical value for r or d and a valid circumference formula.",
+    "response": "Substitute the value and perform multiplication to calculate circumference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Given $r = 21$, compute $C = 2\\pi r = 2 \\cdot 3.14 \\cdot 21 = 131.88 \\approx 132$ inches.",
+    "notes": "Includes multi-step computation: find diameter if needed, then multiply by \u03c0.",
+    "question_ids": [
+      "G7_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "circumference_pi_definition",
+    "title": "Pi as Circumference-to-Diameter Ratio",
+    "description": "Recognize that $\\pi$ is the constant of proportionality between circumference and diameter.",
+    "condition": "Relating circumference and diameter of any circle.",
+    "response": "State that $\\pi = \\frac{C}{d}$ or equivalently $C = \\pi d$.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "For any circle, $C = \\pi d$, so $\\pi = \\frac{C}{d}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "radius_from_diameter",
+    "title": "Radius from Diameter",
+    "description": "Determine the radius of a circle by halving the diameter.",
+    "condition": "Given the diameter d of a circle.",
+    "response": "Compute r = d/2.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If d = 3, then r = 3/2 = 1.5.",
+    "notes": "Fundamental relationship between diameter and radius.",
+    "question_ids": [
+      "G7_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "diameter_radius_relationship",
+    "title": "Relationship Between Diameter and Radius",
+    "description": "Express the relationship between diameter and radius as d = 2r or r = \\frac{1}{2}d.",
+    "condition": "Given either the radius r or diameter d of a circle.",
+    "response": "Use d = 2r or r = \\frac{1}{2}d to find the other measure.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $r = 21$, then $d = 2r = 42$. If $d = 10$, then $r = \\frac{1}{2} \\cdot 10 = 5$.",
+    "notes": "Fundamental geometric definition of diameter.",
+    "question_ids": [
+      "G7_U3_SA_a1_q1",
+      "G7_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "round_up_contextual_quantity",
+    "title": "Round Up to Whole Units in Context",
+    "description": "When a context requires whole items (e.g., cans), round fractional results up to the next whole number.",
+    "condition": "A calculated quantity of discrete items is not an integer and partial items cannot be purchased or used.",
+    "response": "Round up to the next whole number.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If 1.9 cans are needed, purchase 2 cans.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "approximate_pi_with_3_14",
+    "title": "Use 3.14 as an Approximation for \u03c0",
+    "description": "Use 3.14 as a decimal approximation for \u03c0 when calculating numerical values for circumference.",
+    "condition": "A calculation involving \u03c0 where a decimal approximation is needed.",
+    "response": "Substitute 3.14 for \u03c0 in the calculation.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "To approximate $C = 2\\pi r$ when $r = 21$, compute $2 \\cdot 3.14 \\cdot 21$.",
+    "notes": "Using 3.14 is a conventional approximation rather than a derivable necessity.",
+    "question_ids": [
+      "G7_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "verify_equation_with_table",
+    "title": "Verify Equation Using Table Values",
+    "description": "Substitute corresponding values from a table into a proposed equation to check if it holds.",
+    "condition": "Given an equation and rows of numerical values for its variables.",
+    "response": "Substitute values and evaluate both sides to determine if the equation is (approximately) true.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Check $A=\\tfrac12 rC$ with $r=4$, $C=25$: $\\tfrac12\\cdot4\\cdot25=50$, matching $A=50$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U3_a1_q5"
+    ]
+  }
+]

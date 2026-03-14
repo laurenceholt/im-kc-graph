@@ -1,0 +1,349 @@
+[
+  {
+    "kc_id": "angles_around_point_sum_360",
+    "title": "Angles Around a Point Sum to 360\u00b0",
+    "description": "Recognize that the measures of all angles around a single point add to 360 degrees.",
+    "condition": "Multiple angles share a common vertex and form a full circle around a point.",
+    "response": "Set up an equation where the sum of the angle measures equals 360\u00b0.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If angles around a point are $a + b + c + 27$, then\n$$a + b + c + 27 = 360.$$",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "area_composite_figure",
+    "title": "Area of a Composite Figure",
+    "description": "Find the area of an irregular polygon by decomposing it into simpler shapes and summing their areas.",
+    "condition": "Given a composite 2D figure with known side lengths that can be partitioned into rectangles, triangles, or trapezoids.",
+    "response": "Decompose the figure, compute each part\u2019s area, and add them to find total area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a figure is split into a rectangle of area $1.5$ ft$^2$ and a trapezoid of area $4.5$ ft$^2$, total area $= 1.5 + 4.5 = 6$ ft$^2$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "area_trapezoid_formula",
+    "title": "Area of a Trapezoid",
+    "description": "Compute the area of a trapezoid using the average of the two bases times the height.",
+    "condition": "Given a trapezoid with bases b1 and b2 and height h.",
+    "response": "Calculate A = \\frac{1}{2}(b_1 + b_2)h.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If b_1 = 53, b_2 = 20, and h = 33, then A = \\frac{1}{2}(53+20)(33) = \\frac{1}{2}(73)(33) = 1,204.5.",
+    "notes": "Height must be perpendicular to bases.",
+    "question_ids": [
+      "G7_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "complementary_angles_sum_90",
+    "title": "Complementary Angles Sum to 90\u00b0",
+    "description": "Identify that two angles forming a right angle are complementary and sum to 90 degrees.",
+    "condition": "Two adjacent angles together form a right angle (indicated by a square corner or 90\u00b0).",
+    "response": "Write an equation adding the two angle measures and set equal to 90\u00b0.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If angles are $a$ and $27^\\circ$ forming a right angle, then\n$$a + 27 = 90.$$",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_SA_a1_q1",
+      "G7_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "construct_triangle_from_three_sides",
+    "title": "Construct Triangle from Three Side Lengths",
+    "description": "Given three side lengths that satisfy the triangle inequality, construct a triangle by drawing one side and locating the third vertex using the other two lengths.",
+    "condition": "Given three positive side lengths that can form a triangle.",
+    "response": "Draw one side as a base, use the other two lengths to locate the third vertex (e.g., with arcs), and connect endpoints to form a triangle.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Given side lengths 3 in, 4 in, and 6 in: Draw a 6-inch segment. Draw an arc of radius 3 in from one endpoint and an arc of radius 4 in from the other. Their intersection determines the third vertex.",
+    "notes": "Procedural construction skill.",
+    "question_ids": [
+      "G7_U7_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "lateral_surface_area_prism",
+    "title": "Lateral Surface Area from Perimeter",
+    "description": "Calculate lateral surface area of a prism using perimeter of base times height.",
+    "condition": "Given a prism with known base perimeter and height.",
+    "response": "Compute lateral area as $P \\times h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If perimeter $=11$ ft and height $=3$ ft, lateral area $=11 \\times 3 = 33$ ft$^2$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "linear_pair_supplementary",
+    "title": "Linear Pair are Supplementary",
+    "description": "Angles that form a straight line sum to 180 degrees.",
+    "condition": "Two adjacent angles form a straight line.",
+    "response": "Set their measures to sum to $180^\\circ$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $x + y + 30 = 180$, then $y = 180 - x - 30$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_a1_q1",
+      "G7_U7_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "ssa_ambiguity_principle",
+    "title": "Non-Included Angle (SSA) Can Produce Different Triangles",
+    "description": "When two sides and a non-included angle are given, more than one distinct triangle may satisfy the measures.",
+    "condition": "Given two side lengths and an angle that is not between them (SSA configuration).",
+    "response": "Conclude that different (non-congruent) triangles may be possible.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given sides 2 in and 5 in and a $30^\\circ$ angle not between them, the third vertex can lie in different positions, producing different triangles.",
+    "notes": "Often called the ambiguous case.",
+    "question_ids": [
+      "G7_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_surface_area_context",
+    "title": "Recognize Surface Area Context",
+    "description": "Determine that a situation involving covering or material on the outside requires surface area.",
+    "condition": "A real-world problem asks for covering, wrapping, painting, or material needed for the outside of a 3D object.",
+    "response": "Identify surface area as the required quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "To find how much wrapping paper is needed to wrap a present, use surface area.",
+    "notes": "Focus is on exterior coverage.",
+    "question_ids": [
+      "G7_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_volume_context",
+    "title": "Recognize Volume Context",
+    "description": "Determine that a situation involving capacity or space inside a 3D object requires volume.",
+    "condition": "A real-world problem asks for how much a container can hold or how much space is inside a 3D object.",
+    "response": "Identify volume as the required quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "To find how much water fills a tank, use volume.",
+    "notes": "Includes capacity and cubic unit contexts.",
+    "question_ids": [
+      "G7_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "sas_uniqueness_principle",
+    "title": "SAS Determines a Unique Triangle",
+    "description": "If two side lengths and the included angle are fixed, exactly one triangle (up to congruence) can be formed.",
+    "condition": "Given two side lengths and the angle between them (SAS).",
+    "response": "Conclude that exactly one unique triangle can be formed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given sides 2 in and 5 in with the included angle $30^\\circ$, only one triangle can be formed.",
+    "notes": "Based on triangle congruence (SAS).",
+    "question_ids": [
+      "G7_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scaled_polygons_angles_equal",
+    "title": "Scaled Polygons Preserve Angles",
+    "description": "Recognize that scaled copies of polygons have equal corresponding angle measures.",
+    "condition": "A polygon is described as a scaled copy of another.",
+    "response": "Conclude corresponding angles are equal.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If two triangles are scaled copies, and one has angles $30^\\circ, 80^\\circ, 70^\\circ$, the other has the same angle measures.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "solve_one_step_subtraction_equation",
+    "title": "Solve One-Step Equation by Subtraction",
+    "description": "Solve an equation of the form x + k = c by subtracting k from both sides.",
+    "condition": "An equation where a variable has a constant added to it (e.g., x + k = c).",
+    "response": "Subtract the constant from both sides to isolate the variable.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "Given $a + 27 = 90$, subtract 27:\n$$a = 90 - 27 = 63.$$",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "sss_uniqueness_principle",
+    "title": "SSS Determines a Unique Triangle",
+    "description": "If all three side lengths are fixed and satisfy the triangle inequality, exactly one triangle (up to congruence) is determined.",
+    "condition": "Given three side lengths that satisfy the triangle inequality.",
+    "response": "Conclude that exactly one unique triangle can be formed.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given side lengths 3 in, 4 in, and 6 in, these determine a single unique triangle.",
+    "notes": "Based on triangle congruence (SSS).",
+    "question_ids": [
+      "G7_U7_SB_a1_q1",
+      "G7_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "supplementary_angles_sum_180",
+    "title": "Supplementary Angles Sum to 180\u00b0",
+    "description": "Recognize that two angles forming a straight line sum to 180 degrees.",
+    "condition": "Two adjacent angles form a straight line.",
+    "response": "Write an equation adding the two angle measures and set equal to 180\u00b0.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If angles are $b$ and $c$ on a straight line, then\n$$b + c = 180.$$",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_prism_surface_area",
+    "title": "Surface Area of a Prism",
+    "description": "Find total surface area by summing the areas of all faces (two bases and lateral faces).",
+    "condition": "Given a prism with known base area(s) and lateral face dimensions.",
+    "response": "Add areas of two bases and all lateral faces to get total surface area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If base area = 1,204.5 and prism height = 35, and perimeter of base = 157, then lateral area = 157 \\times 35 and total surface area = 2(1,204.5) + 157 \\times 35.",
+    "notes": "Lateral area may be computed as perimeter \u00d7 prism height.",
+    "question_ids": [
+      "G7_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "triangle_inequality",
+    "title": "Triangle Inequality Theorem",
+    "description": "The sum of the lengths of any two sides of a triangle must be greater than the third side.",
+    "condition": "Given three side lengths to determine if a triangle can be formed.",
+    "response": "Check whether each pair sums to more than the third side.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Since $1 + 3 = 4 < 6$, a triangle with sides 1, 3, and 6 cannot exist.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_SB_a1_q1",
+      "G7_U7_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "vertical_angles_equal",
+    "title": "Vertical Angles are Equal",
+    "description": "Opposite angles formed by intersecting lines are congruent.",
+    "condition": "Two angles are vertical (formed by intersecting straight lines and opposite each other).",
+    "response": "Set their measures equal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If one vertical angle is $30^\\circ$, the opposite angle $x = 30^\\circ$.",
+    "notes": "[merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G7_U7_SA_a1_q1",
+      "G7_U7_a1_q1",
+      "G7_U7_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "vertical_slice_rectangular_pyramid",
+    "title": "Vertical Cross-Section of Rectangular Pyramid",
+    "description": "A slice through the vertex perpendicular to the base of a rectangular pyramid forms a triangular cross-section.",
+    "condition": "A plane passes through the vertex of a rectangular pyramid and is perpendicular to the base.",
+    "response": "Identify the cross-section as a triangle whose height equals the pyramid\u2019s height.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "A perpendicular slice through the vertex produces a triangular cross-section.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "volume_prism",
+    "title": "Volume of a Prism",
+    "description": "Calculate volume as base area times height (depth).",
+    "condition": "Given base area and perpendicular height (or depth) of a prism.",
+    "response": "Compute volume as $B \\times h$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If base area $= 6$ ft$^2$ and depth $= 2.5$ ft, volume $= 6 \\times 2.5 = 15$ ft$^3$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U7_SC_a1_q2",
+      "G7_U7_a1_q7"
+    ]
+  }
+]

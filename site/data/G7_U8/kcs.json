@@ -1,0 +1,507 @@
+[
+  {
+    "kc_id": "classify_event_certainty",
+    "title": "Classify Event as Certain, Impossible, Likely, or Unlikely",
+    "description": "Determine whether an event is certain (probability 1), impossible (probability 0), likely (>1/2), or unlikely (<1/2 but >0) based on the sample space.",
+    "condition": "Given a described event and a known sample space or spinner.",
+    "response": "State whether the event is certain, impossible, likely, or unlikely and give a matching example.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "On a spinner labeled 1\u20136, landing on 7 is impossible (probability 0). Landing on 1 is unlikely if it is only one of six equal sections ($\\frac{1}{6}$).",
+    "notes": "\u2014",
+    "question_ids": [
+      "G7_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compare_difference_to_twice_mad",
+    "title": "Compare Difference of Means to Twice MAD",
+    "description": "Determine whether two populations differ meaningfully by checking if the difference of their means exceeds twice the MAD.",
+    "condition": "Given two means and a MAD, and asked whether the difference is meaningful.",
+    "response": "Check whether |mean1 \u2212 mean2| > 2 \u00d7 MAD.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If the means are 212 and 144, the difference is $212 - 144 = 68$. A meaningful difference occurs if $68 > 2 \\times \\text{MAD}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compare_experimental_to_theoretical",
+    "title": "Compare Experimental and Theoretical Probability",
+    "description": "Determine whether an experimental probability is close to a given theoretical probability and use this comparison to make a judgment.",
+    "condition": "Given an experimental probability from data and a theoretical probability for the same event.",
+    "response": "Compare the two values and judge whether they are reasonably close.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Experimental probability = $\\frac{12}{25} = 0.48$. Theoretical probability = $\\frac{1}{2} = 0.5$. Since $0.48$ is close to $0.5$, the river might be considered healthy.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_difference_of_means",
+    "title": "Compute Difference Between Two Means",
+    "description": "Subtract one mean from another to find the difference in center.",
+    "condition": "Given two numerical mean values.",
+    "response": "Subtract one mean from the other to find their difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given means 212 and 144, compute $212 - 144 = 68$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "theoretical_expected_count",
+    "title": "Compute Expected Count from Theoretical Probability",
+    "description": "Use a theoretical probability to compute the expected number of successes in a given number of trials.",
+    "condition": "Given a theoretical probability p and a number of trials n.",
+    "response": "Compute expected successes as n \u00d7 p.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $p = \\frac{1}{2}$ and $n = 25$, the expected number of successes is $25 \\times \\frac{1}{2} = 12.5$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "experimental_probability_ratio",
+    "title": "Compute Experimental Probability",
+    "description": "Calculate experimental probability as the ratio of successful outcomes to total trials.",
+    "condition": "Given the number of successful outcomes and the total number of trials in an experiment.",
+    "response": "Form the ratio successes/total trials.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If an insect is found in 12 out of 25 samples, the experimental probability is $\\frac{12}{25}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "calculate_probability_fraction",
+    "title": "Compute Probability as Favorable over Total",
+    "description": "Find probability by dividing the number of favorable outcomes by the total number of equally likely outcomes.",
+    "condition": "Given a defined sample space of equally likely outcomes and a specified event.",
+    "response": "Compute probability as $\\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "There are 2 favorable outcomes out of 12 total, so $P = \\frac{2}{12}$.",
+    "notes": "Requires assumption that outcomes are equally likely.",
+    "question_ids": [
+      "G7_U8_SA_a1_q1",
+      "G7_U8_SB_a1_q1",
+      "G7_U8_SB_a1_q12",
+      "G7_U8_a1_q1",
+      "G7_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compute_proportion_from_count",
+    "title": "Compute Proportion from Count and Total",
+    "description": "Form a proportion by dividing the number of favorable outcomes by the total number of observations.",
+    "condition": "Given a count of favorable cases and a total sample size.",
+    "response": "Write or compute favorable \u00f7 total as a fraction or decimal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 9 out of 20 people respond \"sometimes\" or \"often,\" the proportion is $\\frac{9}{20}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_fraction_to_percent_decimal",
+    "title": "Convert Fraction to Decimal or Percent",
+    "description": "Convert a fraction into an equivalent decimal or percent form.",
+    "condition": "Given a fraction representing a probability.",
+    "response": "Divide numerator by denominator to get a decimal and/or multiply by 100 to express as a percent.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{1}{4} = 0.25 = 25\\%$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_favorable_outcomes_subset",
+    "title": "Count Favorable Outcomes in a Numeric Range",
+    "description": "Count how many values in a defined range satisfy a stated condition.",
+    "condition": "Given a finite set of consecutive whole numbers and a condition such as numbers greater than or equal to a specified value.",
+    "response": "Count the numbers in the set that meet the condition.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From 1 to 20, the numbers 16, 17, 18, 19, 20 meet the condition \"16 or greater,\" so there are 5 favorable outcomes.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_categorical_frequency",
+    "title": "Count Frequency of Target Categories",
+    "description": "Count how many data points fall into specified categories within a list of categorical responses.",
+    "condition": "Given a list of categorical responses and specified target categories.",
+    "response": "Count the number of responses that match the specified categories.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From a list of 20 responses, count all entries labeled \"sometimes\" or \"often\" to get 9.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_total_outcomes",
+    "title": "Count Total Outcomes in Sample Space",
+    "description": "Determine the total number of equally likely outcomes by counting or combining categories.",
+    "condition": "Given categories with quantities (e.g., colored cards).",
+    "response": "Add the quantities to find the total number of outcomes.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If there are 25 red, 12 blue, 8 yellow, and 5 green cards, total = $25+12+8+5=50$.",
+    "notes": "Response is constant for given quantities.",
+    "question_ids": [
+      "G7_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "define_population_for_stat_question",
+    "title": "Define Population for a Statistical Question",
+    "description": "Identify the entire group about which information is desired in a statistical investigation.",
+    "condition": "Given a statistical question asking about a characteristic of a group.",
+    "response": "State the full population as all individuals or items described in the question.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "For the question \"What percentage of schools in the United States have a math teacher as the football coach?\" the population is **all schools in the United States**.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "use_repeated_trials_for_estimate",
+    "title": "Estimate Probability via Repeated Simulation",
+    "description": "Approximate a probability by repeating a simulation many times and computing the relative frequency of success.",
+    "condition": "A simulation model for an event and a desire to estimate its probability.",
+    "response": "Repeat the simulation many times and compute $\\frac{\\text{number of successes}}{\\text{total trials}}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If success occurs 18 times in 60 simulated trials, estimated probability is $\\frac{18}{60} = 0.3$.",
+    "notes": "Relies on law of large numbers intuition (informal at Grade 7).",
+    "question_ids": [
+      "G7_U8_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "describe_benefit_of_random_sampling",
+    "title": "Explain Benefit of Random Sampling",
+    "description": "Explain why adding randomness to sample selection improves representativeness and reduces bias.",
+    "condition": "Given a sampling method and asked why a more random method would be better.",
+    "response": "State that random sampling reduces bias and is more likely to produce a representative sample of the population.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Using a random selection of students from the entire school helps avoid bias and makes the sample more representative of all students.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "explain_need_for_sample",
+    "title": "Explain Need for a Sample",
+    "description": "Explain why a sample is used instead of surveying the entire population.",
+    "condition": "Given a large population and asked why a sample might be important.",
+    "response": "State that collecting data from the entire population is difficult, costly, or impractical, so a sample is used to estimate.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "It would be difficult to gather data from all schools in the United States, so a sample can be used to estimate the percentage.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_bias_in_convenience_sample",
+    "title": "Identify Bias in Convenience Sample",
+    "description": "Recognize that a sample chosen from a convenient or homogeneous group may not represent the population.",
+    "condition": "Given a sample selected from a group with shared characteristics (e.g., friends).",
+    "response": "State that the sample may be biased because members may have similar opinions and not reflect the whole population.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If Kiran only surveys his friends, their similar interests may bias the results and not reflect all students' opinions.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_favorable_outcomes",
+    "title": "Identify Outcomes Matching Event Conditions",
+    "description": "Select outcomes from the sample space that satisfy all stated conditions of an event.",
+    "condition": "A complete list of outcomes and a compound event with specific criteria.",
+    "response": "Count or list the outcomes that meet all parts of the event description.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "From the 12 outcomes, the event \"cube shows 2 and coins match\" corresponds to $2HH$ and $2TT$.",
+    "notes": "Involves coordinating multiple conditions simultaneously.",
+    "question_ids": [
+      "G7_U8_SB_a1_q1",
+      "G7_U8_SB_a1_q12"
+    ]
+  },
+  {
+    "kc_id": "identify_impossible_event",
+    "title": "Identify Probability Zero Event",
+    "description": "Recognize that an event not included in the sample space has probability 0.",
+    "condition": "Event outcome is not present in the defined sample space.",
+    "response": "State that the probability is 0 (impossible).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Rolling a 7 on a standard number cube has probability $0$.",
+    "notes": "\u2014",
+    "question_ids": [
+      "G7_U8_a1_q2",
+      "G7_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "suggest_increase_sample_size",
+    "title": "Increase Sample Size to Improve Estimate",
+    "description": "Recognize that collecting more data improves the reliability of an experimental probability estimate.",
+    "condition": "Given an experimental probability estimate based on a limited number of trials.",
+    "response": "Recommend increasing the number of trials or samples.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To better estimate the probability of finding the insect, the scientist could collect more than 25 samples.",
+    "notes": "Based on the Law of Large Numbers (informal grade-level understanding).",
+    "question_ids": [
+      "G7_U8_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "list_sample_space_compound",
+    "title": "List Sample Space for Compound Experiment",
+    "description": "Generate all ordered outcomes for a multi-step experiment by systematically combining results from each stage.",
+    "condition": "A compound experiment with discrete outcomes at each stage.",
+    "response": "Enumerate all ordered combinations of outcomes.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Outcomes: $1HH, 1HT, 1TH, 1TT, 2HH, 2HT, 2TH, 2TT, 3HH, 3HT, 3TH, 3TT$.",
+    "notes": "Systematic listing strategy (e.g., tree diagram) is implicit.",
+    "question_ids": [
+      "G7_U8_SB_a1_q1",
+      "G7_U8_SB_a1_q12"
+    ]
+  },
+  {
+    "kc_id": "identify_simulation_match",
+    "title": "Match Simulation to Target Probability",
+    "description": "Determine whether a proposed simulation correctly represents a given probability by comparing ratios of favorable outcomes to total equally likely outcomes.",
+    "condition": "Given a target probability (e.g., 3/4) and a described random process.",
+    "response": "Accept simulations where favorable outcomes/total outcomes equals the target probability; reject others.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A bag with 3 red and 1 white chip gives $P(\\text{red})=\\frac{3}{4}$, matching the target probability.",
+    "notes": "\u2014",
+    "question_ids": [
+      "G7_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "propose_representative_sample",
+    "title": "Propose a Representative Sample",
+    "description": "Suggest a reasonable sampling method that would better represent the population.",
+    "condition": "Given a defined population and asked to suggest a possible sample.",
+    "response": "Describe selecting a subset that reflects the diversity of the population (e.g., choosing individuals from different regions or groups).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "To sample U.S. schools, select a few schools from each state to better represent the entire country.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "map_probability_to_simulation_model",
+    "title": "Represent Given Probability with Simulation",
+    "description": "Design a random process whose outcomes model a stated probability.",
+    "condition": "A real-world event with a known probability (e.g., 25%).",
+    "response": "Choose or construct a random experiment with matching probability structure (e.g., two fair coins so one outcome out of four represents success).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Since $25\\% = \\frac{1}{4}$ and two fair coins have 4 equally likely outcomes, let $HH$ represent success.",
+    "notes": "Requires recognizing equivalence between fraction and experimental structure.",
+    "question_ids": [
+      "G7_U8_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "simplify_fraction",
+    "title": "Simplify Probability Fraction",
+    "description": "Reduce a fraction to lowest terms by dividing numerator and denominator by their greatest common factor.",
+    "condition": "Given a fraction representing probability.",
+    "response": "Divide numerator and denominator by their GCF.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{25}{50} = \\frac{1}{2}$ by dividing by 25.",
+    "notes": "\u2014",
+    "question_ids": [
+      "G7_U8_SA_a1_q1",
+      "G7_U8_a1_q1",
+      "G7_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "solve_mad_threshold",
+    "title": "Solve for MAD Threshold",
+    "description": "Determine the maximum MAD value that would make the difference in means exceed twice the MAD.",
+    "condition": "Given a numerical difference between means and the condition difference > 2 \u00d7 MAD.",
+    "response": "Solve the inequality MAD < (difference \u00f7 2).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the difference is 68, solve $68 > 2 \\times \\text{MAD}$, so $\\text{MAD} < 34$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "benchmark_fraction_one_half",
+    "title": "Use 1/2 as a Benchmark Fraction",
+    "description": "Recognize and use 1/2 as a benchmark to judge whether a fraction is close to half.",
+    "condition": "Given a fraction and asked whether it is close to half.",
+    "response": "Compare the fraction to 1/2 and judge closeness based on size or decimal value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Compare $\\frac{9}{20} = 0.45$ to $\\frac{1}{2} = 0.5$; since 0.45 is close to 0.5, it is reasonable to say it is about half.",
+    "notes": "",
+    "question_ids": [
+      "G7_U8_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "apply_complement_rule",
+    "title": "Use Complement to Find Probability",
+    "description": "To find the probability of an event not happening, subtract the probability of the event from 1 or subtract favorable outcomes from the total.",
+    "condition": "Asked for probability of an event described as \"not A\" or not having a given attribute.",
+    "response": "Compute 1 \u2212 P(A) or (total \u2212 favorable for A)/total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 5 of 50 cards are green, then $P(\\text{not green}) = 1 - \\frac{5}{50} = \\frac{45}{50} = \\frac{9}{10}$.",
+    "notes": "\u2014",
+    "question_ids": [
+      "G7_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "apply_multiplication_principle",
+    "title": "Use Multiplication Principle for Compound Events",
+    "description": "Determine the total number of outcomes in a compound event by multiplying the number of outcomes for each independent stage.",
+    "condition": "A multi-step experiment with independent stages, each with a known number of possible outcomes.",
+    "response": "Multiply the number of outcomes at each stage to find the total number of outcomes.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "A cube shows 3 numbers and two coins each have 2 outcomes, so total outcomes = $3 \\times 2 \\times 2 = 12$.",
+    "notes": "Assumes independence of stages.",
+    "question_ids": [
+      "G7_U8_SB_a1_q1",
+      "G7_U8_SB_a1_q12",
+      "G7_U8_a1_q4",
+      "G7_U8_a1_q5"
+    ]
+  }
+]

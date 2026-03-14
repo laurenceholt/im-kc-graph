@@ -1,0 +1,356 @@
+[
+  {
+    "kc_id": "add_fractions_common_denominator",
+    "title": "Add Fractions with Common Denominator",
+    "description": "When adding fractions that share a common denominator, add the numerators and keep the denominator the same.",
+    "condition": "An expression of the form a/b + c/b where denominators are equal.",
+    "response": "Compute (a + c)/b and simplify if possible.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$-\\frac{7}{9} + \\frac{2}{9} = \\frac{-7+2}{9} = -\\frac{5}{9}$",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "add_signed_integers",
+    "title": "Add Signed Integers",
+    "description": "Add integers with the same or different signs by combining magnitudes and determining the sign from the larger magnitude.",
+    "condition": "An expression of the form a + b where a and/or b are signed integers.",
+    "response": "If signs are the same, add magnitudes and keep the sign; if different, subtract magnitudes and keep the sign of the number with greater absolute value.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$8 + (-11) = -3$; $-1 + 10 = 9$",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SA_a1_q1",
+      "G7_U5_SA_a1_q2",
+      "G7_U5_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "compute_position_signed_rate_time",
+    "title": "Compute Position from Signed Rate and Time",
+    "description": "Calculate position by multiplying signed rate by time, interpreting the sign of the product as direction.",
+    "condition": "Given a rate with sign (e.g., \u00b1r meters/second) and a time t, and asked for position relative to a reference point.",
+    "response": "Compute r \u00b7 t and interpret the sign of the product as direction (positive or negative).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a train travels at $10$ m/s for $-5$ seconds relative to a meeting time, compute $10 \\cdot (-5) = -50$, meaning $50$ meters in the negative (south) direction.",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_rate_as_change_over_time",
+    "title": "Compute Rate as Change Over Time",
+    "description": "Calculate a constant rate by dividing the change in a quantity by the elapsed time.",
+    "condition": "A situation gives an initial value, a final value, and elapsed time.",
+    "response": "Compute (final \u2212 initial) \u00f7 time.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From \u221225 ft to \u221216 ft in 6 s: \\((\u221216 \u2212 (\u221225)) \u00f7 6 = 9 \u00f7 6 = \\frac{3}{2}\\) ft/s.",
+    "notes": "Includes interpreting vertical position as signed numbers.",
+    "question_ids": [
+      "G7_U5_SC_a1_q3",
+      "G7_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "determine_sign_of_product_or_quotient",
+    "title": "Determine Sign of Product or Quotient",
+    "description": "Use sign rules to determine whether a product or quotient is positive or negative.",
+    "condition": "Multiplication or division of two signed numbers.",
+    "response": "State whether the result is positive or negative based on sign rules.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "$(-9)\\cdot \\tfrac{2}{3}$ is negative; $(-9)\\cdot(-\\tfrac{2}{3})$ is positive.",
+    "notes": "Rule: same signs \u2192 positive; different signs \u2192 negative.",
+    "question_ids": [
+      "G7_U5_a1_q1",
+      "G7_U5_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "divide_by_fraction_using_reciprocal",
+    "title": "Divide by a Fraction Using Its Reciprocal",
+    "description": "Rewrite division by a fraction as multiplication by its reciprocal.",
+    "condition": "Expression of the form $a \\div \\frac{b}{c}$ where $a, b, c$ are rational numbers and $b/c \\neq 0$.",
+    "response": "Rewrite as $a \\cdot \\frac{c}{b}$ and then multiply.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{3}{4} \\div \\left(-\\frac{1}{3}\\right) = \\frac{3}{4} \\cdot \\left(-\\frac{3}{1}\\right) = -\\frac{9}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "evaluate_time_using_rate",
+    "title": "Find Time from Rate and Distance",
+    "description": "Determine elapsed time by dividing total change in position by a known constant rate.",
+    "condition": "A constant rate and total change in quantity are given; time is unknown.",
+    "response": "Compute time = (total change) \u00f7 rate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From \u221216 ft to 5 ft is \\(5 \u2212 (\u221216) = 21\\) ft; time = \\(21 \u00f7 \\frac{3}{2} = 14\\) s.",
+    "notes": "Equivalent to solving a multiplication equation with rate \u00d7 time = change.",
+    "question_ids": [
+      "G7_U5_SC_a1_q3",
+      "G7_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_sign_of_fraction",
+    "title": "Identify Sign of a Fraction",
+    "description": "Determine whether a fraction is positive or negative from signs of numerator and denominator.",
+    "condition": "A fraction with signed numerator and/or denominator.",
+    "response": "Classify the fraction as positive or negative.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "$\\frac{15}{-4}$ is negative; $\\frac{-15}{-4}$ is positive.",
+    "notes": "Closely related to sign rules for division.",
+    "question_ids": [
+      "G7_U5_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_account_balance",
+    "title": "Interpret Account Balance Meaning",
+    "description": "Explain the meaning of a positive or negative account balance in context.",
+    "condition": "Given a signed account balance in a money context.",
+    "response": "State whether the person has money or owes money and by how much.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Balance $-6$ means the person owes $6.",
+    "notes": "Focus on conceptual interpretation, not computation.",
+    "question_ids": [
+      "G7_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "convert_word_to_signed_number",
+    "title": "Interpret Context as Signed Number",
+    "description": "Translate contextual phrases (e.g., below sea level, withdrawal, debt) into positive or negative numbers.",
+    "condition": "A real-world quantity described relative to a reference level (e.g., below sea level, debt).",
+    "response": "Represent the quantity with an appropriate signed number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "\"600 meters below sea level\" \u2192 $-600$.",
+    "notes": "Sign convention depends on reference level.",
+    "question_ids": [
+      "G7_U5_SA_a1_q2",
+      "G7_U5_a1_q2",
+      "G7_U5_a1_q6",
+      "G7_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "interpret_net_change_from_sum",
+    "title": "Interpret Net Change from Signed Sum",
+    "description": "Interpret the sign and value of a total signed sum as overall increase or decrease in context.",
+    "condition": "A real-world context modeled by a sum of signed numbers producing a total.",
+    "response": "State whether the result represents a net increase or decrease and by how much.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$-3 + 6 + 2 - 5 + 1 - 4 = -3$, so there are 3 fewer books at the end of the day.",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_or_divide_signed_numbers",
+    "title": "Multiply or Divide Signed Numbers",
+    "description": "Determine the sign and magnitude when multiplying or dividing two signed rational numbers.",
+    "condition": "Expression involving multiplication or division of two signed rational numbers.",
+    "response": "Multiply or divide absolute values and apply sign rules (same signs \u2192 positive; different signs \u2192 negative).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$-5 \\cdot (-11) = 55$ because the product of two negatives is positive; $-20 \\div (-4) = 5$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SB_a1_q1",
+      "G7_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_signed_decimals",
+    "title": "Multiply Signed Decimals",
+    "description": "Multiply decimal numbers and correctly place the decimal point and sign in the product.",
+    "condition": "Expression involving multiplication of signed decimals.",
+    "response": "Multiply as whole numbers, place the decimal based on total decimal places, and apply sign rules.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$(3.6)(-0.2) = -0.72$ because $36 \\cdot 2 = 72$ and there are two decimal places total.",
+    "notes": "",
+    "question_ids": [
+      "G7_U5_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_descending_as_negative_rate",
+    "title": "Represent Descending Motion with Negative Rate",
+    "description": "Model downward movement using a negative rate in an equation.",
+    "condition": "A situation describes descending or downward motion relative to a reference level.",
+    "response": "Assign a negative value to the rate or change.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Descending 2.5 ft/s is represented as \u22122.5 ft/s, leading to \\(\u22122.5x = \u221220\\).",
+    "notes": "Sign convention depends on defining upward as positive.",
+    "question_ids": [
+      "G7_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_signed_direction",
+    "title": "Represent Direction with Signed Numbers",
+    "description": "Use positive and negative numbers to represent opposite directions in a context.",
+    "condition": "A contextual situation involving opposite directions (e.g., north/south) that must be represented numerically.",
+    "response": "Assign one direction as positive and the opposite as negative, and represent quantities accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Let north be positive and south be negative. Then $10$ m/s north is $+10$, and $7$ m/s south is $-7$.",
+    "notes": "Choice of which direction is positive is conventional.",
+    "question_ids": [
+      "G7_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "solve_one_step_addition_equation",
+    "title": "Solve One-Step Addition Equation",
+    "description": "Solve equations of the form x + p = q by isolating the variable.",
+    "condition": "Equation of the form x + p = q with signed numbers.",
+    "response": "Subtract p from both sides to find x = q - p.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule",
+    "example": "$b + 14.5 = 10 \\Rightarrow b = 10 - 14.5 = -4.5$.",
+    "notes": "Includes negative constants. [merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G7_U5_SC_a1_q1",
+      "G7_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "divide_both_sides_coefficient",
+    "title": "Solve One-Step Multiplication Equation",
+    "description": "Solve equations of the form px = q by dividing both sides by p.",
+    "condition": "Equation of the form px = q, where p \u2260 0.",
+    "response": "Divide both sides by p to get x = q/p.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From \u22124b = 30, divide by \u22124: \\(b = 30 \u00f7 (\u22124) = \u22127.5\\).",
+    "notes": "Also used implicitly when solving \u22122.5x = \u221220.",
+    "question_ids": [
+      "G7_U5_SC_a1_q1",
+      "G7_U5_SC_a1_q2",
+      "G7_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "subtract_signed_numbers",
+    "title": "Subtract Signed Numbers",
+    "description": "Rewrite subtraction as addition of the opposite and compute the result.",
+    "condition": "Expression of the form a - b where a and/or b are signed rational numbers.",
+    "response": "Rewrite as a + (-b) and compute the sum.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$60 - (-80) = 60 + 80 = 140$.",
+    "notes": "Also used in expressions like $y - x$.",
+    "question_ids": [
+      "G7_U5_SA_a1_q1",
+      "G7_U5_a1_q3",
+      "G7_U5_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "translate_rate_situation_to_equation",
+    "title": "Translate Rate Situation to Multiplication Equation",
+    "description": "Represent a constant-rate situation with an equation of the form px = q.",
+    "condition": "A word problem describes constant rate and total change with unknown time.",
+    "response": "Write an equation rate \u00d7 time = total change.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Descending 2.5 ft/s for x seconds to reach \u221220 ft: \\(\u22122.5x = \u221220\\).",
+    "notes": "Requires identifying variables and consistent sign conventions.",
+    "question_ids": [
+      "G7_U5_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "sequential_account_balance",
+    "title": "Update Account Balance Sequentially",
+    "description": "Update a running total by adding each transaction amount to the previous balance.",
+    "condition": "Given prior balance B and transaction amount t.",
+    "response": "Compute new balance B + t.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Starting $57$, then $57 + (-25) = 32$.",
+    "notes": "Repeated application across multiple rows.",
+    "question_ids": [
+      "G7_U5_a1_q6"
+    ]
+  }
+]

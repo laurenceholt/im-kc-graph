@@ -1,0 +1,264 @@
+[
+  {
+    "kc_id": "approximate_irregular_region_as_rectangle",
+    "title": "Approximate Irregular Shape with Rectangle",
+    "description": "Estimate the area of an irregular region by modeling it as a rectangle.",
+    "condition": "An irregular region is given and dimensions can be reasonably approximated by length and width.",
+    "response": "Treat the region as a rectangle and identify approximate length and width.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Model the park as a rectangle about 50 mi wide and 60 mi tall.",
+    "notes": "Estimation strategy; approximation justified informally.",
+    "question_ids": [
+      "G7_U1_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "scale_area_by_square_factor",
+    "title": "Area Scales by Square of Scale Factor",
+    "description": "Understand that when lengths are scaled by a factor $k$, areas are scaled by $k^2$.",
+    "condition": "Given a scale factor $k$ between similar figures.",
+    "response": "Multiply area by $k^2$ to find the new area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a figure is scaled by $\\tfrac{1}{2}$, its area is scaled by $\\left(\\tfrac{1}{2}\\right)^2 = \\tfrac{1}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_a1_q1",
+      "G7_U1_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "check_angle_congruence_for_similarity",
+    "title": "Check Corresponding Angles for Congruence",
+    "description": "Determine whether all corresponding angles in two figures are equal when assessing if they are scaled copies.",
+    "condition": "Given two figures with labeled corresponding angle measures.",
+    "response": "Verify that each pair of corresponding angles has equal measure.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If one figure has angles $90^\\circ, 135^\\circ, 45^\\circ$ and the other has the same three measures in corresponding positions, then the angles are congruent.",
+    "notes": "Equality of all corresponding angles is required for scaled copies.",
+    "question_ids": [
+      "G7_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "check_proportional_side_lengths",
+    "title": "Check Proportional Side Lengths",
+    "description": "Determine whether corresponding side lengths of two figures are related by a single common scale factor.",
+    "condition": "Given two figures with corresponding side lengths identified.",
+    "response": "Compute ratios of corresponding sides and verify they are all equal.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If corresponding sides are $4$ and $8$, $5$ and $10$, $7$ and $14$, then the ratios are $\\frac{8}{4}=2$, $\\frac{10}{5}=2$, $\\frac{14}{7}=2$, so the scale factor is consistent.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_area_rectangle",
+    "title": "Compute Area of a Rectangle",
+    "description": "Find the area of a rectangle by multiplying its length by its width.",
+    "condition": "Given a rectangle with known length and width.",
+    "response": "Multiply length \u00d7 width to compute area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a rectangle is 240 ft by 200 ft, then area $= 240 \\times 200 = 48{,}000$ square feet.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_SB_a1_q1",
+      "G7_U1_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "conclude_scaled_copy",
+    "title": "Conclude Figures Are Scaled Copies",
+    "description": "Determine that two figures are scaled copies when corresponding angles are equal and corresponding sides are proportional.",
+    "condition": "Given two figures where all corresponding angles are congruent and all corresponding side lengths share a common ratio.",
+    "response": "State that the figures are scaled copies (similar).",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If all corresponding angles match and each side length in Figure B is $2$ times the corresponding side in Figure A, then Figure B is a scaled copy of Figure A.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_units_within_system",
+    "title": "Convert Units Within a Measurement System",
+    "description": "Convert measurements within the same system using known conversion factors (e.g., meters to centimeters).",
+    "condition": "Given a measurement and a required unit within the same system.",
+    "response": "Multiply or divide by the appropriate conversion factor (e.g., $1\\text{ m} = 100\\text{ cm}$).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$1.2\\text{ m} = 1.2 \\times 100 = 120\\text{ cm}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_corresponding_parts_similar_figures",
+    "title": "Identify Corresponding Parts in Similar Figures",
+    "description": "Match corresponding sides or angles between a figure and its scaled copy based on vertex order or structure.",
+    "condition": "Given two similar figures with labeled vertices.",
+    "response": "Determine which sides or angles correspond based on consistent vertex order.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If quadrilateral $ABCD$ is a scaled copy of $EFGH$, then side $AB$ corresponds to $EF$ and angle $ADC$ corresponds to angle $EHG$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_non_scaled_copy",
+    "title": "Identify Non-Scaled Copy",
+    "description": "Determine that two figures are not scaled copies if either corresponding angles differ or side ratios are inconsistent.",
+    "condition": "Given two figures where at least one pair of corresponding angles is unequal or side length ratios are not all equal.",
+    "response": "State that the figures are not scaled copies.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If corresponding sides have ratios $\\frac{6}{9}=\\frac{2}{3}$ and $\\frac{9}{12}=\\frac{3}{4}$, the ratios differ, so the figures are not scaled copies.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_scale_ratio_statement",
+    "title": "Interpret Stated Scale Ratio",
+    "description": "Understand a written scale such as 1 inch to 4 miles as a multiplicative relationship.",
+    "condition": "A scale is stated in the form 1 unit on map equals k units in reality (e.g., 1 in : 4 mi).",
+    "response": "Recognize that each 1 unit on the map corresponds to k actual units and set up proportional reasoning.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A scale of 1 in : 4 mi means every 1 inch on the map represents 4 miles in reality.",
+    "notes": "Conventional meaning of scale notation.",
+    "question_ids": [
+      "G7_U1_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_angles_preserved_in_scaling",
+    "title": "Recognize Angles Are Preserved Under Scaling",
+    "description": "Understand that scaling a figure changes side lengths proportionally but preserves angle measures.",
+    "condition": "Given a figure and a scale factor applied to create a scaled copy.",
+    "response": "Keep all corresponding angle measures the same in the scaled figure.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the original triangle has angles $30^\\circ$, $60^\\circ$, and $90^\\circ$, the scaled copy also has angles $30^\\circ$, $60^\\circ$, and $90^\\circ$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_SA_a1_q2",
+      "G7_U1_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "scale_length_by_factor",
+    "title": "Scale Length by Scale Factor",
+    "description": "Multiply or divide a length by a scale factor to move between original and scaled figures.",
+    "condition": "Given a length and a scale factor between figures.",
+    "response": "Multiply (to enlarge) or divide (to reduce) by the scale factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "At a scale of $1:40$, an actual length of $6\\text{ m}$ becomes $6 \\div 40 = 0.15\\text{ m}$ on the drawing.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_SA_a1_q2",
+      "G7_U1_SB_a1_q1",
+      "G7_U1_a1_q1",
+      "G7_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "set_up_proportion_from_scale",
+    "title": "Set Up Proportion from Scale Statement",
+    "description": "Translate a scale statement into a proportion relating map and actual distances.",
+    "condition": "Given a scale such as 3 cm represents 5 km.",
+    "response": "Write and solve a proportion relating map distance to actual distance.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $3\\text{ cm} : 5\\text{ km}$, then $\\frac{3}{5} = \\frac{x}{15}$, so $x = 9\\text{ cm}$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_a1_q5",
+      "G7_U1_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "apply_scale_bar_to_find_actual_length",
+    "title": "Use Scale Bar to Determine Actual Distance",
+    "description": "Given a measured map length and a scale bar, determine the corresponding actual distance.",
+    "condition": "A map length is measured and a scale bar shows a known map-to-actual distance relationship.",
+    "response": "Use proportional reasoning to convert the measured map length to actual distance.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 1 cm on the map represents 20 miles and the south border measures 2.5 cm, then actual length is $2.5 \\times 20 = 50$ miles.",
+    "notes": "Core scale reasoning skill.",
+    "question_ids": [
+      "G7_U1_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "verify_equivalent_ratios",
+    "title": "Verify Equivalent Ratios",
+    "description": "Determine whether two ratios are equivalent by simplifying or comparing multiplicative factors.",
+    "condition": "Given two pairs of numbers claimed to form equal ratios.",
+    "response": "Simplify or scale both ratios to check for equivalence.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Check if $40:10$ matches $8:2$. Since $40 \\div 8 = 5$ and $10 \\div 2 = 5$, the ratios are equivalent.",
+    "notes": "",
+    "question_ids": [
+      "G7_U1_a1_q2"
+    ]
+  }
+]

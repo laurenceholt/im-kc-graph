@@ -1,0 +1,353 @@
+[
+  {
+    "kc_id": "add_interest_to_principal",
+    "title": "Add Interest to Principal",
+    "description": "After computing the interest amount, add it to the original principal to find the total cost.",
+    "condition": "Given an original amount and a computed interest amount to be added.",
+    "response": "Add the interest amount to the original amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the original cost is $143 and the interest is $2.86, then total cost = $143 + $2.86 = $145.86$.",
+    "notes": "Can also be combined with multiplier method.",
+    "question_ids": [
+      "G7_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "add_percent_increase_to_original",
+    "title": "Add Percent Increase to Original Amount",
+    "description": "After finding a percent increase, add it to the original amount to get the new total.",
+    "condition": "An original amount and its percent increase are known.",
+    "response": "Add the percent increase amount to the original amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A 40% increase on $250$: increase = $100$, so new total = $250 + 100 = 350$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SB_a1_q2",
+      "G7_U4_SC_a1_q1",
+      "G7_U4_a1_q4",
+      "G7_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "calculate_percent_decrease",
+    "title": "Calculate Percent Decrease",
+    "description": "Compute the percent decrease by dividing the decrease amount by the original value and converting to a percentage.",
+    "condition": "Given an original value and a smaller new value, and asked for percent decrease.",
+    "response": "Compute (original \u2212 new) \u00f7 original and convert to a percent.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Original = 56, New = 49. Decrease = 56 \u2212 49 = 7. Percent decrease = $\\frac{7}{56} = 0.125 = 12.5\\%$.",
+    "notes": "Emphasizes dividing by the original value, not the new value.",
+    "question_ids": [
+      "G7_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "calculate_percent_error",
+    "title": "Calculate Percent Error",
+    "description": "Compute percent error by dividing the absolute difference between measured and actual values by the actual value and converting to a percentage.",
+    "condition": "Given an actual value and a measured value, asked to find percent error.",
+    "response": "Compute $\\frac{|\\text{measured} - \\text{actual}|}{\\text{actual}} \\times 100\\%$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Actual = 17.6, Measured = 16.5. Percent error = $\\frac{|16.5 - 17.6|}{17.6} \\times 100\\% = \\frac{1.1}{17.6} \\times 100\\% = 6.25\\%$.",
+    "notes": "Use actual (correct) value in denominator, not measured value.",
+    "question_ids": [
+      "G7_U4_SC_a1_q2",
+      "G7_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "combine_like_terms_fractional",
+    "title": "Combine Like Terms with Fractional Coefficients",
+    "description": "Combine terms with the same variable, including fractional coefficients.",
+    "condition": "Expression of the form x + a x, where a is a fraction.",
+    "response": "Add coefficients: (1 + a)x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$x + \\frac{3}{5}x = \\left(1 + \\frac{3}{5}\\right)x = \\frac{8}{5}x$",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_difference",
+    "title": "Compute Difference Between Two Quantities",
+    "description": "Find the change amount by subtracting one quantity from another.",
+    "condition": "Given two related quantities and asked for the increase or decrease amount.",
+    "response": "Subtract to find the difference (larger \u2212 smaller or original \u2212 new as context requires).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Time decreased from 56 to 49 minutes, so decrease = $56 - 49 = 7$ minutes.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compute_percent_of_quantity",
+    "title": "Compute Percent of a Quantity",
+    "description": "Calculate a percent of a number by converting the percent to a decimal or fraction and multiplying.",
+    "condition": "A percent p% and a quantity x are given.",
+    "response": "Compute (p/100) \u00d7 x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "15% of 25 is $0.15 \\times 25 = 3.75$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SC_a1_q1",
+      "G7_U4_a1_q20",
+      "G7_U4_a1_q4",
+      "G7_U4_a1_q5",
+      "G7_U4_a1_q6",
+      "G7_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compute_unit_rate",
+    "title": "Compute Unit Rate (Speed)",
+    "description": "Find a unit rate by dividing one quantity by another (e.g., distance divided by time for speed).",
+    "condition": "Two related quantities are given and a rate per one unit is requested.",
+    "response": "Divide the first quantity by the second in the correct order.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Distance $\\frac{1}{3}$ mile in $\\frac{1}{24}$ hour: $\\frac{1/3}{1/24} = 8$ miles per hour.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "convert_decimal_to_percent",
+    "title": "Convert Decimal to Percent",
+    "description": "Convert a decimal to a percent by multiplying by 100 and adding the percent symbol.",
+    "condition": "Given a decimal representation of a ratio.",
+    "response": "Multiply by 100 and append the percent symbol.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$0.125 \\times 100 = 12.5\\%$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "convert_fraction_to_decimal_long_division",
+    "title": "Convert Fraction to Decimal Using Long Division",
+    "description": "Generate the decimal representation of a fraction by dividing numerator by denominator.",
+    "condition": "Given a fraction a/b where a < b or not easily converted to a terminating decimal.",
+    "response": "Divide a by b using long division to obtain decimal form (possibly repeating).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{5}{12} = 5 \\div 12 = 0.41\\overline{6}$",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "convert_percent_to_decimal",
+    "title": "Convert Percent to Decimal",
+    "description": "Convert a percentage to its decimal form for computation.",
+    "condition": "Given a percent value.",
+    "response": "Divide the percent by 100 to express it as a decimal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$2\\% = \\frac{2}{100} = 0.02$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SB_a1_q2",
+      "G7_U4_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "determine_markup_percent",
+    "title": "Determine Markup Percent",
+    "description": "Find markup percent by dividing the difference between selling price and cost by the cost.",
+    "condition": "Cost price and selling price are given.",
+    "response": "Compute (selling price \u2212 cost) / cost \u00d7 100%.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Cost $200$, sell $350$: markup $=150$, percent $=150/200=75\\%$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "multiply_by_reciprocal_to_divide_fraction",
+    "title": "Divide Fractions by Multiplying by Reciprocal",
+    "description": "Divide one fraction by another by multiplying by the reciprocal of the divisor.",
+    "condition": "Expression of the form (a/b) \u00f7 (c/d).",
+    "response": "Compute (a/b) \u00d7 (d/c).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{7}{8} \\div \\frac{1}{3} = \\frac{7}{8} \\times \\frac{3}{1} = \\frac{21}{8}$",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "find_absolute_difference",
+    "title": "Find Absolute Difference",
+    "description": "Determine the positive difference between two quantities.",
+    "condition": "Given two numerical values to compare.",
+    "response": "Subtract the values and take the absolute value of the result.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Difference between $17.6$ and $16.5$ is $|16.5 - 17.6| = 1.1$.",
+    "notes": "Ensures percent error is nonnegative.",
+    "question_ids": [
+      "G7_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "form_proportional_equation",
+    "title": "Form Proportional Relationship Equation",
+    "description": "Represent a proportional relationship between two quantities with an equation of the form y = kx.",
+    "condition": "Two quantities are in a proportional relationship and one unit rate is known.",
+    "response": "Write an equation relating the variables using the constant of proportionality.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $9\\tfrac{1}{3}$ cups make 4 cakes, then $c = \\frac{3}{7}f$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_fractional_increase_expression",
+    "title": "Represent Fractional Increase Algebraically",
+    "description": "Translate 'a fraction more than x' into an algebraic expression.",
+    "condition": "Phrase of the form 'x increased by a fraction a of x' or 'a more than x'.",
+    "response": "Write x + a x (or equivalent form such as (1 + a)x).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If Farm B harvested $\\frac{3}{5}$ more than $x$, then $x + \\frac{3}{5}x$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_proportional_relationship",
+    "title": "Scale a Proportional Relationship",
+    "description": "Use a known ratio to find an equivalent amount by scaling multiplicatively.",
+    "condition": "Given a proportional relationship between two quantities and a new amount for one quantity.",
+    "response": "Multiply the known rate by the scale factor to find the corresponding amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $\\frac{7}{8}$ lb per $\\frac{1}{3}$ gal, then for 1 gal multiply by 3: $\\frac{7}{8} \\times 3 = \\frac{21}{8}$ lb.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "simplify_fraction",
+    "title": "Simplify a Fraction",
+    "description": "Rewrite a fraction in lowest terms by dividing numerator and denominator by a common factor.",
+    "condition": "Fraction with common factors in numerator and denominator.",
+    "response": "Divide numerator and denominator by their greatest common factor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "Yes",
+    "label": "Production / Skill",
+    "example": "$\\frac{24}{21} = \\frac{8}{7}$ after dividing by 3.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_percent_equation",
+    "title": "Solve Equation Involving Percent Multiplier",
+    "description": "Solve equations of the form ax = b where a represents a percent multiplier.",
+    "condition": "An equation like 0.7x = 28 is given.",
+    "response": "Divide both sides by the coefficient of x to isolate x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "If $0.7x = 28$, then $x = 28 / 0.7 = 40$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "subtract_percent_discount",
+    "title": "Subtract Percent Discount from Original",
+    "description": "Find the discounted price by subtracting the percent of the original price.",
+    "condition": "An original price and percent discount are given.",
+    "response": "Compute original \u2212 (percent \u00d7 original).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$25$ with 15% off: $25 \u2212 (0.15 \\times 25) = 21.25$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U4_a1_q5",
+      "G7_U4_a1_q6"
+    ]
+  }
+]

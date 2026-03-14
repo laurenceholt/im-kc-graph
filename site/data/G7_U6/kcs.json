@@ -1,0 +1,436 @@
+[
+  {
+    "kc_id": "add_constant_to_linear_expression",
+    "title": "Add Constant to Linear Term",
+    "description": "Combine a linear term and a constant to compute total cost or value.",
+    "condition": "An expression of the form a\u00b7n + b with given values for a, n, and b.",
+    "response": "Compute a\u00b7n and then add b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For 20 bracelets, compute $5.3(20)+250 = 106 + 250 = 356$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "add_same_number_both_sides",
+    "title": "Add the Same Number to Both Sides",
+    "description": "To isolate a variable, add the same number to both sides of an equation to maintain equality.",
+    "condition": "Equation of the form px + q = r where a constant term q must be removed by addition (e.g., px - 8 = -22).",
+    "response": "Add the opposite of q to both sides of the equation.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Solve $7p - 8 = -22$ by adding 8 to both sides: \n$7p - 8 + 8 = -22 + 8$.",
+    "notes": "Based on properties of equality.",
+    "question_ids": [
+      "G7_U6_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "apply_distributive_property",
+    "title": "Apply Distributive Property",
+    "description": "Multiply a factor across all terms inside parentheses.",
+    "condition": "An expression of the form a(b + c).",
+    "response": "Rewrite as ab + ac.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$3(x+8)=3x+24$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SB_a1_q1",
+      "G7_U6_SD_a1_q2",
+      "G7_U6_a1_q4",
+      "G7_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "combine_like_terms",
+    "title": "Combine Like Terms",
+    "description": "Add or subtract coefficients of terms that have the same variable part to simplify an expression.",
+    "condition": "An expression contains two or more terms with identical variable parts (e.g., ax and bx, or ay and by).",
+    "response": "Add or subtract the coefficients and keep the common variable part.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Combine $7x - 2x$ to get $(7 - 2)x = 5x$, and $10y + 8y = 18y$, so $7x + 10y - 2x + 8y = 5x + 18y$.",
+    "notes": "Relies on the distributive property and properties of operations.",
+    "question_ids": [
+      "G7_U6_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "define_variable_in_context",
+    "title": "Define Variable Meaning in Context",
+    "description": "State what an algebraic variable represents in a real-world situation.",
+    "condition": "A contextual problem modeled with a variable (e.g., x in a cost equation).",
+    "response": "Explicitly state what quantity the variable represents in the situation.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "For $36x + 17 = 468$, state: \"$x$ represents the cost of each workbook.\"",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SA_a1_q2",
+      "G7_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "distribute_negative_one",
+    "title": "Distribute a Negative Across Parentheses",
+    "description": "Apply subtraction or multiplication by \u22121 to each term inside parentheses.",
+    "condition": "An expression of the form A \u2212 (B + C) or \u22121(B + C).",
+    "response": "Change the sign of each term inside the parentheses.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$(7x + 10y) - (2x + 8y) = 7x + 10y - 2x - 8y$.",
+    "notes": "Special case of the distributive property with \u22121.",
+    "question_ids": [
+      "G7_U6_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "divide_both_sides",
+    "title": "Divide Both Sides of Equation",
+    "description": "Isolate a variable by dividing both sides of an equation by the same nonzero number.",
+    "condition": "An equation of the form a\u00b7x = c where a \u2260 0.",
+    "response": "Divide both sides by a to get x = c/a.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $4x=12$, divide by 4 to get $x=3$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SB_a1_q1",
+      "G7_U6_SB_a1_q2",
+      "G7_U6_a1_q1",
+      "G7_U6_a1_q4",
+      "G7_U6_a1_q5",
+      "G7_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "evaluate_linear_expression",
+    "title": "Evaluate Linear Expression",
+    "description": "Substitute a given value into a linear expression and compute the result.",
+    "condition": "A linear expression in n and a specific value for n.",
+    "response": "Substitute the value and simplify.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If cost is $5.3n+250$, for $n=40$: $5.3(40)+250=462$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "factor_greatest_common_factor",
+    "title": "Factor Out the Greatest Common Factor",
+    "description": "Rewrite a sum of terms as a product by factoring out their greatest common factor (GCF).",
+    "condition": "An expression where all terms share a common numerical and/or variable factor.",
+    "response": "Divide each term by the GCF and write the expression as GCF(parenthetical expression).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$-12a + 30b - 18 = 6(-2a + 5b - 3)$.",
+    "notes": "Students may factor out a negative instead (e.g., -6(2a - 5b + 3)), which is equivalent.",
+    "question_ids": [
+      "G7_U6_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "graph_strict_inequality_number_line",
+    "title": "Graph a Strict Inequality on a Number Line",
+    "description": "Represent the solution to a strict inequality (< or >) on a number line using an open circle at the boundary and shading in the correct direction.",
+    "condition": "Given a solution to a one-variable inequality of the form x > a or x < a.",
+    "response": "Place an open circle at a and shade to the right for > or to the left for <.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For $x > 10$, draw an open circle at 10 and shade to the right.",
+    "notes": "Open circle indicates the endpoint is not included.",
+    "question_ids": [
+      "G7_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_equals_as_total",
+    "title": "Interpret Equals Sign as Total Amount",
+    "description": "Understand that the equals sign indicates the total value represented by an expression.",
+    "condition": "An equation of the form expression = r representing a situation or diagram.",
+    "response": "Interpret r as the total amount represented by the expression.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In $5(x + 4) = 80$, the 80 represents the total of the five equal parts.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SA_a1_q1",
+      "G7_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_inequality_in_context",
+    "title": "Interpret Inequality Solution in Context",
+    "description": "Translate the algebraic solution of an inequality into a meaningful statement about the real-world situation.",
+    "condition": "Given a solved inequality representing a contextual situation (e.g., x > 10 where x is weeks).",
+    "response": "State what the solution means in context, including units and reference to the situation.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If $x > 10$ and $x$ is weeks, then the farmer will have less than 50 cubic yards of sawdust after 10 weeks.",
+    "notes": "Requires connecting algebraic result back to quantities and units in the problem.",
+    "question_ids": [
+      "G7_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "model_total_with_additional_constant",
+    "title": "Model Total with Additional Constant",
+    "description": "Translate a situation with a per-unit cost and an additional fixed fee into an equation of the form px + q = r.",
+    "condition": "A context describing p equal groups at cost x each plus an additional fixed amount q, with total r given.",
+    "response": "Write an equation of the form px + q = r.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "36 workbooks at $x dollars each plus $17 shipping totals $468: \\(36x + 17 = 468\\).",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SA_a1_q1",
+      "G7_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_by_reciprocal",
+    "title": "Multiply by Reciprocal",
+    "description": "Solve equations with fractional coefficients by multiplying both sides by the reciprocal.",
+    "condition": "An equation of the form (1/a)x = c or a fraction multiplied by an expression equals a number.",
+    "response": "Multiply both sides by a (the reciprocal) to isolate x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $\\frac{1}{3}x=-12$, multiply both sides by 3 to get $x=-36$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_a1_q4",
+      "G7_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "recognize_equivalent_forms",
+    "title": "Recognize Equivalent Linear Forms",
+    "description": "Distinguish between expressions of the form ax + b and a(x + b) and interpret structural differences.",
+    "condition": "Two algebraic expressions with and without parentheses (e.g., 3x+6 vs. 3(x+6)).",
+    "response": "Identify whether the constant is inside or outside the multiplication and interpret accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$3x+6$ means three groups plus 6; $3(x+6)$ means three groups of (x+6).",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_a1_q2",
+      "G7_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "represent_repeated_groups_with_multiplication",
+    "title": "Represent Repeated Groups with Multiplication",
+    "description": "Recognize that multiple equal groups of the same expression are represented using multiplication.",
+    "condition": "A diagram or situation shows p equal groups, each containing the same quantity (e.g., x + k).",
+    "response": "Write or interpret the total as p(x + k).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Five equal parts each labeled $x + 4$ are represented as $5(x + 4)$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "reverse_inequality_when_dividing_negative",
+    "title": "Reverse Inequality When Dividing by a Negative",
+    "description": "When solving an inequality, reverse the inequality symbol if multiplying or dividing both sides by a negative number.",
+    "condition": "An inequality is multiplied or divided by a negative value during solving.",
+    "response": "Reverse the direction of the inequality symbol.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $-7x < -70$, divide by $-7$ and reverse the sign to get $x > 10$.",
+    "notes": "Follows from order properties of real numbers.",
+    "question_ids": [
+      "G7_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_variable_in_parentheses",
+    "title": "Solve Equation with Variable in Parentheses",
+    "description": "Solve equations of the form p(x + q) = r by dividing or distributing, then isolating the variable.",
+    "condition": "Equation of the form p(x + q) = r.",
+    "response": "Either divide both sides by p first or distribute p, then isolate x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Solve $2(a + 3.6) = 44$: divide by 2 to get $a + 3.6 = 22$, then subtract 3.6.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SB_a1_q1",
+      "G7_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "isolate_variable_two_step",
+    "title": "Solve Two-Step Linear Equation",
+    "description": "Solve an equation requiring two inverse operations to isolate the variable.",
+    "condition": "An equation of the form ax + b = c or a(x + b) = c.",
+    "response": "Use inverse operations (subtract/add, then divide/multiply) to solve for x.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Solve $4x+8=20$: subtract 8 \u2192 $4x=12$, divide by 4 \u2192 $x=3$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SB_a1_q1",
+      "G7_U6_a1_q1",
+      "G7_U6_a1_q4",
+      "G7_U6_a1_q5",
+      "G7_U6_a1_q6",
+      "G7_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "solve_two_step_linear_inequality",
+    "title": "Solve Two-Step Linear Inequality",
+    "description": "Isolate the variable in a linear inequality of the form px + q < r or px + q > r using inverse operations.",
+    "condition": "Given a linear inequality in one variable with two operations (e.g., px + q < r).",
+    "response": "Use inverse operations to isolate the variable and express the solution as an inequality.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Solve $-7x + 120 < 50$: subtract 120 to get $-7x < -70$, then divide by $-7$ and reverse the sign to obtain $x > 10$.",
+    "notes": "Includes applying the negative-division principle when necessary.",
+    "question_ids": [
+      "G7_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "subtract_constant_from_both_sides",
+    "title": "Subtract Constant from Both Sides",
+    "description": "Use inverse addition to isolate a variable term in a linear equation.",
+    "condition": "An equation of the form x + b = c or ax + b = c.",
+    "response": "Subtract b from both sides.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From $4x+8=20$, subtract 8 to get $4x=12$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_SB_a1_q1",
+      "G7_U6_a1_q1",
+      "G7_U6_a1_q4",
+      "G7_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "construct_linear_equation_from_context",
+    "title": "Translate Context to Linear Equation",
+    "description": "Represent a verbal situation with a linear equation in one variable.",
+    "condition": "A word problem describing a total as a combination of equal groups and/or constants.",
+    "response": "Write an equation of the form ax + b = c or a(x + b) = c that matches the context.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Four equal weights plus 8 grams equals 20 grams \u2192 $4x + 8 = 20$.",
+    "notes": "",
+    "question_ids": [
+      "G7_U6_a1_q1",
+      "G7_U6_a1_q2",
+      "G7_U6_a1_q3",
+      "G7_U6_a1_q6",
+      "G7_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "translate_equal_groups_word_problem",
+    "title": "Translate Equal-Groups Situation to Equation",
+    "description": "Represent a word problem describing equal daily amounts and a total as a multiplication equation.",
+    "condition": "Word problem describing a constant daily amount over a fixed number of days totaling a known sum.",
+    "response": "Write an equation of the form n(base + x) = total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Andre runs 7 days at $(3.1 + x)$ miles each for 35 miles total: \n$7(3.1 + x) = 35$.",
+    "notes": "Modeling convention linking repeated addition to multiplication.",
+    "question_ids": [
+      "G7_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "write_linear_inequality_from_context",
+    "title": "Write Linear Inequality from Context",
+    "description": "Translate a real-world situation with a decreasing or increasing quantity and a comparison statement into a linear inequality.",
+    "condition": "Given a context describing an initial amount, a constant rate of change, and a comparison such as 'less than' or 'greater than.'",
+    "response": "Define a variable and write a linear inequality representing the situation.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Let $x$ be the number of weeks. The amount of sawdust left is $120 - 7x$. For less than 50 cubic yards: $120 - 7x < 50$.",
+    "notes": "Requires identifying initial value, rate, and inequality phrase.",
+    "question_ids": [
+      "G7_U6_SC_a1_q1"
+    ]
+  }
+]
