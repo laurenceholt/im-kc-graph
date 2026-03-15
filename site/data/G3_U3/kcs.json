@@ -1,0 +1,511 @@
+[
+  {
+    "kc_id": "add_multi_digit_standard_algorithm",
+    "title": "Add Multi-Digit Numbers Using Standard Algorithm",
+    "description": "Add two three-digit numbers by aligning place values and adding ones, tens, and hundreds, including regrouping when needed.",
+    "condition": "Two multi-digit numbers (up to 1,000) written vertically and aligned by place value.",
+    "response": "Add digits by place from right to left, regrouping as needed, and write the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Compute \\(684 + 237\\): add ones \\(4+7=11\\) (write 1, carry 1), tens \\(8+3+1=12\\) (write 2, carry 1), hundreds \\(6+2+1=9\\). Result: \\(921\\).",
+    "notes": "Procedural fluency expectation in Grade 3.",
+    "question_ids": [
+      "G3_U3_SA_a1_q1",
+      "G3_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "add_partial_differences",
+    "title": "Add Partial Differences",
+    "description": "Combine multiple addends representing partial differences to find a total difference.",
+    "condition": "Given several addends that represent incremental amounts between two numbers",
+    "response": "Add the partial amounts to find the total difference",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given partial sums $200 + 30 + 2 + 1$, compute $200 + 30 + 2 + 1 = 233$.",
+    "notes": "Relies on understanding that total difference equals sum of increments.",
+    "question_ids": [
+      "G3_U3_SA_a1_q1",
+      "G3_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "add_three_digit_with_regroup",
+    "title": "Add Three-Digit Numbers With Regrouping",
+    "description": "Add two three-digit numbers and compose a ten or hundred when a place-value sum is 10 or more.",
+    "condition": "Two three-digit numbers are added and at least one place-value sum is 10 or greater.",
+    "response": "Add by place value, compose a ten or hundred as needed, and combine all place values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$389 + 415$: ones $9+5=14$ (compose 1 ten), tens $80+10+10=100$ (compose 1 hundred), hundreds $300+400+100=800$, so total $804$.",
+    "notes": "Includes composing across multiple places.",
+    "question_ids": [
+      "G3_U3_a1_q2",
+      "G3_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "add_three_digit_no_regroup",
+    "title": "Add Three-Digit Numbers Without Regrouping",
+    "description": "Add two three-digit numbers by adding hundreds, tens, and ones separately when no place requires composing a new unit.",
+    "condition": "Two three-digit numbers are added and the sum in each place value (ones, tens, hundreds) is less than 10 in that place.",
+    "response": "Add hundreds, tens, and ones separately and combine the partial sums.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$256 + 123 = (200+100) + (50+20) + (6+3) = 300 + 70 + 9 = 379$",
+    "notes": "Assumes place value decomposition is understood.",
+    "question_ids": [
+      "G3_U3_a1_q2",
+      "G3_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "addition_subtraction_inverse",
+    "title": "Addition and Subtraction as Inverses",
+    "description": "Recognize that subtraction undoes addition and can be used to find a missing addend or difference.",
+    "condition": "A difference $a-b$ is unknown or a related addition equation $b+?=a$ is considered.",
+    "response": "Use addition to find the missing amount or confirm the difference.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "To find $541-228$, solve $228 + ? = 541$. Adding $300+10+3=313$.",
+    "notes": "Supports add-on strategy for subtraction.",
+    "question_ids": [
+      "G3_U3_SB_a1_q2",
+      "G3_U3_a1_q3",
+      "G3_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compute_total_with_product_and_sum",
+    "title": "Combine Product and Sum",
+    "description": "Multiply equal groups, then add to another quantity to find a total.",
+    "condition": "A situation includes equal groups (a \u00d7 b) and an additional amount to combine.",
+    "response": "First compute the product a \u00d7 b, then add it to the additional amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$138 + (3 \\times 8) = 138 + 24 = 162$",
+    "notes": "Requires understanding order of operations through grouping.",
+    "question_ids": [
+      "G3_U3_SD_a1_q2",
+      "G3_U3_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "addition_commutative_property",
+    "title": "Commutative Property of Addition",
+    "description": "Recognize that changing the order of addends does not change the sum.",
+    "condition": "An addition expression $a+b$ is compared with $b+a$.",
+    "response": "State that the sums are equal.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$5+1 = 1+5 = 6$.",
+    "notes": "Used to explain diagonal pattern of equal sums.",
+    "question_ids": [
+      "G3_U3_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compensation_strategy_add_sub",
+    "title": "Compensation Strategy for Addition or Subtraction",
+    "description": "Adjust one number to a friendly number and compensate to keep the value of the expression the same.",
+    "condition": "An addition or subtraction problem includes a number close to a benchmark (e.g., 299 near 300).",
+    "response": "Adjust the number to a nearby benchmark and compensate by adding or subtracting the same amount.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$537 - 299 = 537 - 300 + 1 = 238$.",
+    "notes": "Requires understanding of maintaining equality.",
+    "question_ids": [
+      "G3_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "diagonal_constant_sum_pattern",
+    "title": "Constant Sum Along Diagonal in Addition Table",
+    "description": "Recognize that moving one step up and one step right in an addition table keeps the sum constant because one addend decreases by 1 while the other increases by 1.",
+    "condition": "In an addition table, one addend increases by 1 while the other decreases by 1.",
+    "response": "Conclude that the sum remains the same.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$5+1=6$, $4+2=6$, $3+3=6$ \u2014 each pair sums to 6.",
+    "notes": "Explains diagonal line of equal sums.",
+    "question_ids": [
+      "G3_U3_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_up_to_find_difference",
+    "title": "Count Up to Find a Difference",
+    "description": "Find a subtraction result by determining how much must be added to the subtrahend to reach the minuend.",
+    "condition": "Given a subtraction expression $a - b$",
+    "response": "Determine the amount that must be added to $b$ to reach $a$",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To find $731 - 498$, count up: $498 + 2 = 500$, $+200 = 700$, $+30 = 730$, $+1 = 731$. Total added $= 233$.",
+    "notes": "Uses inverse relationship between addition and subtraction.",
+    "question_ids": [
+      "G3_U3_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "determine_greatest_rounding_to_ten",
+    "title": "Determine Greatest Number That Rounds to a Given Ten",
+    "description": "Identify the greatest whole number that rounds to a specified multiple of 10.",
+    "condition": "Given a target multiple of 10 (e.g., 280) and asked for the greatest whole number that rounds to it.",
+    "response": "State the number 4 greater than the target ten (e.g., 284 for 280).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For 280, the greatest number that rounds to it is $284$ because $285$ would round to $290$.",
+    "notes": "Uses the midpoint rule (5 rounds up).",
+    "question_ids": [
+      "G3_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "determine_least_rounding_to_ten",
+    "title": "Determine Least Number That Rounds to a Given Ten",
+    "description": "Identify the least whole number that rounds to a specified multiple of 10.",
+    "condition": "Given a target multiple of 10 (e.g., 280) and asked for the least whole number that rounds to it.",
+    "response": "State the number 5 less than the target ten (e.g., 275 for 280).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For 280, the least number that rounds to it is $275$ because $274$ rounds to $270$.",
+    "notes": "Relies on understanding that numbers ending in 5 round up.",
+    "question_ids": [
+      "G3_U3_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "estimate_by_rounding_to_nearest_hundred",
+    "title": "Estimate by Rounding to Nearest Hundred",
+    "description": "Round numbers to the nearest hundred to estimate a sum.",
+    "condition": "Whole numbers near benchmark hundreds are given and an estimate is requested.",
+    "response": "Round each number to a nearby hundred and add the rounded values.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$372 \\approx 400$, $119 \\approx 100$, so $400 + 100 = 500$ (estimate).",
+    "notes": "Supports assessing reasonableness rather than exact computation.",
+    "question_ids": [
+      "G3_U3_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "estimate_sum_rounding",
+    "title": "Estimate Sum by Rounding",
+    "description": "Round numbers to friendly values to estimate a sum and judge reasonableness.",
+    "condition": "A sum of multi-digit numbers is needed for estimation.",
+    "response": "Round one or more addends to nearby benchmark numbers and add to estimate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Estimate $187+229 \\approx 200+200 = 400$.",
+    "notes": "Used to judge about 100 empty seats.",
+    "question_ids": [
+      "G3_U3_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_impossible_dual_rounding",
+    "title": "Identify Incompatible Rounding Conditions",
+    "description": "Determine whether a number can satisfy two different rounding targets simultaneously.",
+    "condition": "Asked whether a number can round to one specified hundred (e.g., 300) and a different specified ten (e.g., 240).",
+    "response": "Determine that no such number exists because the rounding intervals do not overlap.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "Numbers that round to $300$ to the nearest hundred are $250$\u2013$349$. Numbers that round to $240$ to the nearest ten are $235$\u2013$244$. These intervals do not overlap, so no number satisfies both.",
+    "notes": "Requires reasoning about overlapping intervals.",
+    "question_ids": [
+      "G3_U3_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_regrouped_one_as_next_place",
+    "title": "Interpret Regrouped 1 as Next Place Value Unit",
+    "description": "Understand that a written '1' above a digit in the standard algorithm represents one unit of the next higher place value (ten or hundred).",
+    "condition": "A small '1' is written above a digit in a column during multi-digit addition.",
+    "response": "State that the '1' represents one unit of the next higher place (e.g., 1 ten or 1 hundred) formed by regrouping.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In \\(684 + 237\\), the '1' above the 8 represents 1 ten from \\(4+7=11\\), and the '1' above the 6 represents 1 hundred from \\(8+3+1=12\\).",
+    "notes": "Focuses on conceptual meaning of regrouping notation.",
+    "question_ids": [
+      "G3_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_tape_diagram_as_sum_of_parts",
+    "title": "Interpret Tape Diagram as Sum of Parts",
+    "description": "Recognize that a tape diagram with labeled sections represents a total made of those parts.",
+    "condition": "A bar/tape diagram shows separate labeled quantities combined into one whole.",
+    "response": "State that the total equals the sum of the labeled parts.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A bar labeled 138 with three attached sections labeled 8 represents $138 + 8 + 8 + 8$.",
+    "notes": "Focuses on structural interpretation of visual representation.",
+    "question_ids": [
+      "G3_U3_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "multiply_equal_groups",
+    "title": "Multiply to Find Total of Equal Groups",
+    "description": "Find the total number in equal groups by multiplying number of groups by number in each group.",
+    "condition": "There are $g$ equal groups with $n$ items in each group.",
+    "response": "Compute $g \\times n$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$5$ students each take $7$ pencils: $5 \\times 7 = 35$.",
+    "notes": "Represents repeated addition. [merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G3_U3_SD_a1_q2",
+      "G3_U3_SD_a1_q3",
+      "G3_U3_a1_q6",
+      "G3_U6_SD_a1_q1",
+      "G3_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "regroup_hundreds_to_tens",
+    "title": "Regroup Hundreds as Tens",
+    "description": "When there are not enough tens to subtract, decompose one hundred into ten tens.",
+    "condition": "In column subtraction, the tens digit of the minuend is less than the tens digit of the subtrahend and there is at least one hundred available",
+    "response": "Decrease the hundreds digit by 1 and increase the tens digit by 10",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $506 - 388$, regroup: $5$ hundreds becomes $4$ hundreds and $0$ tens becomes $10$ tens.",
+    "notes": "Based on place value: $1$ hundred = $10$ tens.",
+    "question_ids": [
+      "G3_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "regroup_tens_to_ones",
+    "title": "Regroup Tens as Ones",
+    "description": "When there are not enough ones to subtract, decompose one ten into ten ones.",
+    "condition": "In column subtraction, the ones digit of the minuend is less than the ones digit of the subtrahend and there is at least one ten available",
+    "response": "Decrease the tens digit by 1 and increase the ones digit by 10",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "In $288 - 197$, regroup: $8$ tens becomes $7$ tens and $8$ ones becomes $18$ ones.",
+    "notes": "Based on place value: $1$ ten = $10$ ones.",
+    "question_ids": [
+      "G3_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "regroup_when_sum_exceeds_nine",
+    "title": "Regroup When Column Sum is 10 or More",
+    "description": "When the sum of digits in a place-value column is 10 or greater, compose a unit of the next higher place and record the remainder.",
+    "condition": "Sum of digits in a single place-value column is 10 or more.",
+    "response": "Write the ones digit in the current column and carry one unit to the next higher place.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since \\(4 + 7 = 11\\), write 1 in the ones place and carry 1 ten to the tens place.",
+    "notes": "Grounded in base-ten place value structure.",
+    "question_ids": [
+      "G3_U3_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_two_step_word_problem",
+    "title": "Represent Two-Step Word Problem with Equation",
+    "description": "Translate a contextual situation involving two operations into a single equation representing the unknown quantity.",
+    "condition": "A word problem describes sequential operations leading to an unknown.",
+    "response": "Write an equation that represents the operations and solves for the unknown.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$p = 98 - (5 \\times 7)$.",
+    "notes": "Requires interpreting context before choosing operations.",
+    "question_ids": [
+      "G3_U3_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "represent_word_problem_with_equation",
+    "title": "Represent Word Problem with Equation",
+    "description": "Translate a verbal situation involving operations into a matching numerical equation with an unknown.",
+    "condition": "A word problem describes quantities and operations and asks for an unknown total.",
+    "response": "Write an equation using numbers, operations, and a symbol (e.g., ?) to represent the unknown.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "$177 + (4 \\times 9) = ?$",
+    "notes": "Includes correct grouping to reflect structure of situation.",
+    "question_ids": [
+      "G3_U3_SD_a1_q2",
+      "G3_U3_SD_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "round_to_nearest_hundred",
+    "title": "Round to Nearest Hundred",
+    "description": "Round a number to the nearest multiple of 100 based on whether it is at least halfway to the next hundred.",
+    "condition": "A number is given and rounding to the nearest hundred is requested.",
+    "response": "State the nearest multiple of 100 (round up if 50 or more, down if less than 50).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$176 \\to 200$; $849 \\to 800$; $35 \\to 0$.",
+    "notes": "Halfway case (e.g., 150) rounds up. [merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G3_U3_SC_a1_q1",
+      "G3_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "round_to_nearest_ten",
+    "title": "Round to Nearest Ten",
+    "description": "Round a number to the nearest multiple of 10 based on the ones digit.",
+    "condition": "A number is given and rounding to the nearest ten is requested.",
+    "response": "State the nearest multiple of 10 (round up if ones digit is 5 or more, down if less than 5).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$176 \\to 180$ because the ones digit is 6.",
+    "notes": "Students may incorrectly truncate instead of rounding. [merged: condition varies] [merged: response varies] [merged: label varies]",
+    "question_ids": [
+      "G3_U3_SC_a1_q1",
+      "G3_U3_SC_a1_q2",
+      "G3_U3_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "subtract_by_place_with_regrouping",
+    "title": "Subtract by Place with Regrouping",
+    "description": "Subtract multi-digit numbers by subtracting ones, tens, and hundreds, regrouping as needed.",
+    "condition": "Given a vertical subtraction problem with multi-digit numbers within 1,000",
+    "response": "Subtract digits by place from right to left, regrouping when necessary",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To compute $506 - 388$, regroup as needed and subtract by place to get $118$.",
+    "notes": "Standard algorithm based on place value structure.",
+    "question_ids": [
+      "G3_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "subtract_three_digit_no_regroup",
+    "title": "Subtract Three-Digit Numbers Without Regrouping",
+    "description": "Subtract hundreds, tens, and ones separately when each digit in the minuend is greater than or equal to the corresponding digit in the subtrahend.",
+    "condition": "A three-digit subtraction problem where no place requires decomposing a higher place value.",
+    "response": "Subtract each place value and combine the results.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "$568 - 347 = (500-300)+(60-40)+(8-7)=200+20+1=221$.",
+    "notes": "Assumes standard place-value understanding.",
+    "question_ids": [
+      "G3_U3_a1_q3",
+      "G3_U3_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "subtract_single_place",
+    "title": "Subtract Within a Place",
+    "description": "Subtract one digit from another within the same place value when no regrouping is required.",
+    "condition": "Given two digits in the same place where the minuend digit is greater than or equal to the subtrahend digit",
+    "response": "Compute the difference of the two digits",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "After regrouping in $288 - 197$, compute $18 - 7 = 11$ (ones place step).",
+    "notes": "Basic subtraction fact applied within place.",
+    "question_ids": [
+      "G3_U3_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "use_unknown_symbol_for_missing_value",
+    "title": "Use Symbol for Unknown Quantity",
+    "description": "Use a placeholder symbol to represent the quantity being asked for.",
+    "condition": "A problem asks for a value that is not yet known.",
+    "response": "Insert a symbol such as ? to represent the unknown in an equation.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "$177 + (4 \\times 9) = ?$",
+    "notes": "Emphasizes meaning of the equal sign and unknown as the answer to the question.",
+    "question_ids": [
+      "G3_U3_SD_a1_q3"
+    ]
+  }
+]

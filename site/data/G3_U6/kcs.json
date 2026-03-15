@@ -1,0 +1,468 @@
+[
+  {
+    "kc_id": "add_minute_intervals",
+    "title": "Add Minute Intervals",
+    "description": "Add two minute quantities to find a total elapsed time.",
+    "condition": "Two minute intervals are given (e.g., 25 minutes and 19 minutes) that together represent total elapsed time.",
+    "response": "Add the minute values to find the total number of minutes.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$25 + 19 = 44$ minutes.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "add_minutes_cross_hour",
+    "title": "Add Minutes Across the Hour",
+    "description": "Add a number of minutes to a given time, adjusting the hour when the total minutes reach or exceed 60.",
+    "condition": "Given a start time in hours and minutes and an added number of minutes that causes the minutes to total 60 or more.",
+    "response": "Add minutes, subtract 60 if needed, and increase the hour by 1.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Starting at $5{:}43$, add 18 minutes: $43 + 18 = 61$ minutes, so $61 - 60 = 1$ minute and increase hour to 6 \u2192 $6{:}01$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_by_subtraction",
+    "title": "Compare Quantities by Subtraction",
+    "description": "Find how much more one quantity is than another by subtracting the smaller from the larger.",
+    "condition": "Given two quantities and asked how much more or heavier one is than the other.",
+    "response": "Compute larger \u2212 smaller.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To find how much heavier 835 kg is than 143 kg, compute $835 - 143 = 692$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_a1_q5",
+      "G3_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "compute_quotient_equal_groups",
+    "title": "Compute Quotient in Equal Groups Context",
+    "description": "Given a total and number of equal groups, divide to find the amount in each group.",
+    "condition": "A total quantity and a number of equal groups are given; the amount in each group is unknown (e.g., 96 kg in 6 boxes).",
+    "response": "Divide total by number of groups to find the amount per group (e.g., 96 \u00f7 6 = 16).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 96 kg are placed equally into 6 boxes, compute $96 \\div 6 = 16$. Each box has 16 kg.",
+    "notes": "Division interpreted as finding an unknown factor.",
+    "question_ids": [
+      "G3_U6_SD_a1_q2",
+      "G3_U6_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "convert_mixed_to_improper_fraction",
+    "title": "Convert Mixed Number to Improper Fraction",
+    "description": "Rewrite a mixed number as an equivalent improper fraction.",
+    "condition": "A mixed number $a\\tfrac{b}{c}$ is given.",
+    "response": "Compute $\\frac{ac+b}{c}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$5\\tfrac{1}{4} = \\frac{5\\cdot4+1}{4} = \\frac{21}{4}$.",
+    "notes": "Used to express equivalent measurement forms.",
+    "question_ids": [
+      "G3_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "count_up_to_next_hour",
+    "title": "Count Up to the Next Hour",
+    "description": "Find the number of minutes needed to reach the next full hour from a given time.",
+    "condition": "A start time includes minutes past the hour and the strategy is to count up to the next full hour (e.g., 9:35 a.m.).",
+    "response": "Subtract the current minutes from 60 to determine minutes to the next hour.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "From 9:35 to 10:00: $60 - 35 = 25$ minutes.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "determine_elapsed_time_cross_hour",
+    "title": "Determine Elapsed Time Across an Hour",
+    "description": "Compute elapsed time when the end time is in the next hour.",
+    "condition": "Given a start time and end time that cross an hour boundary (e.g., 9:35 a.m. to 10:19 a.m.).",
+    "response": "Count up to the next hour, then add remaining minutes to reach the end time.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "9:35 \u2192 10:00 is 25 minutes; 10:00 \u2192 10:19 is 19 minutes; total $25 + 19 = 44$ minutes.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "estimate_1_gram_benchmark",
+    "title": "Estimate Objects About 1 Gram",
+    "description": "Recognize or estimate which everyday objects have a mass of about 1 gram using known benchmarks (e.g., small light items like a piece of gum or pen cap).",
+    "condition": "Given a list of everyday objects and asked which weigh about 1 gram.",
+    "response": "Select objects whose typical mass is about 1 gram.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From the list {piece of gum, notebook, door key, pen cap, toothbrush}, select piece of gum and pen cap as about $1$ gram.",
+    "notes": "Relies on benchmark sense of 1 gram rather than exact calculation.",
+    "question_ids": [
+      "G3_U6_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "estimate_1_kilogram_benchmark",
+    "title": "Estimate Objects About 1 Kilogram",
+    "description": "Recognize or estimate which everyday objects have a mass of about 1 kilogram using familiar reference objects.",
+    "condition": "Given a list of objects and asked which weighs about 1 kilogram.",
+    "response": "Select the object whose typical mass is about 1 kilogram.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "From the list {1 blueberry, 1 pineapple, 1 grape, 1 raspberry}, select 1 pineapple as about $1$ kilogram.",
+    "notes": "Depends on experiential knowledge of kilogram benchmarks.",
+    "question_ids": [
+      "G3_U6_SB_a1_q1",
+      "G3_U6_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_equal_groups_in_diagram",
+    "title": "Identify Equal Groups in a Diagram",
+    "description": "Recognize a visual representation as showing a specific number of equal groups with a given size.",
+    "condition": "A diagram shows repeated identical quantities (e.g., seven boxes each labeled 2).",
+    "response": "Interpret the diagram as a specific number of groups of equal size (e.g., 7 groups of 2).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "A diagram showing seven boxes each labeled 2 represents $7$ groups of $2$.",
+    "notes": "Visual interpretation skill; often implicit.",
+    "question_ids": [
+      "G3_U6_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_fraction_tick_marks",
+    "title": "Identify Fractional Tick Marks on a Number Line",
+    "description": "Determine fractional values (such as halves and fourths) represented by evenly spaced tick marks between whole numbers.",
+    "condition": "Given a number line with evenly spaced tick marks between labeled whole numbers.",
+    "response": "Assign fractional values (e.g., $\\frac{1}{2}$, $\\frac{1}{4}$, $\\frac{3}{4}$) to intermediate ticks.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Between 4 and 5 divided into fourths, the third tick after 4 represents $4\\frac{3}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_a1_q1",
+      "G3_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "identify_half_liter_between_whole_numbers",
+    "title": "Identify Half Liter Between Whole Numbers",
+    "description": "Recognize that one-half liter is located halfway between two consecutive whole-number liter markings when the scale is partitioned into halves.",
+    "condition": "Given a measurement scale marked in whole liters and evenly partitioned into halves, and asked to locate $n \\tfrac{1}{2}$ liters.",
+    "response": "Identify the point halfway between $n$ and $n+1$ liters.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$3\\tfrac{1}{2}$ liters is halfway between $3$ and $4$ liters on a scale divided into halves.",
+    "notes": "Requires understanding of fractions on a number line.",
+    "question_ids": [
+      "G3_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "identify_quarter_inch_ticks",
+    "title": "Identify Quarter-Inch Tick Marks",
+    "description": "Recognize that each inch on a ruler is divided into four equal parts representing fourths (1/4 inch increments).",
+    "condition": "A ruler marked with equally spaced smaller tick marks between whole numbers.",
+    "response": "State that each inch is divided into fourths and that each small tick represents 1/4 inch.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "Between 2 and 3 inches, there are four equal parts: $2, 2\\tfrac{1}{4}, 2\\tfrac{1}{2}, 2\\tfrac{3}{4}, 3$.",
+    "notes": "Supports measuring to the nearest 1/4 inch.",
+    "question_ids": [
+      "G3_U6_SA_a1_q1",
+      "G3_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_scale_tick_value",
+    "title": "Interpret Tick Mark Values on a Scale",
+    "description": "Determine the value represented by each tick mark on a measurement scale by analyzing how the interval between labeled numbers is partitioned.",
+    "condition": "Given a vertical scale with labeled whole numbers and evenly spaced tick marks between them.",
+    "response": "Determine the fractional value each tick mark represents (e.g., halves, fourths).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are two equal intervals between $3$ and $4$, each tick represents $\\tfrac{1}{2}$ liter; if four equal intervals, each represents $\\tfrac{1}{4}$ liter.",
+    "notes": "Essential for distinguishing correct representations of $3\\tfrac{1}{2}$ liters from misleading halfway positions.",
+    "question_ids": [
+      "G3_U6_SB_a1_q3",
+      "G3_U6_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "locate_minute_mark_on_clock",
+    "title": "Locate Minute Mark on Analog Clock",
+    "description": "Place the minute hand at the correct tick mark corresponding to a given number of minutes.",
+    "condition": "A specific minute value between 0 and 59 is given.",
+    "response": "Position the minute hand on the corresponding tick mark (each small tick = 1 minute).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For 49 minutes, place the minute hand one tick before the 10 (which represents 50 minutes).",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "match_diagram_to_unknown_product_context",
+    "title": "Match Equal-Groups Diagram to Unknown Product Situation",
+    "description": "Select a word problem that matches a diagram showing known number of groups and known group size with unknown total.",
+    "condition": "A diagram shows known groups and known size per group, with the total unknown.",
+    "response": "Choose the situation describing multiplication with unknown product (e.g., 7 bottles with 2 liters each, total unknown).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "A diagram of $7$ groups of $2$ matches: \"There are 7 bottles. Each has 2 liters. How many liters are there altogether?\"",
+    "notes": "Distinguishes unknown product from unknown factor situations.",
+    "question_ids": [
+      "G3_U6_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "match_volume_to_marked_level",
+    "title": "Match Liquid Level to Target Volume",
+    "description": "Compare the height of liquid in a container to the interpreted scale markings to determine whether it equals a specified volume.",
+    "condition": "Given a container image with a marked scale and a target volume (e.g., $3\\tfrac{1}{2}$ liters).",
+    "response": "Select containers where the liquid level corresponds to the target volume based on the scale.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Select containers where the liquid reaches the tick corresponding to $3\\tfrac{1}{2}$ liters.",
+    "notes": "Integrates fraction understanding with scale interpretation.",
+    "question_ids": [
+      "G3_U6_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "measure_length_to_nearest_quarter",
+    "title": "Measure Length to Nearest Quarter Inch",
+    "description": "Determine the length of an object by aligning it with a ruler and reading the nearest quarter-inch mark.",
+    "condition": "An object aligned with 0 on a ruler marked in fourths, with the endpoint between whole numbers.",
+    "response": "State the object\u2019s length as a whole number or mixed number to the nearest 1/4 inch.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the pencil ends at the first tick after 5, report $5\\tfrac{1}{4}$ inches (or $\\tfrac{21}{4}$ inches).",
+    "notes": "Requires visual alignment and interpretation of tick marks.",
+    "question_ids": [
+      "G3_U6_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "place_hour_hand_between_numbers",
+    "title": "Place Hour Hand Between Numbers",
+    "description": "Position the hour hand between two numbers according to the number of minutes past the hour.",
+    "condition": "A time includes minutes past the hour (not exactly :00).",
+    "response": "Place the hour hand between the current hour and the next hour, proportionally closer to the next hour as minutes increase.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "At 11:49, place the hour hand between 11 and 12, very close to 12.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "plot_data_on_line_plot",
+    "title": "Plot Data on Line Plot",
+    "description": "Represent each data value with a mark above its corresponding position on a number line.",
+    "condition": "Given a set of numerical measurements and a number line with matching scale.",
+    "response": "Place one X (or mark) above the corresponding value for each measurement.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For lengths $2\\frac{1}{2}, 2\\frac{1}{2}, 2\\frac{3}{4}$, place two X's above $2\\frac{1}{2}$ and one above $2\\frac{3}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SA_a1_q2",
+      "G3_U6_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "read_ruler_to_fraction",
+    "title": "Read Ruler Measurement to Fraction",
+    "description": "Determine the length of an object using a ruler marked in fractional units.",
+    "condition": "Given an object aligned to 0 on a ruler marked in quarter inches.",
+    "response": "State the length as a mixed number using the nearest tick mark.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the object ends at the third quarter mark past 4, the length is $4\\frac{3}{4}$ inches.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "read_analog_clock_time",
+    "title": "Read Time on Analog Clock",
+    "description": "Determine the hour and minute shown by the hour and minute hands on an analog clock.",
+    "condition": "Given an analog clock with hour and minute hands.",
+    "response": "State the time in hours and minutes.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the minute hand points to 43 minutes and the hour hand is between 5 and 6, the time is $5{:}43$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "recognize_60_minutes_in_hour",
+    "title": "Recognize 60 Minutes in One Hour",
+    "description": "Know that one hour is composed of 60 minutes.",
+    "condition": "Reasoning about relationships between hours and minutes.",
+    "response": "State or use the fact that 1 hour = 60 minutes.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "$1$ hour $= 60$ minutes.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "set_clock_to_given_time",
+    "title": "Set Analog Clock to Given Time",
+    "description": "Coordinate placement of both hour and minute hands to represent a specific digital time.",
+    "condition": "A specific time is given in hours and minutes (e.g., 11:49 a.m.).",
+    "response": "Place the minute hand at the correct minute mark and the hour hand at the correct position relative to the hour.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For 11:49 a.m., minute hand at 49 minutes; hour hand just before 12.",
+    "notes": "Composite of minute and hour placement skills.",
+    "question_ids": [
+      "G3_U6_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "subtract_within_1000_place_value",
+    "title": "Subtract Within 1,000 Using Place Value",
+    "description": "Subtract multi-digit numbers within 1,000 using place value reasoning or decomposition.",
+    "condition": "Given two numbers less than 1,000 to subtract.",
+    "response": "Subtract by decomposing hundreds, tens, and ones or using standard algorithm.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$835 - 143 = (835 - 100) - 40 - 3 = 735 - 40 - 3 = 692$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U6_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "use_distributive_strategy_for_multiplication",
+    "title": "Use Distributive Strategy to Multiply",
+    "description": "Break apart one factor to compute a product using easier partial products.",
+    "condition": "A multiplication problem where one factor can be decomposed (e.g., 6 \u00d7 16).",
+    "response": "Decompose and compute partial products, then add (e.g., 6 \u00d7 10 + 6 \u00d7 6 = 60 + 36 = 96).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To compute $6 \\times 16$, use $6 \\times (10 + 6) = 6 \\times 10 + 6 \\times 6 = 60 + 36 = 96$.",
+    "notes": "Application of the distributive property.",
+    "question_ids": [
+      "G3_U6_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "verify_division_with_multiplication",
+    "title": "Verify Division Using Multiplication",
+    "description": "Check a division result by multiplying the quotient by the divisor to see if it equals the dividend.",
+    "condition": "A quotient has been found for a division problem.",
+    "response": "Multiply quotient by divisor to confirm it equals the original total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "After finding $96 \\div 6 = 16$, check by computing $6 \\times 16 = 96$.",
+    "notes": "Used to justify correctness of unknown factor solution.",
+    "question_ids": [
+      "G3_U6_SD_a1_q2"
+    ]
+  }
+]

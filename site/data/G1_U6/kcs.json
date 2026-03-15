@@ -1,22 +1,5 @@
 [
   {
-    "kc_id": "count_tens_and_ones",
-    "title": "Compose Number from Tens and Ones",
-    "description": "Determine total quantity by counting groups of ten and additional ones and combining them.",
-    "condition": "Objects are grouped into tens and some extra ones.",
-    "response": "Compute total as 10 \u00d7 (number of tens) + ones.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If there are 10 tens and 8 ones, compute $10 \\times 10 + 8 = 108$.",
-    "notes": "Place value understanding within 120.",
-    "question_ids": [
-      "G1_U6_a1_q4"
-    ]
-  },
-  {
     "kc_id": "compare_lengths_directly",
     "title": "Directly Compare Object Lengths",
     "description": "Compare the lengths of multiple objects and determine their relative order from shortest to longest.",

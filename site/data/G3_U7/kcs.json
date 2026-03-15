@@ -1,0 +1,392 @@
+[
+  {
+    "kc_id": "compute_rectangle_perimeter",
+    "title": "Compute Perimeter of a Rectangle",
+    "description": "Find the perimeter of a rectangle by adding all sides or using 2 \u00d7 (length + width).",
+    "condition": "A rectangle with known side lengths.",
+    "response": "Calculate $2l + 2w$ or add all four sides.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If $l=10$ and $w=6$, then perimeter $=2(10+6)=32$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SC_a1_q1",
+      "G3_U7_SC_a1_q2",
+      "G3_U7_SD_a1_q2",
+      "G3_U7_a1_q3",
+      "G3_U7_a1_q6",
+      "G3_U7_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "construct_rectangle_given_area_constraint",
+    "title": "Construct Rectangle with Given Area or Perimeter Constraint",
+    "description": "Create a rectangle that satisfies a stated constraint (same area or same perimeter) while differing in the other measure.",
+    "condition": "Prompt to draw a rectangle with the same area or perimeter as a given rectangle but a different corresponding measure.",
+    "response": "Select new side lengths that satisfy the stated constraint and draw the rectangle.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If Rectangle N has area $25$, choose side lengths $1$ and $25$ to keep area $1 \\times 25 = 25$ but change the perimeter.",
+    "notes": "Multiple correct constructions are possible.",
+    "question_ids": [
+      "G3_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "unit_segment_count_perimeter",
+    "title": "Count Boundary Units for Perimeter",
+    "description": "Determine perimeter by counting unit-length segments around the boundary on a grid.",
+    "condition": "Given a polygon drawn on a unit grid.",
+    "response": "Count all outer boundary unit segments.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the boundary has 28 unit segments, the perimeter is 28 units.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "unit_square_count_area",
+    "title": "Count Unit Squares for Area",
+    "description": "Determine area by counting the number of unit squares covering a shape on a grid.",
+    "condition": "Given a rectangle drawn on a unit grid.",
+    "response": "Count total enclosed unit squares.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If a rectangle covers 25 grid squares, its area is 25 square units.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "define_quadrilateral",
+    "title": "Define Quadrilateral",
+    "description": "Recognize that a quadrilateral is a polygon with exactly four sides.",
+    "condition": "A polygon is shown or described and the task is to determine whether it is a quadrilateral.",
+    "response": "State that it is a quadrilateral if it has exactly four sides.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A shape with 4 sides (e.g., a trapezoid) is a quadrilateral because it has exactly 4 sides.",
+    "notes": "Foundational attribute knowledge.",
+    "question_ids": [
+      "G3_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "define_rectangle_by_right_angles",
+    "title": "Define Rectangle by Four Right Angles",
+    "description": "Recognize that a rectangle must have four right angles.",
+    "condition": "A quadrilateral with four right angles.",
+    "response": "Classify the shape as a rectangle.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If all angles are $90^\\circ$, then the quadrilateral is a rectangle.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SA_a1_q1",
+      "G3_U7_a1_q2",
+      "G3_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "define_rhombus_by_equal_sides",
+    "title": "Define Rhombus by Equal Sides",
+    "description": "Recognize that a rhombus has four equal side lengths.",
+    "condition": "A quadrilateral with all sides equal in length.",
+    "response": "Classify the shape as a rhombus.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If all 4 sides measure $5$ cm, the quadrilateral is a rhombus.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SA_a1_q2",
+      "G3_U7_a1_q2",
+      "G3_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "define_square_by_equal_sides_and_right_angles",
+    "title": "Define Square by Equal Sides and Right Angles",
+    "description": "Recognize that a square has four equal sides and four right angles.",
+    "condition": "A quadrilateral with four equal sides and four right angles.",
+    "response": "Classify the shape as a square.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If a quadrilateral has side lengths $8,8,8,8$ and all angles $90^\\circ$, it is a square.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_a1_q2",
+      "G3_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "divide_total_by_two_for_equal_sides",
+    "title": "Divide Remaining Perimeter by 2 for Equal Sides",
+    "description": "When two equal side lengths together are known as a total, divide by 2 to find the length of one side.",
+    "condition": "A total length represents the sum of two equal sides (e.g., remaining perimeter after subtracting known sides).",
+    "response": "Divide the total by 2 to find the length of one side.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the two unknown sides total $28$ feet, compute $28 \\div 2 = 14$ feet for each side.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "unit_length_on_grid_is_one",
+    "title": "Each Grid Segment Represents One Unit",
+    "description": "On a unit grid, each segment between adjacent grid points represents one unit of length.",
+    "condition": "A shape is drawn on a unit dot or square grid.",
+    "response": "Count each segment between adjacent grid points as one unit.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Association",
+    "example": "A side spanning 4 grid segments measures $4$ units.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "verify_conditional_must_be_true",
+    "title": "Evaluate Must-Be-True Conditional Statement",
+    "description": "Determine whether a conditional statement about a shape must always be true based on its defining properties.",
+    "condition": "A statement of the form \"If a quadrilateral is X, then Y\" with given side information.",
+    "response": "Decide whether Y necessarily follows from the definition of X and the given information.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If a quadrilateral is a square with side $8$, then perimeter $=4\\times8=32$, so the statement is true.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "factor_pair_for_given_area",
+    "title": "Find Factor Pair for Given Area",
+    "description": "Determine two side lengths whose product equals a given rectangular area.",
+    "condition": "Given a rectangular area with unknown side lengths.",
+    "response": "Identify two numbers whose product equals the given area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If the area is $21$ square yards, a possible pair is $3$ and $7$ because $3 \\times 7 = 21$.",
+    "notes": "Relies on knowledge of multiplication facts.",
+    "question_ids": [
+      "G3_U7_SD_a1_q1",
+      "G3_U7_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "divide_to_find_missing_side",
+    "title": "Find Missing Side from Area",
+    "description": "Determine an unknown side length of a rectangle by dividing the area by the known side length.",
+    "condition": "Given rectangle area A and one side length s.",
+    "response": "Compute missing side as A \u00f7 s.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If area is $99$ and one side is $11$, then missing side is $99 \\div 11 = 9$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "use_perimeter_constraint_find_side_pairs",
+    "title": "Find Side Pairs from Perimeter",
+    "description": "Determine possible rectangle side lengths given a fixed perimeter.",
+    "condition": "A fixed perimeter for a rectangle (e.g., 18 meters of fencing).",
+    "response": "Find length\u2013width pairs such that $2l + 2w$ equals the given perimeter.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If perimeter is $18$, then $2l+2w=18$. One pair is $l=5$, $w=4$ since $2(5)+2(4)=18$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "solve_unknown_length_from_perimeter",
+    "title": "Find Unknown Side from Perimeter",
+    "description": "Determine a missing side length of a rectangle using the perimeter and a known side.",
+    "condition": "Given the perimeter of a rectangle and one side length.",
+    "response": "Substitute into $P = 2(l + w)$ and solve for the unknown side.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Given $P = 34$ cm and width $= 6$ cm: $34 = 2(l + 6)$, so $17 = l + 6$, hence $l = 11$ cm.",
+    "notes": "Requires inverse operations and understanding of perimeter structure.",
+    "question_ids": [
+      "G3_U7_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_sides_identify_quadrilateral",
+    "title": "Identify a Quadrilateral by Four Sides",
+    "description": "Recognize that a polygon with four sides is a quadrilateral.",
+    "condition": "A polygon with exactly four sides.",
+    "response": "Classify the shape as a quadrilateral.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A shape with 4 sides \u2192 quadrilateral.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "identify_non_rectangle_by_angles",
+    "title": "Identify Non-Rectangle by Angle Property",
+    "description": "Determine that a quadrilateral is not a rectangle if it does not have four right angles.",
+    "condition": "A quadrilateral is shown and at least one angle is not a right angle.",
+    "response": "Conclude and state that the shape is not a rectangle because it lacks four right angles.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If one angle measures $60^\\circ$, then the quadrilateral is not a rectangle because rectangles require four $90^\\circ$ angles.",
+    "notes": "Uses defining attribute to justify exclusion.",
+    "question_ids": [
+      "G3_U7_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "multiply_side_by_number_of_sides",
+    "title": "Multiply Side Length by Number of Equal Sides",
+    "description": "When all sides of a polygon are equal, multiply one side length by the total number of sides to find the perimeter.",
+    "condition": "A polygon has equal side lengths and one side length is given.",
+    "response": "Multiply the side length by the number of sides.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A hexagon with side length $8$ inches has perimeter $6 \\times 8 = 48$ inches.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_equal_opposite_sides_rectangle",
+    "title": "Opposite Sides of Rectangle Are Equal",
+    "description": "Use the property that opposite sides of a rectangle have equal lengths.",
+    "condition": "A rectangle with one pair of opposite sides labeled.",
+    "response": "Assign the same length to the other pair of opposite sides.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule",
+    "example": "If one side is $10$ inches, the opposite side is also $10$ inches.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SB_a1_q3",
+      "G3_U7_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "perimeter_as_sum_of_sides",
+    "title": "Perimeter as Sum of Side Lengths",
+    "description": "Perimeter is found by adding the lengths of all sides of a two-dimensional shape.",
+    "condition": "A closed two-dimensional figure with known side lengths.",
+    "response": "Add all side lengths to obtain the perimeter.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For side lengths $3, 4, 5,$ and $6$, compute $3 + 4 + 5 + 6 = 18$ units.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SB_a1_q1",
+      "G3_U7_SB_a1_q2",
+      "G3_U7_SB_a1_q3",
+      "G3_U7_SC_a1_q1",
+      "G3_U7_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "select_all_figures_with_property",
+    "title": "Select All Figures with Given Attribute",
+    "description": "Evaluate multiple figures and select all that satisfy a stated defining property.",
+    "condition": "Several shapes are shown and the task is to select all shapes with a specified defining attribute (e.g., all sides equal).",
+    "response": "Identify each figure that satisfies the defining attribute and select all such figures.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Given shapes A\u2013D, select B and C because each has four equal sides.",
+    "notes": "Requires checking each option against the definition.",
+    "question_ids": [
+      "G3_U7_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "subtract_known_sides_from_perimeter",
+    "title": "Subtract Known Side Totals from Perimeter",
+    "description": "To find unknown side totals, subtract the sum of known sides from the total perimeter.",
+    "condition": "Total perimeter and some side lengths are known.",
+    "response": "Add known sides and subtract their sum from the total perimeter.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the perimeter is $54$ feet and two sides total $26$ feet, compute $54 - 26 = 28$ feet remaining.",
+    "notes": "",
+    "question_ids": [
+      "G3_U7_SB_a1_q3"
+    ]
+  }
+]

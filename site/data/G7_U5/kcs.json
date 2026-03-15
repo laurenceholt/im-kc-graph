@@ -249,25 +249,6 @@
     ]
   },
   {
-    "kc_id": "divide_both_sides_coefficient",
-    "title": "Solve One-Step Multiplication Equation",
-    "description": "Solve equations of the form px = q by dividing both sides by p.",
-    "condition": "Equation of the form px = q, where p \u2260 0.",
-    "response": "Divide both sides by p to get x = q/p.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "From \u22124b = 30, divide by \u22124: \\(b = 30 \u00f7 (\u22124) = \u22127.5\\).",
-    "notes": "Also used implicitly when solving \u22122.5x = \u221220.",
-    "question_ids": [
-      "G7_U5_SC_a1_q1",
-      "G7_U5_SC_a1_q2",
-      "G7_U5_a1_q5"
-    ]
-  },
-  {
     "kc_id": "subtract_signed_numbers",
     "title": "Subtract Signed Numbers",
     "description": "Rewrite subtraction as addition of the opposite and compute the result.",

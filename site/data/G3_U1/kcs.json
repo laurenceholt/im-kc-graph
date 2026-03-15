@@ -1,0 +1,352 @@
+[
+  {
+    "kc_id": "add_two_quantities",
+    "title": "Add Two Quantities",
+    "description": "Add two given numerical quantities to find a total.",
+    "condition": "Two numerical quantities are given and the problem asks for the total or combined amount.",
+    "response": "Compute the sum of the two quantities using addition.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 45 squirrels and 20 sparrows were seen, compute $45 + 20 = 65$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U1_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "sum_two_categories_then_compare",
+    "title": "Combine Two Categories Before Comparing",
+    "description": "Add two category amounts before comparing the result to a third category.",
+    "condition": "A problem asks how many more (or fewer) one category is than two other categories combined.",
+    "response": "First add the two specified categories, then subtract this sum from (or compare with) the third category.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If sparrows = 20 and swans = 5, first compute $20 + 5 = 25$, then compare with squirrels: $45 - 25 = 20$.",
+    "notes": "Two-step comparison structure.",
+    "question_ids": [
+      "G3_U1_SA_a1_q20"
+    ]
+  },
+  {
+    "kc_id": "compare_bar_heights",
+    "title": "Compare Quantities on a Bar Graph",
+    "description": "Determine which category has more or fewer by comparing bar heights on a scaled bar graph.",
+    "condition": "Given a scaled bar graph with two or more categories and a comparison prompt (e.g., more/fewer).",
+    "response": "Identify which category represents the greater or lesser quantity based on bar height.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If the pigeon bar is taller than the crow bar, conclude that more pigeons than crows were seen.",
+    "notes": "Includes interpreting terms like 'more' and 'fewer'.",
+    "question_ids": [
+      "G3_U1_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_product_with_repeated_addition",
+    "title": "Compute Product Using Repeated Addition",
+    "description": "Find the total in a multiplication situation by adding equal groups repeatedly.",
+    "condition": "Given equal groups such as a rows of b objects.",
+    "response": "Add b repeatedly a times (or a repeatedly b times) to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For 5 rows of 7 chairs: $7 + 7 + 7 + 7 + 7 = 35$.",
+    "notes": "Sample solution shows partial sums (14, 28, 35).",
+    "question_ids": [
+      "G3_U1_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "construct_scaled_bar_graph",
+    "title": "Construct Scaled Bar Graph",
+    "description": "Create a bar graph using a specified scale to represent given data values.",
+    "condition": "A data table and a specified numerical scale are provided for constructing a bar graph.",
+    "response": "Draw bars for each category with heights proportional to the data values according to the given scale.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Using a scale of 2, represent 10 dimes with a bar reaching 10 units (5 intervals of 2).",
+    "notes": "Procedural graphing skill.",
+    "question_ids": [
+      "G3_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "construct_scaled_picture_graph",
+    "title": "Construct Scaled Picture Graph",
+    "description": "Create a picture graph where each symbol represents a fixed number of items.",
+    "condition": "A data table and a statement such as 'Each picture represents n items' are provided.",
+    "response": "Draw the correct number of symbols (including partial symbols if needed) to match each data value based on the scale.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If each circle represents 2 coins, then 6 nickels are shown with $6 \\div 2 = 3$ circles.",
+    "notes": "May require partial symbols when values are not multiples of scale.",
+    "question_ids": [
+      "G3_U1_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "draw_array_for_multiplication_expression",
+    "title": "Draw Array for Given Multiplication Expression",
+    "description": "Represent a multiplication expression as a rectangular array with one factor as rows and the other as columns.",
+    "condition": "Given a multiplication expression a \u00d7 b.",
+    "response": "Draw an array with a rows and b columns (or b rows and a columns).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For $3 \\times 4$, draw 3 rows with 4 dots in each row.",
+    "notes": "Requires coordinating spatial structure with symbolic expression.",
+    "question_ids": [
+      "G3_U1_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "compare_difference_subtract",
+    "title": "Find Difference Using Subtraction",
+    "description": "Subtract one quantity from another to determine how many more or fewer.",
+    "condition": "Two quantities are given and the problem asks 'how many more' or for the difference.",
+    "response": "Subtract the smaller (or comparison total) from the larger quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 45 squirrels and 25 sparrows and swans combined, compute $45 - 25 = 20$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U1_SA_a1_q20"
+    ]
+  },
+  {
+    "kc_id": "solve_number_of_groups_unknown",
+    "title": "Find Number of Groups (Unknown Groups)",
+    "description": "Determine the number of groups when the total and number in each group are known.",
+    "condition": "Total number of items and number in each group are given; number of groups is unknown.",
+    "response": "Divide total by number in each group or skip-count by the group size to find the number of groups.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "30 people with 5 in each car \u2192 $30 \\div 5 = 6$, so 6 cars.",
+    "notes": "May be solved using division or repeated addition (skip counting).",
+    "question_ids": [
+      "G3_U1_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "solve_unknown_factor_equation",
+    "title": "Find Unknown Factor in Multiplication",
+    "description": "Determine the missing factor in a multiplication equation given the product and one factor.",
+    "condition": "Given a multiplication equation with one unknown factor (e.g., $a \\times ? = c$ or $? \\times b = c$).",
+    "response": "Compute the missing factor using division or known multiplication facts.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For $2 \\times ? = 16$, compute $16 \\div 2 = 8$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U1_a1_q6",
+      "G3_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "interpret_equal_groups_multiplication",
+    "title": "Interpret Equal Groups as Multiplication",
+    "description": "Translate a situation with a given number of equal groups and a given number in each group into a multiplication expression.",
+    "condition": "A word problem states a number of equal groups and a number in each group (both known).",
+    "response": "Write a multiplication expression groups \u00d7 number_in_each_group (or number_in_each_group \u00d7 groups).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\"There are 3 bunches with 10 grapes each\" \u2192 write $3 \\times 10$.",
+    "notes": "Order may vary due to commutativity.",
+    "question_ids": [
+      "G3_U1_SB_a1_q1",
+      "G3_U1_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_rows_columns_as_factors",
+    "title": "Interpret Factors as Rows and Columns",
+    "description": "Match each factor in a multiplication context to the number of rows and the number of items in each row.",
+    "condition": "A word problem describing equal groups arranged in rows or columns.",
+    "response": "Identify one number as the number of rows and the other as the number in each row.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\"5 rows of 7 chairs\" means 5 is the number of rows and 7 is the number in each row, so $5 \\times 7$.",
+    "notes": "Emphasizes language connection between situation and structure.",
+    "question_ids": [
+      "G3_U1_SC_a1_q1",
+      "G3_U1_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_scaled_graph_value",
+    "title": "Interpret Value from Scaled Graph",
+    "description": "Determine the numerical value represented by a bar height or number of symbols using the graph\u2019s scale.",
+    "condition": "A scaled bar graph or picture graph with a stated scale is given and the quantity for a category is requested.",
+    "response": "Read the bar height or count symbols and multiply by the scale value to determine the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If each circle represents 5 animals and there are 9 circles for squirrels, compute $9 \\times 5 = 45$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U1_SA_a1_q2",
+      "G3_U1_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "match_representation_to_equal_groups",
+    "title": "Match Representation to Equal Groups Situation",
+    "description": "Determine whether a visual, numeric, or symbolic representation matches a described equal-groups situation.",
+    "condition": "Given a context specifying a number of groups and number in each group, and a candidate representation (diagram, equation, or expression).",
+    "response": "Select the representations that show the same number of groups and same number in each group as the context.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "\"2 bowls with 3 apples each\" matches a bar model labeled 3 and 3, and the expression $2 \\times 3$, but not $2+3$.",
+    "notes": "Requires checking both number of groups and group size.",
+    "question_ids": [
+      "G3_U1_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "solve_equal_groups_multiplication",
+    "title": "Multiply to Find Total in Equal Groups",
+    "description": "Find the total number of items when given number of groups and number in each group.",
+    "condition": "Given a word problem describing equal groups with known group size and number of groups.",
+    "response": "Multiply groups \u00d7 number per group to find the total.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "5 bags with 8 rubber bands each: $5 \\times 8 = 40$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U1_SB_a1_q2",
+      "G3_U1_a1_q4",
+      "G3_U1_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "represent_equal_groups_with_diagram",
+    "title": "Represent Equal Groups with Diagram",
+    "description": "Create or recognize a diagram showing equal groups for a multiplication situation.",
+    "condition": "Given a multiplication situation with equal groups.",
+    "response": "Draw or identify a diagram showing the correct number of groups with equal quantities in each group.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For $3 \\times 10$, draw three boxes each containing 10 marks.",
+    "notes": "Often implicit visual reasoning.",
+    "question_ids": [
+      "G3_U1_SB_a1_q1",
+      "G3_U1_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "scale_selection_for_bar_graph",
+    "title": "Select Appropriate Graph Scale",
+    "description": "Determine which scale allows all data values to fit within the available graph range.",
+    "condition": "Given a set of data values and possible scale intervals with a fixed grid height.",
+    "response": "Choose a scale where the maximum data value does not exceed the top of the graph.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the largest value is 48 and the grid goes to 50 by 5s, choose a scale of $5$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U1_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "apply_commutative_property_arrays",
+    "title": "Use Commutative Property for Arrays",
+    "description": "Recognize that reversing the order of factors (rows and columns) in an array represents the same total quantity.",
+    "condition": "A multiplication situation represented as a \u00d7 b or b \u00d7 a using rows and columns.",
+    "response": "Represent or accept either a \u00d7 b or b \u00d7 a as equivalent totals.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A 3 \u00d7 4 array (3 rows of 4) and a 4 \u00d7 3 array (4 rows of 3) both represent 12 since $3 \\times 4 = 4 \\times 3$.",
+    "notes": "Students may draw either orientation of the array.",
+    "question_ids": [
+      "G3_U1_SC_a1_q1",
+      "G3_U1_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "write_multiplication_equation_with_unknown",
+    "title": "Write Multiplication Equation with Unknown",
+    "description": "Translate a word problem involving equal groups into a multiplication equation using a symbol for the unknown total.",
+    "condition": "A word problem describing a equal groups of b items with unknown total.",
+    "response": "Write an equation such as a \u00d7 b = ? (or b \u00d7 a = ?).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "There are 5 rows of 7 chairs: $5 \\times 7 = c$.",
+    "notes": "Use of a symbol for the unknown is required in Q2.",
+    "question_ids": [
+      "G3_U1_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_equal_groups_as_multiplication",
+    "title": "Write Multiplication for Equal Groups",
+    "description": "Translate an equal-groups or array representation into a multiplication expression.",
+    "condition": "Given a drawing or context showing equal groups or rows and columns.",
+    "response": "Write a multiplication expression representing number of groups \u00d7 number in each group (or vice versa).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "4 groups of 5 dots is written as $4 \\times 5$.",
+    "notes": "Order of factors may vary (commutative property).",
+    "question_ids": [
+      "G3_U1_a1_q3",
+      "G3_U1_a1_q4",
+      "G3_U1_a1_q5"
+    ]
+  }
+]

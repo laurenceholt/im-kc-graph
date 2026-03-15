@@ -17,24 +17,6 @@
     ]
   },
   {
-    "kc_id": "decompose_number_into_tens_ones",
-    "title": "Decompose Number into Tens and Ones",
-    "description": "Break a two-digit number into tens and ones to make counting on or back easier.",
-    "condition": "A two-digit number such as 19 or 38 used in addition or subtraction.",
-    "response": "Rewrite the number as the sum of its tens and ones (e.g., 19 = 10 + 9).",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$19 = 10 + 9$, so $55 - 19$ can be thought of as $55 - 10 - 9$.",
-    "notes": "",
-    "question_ids": [
-      "G2_U4_SB_a1_q2",
-      "G2_U4_SB_a1_q3"
-    ]
-  },
-  {
     "kc_id": "identify_midpoint_of_interval",
     "title": "Identify Midpoint of an Interval",
     "description": "Determine the number halfway between two labeled endpoints on a number line.",

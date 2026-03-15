@@ -267,23 +267,6 @@
     ]
   },
   {
-    "kc_id": "solve_one_step_multiplicative_equation",
-    "title": "Solve One-Step Multiplicative Equation",
-    "description": "Solve an equation where a variable is multiplied by a constant by using multiplication or division.",
-    "condition": "Equation of the form $y = kx$ or $a = km$ with one known value substituted.",
-    "response": "Multiply or divide to compute the unknown variable value.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Rule / Plan",
-    "example": "Given $a = 0.75m$ and $m = 24$, compute $a = 0.75 \\times 24 = 18$.",
-    "notes": "Includes both forward substitution and solving via division.",
-    "question_ids": [
-      "G7_U2_SB_a1_q2"
-    ]
-  },
-  {
     "kc_id": "write_proportional_equation",
     "title": "Write Equation from Constant of Proportionality",
     "description": "Express a proportional relationship as an equation using the constant of proportionality.",

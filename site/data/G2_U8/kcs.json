@@ -18,24 +18,6 @@
     ]
   },
   {
-    "kc_id": "count_objects_up_to_20",
-    "title": "Count Objects in a Set (\u226420)",
-    "description": "Determine the total number of objects in a pictured or described group up to 20.",
-    "condition": "Given a visual or described set of objects (up to 20).",
-    "response": "Count and state the total number of objects.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non\u2011verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Counting 15 socks results in \\(15\\).",
-    "notes": "Foundational counting skill; may involve one-to-one correspondence.",
-    "question_ids": [
-      "G2_U8_SA_a1_q1",
-      "G2_U8_SA_a1_q2"
-    ]
-  },
-  {
     "kc_id": "count_array_by_rows_or_columns",
     "title": "Count Total in Array by Equal Groups",
     "description": "Find the total number of objects in a rectangular array by counting equal rows or equal columns.",

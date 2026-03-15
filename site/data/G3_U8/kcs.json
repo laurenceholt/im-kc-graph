@@ -1,0 +1,216 @@
+[
+  {
+    "kc_id": "add_minutes_across_hour",
+    "title": "Add Minutes Across an Hour",
+    "description": "Add a number of minutes greater than 60 to a start time by converting 60 minutes to 1 hour and adjusting the remaining minutes.",
+    "condition": "A start time and a duration in minutes greater than 60.",
+    "response": "Add 60 minutes as 1 hour, add remaining minutes, and state the new time.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Start 2:45 p.m., add 95 minutes: 95 = 60 + 35, so 2:45 + 1 hour = 3:45, then +35 minutes = 4:20 p.m.",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "compare_fractions_same_denominator",
+    "title": "Compare Fractions with Same Denominator",
+    "description": "Compare fractions with the same denominator by comparing numerators.",
+    "condition": "Two fractions with equal denominators.",
+    "response": "The fraction with the larger numerator is greater.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(\\frac{3}{6} > \\frac{2}{6}\\) because 3 > 2.",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q12"
+    ]
+  },
+  {
+    "kc_id": "compare_fractions_same_numerator",
+    "title": "Compare Fractions with Same Numerator",
+    "description": "Compare fractions with the same numerator by comparing denominators.",
+    "condition": "Two fractions with equal numerators.",
+    "response": "The fraction with the smaller denominator is greater.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(\\frac{3}{6} > \\frac{3}{8}\\) because sixths are larger than eighths.",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q12"
+    ]
+  },
+  {
+    "kc_id": "decompose_factor_distributive",
+    "title": "Distributive Property for Products",
+    "description": "Decompose a factor into tens and ones to multiply using the distributive property.",
+    "condition": "A product with a two-digit factor (e.g., a\u00d7(b+c)).",
+    "response": "Multiply each part and add partial products.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(8\\times12 = 8\\times(10+2) = 80 + 16 = 96\\).",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q13",
+      "G3_U8_a1_q2",
+      "G3_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "division_equal_groups",
+    "title": "Division as Equal Groups",
+    "description": "Interpret division as either finding number in each group or number of groups.",
+    "condition": "A total and either number of groups or size of each group is given.",
+    "response": "Write or solve a division equation to find the unknown.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(35 \\div 7 = 5\\) means 35 students split into 7 equal groups gives 5 in each group.",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q17",
+      "G3_U8_a1_q4",
+      "G3_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "factors_of_number",
+    "title": "Find Factor Pairs",
+    "description": "Identify pairs of whole numbers whose product equals a given number within 100.",
+    "condition": "A whole number up to 100.",
+    "response": "List pairs of factors that multiply to the number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "For 24: 3\\times8 and 4\\times6.",
+    "notes": "Non-verbal classification assumes fluency-based retrieval; could be verbal rule ???",
+    "question_ids": [
+      "G3_U8_a1_q14"
+    ]
+  },
+  {
+    "kc_id": "equivalent_fractions_multiplicative",
+    "title": "Generate Equivalent Fractions",
+    "description": "Create or recognize equivalent fractions by multiplying or dividing numerator and denominator by the same number.",
+    "condition": "A fraction and a factor relating numerator and denominator.",
+    "response": "Multiply or divide numerator and denominator by the same number.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(\\frac{1}{2} = \\frac{3}{6}\\) by multiplying top and bottom by 3.",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q12",
+      "G3_U8_a1_q8",
+      "G3_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "interpret_fraction_area_model",
+    "title": "Interpret Area Model for Fractions",
+    "description": "Determine whether a shaded region represents a given fraction by checking equal partitions and shaded parts.",
+    "condition": "A shape partitioned into equal parts with some shaded.",
+    "response": "Count shaded parts over total equal parts and compare to target fraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 2 of 3 equal parts are shaded, the fraction is \\(\\frac{2}{3}\\).",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q9"
+    ]
+  },
+  {
+    "kc_id": "fraction_on_number_line_partition",
+    "title": "Partition Number Line into Equal Parts",
+    "description": "Divide the interval from 0 to 1 into equal parts based on the denominator and locate fractions.",
+    "condition": "A number line with 0 and 1 labeled and a target fraction a/b.",
+    "response": "Partition into b equal parts and mark the ath tick.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To plot \\(\\frac{1}{4}\\), divide 0\u20131 into 4 equal parts and mark the first tick.",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q10",
+      "G3_U8_a1_q8"
+    ]
+  },
+  {
+    "kc_id": "represent_situation_with_equation",
+    "title": "Represent Context with Equation",
+    "description": "Translate a word problem involving equal groups into a multiplication or division equation with an unknown.",
+    "condition": "A word problem describing equal groups or arrays.",
+    "response": "Write a corresponding equation using a symbol for the unknown.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Seven bags weigh 63 kg: \\(7\\times ? = 63\\).",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q17",
+      "G3_U8_a1_q4",
+      "G3_U8_a1_q5",
+      "G3_U8_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "subtract_with_compensation",
+    "title": "Subtract Using Compensation",
+    "description": "Subtract by adjusting to a friendly number and compensating.",
+    "condition": "A subtraction within 1,000 where adjusting by a nearby benchmark (e.g., 100) is helpful.",
+    "response": "Adjust minuend or subtrahend to a friendly number, then compensate.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "\\(525 - 96 = 525 - 100 + 4 = 425 + 4 = 429\\).",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "whole_number_as_fraction",
+    "title": "Write Whole Number as Fraction",
+    "description": "Express a whole number as a fraction with denominator 1 or as an equivalent fraction.",
+    "condition": "A whole number.",
+    "response": "Write the number as n/1 or an equivalent fraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "2 = \\(\\frac{2}{1}\\) = \\(\\frac{8}{4}\\).",
+    "notes": "",
+    "question_ids": [
+      "G3_U8_a1_q8"
+    ]
+  }
+]

@@ -144,23 +144,6 @@
     ]
   },
   {
-    "kc_id": "decompose_number_place_value",
-    "title": "Decompose Number into Place Values",
-    "description": "Rewrite a three-digit number as the sum of its hundreds, tens, and ones.",
-    "condition": "A three-digit number within 1,000 is given.",
-    "response": "Express the number as hundreds + tens + ones.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$273 = 200 + 70 + 3$.",
-    "notes": "Based on base-ten place value structure.",
-    "question_ids": [
-      "G2_U7_SA_a1_q2"
-    ]
-  },
-  {
     "kc_id": "find_missing_addend_to_1000",
     "title": "Find Missing Addend to 1,000",
     "description": "Determine the number that must be added to a given number to make 1,000.",

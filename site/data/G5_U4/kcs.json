@@ -36,23 +36,6 @@
     ]
   },
   {
-    "kc_id": "commutative_property_multiplication",
-    "title": "Commutative Property of Multiplication",
-    "description": "Multiplication remains true when the order of the factors is reversed.",
-    "condition": "A true multiplication equation of the form a \u00d7 b = c is given.",
-    "response": "Recognize or state that b \u00d7 a = c is also true.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "If $83 \\times 27 = 2{,}241$, then $27 \\times 83 = 2{,}241$.",
-    "notes": "",
-    "question_ids": [
-      "G5_U4_a1_q2"
-    ]
-  },
-  {
     "kc_id": "compare_product_to_benchmark",
     "title": "Compare Product to Benchmark Value",
     "description": "Determine whether a computed or estimated product is greater than or less than a given benchmark number.",

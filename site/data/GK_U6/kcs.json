@@ -37,25 +37,6 @@
     ]
   },
   {
-    "kc_id": "count_objects_to_20",
-    "title": "Count Objects up to 20",
-    "description": "Accurately count a set of objects (dots or fingers) arranged in rows or scattered, up to 20.",
-    "condition": "A visual set of 0\u201320 objects arranged in rows, a 10-frame, or finger representations.",
-    "response": "Count each object once and determine the total quantity.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Counting 18 dots arranged in two rows results in $18$.",
-    "notes": "Involves one-to-one correspondence and keeping track while counting.",
-    "question_ids": [
-      "GK_U6_a1_q1",
-      "GK_U6_a1_q2",
-      "GK_U6_a1_q3"
-    ]
-  },
-  {
     "kc_id": "identify_full_ten_frame_as_10",
     "title": "Identify Full 10-Frame as Ten",
     "description": "Recognize that a completely filled 10-frame represents exactly 10 objects.",

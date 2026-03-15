@@ -1,0 +1,428 @@
+[
+  {
+    "kc_id": "apply_distributive_property_division",
+    "title": "Apply Distributive Property (Division)",
+    "description": "Break apart a dividend into friendly numbers and divide each part before adding the quotients.",
+    "condition": "Division expression where the dividend can be decomposed (e.g., 75 \u00f7 5, 36 \u00f7 2).",
+    "response": "Rewrite as sum of quotients and add (e.g., (50 \u00f7 5) + (25 \u00f7 5)).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$75 \\div 5 = (50 \\div 5) + (25 \\div 5) = 10 + 5 = 15$",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_a1_q15",
+      "G3_U4_a1_q18"
+    ]
+  },
+  {
+    "kc_id": "compute_division_equal_groups",
+    "title": "Compute Division for Equal Groups",
+    "description": "Divide a total quantity by the number in each group or the number of groups to find the unknown quantity in an equal-groups situation.",
+    "condition": "Given a total amount and either the number of groups or the size of each group in an equal-groups context.",
+    "response": "Compute the quotient using division to find the unknown quantity.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If there are 35 flowers with 7 in each row, compute $35 \\div 7 = 5$ rows.",
+    "notes": "Applies to both \u201chow many groups?\u201d and \u201chow many in each group?\u201d division situations.",
+    "question_ids": [
+      "G3_U4_SA_a1_q1",
+      "G3_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_factor_addition",
+    "title": "Decompose a Factor Using Addition",
+    "description": "Rewrite a multiplication expression by decomposing one factor into a sum.",
+    "condition": "Expression of the form a \u00d7 b where b can be decomposed as b1 + b2.",
+    "response": "Rewrite as a \u00d7 (b1 + b2).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$4 \\times 8 = 4 \\times (5 + 3)$",
+    "notes": "Precursor step to applying distributive property.",
+    "question_ids": [
+      "G3_U4_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_two_digit_number",
+    "title": "Decompose Two-Digit Number into Tens and Ones",
+    "description": "Rewrite a two-digit number as the sum of its tens and ones to support computation.",
+    "condition": "Given a two-digit number (e.g., 15, 16, 96) in a computation context.",
+    "response": "Express the number as tens + ones (e.g., 15 = 10 + 5, 96 = 90 + 6).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "Rewrite $15$ as $10 + 5$ to compute $(10 + 5) \\times 4$.",
+    "notes": "Supports distributive strategies for multiplication and division.",
+    "question_ids": [
+      "G1_U4_a1_q2",
+      "G2_U2_SA_a1_q3",
+      "G2_U4_SB_a1_q2",
+      "G2_U4_SB_a1_q3",
+      "G2_U7_SA_a1_q2",
+      "G3_U4_SC_a1_q2",
+      "G3_U4_SD_a1_q15",
+      "G3_U4_SD_a1_q16"
+    ]
+  },
+  {
+    "kc_id": "identify_division_number_of_groups_structure",
+    "title": "Identify 'How Many Groups?' Division",
+    "description": "Recognize situations where items are placed into equal groups of known size to find the number of groups.",
+    "condition": "Word problem describes total items and group size, asking for number of groups.",
+    "response": "Represent with division: total \u00f7 size of each group.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "48 oranges, 6 per bag \u2192 $48 \\div 6$",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_SA_a1_q1",
+      "G3_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_division_group_size_structure",
+    "title": "Identify 'How Many in Each Group?' Division",
+    "description": "Recognize situations where a total is divided into equal groups to find the size of each group.",
+    "condition": "Word problem describes a total split into a known number of equal groups, asking for amount in each group.",
+    "response": "Represent with division: total \u00f7 number of groups.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "48 players on 6 teams \u2192 $48 \\div 6$",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_SA_a1_q2",
+      "G3_U4_a1_q2",
+      "G3_U4_a1_q4",
+      "G3_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "identify_multiplication_equal_groups_structure",
+    "title": "Identify Equal Groups Multiplication",
+    "description": "Recognize situations describing equal groups and represent with multiplication.",
+    "condition": "Word problem gives number of groups and number in each group, asking for total.",
+    "response": "Represent with multiplication: groups \u00d7 number in each group.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "5 rows, ? flowers each, 30 total \u2192 $5 \\times ? = 30$",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_a1_q3",
+      "G3_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "interpret_array_model",
+    "title": "Interpret Array as Multiplication",
+    "description": "Recognize that rows and columns in an array represent factors in a multiplication expression.",
+    "condition": "A rectangular array with equal rows and equal number of items per row.",
+    "response": "State total as (number of rows) \u00d7 (number per row).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "4 rows of 13 squares represent $4 \\times 13$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "division_as_unknown_factor",
+    "title": "Interpret Division as an Unknown Factor",
+    "description": "Understand division as finding a missing factor in a multiplication equation.",
+    "condition": "Situation with total a and number of equal groups b, asking for size of each group.",
+    "response": "Represent as b \u00d7 ? = a or a \u00f7 b = ?.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 24 students are in 3 equal rows, write $3 \\times ? = 24$ or $24 \\div 3 = ?$.",
+    "notes": "Connects multiplication and division conceptually.",
+    "question_ids": [
+      "G3_U4_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "interpret_equal_groups_division",
+    "title": "Interpret Division as Equal Groups",
+    "description": "Understand division as sharing a total equally into a given number of groups.",
+    "condition": "A context describing a total amount split into equal groups (e.g., blocks in bins).",
+    "response": "Set up and compute total \u00f7 number of groups to find amount per group.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "If 92 blocks are placed into 4 equal bins, compute $92 \\div 4 = 23$ blocks per bin.",
+    "notes": "Conceptual meaning of division in word problems.",
+    "question_ids": [
+      "G3_U4_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "match_equation_to_situation",
+    "title": "Match Equation to Situation",
+    "description": "Determine whether an equation correctly represents a described situation.",
+    "condition": "Given a word problem and multiple candidate equations using same numbers.",
+    "response": "Select equations whose structure matches the situation context.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "5 rows, 30 total \u2192 select $5 \\times ? = 30$ and $30 \\div 5 = ?$",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_SB_a1_q1",
+      "G3_U4_a1_q2",
+      "G3_U4_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "multiply_one_digit_by_multiple_of_ten",
+    "title": "Multiply One-Digit Number by Multiple of Ten",
+    "description": "Multiply a one-digit number by a multiple of 10 using place-value reasoning.",
+    "condition": "Expression of the form a \u00d7 (b \u00d7 10), where a and b are one-digit numbers.",
+    "response": "Compute (a \u00d7 b) \u00d7 10 (i.e., multiply basic fact and append a zero).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$7 \\times 60 = 7 \\times (6 \\times 10) = (7 \\times 6) \\times 10 = 42 \\times 10 = 420$.",
+    "notes": "Relies on place-value structure of tens.",
+    "question_ids": [
+      "G3_U4_SC_a1_q1",
+      "G3_U4_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "compute_basic_division_fact",
+    "title": "Recall Basic Division Fact",
+    "description": "Recall or compute a division fact within 100.",
+    "condition": "Division expression with whole numbers within 100 (e.g., 80 \u00f7 8, 36 \u00f7 2).",
+    "response": "State the correct quotient.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$80 \\div 8 = 10$",
+    "notes": "Automatic fact recall.",
+    "question_ids": [
+      "G3_U4_SD_a1_q1",
+      "G3_U4_a1_q10",
+      "G3_U4_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "compute_basic_multiplication_fact",
+    "title": "Recall/Compute Basic Multiplication Facts",
+    "description": "Find the product of two one-digit numbers.",
+    "condition": "Expression of the form a \u00d7 b, where a and b are one-digit numbers.",
+    "response": "State the product a \u00d7 b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "$7 \\times 6 = 42$; $5 \\times 5 = 25$.",
+    "notes": "Often based on memorized facts.",
+    "question_ids": [
+      "G3_U2_a1_q3",
+      "G3_U2_a1_q6",
+      "G3_U4_SB_a1_q3",
+      "G3_U4_SC_a1_q1",
+      "G3_U4_SC_a1_q2",
+      "G3_U4_SC_a1_q3",
+      "G3_U4_a1_q1",
+      "G3_U4_a1_q6",
+      "G3_U8_a1_q11",
+      "G3_U8_a1_q13",
+      "G3_U8_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "relate_multiplication_and_division_facts",
+    "title": "Relate Multiplication and Division Facts",
+    "description": "Use a known multiplication fact to determine a related division fact or missing factor.",
+    "condition": "Known product a \u00d7 b = c.",
+    "response": "State related facts c \u00f7 a = b or c \u00f7 b = a.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Since $3 \\times 8 = 24$, then $24 \\div 3 = 8$.",
+    "notes": "Fact family reasoning.",
+    "question_ids": [
+      "G3_U4_SB_a1_q1",
+      "G3_U4_a1_q10"
+    ]
+  },
+  {
+    "kc_id": "represent_equal_groups_with_drawing",
+    "title": "Represent Equal Groups with a Drawing",
+    "description": "Create a visual model (such as rows or equal groups) that shows the total partitioned into equal groups consistent with the problem context.",
+    "condition": "Given a word problem describing a total amount arranged into equal groups.",
+    "response": "Draw equal groups (e.g., rows or shelves) showing the correct number in each group and/or total number of groups.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Draw 5 rows with 7 dots in each row to represent $35$ flowers arranged $7$ per row.",
+    "notes": "Accuracy depends on matching the structure of the situation (groups vs. group size).",
+    "question_ids": [
+      "G3_U4_SA_a1_q1",
+      "G3_U4_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "represent_unknown_with_variable",
+    "title": "Represent Unknown with Variable",
+    "description": "Use a letter to represent an unknown quantity in an equation.",
+    "condition": "Word problem asking for an unknown quantity.",
+    "response": "Define a variable (e.g., p) to represent the unknown.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Let $p$ be the number of pages left to read.",
+    "notes": "Conventional algebraic representation.",
+    "question_ids": [
+      "G3_U4_SC_a1_q3",
+      "G3_U4_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "two_step_word_problem_structure",
+    "title": "Sequence Operations in Two-Step Word Problem",
+    "description": "Identify and execute the correct order of operations in a two-step arithmetic context.",
+    "condition": "A word problem requiring two different operations to reach the solution.",
+    "response": "Determine the first required operation from the context, compute it, then apply the second operation to the result.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule",
+    "example": "First subtract: $117 - 25 = 92$. Then divide: $92 \\div 4 = 23$.",
+    "notes": "Focuses on procedural sequencing rather than specific operations.",
+    "question_ids": [
+      "G3_U4_SC_a1_q3",
+      "G3_U4_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "solve_missing_factor_equation",
+    "title": "Solve for Missing Factor",
+    "description": "Find an unknown factor in a multiplication or division equation.",
+    "condition": "Equation of form a \u00d7 ? = b or b \u00f7 a = ? with known values.",
+    "response": "Determine the unknown number that makes the equation true.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$7 \\times ? = 77 \\Rightarrow ? = 11$",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_a1_q3",
+      "G3_U4_a1_q4",
+      "G3_U4_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "subtract_product_from_total",
+    "title": "Subtract Product from Total",
+    "description": "After computing a product representing a part, subtract it from the whole to find the remainder.",
+    "condition": "Given total T and computed part P.",
+    "response": "Compute T \u2212 P.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $5 \\times 15 = 75$, then $192 - 75 = 117$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U4_SC_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "subtract_before_dividing",
+    "title": "Subtract to Find Remaining Amount Before Division",
+    "description": "In a two-step context, subtract a known part from the total before dividing the remainder.",
+    "condition": "A word problem where part of a total is used or removed before equal sharing.",
+    "response": "Compute total \u2212 part to find remainder, then use that value in a division step.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle",
+    "example": "From 117 blocks, 25 are used: $117 - 25 = 92$. Then divide $92 \\div 4 = 23$.",
+    "notes": "Multi-step problem structure.",
+    "question_ids": [
+      "G3_U4_SD_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "use_known_product_to_find_unknown",
+    "title": "Use Known Product to Find Related Product",
+    "description": "Use a known multiplication fact to compute a related product by adding or multiplying.",
+    "condition": "Expression such as a \u00d7 (b + 1) or a \u00d7 (2b) with known value of a \u00d7 b.",
+    "response": "Compute new product using the known product (e.g., add another group or multiply result).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $5 \\times 3 = 15$, then $6 \\times 3 = (5 \\times 3) + 3 = 18$.",
+    "notes": "Builds derived facts from known facts.",
+    "question_ids": [
+      "G3_U4_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "write_division_expression_from_context",
+    "title": "Write Division Expression from Context",
+    "description": "Translate an equal-groups word problem into a symbolic division expression that matches the quantities in the context.",
+    "condition": "A word problem describes a total and equal grouping and asks for an equation.",
+    "response": "Write a division expression using the total as the dividend and the known group quantity as the divisor.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Noah has 36 books and 4 shelves \u2192 write $36 \\div 4$.",
+    "notes": "Conventional symbolic representation; relies on understanding of division notation.",
+    "question_ids": [
+      "G3_U4_SA_a1_q2"
+    ]
+  }
+]

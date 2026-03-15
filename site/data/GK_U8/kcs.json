@@ -68,23 +68,6 @@
     ]
   },
   {
-    "kc_id": "count_objects_structured_or_unstructured",
-    "title": "Count Objects in Various Arrangements",
-    "description": "Count objects arranged in lines, circles, or 10-frames and state the total.",
-    "condition": "A set of objects is presented in any arrangement and student is asked how many.",
-    "response": "Count each object once and state the total number.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Counting 11 dots in a row results in the total 11.",
-    "notes": "Includes structured arrangements like 10-frames.",
-    "question_ids": [
-      "GK_U8_a1_q4"
-    ]
-  },
-  {
     "kc_id": "evaluate_basic_addition_within_20",
     "title": "Evaluate Addition Within 20",
     "description": "Compute the sum of two whole numbers within 20.",

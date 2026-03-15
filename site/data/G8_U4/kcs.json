@@ -32,6 +32,13 @@
     "example": "$4(3 - x) = 12 - 4x$ and $3x + 3 = 3(x + 1)$.",
     "notes": "Includes both distributing and factoring using the same structural principle.",
     "question_ids": [
+      "G3_U4_SB_a1_q2",
+      "G3_U4_SB_a1_q3",
+      "G3_U4_SC_a1_q2",
+      "G3_U4_SC_a1_q3",
+      "G3_U4_SD_a1_q15",
+      "G3_U4_SD_a1_q16",
+      "G3_U4_a1_q6",
       "G6_U6_SB_a1_q2",
       "G6_U6_a1_q3",
       "G7_U6_SB_a1_q1",

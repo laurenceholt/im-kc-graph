@@ -87,24 +87,6 @@
     ]
   },
   {
-    "kc_id": "identify_whole_divided_into_equal_parts",
-    "title": "Recognize Equal Partitions of a Whole",
-    "description": "Determine whether a shape is partitioned into equal-sized parts.",
-    "condition": "A shape divided into multiple pieces.",
-    "response": "State whether the pieces are equal in size.",
-    "cond_type": "Variable",
-    "resp_type": "Constant",
-    "relationship": "Verbal",
-    "rationale": "No",
-    "label": "Concept",
-    "example": "A square divided into 4 same-sized smaller squares shows 4 equal parts.",
-    "notes": "",
-    "question_ids": [
-      "G1_U7_a1_q3",
-      "G1_U7_a1_q4"
-    ]
-  },
-  {
     "kc_id": "recognize_oclock_time",
     "title": "Recognize O\u2019Clock Time",
     "description": "Identify times where the minute hand points to 12 as o\u2019clock times.",
@@ -136,7 +118,8 @@
     "example": "To shade $\\frac{1}{4}$ of a square, divide it into 4 equal parts and shade 1 part.",
     "notes": "",
     "question_ids": [
-      "G1_U7_a1_q3"
+      "G1_U7_a1_q3",
+      "G3_U5_a1_q1"
     ]
   }
 ]

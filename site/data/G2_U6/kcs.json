@@ -161,24 +161,6 @@
     ]
   },
   {
-    "kc_id": "identify_equal_parts_requirement",
-    "title": "Equal Parts Define Fractional Partition",
-    "description": "Recognize that a shape must be divided into equal-sized parts to represent halves, thirds, or fourths.",
-    "condition": "A shape is partitioned into multiple parts and a fraction name (e.g., third, fourth) is referenced.",
-    "response": "Determine whether all parts are equal in size.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "If a rectangle is split into 3 parts and one part is larger than the others, then it is **not** divided into thirds because the parts are not equal.",
-    "notes": "",
-    "question_ids": [
-      "G2_U6_SB_a1_q1",
-      "G2_U6_SB_a1_q2"
-    ]
-  },
-  {
     "kc_id": "subtract_to_find_difference_to_100",
     "title": "Find Amount Needed to Reach 100",
     "description": "Subtract a current total from 100 to determine how much more is needed.",
@@ -193,23 +175,6 @@
     "notes": "",
     "question_ids": [
       "G2_U6_a1_q6"
-    ]
-  },
-  {
-    "kc_id": "compute_missing_addend_with_subtraction",
-    "title": "Find Missing Addend Using Subtraction",
-    "description": "Use subtraction to find an unknown part when the total and one part are known.",
-    "condition": "Given a total amount and one known part in a part\u2013whole situation.",
-    "response": "Subtract the known part from the total to find the unknown part.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "If the total is 76 and one part is 39, compute 76 - 39 = 37.",
-    "notes": "",
-    "question_ids": [
-      "G2_U6_SD_a1_q3"
     ]
   },
   {

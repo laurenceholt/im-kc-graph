@@ -1,22 +1,5 @@
 [
   {
-    "kc_id": "add_multiples_of_ten",
-    "title": "Add Multiples of Ten to Two-Digit Numbers",
-    "description": "Add a multiple of 10 to a two-digit number by increasing the tens digit while keeping the ones digit the same.",
-    "condition": "Expression of the form a two-digit number + multiple of 10 (e.g., 35 + 20).",
-    "response": "Increase the tens place by the given tens and keep the ones digit unchanged.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "For $35 + 20$: $35 = 3$ tens $5$ ones. Adding $2$ tens gives $5$ tens $5$ ones = $55$.",
-    "notes": "Based on place value structure.",
-    "question_ids": [
-      "G2_U2_a1_q1"
-    ]
-  },
-  {
     "kc_id": "add_tens_then_ones_strategy",
     "title": "Add Tens Then Ones Strategy",
     "description": "Add a multiple of ten first, then add the remaining ones to reach a target number.",
@@ -129,23 +112,6 @@
     ]
   },
   {
-    "kc_id": "decompose_two_digit_place_value",
-    "title": "Decompose Two-Digit Number into Tens and Ones",
-    "description": "Represent a two-digit number as a sum of tens and ones.",
-    "condition": "Given any two-digit number (e.g., 65).",
-    "response": "Express the number as tens and ones (e.g., 6 tens and 5 ones).",
-    "cond_type": "Variable",
-    "resp_type": "Constant",
-    "relationship": "Verbal",
-    "rationale": "No",
-    "label": "Concept",
-    "example": "$65 = 6$ tens and $5$ ones.",
-    "notes": "Supports place-value-based addition and subtraction.",
-    "question_ids": [
-      "G2_U2_SA_a1_q3"
-    ]
-  },
-  {
     "kc_id": "select_expression_equal_target",
     "title": "Evaluate and Match Expression to Target Value",
     "description": "Compute the value of expressions and determine which equal a specified target number.",
@@ -247,23 +213,6 @@
     "question_ids": [
       "G2_U2_a1_q2",
       "GK_U4_a1_q3"
-    ]
-  },
-  {
-    "kc_id": "subtract_multiples_of_ten",
-    "title": "Subtract Multiples of Ten from Two-Digit Numbers",
-    "description": "Subtract a multiple of 10 from a two-digit number by decreasing the tens digit while keeping the ones digit the same.",
-    "condition": "Expression of the form a two-digit number \u2212 multiple of 10 (e.g., 85 \u2212 10).",
-    "response": "Decrease the tens place by the given tens and keep the ones digit unchanged.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "For $85 - 10$: $8$ tens $5$ ones minus $1$ ten = $7$ tens $5$ ones = $75$.",
-    "notes": "Place value reasoning.",
-    "question_ids": [
-      "G2_U2_a1_q1"
     ]
   },
   {

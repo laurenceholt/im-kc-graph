@@ -207,23 +207,6 @@
     ]
   },
   {
-    "kc_id": "solve_one_step_subtraction_equation",
-    "title": "Solve One-Step Equation by Subtraction",
-    "description": "Solve an equation of the form x + k = c by subtracting k from both sides.",
-    "condition": "An equation where a variable has a constant added to it (e.g., x + k = c).",
-    "response": "Subtract the constant from both sides to isolate the variable.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Rule / Plan",
-    "example": "Given $a + 27 = 90$, subtract 27:\n$$a = 90 - 27 = 63.$$",
-    "notes": "",
-    "question_ids": [
-      "G7_U7_SA_a1_q1"
-    ]
-  },
-  {
     "kc_id": "sss_uniqueness_principle",
     "title": "SSS Determines a Unique Triangle",
     "description": "If all three side lengths are fixed and satisfy the triangle inequality, exactly one triangle (up to congruence) is determined.",

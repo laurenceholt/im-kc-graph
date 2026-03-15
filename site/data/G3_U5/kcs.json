@@ -1,0 +1,391 @@
+[
+  {
+    "kc_id": "compare_fraction_same_denominator",
+    "title": "Compare Fractions with Same Denominator",
+    "description": "Determines which fraction is greater when denominators are equal by comparing numerators.",
+    "condition": "Two fractions with the same denominator (e.g., a/b and c/b).",
+    "response": "The fraction with the larger numerator is greater.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $\\frac{3}{8}$ and $\\frac{4}{8}$. Since $4 > 3$, $\\frac{4}{8} > \\frac{3}{8}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SD_a1_q1",
+      "G3_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "compare_same_numerator",
+    "title": "Compare Fractions with Same Numerator",
+    "description": "When two fractions have the same numerator, the fraction with the smaller denominator is greater because its parts are larger.",
+    "condition": "Two fractions with the same numerator (e.g., a/b and a/c).",
+    "response": "Compare denominators; the fraction with the smaller denominator is greater.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Compare $\\frac{1}{3}$ and $\\frac{1}{2}$. Since thirds are smaller pieces than halves, $\\frac{1}{3} < \\frac{1}{2}$.",
+    "notes": "Requires understanding that more equal parts means smaller pieces.",
+    "question_ids": [
+      "G3_U5_SD_a1_q1",
+      "G3_U5_SD_a1_q2",
+      "G3_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "connect_fraction_to_shaded_parts",
+    "title": "Connect Fraction to Shaded Parts",
+    "description": "Interpret a fraction $\\frac{a}{b}$ as $a$ shaded parts out of $b$ equal parts of a whole.",
+    "condition": "Given a fraction $\\frac{a}{b}$ and a diagram partitioned into equal parts.",
+    "response": "Identify or create $b$ equal parts and shade or verify that $a$ of those parts are shaded.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "For $\\frac{3}{4}$, divide the whole into 4 equal parts and shade 3 of them.",
+    "notes": "Core interpretation of fraction notation as parts of a whole.",
+    "question_ids": [
+      "G3_U5_SA_a1_q1",
+      "G3_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_equal_partitions_between_wholes",
+    "title": "Count Equal Parts Between Whole Numbers",
+    "description": "Determine the denominator by counting the number of equal intervals between two consecutive whole numbers on a number line.",
+    "condition": "A number line segment between two consecutive whole numbers (e.g., 0 and 1) is partitioned into equal intervals.",
+    "response": "Count the number of equal intervals to determine the denominator (number of equal parts per whole).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If the segment from 0 to 1 is divided into 6 equal parts, then each part represents $\\frac{1}{6}$ and the denominator is 6.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SB_a1_q1",
+      "G3_U5_SB_a1_q2",
+      "G3_U5_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "count_equal_parts_shaded",
+    "title": "Count Shaded Equal Parts",
+    "description": "Identifies the fraction represented by counting shaded parts out of equal total parts.",
+    "condition": "A whole partitioned into equal parts with some parts shaded.",
+    "response": "Write fraction as (number of shaded parts)/(total equal parts).",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 5 of 8 equal parts are shaded, the fraction is $\\frac{5}{8}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_a1_q1",
+      "G3_U5_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "extend_partition_beyond_one",
+    "title": "Extend Unit Fraction Partition Beyond 1",
+    "description": "Continue counting equal unit fractions past 1 to locate fractions greater than one.",
+    "condition": "A number line is partitioned into equal parts per whole and a fraction greater than 1 (e.g., $\\frac{5}{4}$) must be located.",
+    "response": "Count unit fractions past 1 using the same interval size to locate the improper fraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If each interval is $\\frac{1}{4}$, then $\\frac{5}{4}$ is one interval past 1 because $\\frac{4}{4}=1$ and $\\frac{5}{4}=1+\\frac{1}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "generate_equivalent_fraction_by_scaling",
+    "title": "Generate Equivalent Fraction by Scaling",
+    "description": "Creates an equivalent fraction by multiplying numerator and denominator by the same nonzero number.",
+    "condition": "A fraction a/b and a chosen whole number k.",
+    "response": "Compute (a\u00d7k)/(b\u00d7k) to form an equivalent fraction.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{1}{2} \\times \\frac{2}{2} = \\frac{2}{4}$, so $\\frac{1}{2} = \\frac{2}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SC_a1_q2",
+      "G3_U5_SC_a1_q3",
+      "G3_U5_SD_a1_q1",
+      "G3_U5_a1_q5",
+      "G3_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "identify_equal_partitions",
+    "title": "Identify Equal Partitions",
+    "description": "Recognize whether a whole is partitioned into equal-sized parts.",
+    "condition": "Given a diagram partitioned into multiple parts.",
+    "response": "Determine whether all parts are equal in size.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A rectangle split into 6 congruent sections shows equal partitions; unequal sections do not represent sixths.",
+    "notes": "Students may count parts without checking for equal size.",
+    "question_ids": [
+      "G1_U7_a1_q3",
+      "G1_U7_a1_q4",
+      "G2_U6_SB_a1_q1",
+      "G2_U6_SB_a1_q2",
+      "G3_U5_SA_a1_q1",
+      "G3_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "identify_equivalent_fractions",
+    "title": "Identify Equivalent Fractions",
+    "description": "Recognizes two fractions as equivalent when they represent the same quantity.",
+    "condition": "Two fractions a/b and c/d.",
+    "response": "Determine they are equivalent if they represent the same point on a number line or same portion of a whole.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$\\frac{2}{6}$ and $\\frac{1}{3}$ are equivalent because both represent one-third of the whole.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SC_a1_q1",
+      "G3_U5_a1_q3",
+      "G3_U5_a1_q4",
+      "G3_U5_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "interpret_denominator_equal_parts",
+    "title": "Interpret Denominator as Number of Equal Parts",
+    "description": "Understands that the denominator tells how many equal parts make up one whole.",
+    "condition": "A fraction written as a/b.",
+    "response": "State that b represents the number of equal parts in one whole.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In $\\frac{5}{6}$, the 6 means the whole is divided into 6 equal parts.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SA_a1_q1",
+      "G3_U5_SA_a1_q2",
+      "G3_U5_SD_a1_q2",
+      "G3_U5_a1_q2",
+      "G3_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "interpret_numerator_selected_parts",
+    "title": "Interpret Numerator as Selected Parts",
+    "description": "Understands that the numerator tells how many equal parts are being considered.",
+    "condition": "A fraction written as a/b.",
+    "response": "State that a represents the number of equal parts counted or shaded.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "In $\\frac{5}{6}$, the 5 means 5 of the 6 equal parts are selected.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SA_a1_q1",
+      "G3_U5_SA_a1_q2",
+      "G3_U5_a1_q1",
+      "G3_U5_a1_q2",
+      "G3_U5_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "locate_fraction_by_counting_units",
+    "title": "Locate Fraction by Counting Unit Fractions",
+    "description": "Identify the position of a fraction on a number line by counting forward a given number of equal unit intervals from 0 or another whole number.",
+    "condition": "A number line is partitioned into equal intervals and a fraction $\\frac{a}{b}$ with known unit size $\\frac{1}{b}$ must be located.",
+    "response": "Count forward $a$ intervals of size $\\frac{1}{b}$ from 0 (or the nearest whole) and mark that position.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If each interval is $\\frac{1}{6}$, then the first tick after 0 represents $\\frac{1}{6}$. If each interval is $\\frac{1}{4}$, the third tick after 0 represents $\\frac{3}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SB_a1_q1",
+      "G3_U5_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "locate_fraction_on_number_line",
+    "title": "Locate Fraction on Number Line",
+    "description": "Places a fraction on a number line by partitioning the interval from 0 to 1 into equal parts.",
+    "condition": "Given a fraction a/b and a number line from 0 to 1.",
+    "response": "Partition the interval into b equal parts and mark the ath tick from 0.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "To plot $\\frac{1}{4}$, divide 0\u20131 into 4 equal parts and mark the first tick.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_a1_q2",
+      "G3_U6_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "partition_shape_into_equal_parts",
+    "title": "Partition Shape into Equal Parts",
+    "description": "Divide a given whole into a specified number of equal parts.",
+    "condition": "Given a whole shape and a specified number $b$ of parts.",
+    "response": "Create $b$ equal-sized partitions of the whole.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non\u2011verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "To represent $\\frac{5}{6}$, divide a rectangle into 6 equal sections.",
+    "notes": "Procedural drawing skill; equality of parts is essential.",
+    "question_ids": [
+      "G3_U5_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "recognize_non_equivalent_fractions",
+    "title": "Recognize Non-Equivalent Fractions",
+    "description": "Determine that two fractions are not equal when they do not represent the same quantity.",
+    "condition": "Given two fractions a/b and c/d where a\u00d7d \u2260 b\u00d7c.",
+    "response": "State that the fractions are not equivalent.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$\\frac{1}{2}$ and $\\frac{2}{3}$ are not equivalent because $1\\times3 \\neq 2\\times2$.",
+    "notes": "Response is always the same conclusion (not equivalent) when condition is met.",
+    "question_ids": [
+      "G3_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "recognize_unit_fraction",
+    "title": "Recognize Unit Fraction from Partition",
+    "description": "Identify that each equal part between whole numbers represents the unit fraction with denominator equal to the number of parts.",
+    "condition": "A whole is divided into $b$ equal parts on a number line.",
+    "response": "State that each part represents $\\frac{1}{b}$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If 1 whole is divided into 4 equal parts, each part is $\\frac{1}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SB_a1_q1",
+      "G3_U5_SB_a1_q2",
+      "G3_U5_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "represent_whole_as_fraction",
+    "title": "Represent Whole Number as Fraction",
+    "description": "Writes a whole number as a fraction with a chosen denominator.",
+    "condition": "A whole number n and a chosen denominator b.",
+    "response": "Write n as (n\u00d7b)/b.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Write 2 in fourths: $2 = \\frac{8}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SC_a1_q3",
+      "G3_U5_a1_q6"
+    ]
+  },
+  {
+    "kc_id": "select_comparison_symbol",
+    "title": "Select Appropriate Comparison Symbol",
+    "description": "Choose the correct symbol (<, >, =) to represent the relationship between two quantities.",
+    "condition": "Two quantities have been compared and their relative sizes determined.",
+    "response": "Write < if left is less than right, > if greater, or = if equal.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Since $\\frac{3}{2} > \\frac{3}{4}$, write $\\frac{3}{2} > \\frac{3}{4}$.",
+    "notes": "Symbol selection follows conceptual comparison.",
+    "question_ids": [
+      "G3_U5_SD_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "select_diagram_matching_fraction",
+    "title": "Select Diagram Matching a Given Fraction",
+    "description": "Evaluate multiple diagrams and select those that correctly represent a specified fraction of a whole.",
+    "condition": "Given several diagrams and a target fraction $\\frac{a}{b}$.",
+    "response": "Choose all diagrams where exactly $a$ of $b$ equal parts are shaded.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "Select diagrams where 3 of 4 equal parts are shaded to match $\\frac{3}{4}$.",
+    "notes": "Requires coordinating equal partitions with shaded count.",
+    "question_ids": [
+      "G3_U5_SA_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "select_true_equations_with_fractions",
+    "title": "Select True Fraction Equations",
+    "description": "Evaluate multiple fraction equations and select those that are true based on equivalence.",
+    "condition": "Given a list of fraction equalities.",
+    "response": "Identify and select the equations where both fractions are equivalent.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Rule / Plan",
+    "example": "From the list, select $\\frac{2}{6}=\\frac{1}{3}$ and $\\frac{4}{8}=\\frac{3}{6}$ because each pair simplifies to the same value.",
+    "notes": "Requires repeated application of fraction equivalence.",
+    "question_ids": [
+      "G3_U5_SC_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "use_known_fraction_to_locate_one",
+    "title": "Use Known Fraction to Locate 1",
+    "description": "Determine the location of 1 on a number line by reasoning about how many unit fractions compose one whole.",
+    "condition": "A fraction such as $\\frac{a}{b}$ is labeled on a number line and the unit fraction $\\frac{1}{b}$ is implied by equal partitions.",
+    "response": "Count or reason that $b$ unit fractions $\\frac{1}{b}$ equal 1, and locate 1 accordingly.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If $\\frac{3}{4}$ is marked and each part is $\\frac{1}{4}$, then $\\frac{4}{4}=1$, so 1 is one more $\\frac{1}{4}$ past $\\frac{3}{4}$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U5_SB_a1_q3"
+    ]
+  }
+]

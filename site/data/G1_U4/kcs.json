@@ -37,23 +37,6 @@
     ]
   },
   {
-    "kc_id": "decompose_two_digit_number",
-    "title": "Decompose Two-Digit Number into Tens and Ones",
-    "description": "Breaks a two-digit number into its tens and ones components.",
-    "condition": "A two-digit number (e.g., 53) is given.",
-    "response": "Express the number as tens + ones (e.g., 50 + 3).",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle / Model",
-    "example": "$53 = 50 + 3$.",
-    "notes": "",
-    "question_ids": [
-      "G1_U4_a1_q2"
-    ]
-  },
-  {
     "kc_id": "interpret_base_ten_representation",
     "title": "Interpret Base-Ten Representation",
     "description": "Determines the two-digit number represented by tens rods and ones cubes or verbal statements of tens and ones.",
@@ -71,7 +54,7 @@
     ]
   },
   {
-    "kc_id": "subtract_multiple_of_ten",
+    "kc_id": "subtract_multiples_of_ten",
     "title": "Subtract a Multiple of Ten",
     "description": "Subtracts a multiple of ten from a two-digit number by decreasing the tens digit while keeping the ones digit the same.",
     "condition": "Expression of the form a two-digit number \u2212 multiple of 10 (e.g., 60 \u2212 20).",
@@ -85,7 +68,8 @@
     "notes": "",
     "question_ids": [
       "G1_U4_a1_q3",
-      "G1_U8_a1_q14"
+      "G1_U8_a1_q14",
+      "G2_U2_a1_q1"
     ]
   }
 ]

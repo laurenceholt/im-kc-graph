@@ -17,23 +17,6 @@
     ]
   },
   {
-    "kc_id": "count_all_objects_in_set",
-    "title": "Count All Objects in a Set",
-    "description": "Accurately count all objects in a pictured set, ensuring each object is counted once.",
-    "condition": "A finite set of visible objects is presented with a prompt asking for the total number.",
-    "response": "Enumerate each object once and state the total count.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Counting 10 pattern blocks in the puzzle \u2192 10.",
-    "notes": "Requires one-to-one correspondence and careful tracking.",
-    "question_ids": [
-      "GK_U7_a1_q1"
-    ]
-  },
-  {
     "kc_id": "count_specific_shape_subset",
     "title": "Count Specific Shape Subset",
     "description": "Identify and count only objects of a specified shape within a larger set.",

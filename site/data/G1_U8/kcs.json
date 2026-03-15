@@ -1,6 +1,6 @@
 [
   {
-    "kc_id": "add_multiples_of_ten_to_two_digit",
+    "kc_id": "add_multiples_of_ten",
     "title": "Add a Multiple of Ten to a Two-Digit Number",
     "description": "Add 10, 20, 30, etc. to a two-digit number by increasing the tens digit while keeping the ones digit the same.",
     "condition": "An addition expression where one addend is a multiple of 10 and the other is a two-digit number (e.g., 74 + 20, 47 + 10).",
@@ -17,7 +17,8 @@
       "G1_U5_a1_q1",
       "G1_U8_a1_q14",
       "G1_U8_a1_q16",
-      "G1_U8_a1_q3"
+      "G1_U8_a1_q3",
+      "G2_U2_a1_q1"
     ]
   },
   {
@@ -142,23 +143,6 @@
     "notes": "",
     "question_ids": [
       "G1_U8_a1_q9"
-    ]
-  },
-  {
-    "kc_id": "find_unknown_in_add_sub_equation",
-    "title": "Find Unknown in Addition or Subtraction Equation",
-    "description": "Determine the missing number that makes an equation true.",
-    "condition": "An addition or subtraction equation with one unknown (e.g., 10 + \u25a1 = 16, \u25a1 \u2212 4 = 7).",
-    "response": "Use inverse operations or known facts to determine the missing value.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Verbal",
-    "rationale": "Yes",
-    "label": "Principle",
-    "example": "$10 + \\Box = 16$ so $\\Box = 6$.",
-    "notes": "",
-    "question_ids": [
-      "G1_U8_a1_q10"
     ]
   },
   {

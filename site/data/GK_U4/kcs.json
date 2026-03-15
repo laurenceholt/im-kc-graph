@@ -1,23 +1,5 @@
 [
   {
-    "kc_id": "count_all_objects_in_combined_sets",
-    "title": "Count All Objects in Combined Sets",
-    "description": "Count every object across two or more visible groups to determine the total number of objects.",
-    "condition": "Given two or more visible groups of objects and asked for the total number of objects.",
-    "response": "Count each object once and state the total.",
-    "cond_type": "Variable",
-    "resp_type": "Variable",
-    "relationship": "Non-verbal",
-    "rationale": "No",
-    "label": "Production / Skill",
-    "example": "Count 3 squares and 4 trapezoids to get $7$ total shapes.",
-    "notes": "Requires one-to-one correspondence and keeping track of counted objects.",
-    "question_ids": [
-      "GK_U4_a1_q1",
-      "GK_U4_a1_q2"
-    ]
-  },
-  {
     "kc_id": "interpret_minus_as_take_away",
     "title": "Interpret Minus as Take Away",
     "description": "Understand that the minus sign indicates removing a quantity from a starting amount.",

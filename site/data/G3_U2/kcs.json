@@ -1,0 +1,321 @@
+[
+  {
+    "kc_id": "add_areas_of_nonoverlapping_rectangles",
+    "title": "Add Areas of Non-Overlapping Rectangles",
+    "description": "Find the total area of a composite figure by adding the areas of smaller non-overlapping rectangles.",
+    "condition": "A composite figure is partitioned into two or more non-overlapping rectangles with known side lengths.",
+    "response": "Compute each rectangle\u2019s area (length \u00d7 width) and add the areas.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a figure is split into a $10 \\times 4$ rectangle and a $4 \\times 4$ rectangle, then total area $= 10 \\times 4 + 4 \\times 4 = 40 + 16 = 56$.",
+    "notes": "Applies only when parts do not overlap.",
+    "question_ids": [
+      "G3_U2_SC_a1_q1",
+      "G3_U2_SC_a1_q2",
+      "G3_U2_a1_q5",
+      "G3_U2_a1_q7",
+      "G3_U8_a1_q1",
+      "G3_U8_a1_q2",
+      "G6_U1_SA_a1_q1",
+      "G6_U1_SC_a1_q3",
+      "G6_U1_a1_q6",
+      "G6_U1_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "area_as_count_of_unit_squares",
+    "title": "Area as Count of Unit Squares",
+    "description": "Understand that the area of a figure is the number of unit squares that cover it without gaps or overlaps.",
+    "condition": "Asked to describe or determine the area of a plane figure using unit squares.",
+    "response": "State that area equals the number of unit squares covering the figure without gaps or overlaps.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "A figure covered by 11 unit squares has area 11 square units because area is the number of unit squares covering it.",
+    "notes": "Core Grade 3 area definition.",
+    "question_ids": [
+      "G3_U2_SA_a1_q1",
+      "G3_U2_SA_a1_q2",
+      "G3_U2_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "area_as_equal_groups",
+    "title": "Area as Equal Groups of Unit Squares",
+    "description": "Recognize that the area of a rectangle equals the total number of unit squares arranged in equal rows or columns.",
+    "condition": "A rectangle is partitioned into equal rows and columns of unit squares.",
+    "response": "Interpret the total area as rows \u00d7 columns (or columns \u00d7 rows) equal groups.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "A rectangle with 5 columns and 3 rows has area $5 \\times 3 = 15$ square units because there are 5 equal groups of 3 squares.",
+    "notes": "Core conceptual model connecting arrays to multiplication.",
+    "question_ids": [
+      "G3_U2_SB_a1_q1",
+      "G3_U2_SB_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "area_formula_rectangle",
+    "title": "Area Formula for a Rectangle",
+    "description": "Compute the area of a rectangle by multiplying its side lengths.",
+    "condition": "Given side lengths $l$ and $w$ of a rectangle.",
+    "response": "Calculate area as $l \\times w$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a rectangle is 6 units by 5 units, its area is $6 \\times 5 = 30$ square units.",
+    "notes": "Builds on array interpretation of multiplication.",
+    "question_ids": [
+      "G3_U2_SA_a1_q3",
+      "G3_U2_SB_a1_q1",
+      "G3_U2_SB_a1_q2",
+      "G3_U2_SB_a1_q3",
+      "G3_U2_SC_a1_q1",
+      "G3_U2_SC_a1_q2",
+      "G3_U2_a1_q1",
+      "G3_U2_a1_q3",
+      "G3_U2_a1_q4",
+      "G3_U2_a1_q5"
+    ]
+  },
+  {
+    "kc_id": "evaluate_tiling_for_gaps_or_overlaps",
+    "title": "Check for Gaps or Overlaps in Tiling",
+    "description": "Determine whether a set of placed unit squares fully covers a figure without gaps or overlaps.",
+    "condition": "Given a figure covered by unit squares that may overlap or leave empty spaces.",
+    "response": "State whether the tiling is valid for measuring area and justify based on presence of gaps or overlaps.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Rule / Plan",
+    "example": "If some squares overlap and some parts of the rectangle are uncovered, then the arrangement cannot be used to determine the area.",
+    "notes": "Requires explicit reasoning about full coverage.",
+    "question_ids": [
+      "G3_U2_SA_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "commutative_property_multiplication",
+    "title": "Commutative Property of Multiplication",
+    "description": "Recognize that reversing the order of factors does not change the product.",
+    "condition": "Given a multiplication expression $a \\times b$.",
+    "response": "Recognize $a \\times b = b \\times a$.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "$6 \\times 5 = 5 \\times 6 = 30$.",
+    "notes": "Explains why both 6\u00d75 and 5\u00d76 represent the same area.",
+    "question_ids": [
+      "G3_U2_SB_a1_q1",
+      "G5_U4_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "count_unit_squares_to_find_area",
+    "title": "Count Unit Squares for Area",
+    "description": "Determine area by counting all unit squares that cover a figure.",
+    "condition": "A figure is drawn on a square grid with visible unit squares.",
+    "response": "Count all full unit squares to determine total area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "If a shape covers 13 full grid squares, its area is 13 square units.",
+    "notes": "May involve systematic tracking (e.g., numbering squares).",
+    "question_ids": [
+      "G3_U2_SA_a1_q1",
+      "G3_U2_SA_a1_q3",
+      "G3_U2_a1_q1",
+      "G3_U2_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "decompose_rectilinear_figure",
+    "title": "Decompose Rectilinear Figure into Rectangles",
+    "description": "Split a composite rectilinear figure into two or more non-overlapping rectangles to simplify area calculation.",
+    "condition": "Given a rectilinear figure composed of horizontal and vertical sides.",
+    "response": "Partition the figure into non-overlapping rectangles whose side lengths are known or can be determined.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Non-verbal",
+    "rationale": "No",
+    "label": "Production / Skill",
+    "example": "Split an L-shaped figure into an $8 \\times 7$ rectangle and a $5 \\times 2$ rectangle before finding total area.",
+    "notes": "Multiple valid decompositions possible.",
+    "question_ids": [
+      "G3_U2_SA_a1_q1",
+      "G3_U2_SC_a1_q1",
+      "G3_U2_SC_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "distributive_property_of_area",
+    "title": "Distributive Property of Area",
+    "description": "Represent the area of a rectangle as a sum of products by decomposing one factor.",
+    "condition": "A rectangle with side lengths where one side can be decomposed into a sum (e.g., $7 = 5 + 2$).",
+    "response": "Express area as $a \\times (b + c) = a \\times b + a \\times c$.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "$4 \\times 7 = 4 \\times (5 + 2) = 4 \\times 5 + 4 \\times 2 = 20 + 8 = 28$.",
+    "notes": "Connects area model to distributive property.",
+    "question_ids": [
+      "G3_U2_a1_q4"
+    ]
+  },
+  {
+    "kc_id": "report_area_with_square_units",
+    "title": "Express Area in Square Units",
+    "description": "State the numerical area together with the correct unit label 'square units.'",
+    "condition": "After determining the number of unit squares covering a figure.",
+    "response": "Report the measure as a number followed by 'square units.'",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Concept",
+    "example": "If the count is 20, report: 20 square units.",
+    "notes": "Emphasizes correct unit language.",
+    "question_ids": [
+      "G3_U2_SA_a1_q1",
+      "G3_U2_SA_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "find_factor_pair_for_given_area",
+    "title": "Find Factor Pair for Given Area",
+    "description": "Determine possible side lengths of a rectangle given its area by identifying factor pairs.",
+    "condition": "A rectangle\u2019s area is given as a whole number.",
+    "response": "List pairs of whole numbers whose product equals the given area.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If area is $12$, possible side lengths include $(1,12)$, $(2,6)$, and $(3,4)$.",
+    "notes": "",
+    "question_ids": [
+      "G3_U2_a1_q3"
+    ]
+  },
+  {
+    "kc_id": "generate_side_lengths_with_constraints",
+    "title": "Generate Side Lengths Under Constraints",
+    "description": "Find pairs of side lengths that satisfy both an area requirement and side-length constraints.",
+    "condition": "Given constraints such as area \u2265 target value and each side length < given limit.",
+    "response": "Produce side-length pairs whose product meets the area requirement and individually satisfy the limits.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "Find $l,w < 8$ such that $l \\times w \\ge 30$. Examples: $6 \\times 5 = 30$, $7 \\times 5 = 35$.",
+    "notes": "Involves coordinating multiplication with inequality constraints.",
+    "question_ids": [
+      "G3_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_at_least_inequality",
+    "title": "Interpret 'At Least' as \u2265",
+    "description": "Translate the phrase 'at least' into a greater-than-or-equal-to inequality.",
+    "condition": "A quantity is described as 'at least' a given number.",
+    "response": "Represent or apply the condition as \u2265 that number.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "'At least 30 square feet' means area $\\ge 30$.",
+    "notes": "Language-to-symbol translation.",
+    "question_ids": [
+      "G3_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "interpret_less_than_inequality",
+    "title": "Interpret 'Less Than' as <",
+    "description": "Translate the phrase 'less than' into a strict inequality.",
+    "condition": "A side length is described as 'less than' a given number.",
+    "response": "Represent or apply the condition as < that number.",
+    "cond_type": "Constant",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "No",
+    "label": "Fact",
+    "example": "'Each side less than 8 feet' means $l < 8$ and $w < 8$.",
+    "notes": "Language-to-symbol translation.",
+    "question_ids": [
+      "G3_U2_SB_a1_q2"
+    ]
+  },
+  {
+    "kc_id": "evaluate_area_expression_match",
+    "title": "Match Expression to Rectangular Area",
+    "description": "Determine whether a numerical expression represents the area of a given rectangle.",
+    "condition": "Given a rectangle\u2019s side lengths and a candidate numerical expression.",
+    "response": "Check whether the expression equals length \u00d7 width of the rectangle.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "For a $6$ by $5$ rectangle, test $6 \\times 5 = 30$ (match) but $6 + 5 + 6 + 5 = 22$ (does not match area).",
+    "notes": "Requires distinguishing multiplication (area) from addition (perimeter or partial counts).",
+    "question_ids": [
+      "G3_U2_SB_a1_q1"
+    ]
+  },
+  {
+    "kc_id": "subtract_area_of_missing_rectangle",
+    "title": "Subtract Area of Missing Rectangle",
+    "description": "Find the area of a composite figure by subtracting the area of a removed rectangle from a larger enclosing rectangle.",
+    "condition": "A composite figure can be viewed as a large rectangle with a smaller rectangular region removed.",
+    "response": "Compute area of large rectangle, compute area of removed rectangle, subtract.",
+    "cond_type": "Variable",
+    "resp_type": "Variable",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Principle / Model",
+    "example": "If a $10 \\times 8$ rectangle has a $6 \\times 4$ rectangle removed, area $= 10 \\times 8 - 6 \\times 4 = 80 - 24 = 56$.",
+    "notes": "Requires recognizing the enclosing rectangle.",
+    "question_ids": [
+      "G3_U2_SC_a1_q1",
+      "G3_U2_a1_q5",
+      "G3_U2_a1_q7"
+    ]
+  },
+  {
+    "kc_id": "use_equal_sides_of_rectangle",
+    "title": "Use Opposite Sides Equal in Rectangle",
+    "description": "Use the property that opposite sides of a rectangle are equal to determine unknown side lengths.",
+    "condition": "A rectangle has one side length unknown but the opposite side length is given.",
+    "response": "Set the unknown side equal to the known opposite side length.",
+    "cond_type": "Variable",
+    "resp_type": "Constant",
+    "relationship": "Verbal",
+    "rationale": "Yes",
+    "label": "Concept",
+    "example": "If the top side is $9$ ft, then the bottom side is also $9$ ft.",
+    "notes": "Supports finding missing dimensions before area calculation.",
+    "question_ids": [
+      "G3_U2_a1_q7"
+    ]
+  }
+]
